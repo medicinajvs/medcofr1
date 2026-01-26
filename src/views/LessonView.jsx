@@ -60,7 +60,7 @@ const LessonView = ({ onBack }) => {
   const currentSubModule = allSubModules[safeSubModIdx];
   
   const currentLessons = currentSubModule?.lessons || [];
-  const currentMaterial = currentSubModule?.materials?.[0];
+  const currentMaterials = currentSubModule?.materials?.[0];
   
   // Aula Ativa (Para exibir o título e link)
   const activeLesson = currentLessons[activeLessonIdx] || currentLessons[0] || { title: "Selecione uma aula" };
@@ -157,7 +157,7 @@ const LessonView = ({ onBack }) => {
             )}
         </div>
 
-        <MaterialsDropdown material={currentMaterial} />
+        <MaterialsDropdown materials={currentSubModule?.materials || []} />
         
         {/* COMENTÁRIOS (Sem borda de foco) */}
         <div className="space-y-6 pt-4 border-t border-gray-800/50">

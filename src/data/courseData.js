@@ -5329,5 +5329,153 @@ export const courseData = [
         materials: []
       }
     ]
+  },
+  // --- Módulo 09 - Atualizações: Pediatria ---
+  {
+    id: 9,
+    title: "Módulo 09 - Atualizações: Pediatria",
+    label: "Módulo 09",
+    subModules: [
+      {
+        id: 1,
+        label: "Sub-Módulo 1",
+        title: "Vacinação",
+        imageUrl: "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { 
+            id: 1,
+            title: "Aula 01 - HIITExpress: Vacinação",
+            duration: "08:21",
+            type: "aula",
+            videoLink: "https://drive.google.com/file/d/1KnsLhVK7maaxppPv_H3MH7zc1Q9Q_WCg/view?usp=sharing"
+          },
+          { 
+            id: 2,
+            title: "Aula 02 - Vacinação",
+            duration: "01:10:02",
+            type: "aula",
+            videoLink: "https://drive.google.com/file/d/1IDmpVFWh08oJTTYKbEp1oJyRBefpvsdy/view?usp=sharing"
+          }
+        ],
+        materials: [
+          { 
+            title: "PDF de Slides - Vacinação",
+            pdfLink: "https://drive.google.com/file/d/1rhZht7FgMpFjApSeo-uzb4h3_o93u3Rh/view?usp=drive_link"
+          }
+        ]
+      },
+      {
+        id: 2,
+        label: "Sub-Módulo 2",
+        title: "Febre Sem Sinais Localizatórios",
+        imageUrl: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { 
+            id: 1,
+            title: "Aula 01 - HIITExpress: Febre Sem Sinais Localizatórios",
+            duration: "14:33",
+            type: "aula",
+            videoLink: "https://drive.google.com/file/d/1nPgTIQ2j7mrcygB8DUNXCZqmw7lc8Vgm/view?usp=sharing"
+          },
+          { 
+            id: 2,
+            title: "Aula 02 - Febre Sem Sinais Localizatórios",
+            duration: "41:20",
+            type: "aula",
+            videoLink: "https://drive.google.com/file/d/1sCemqzxh0qqdGArHUDt2G9G9h7_zMbh9/view?usp=sharing"
+          }
+        ],
+        materials: [
+          { 
+            title: "PDF de Slides - Febre Sem Sinais Localizatórios",
+            pdfLink: "https://drive.google.com/file/d/1C3lp6lEtfy4nA9GIr32DSxSV2B1Jeb57/view?usp=drive_link"
+          }
+        ]
+      },
+      {
+        id: 3,
+        label: "Sub-Módulo 3",
+        title: "Asma e Fibrose Cística",
+        imageUrl: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { 
+            id: 1,
+            title: "Aula 01 - HIITExpress: Asma e Fibrose Cística",
+            duration: "14:38",
+            type: "aula",
+            videoLink: "https://drive.google.com/file/d/1-ogcz93mfg1ZOymFBTKEB4PbjkBkiYoY/view?usp=sharing"
+          },
+          { 
+            id: 2,
+            title: "Aula 02 - Asma e Fibrose Cística",
+            duration: "47:28",
+            type: "aula",
+            videoLink: "https://drive.google.com/file/d/1-NvvWw_afL7wM2Y-S_NvvyfnUijtAd-O/view?usp=sharing"
+          }
+        ],
+        materials: [
+          { 
+            title: "PDF de Slides - Asma e Fibrose Cística",
+            pdfLink: "https://drive.google.com/file/d/1Jt8WpU8mCWI_tnDk8DrJvcuizKLnMvjN/view?usp=drive_link"
+          }
+        ]
+      },
+      {
+        id: 4,
+        label: "Sub-Módulo 4",
+        title: "Epilepsia I",
+        imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { 
+            id: 1,
+            title: "Aula 01 - HIITExpress: Epilepsia I",
+            duration: "15:19",
+            type: "aula",
+            videoLink: "https://drive.google.com/file/d/1p3w70Xo8zcIn2pGnvZtXIpVG1XBwqaD1/view?usp=sharing"
+          },
+          { 
+            id: 2,
+            title: "Aula 02 - Epilepsia I",
+            duration: "01:17:16",
+            type: "aula",
+            videoLink: "https://drive.google.com/file/d/1D2ahe0EC7Ns_8PVfWvHnipYYk95TJSjH/view?usp=sharing"
+          }
+        ],
+        materials: [
+          { 
+            title: "PDF de Slides - Epilepsia I",
+            pdfLink: "https://drive.google.com/file/d/1-dP1wakuAiyp6uB2l4fyp7Q1zdeV3FhE/view?usp=drive_link"
+          }
+        ]
+      },
+      {
+        id: 5,
+        label: "Sub-Módulo 5",
+        title: "Epilepsia II",
+        imageUrl: "https://images.unsplash.com/photo-1584362917165-52e812f8dc08?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { 
+            id: 1,
+            title: "Aula 01 - HIITExpress: Epilepsia II",
+            duration: "09:16",
+            type: "aula",
+            videoLink: "https://drive.google.com/file/d/1zgWkWwDTCExYIJL0981_mHTiR9NkOcd5/view?usp=sharing"
+          },
+          { 
+            id: 2,
+            title: "Aula 02 - Epilepsia II",
+            duration: "44:35",
+            type: "aula",
+            videoLink: "https://drive.google.com/file/d/1mWSZXGQl59sO4zXR-yxjgSUXHrkbNAee/view?usp=sharing"
+          }
+        ],
+        materials: [
+          { 
+            title: "PDF de Slides - Epilepsia II",
+            pdfLink: "https://drive.google.com/file/d/1FRGWyZuRVrP56HBzbSLOrwuq3_ymEFWb/view?usp=drive_link"
+          }
+        ]
+      }
+    ]
   }
 ];
