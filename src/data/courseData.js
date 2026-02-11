@@ -15,9 +15,7 @@ export const courseData = [
             { id: 3, title: "Aula 03 - Conheça Nossa Comunidade: MedCof Plus", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Ap76tmIvXxIT5dii1qIaN7chAPT4e7lB/view?usp=sharing" },
             { id: 4, title: "Aula 04 - Introdução ao Extensivo", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ZiCm6-aQbb9cpeJeiuPlcZtrRBqqusnD/view?usp=sharing" },
             { id: 5, title: "Aula 05 - Como Começar a Organizar Meus Estudos?", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/199gY3_P2--MFPLg5YyTviuDimgQ88__t/view?usp=sharing" }
-          ],
-          materials: []
-        }
+          ]}
       ]
     },
     // --- MÓDULO 2: NEUROLOGIA ---
@@ -412,9 +410,7 @@ export const courseData = [
           lessons: [
             { id: 1, title: "Aula 01 - Cof Xpress: Estômago II - Úlcera, H. Pylori, Gastrite Atrófica e Dispepsia Funcional", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1BlNa2In-ehWpaqyOktVbt1cBxmRmAg79/view?usp=sharing" },
             { id: 2, title: "Aula 02 - Estômago II: Úlcera, H. Pylori, Gastrite Atrófica e Dispepsia Funcional", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/146tI3hSJvoEa5boIIXcj8tfwt4PDXTiU/view?usp=sharing" }
-          ],
-          materials: []
-        },
+          ]},
         {
           id: 5,
           label: "Sub-Módulo 05",
@@ -640,9 +636,7 @@ export const courseData = [
           lessons: [
             { id: 1, title: "Aula 01 - Cof Xpress: Antibióticos I", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/149O70TyDtClrEhjmxLji-Z7WKnJvFREN/view?usp=sharing" },
             { id: 2, title: "Aula 02 - Antibióticos I", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1wIBtT1ql3wX8YnEUHosAMrE26fofFgKb/view?usp=sharing" }
-          ],
-          materials: []
-        },
+          ]},
         {
           id: 10,
           label: "Sub-Módulo 10",
@@ -1343,9 +1337,7 @@ export const courseData = [
           lessons: [
             { id: 1, title: "Aula 01 - Fisiologia da Coagulação", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Ot0vRsRGDa1QRgHCgc1vsCnqV0N3aWgm/view?usp=sharing" },
             { id: 2, title: "Aula 02 - Cof Xpress: Fisiologia da Coagulação", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/19CoqzpIQjnipuWSf9qdQPknJLocU6_T9/view?usp=sharing" }
-          ],
-          materials: []
-        },
+          ]},
         {
           id: 7,
           label: "Sub-Módulo 07",
@@ -1354,9 +1346,7 @@ export const courseData = [
           lessons: [
             { id: 1, title: "Aula 01 - Cof Xpress: Distúrbios da Hemostasia", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1MMQl0W1E92XLVvoy3DP4SgfdoEOWzK51/view?usp=sharing" },
             { id: 2, title: "Aula 02 - Distúrbios da Hemostasia", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1XYl7MrHmnIhQofpz93ejpLta3S8VDgbu/view?usp=sharing" }
-          ],
-          materials: []
-        },
+          ]},
         {
           id: 8,
           label: "Sub-Módulo 08",
@@ -1526,9 +1516,7 @@ export const courseData = [
           lessons: [
             { id: 1, title: "Aula 01 - Insuficiência Cardíaca: Manejo Ambulatorial", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1H038_GxqpGSSW1M8ZXPOJax8b2qocYTH/view?usp=sharing" },
             { id: 2, title: "Aula 02 - Cof Xpress: Insuficiência Cardíaca - Manejo Ambulatorial", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/14EIn1ZaYkfYONpr_B3WoP-EB_dXUb4zZ/view?usp=sharing" }
-          ],
-          materials: []
-        },
+          ]},
         {
           id: 7,
           label: "Sub-Módulo 07",
@@ -1537,9 +1525,7 @@ export const courseData = [
           lessons: [
             { id: 1, title: "Aula 01 - Insuficiência Cardíaca: Descompensações Agudas", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Cck4HD6PfOFZilsVxQ7zLZhradEzVhVv/view?usp=sharing" },
             { id: 2, title: "Aula 02 - Cof Xpress: Insuficiência Cardíaca - Descompensações Agudas", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1OyL_f9Oh3u0HyCk9ogDF0q4-Ad_fQRKz/view?usp=sharing" }
-          ],
-          materials: []
-        },
+          ]},
         {
           id: 8,
           label: "Sub-Módulo 08",
@@ -1700,9 +1686,7 @@ export const courseData = [
           lessons: [
             { id: 1, title: "Aula 01 - Fisiologia da Tireoide", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1BTq2FgFBQVtOb3CxFKzalsN1zGPQQxz7/view?usp=sharing" },
             { id: 2, title: "Aula 02 - Cof Xpress: Fisiologia da Tireoide", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1lN-iEfJRo8J8n-IHzTsdRc4-Honmgfxp/view?usp=sharing" }
-          ],
-          materials: []
-        },
+          ]},
         {
           id: 7,
           label: "Sub-Módulo 07",
@@ -1841,9 +1825,7 @@ export const courseData = [
           lessons: [
             { id: 1, title: "Aula 01 - Outros Distúrbios Hipofisários", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1xd2nuouMZVDsX-Zd0GaAcd444iXKwlbC/view?usp=sharing" },
             { id: 2, title: "Aula 02 - Cof Xpress: Outros Distúrbios Hipofisários", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1rEEPm5CeZo1qz4TbuGor0D549_jlv20T/view?usp=sharing" }
-          ],
-          materials: []
-        },
+          ]},
         {
           id: 18,
           label: "Sub-Módulo 18",
@@ -1904,9 +1886,7 @@ export const courseData = [
           lessons: [
             { id: 1, title: "Aula 01 - Tratamento das Dislipidemias", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/108Olcw2cA5cXgh8eyRUiv-AIHvLK9gM2/view?usp=sharing" },
             { id: 2, title: "Aula 02 - Cof Xpress: Tratamento das Dislipidemias", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1lle2FqmBwYGQzCszKnBSPHPyilVzy1u2/view?usp=sharing" }
-          ],
-          materials: []
-        },
+          ]},
         {
           id: 23,
           label: "Sub-Módulo 23",
@@ -2193,9 +2173,7 @@ export const courseData = [
           lessons: [
             { id: 1, title: "Aula 01 - Distúrbios do Sono", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1wzTicxcaDS4oCR4J_YpqBqkRrNXof5W7/view?usp=sharing" },
             { id: 2, title: "Aula 02 - Cof Xpress: Distúrbios do Sono", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1mSrZoRaihI9yHiIDMoLk0Va7Co0OF1HB/view?usp=sharing" }
-          ],
-          materials: []
-        }
+          ]}
       ]
     },
 
@@ -2265,9 +2243,7 @@ export const courseData = [
           lessons: [
             { id: 1, title: "Aula 01 - Bucofaringolaringologia: Parte II", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/13lXdPlKILLNICuS5lbf4fA2bXy4FjniK/view?usp=sharing" },
             { id: 2, title: "Bucofaringolaringologia - Parte II", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Vzzhtv_lnD4MEKQvO-6Biio5wxg_28vx/view?usp=sharing" }
-          ],
-          materials: []
-        }
+          ]}
       ]
     },
 
@@ -2337,9 +2313,7 @@ export const courseData = [
           lessons: [
             { id: 1, title: "Aula 01 - Cof Xpress: Transtorno de Ansiedade", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1NY1Sle1xpX58EPTeZCcFPpNXnyP1QIb0/view?usp=sharing" },
             { id: 2, title: "Aula 02 - Transtorno de Ansiedade", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1WNw5LzZ-8poy8w5K-BSdGObhzEJCiK50/view?usp=sharing" }
-          ],
-          materials: []
-        },
+          ]},
         {
           id: 6,
           label: "Sub-Módulo 06",
@@ -2348,9 +2322,7 @@ export const courseData = [
           lessons: [
             { id: 1, title: "Aula 01 - Transtorno Psicótico", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1quSBuyW3sC12lsXSVc2pDkO1G1gqOgoz/view?usp=sharing" },
             { id: 2, title: "Aula 02 - Cof Xpress: Transtorno Psicótico", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1FZwGGjun5TltPrtsgGXOmn5yYg98pa8_/view?usp=sharing" }
-          ],
-          materials: []
-        },
+          ]},
         {
           id: 7,
           label: "Sub-Módulo 07",
@@ -6031,18 +6003,8 @@ export const courseData = [
         { title: "Ficha Resumo - Distúrbio Ácido Básico", pdfLink: "https://drive.google.com/file/d/1QykCSuLlOfScAbMr6aRY-z8zv95ln1EI/view?usp=sharing" },
         { title: "Ficha Resumo - Distúrbio Hidroeletrolítico", pdfLink: "https://drive.google.com/file/d/1jQ0FZ0IJhQ3pkl3n5TZZmUnMb9EKIDyN/view?usp=sharing" }
       ]
-    },
-    {
-      id: 9,
-      label: "Sub-Módulo 09",
-      title: "BRUE e Morte Encefálica",
-      imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-      ],
-      materials: [
-      ]
     }
-  ]
+    ]
 },
 
 // --- MÓDULO 41: ESPECIALIDADES PEDIÁTRICAS ---
@@ -6465,18 +6427,8 @@ export const courseData = [
         { title: "PDF de Slides - Doença Trofoblástica Gestacional", pdfLink: "https://drive.google.com/file/d/111gySeC9u5ZvS2lPPGy21udnFHPHxgDU/view?usp=sharing" },
         { title: "Ficha Resumo - Doença Trofoblástica Gestacional", pdfLink: "https://drive.google.com/file/d/1H-A-n9Co3OQgm4JKEbxxjaLb6-RET2xe/view?usp=sharing" }
       ]
-    },
-    {
-      id: 4,
-      label: "Sub-Módulo 04",
-      title: "Hiperêmese (se Houver)",
-      imageUrl: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-      ],
-      materials: [
-      ]
     }
-  ]
+    ]
 },
 
 // --- MÓDULO 44: PATOLOGIA DA 2ª METADE E PUERPÉRIO ---
@@ -6903,16 +6855,6 @@ export const courseData = [
       ]
     },
     {
-      id: 4,
-      label: "Sub-Módulo 04",
-      title: "Miomatose Uterina e Pólipos",
-      imageUrl: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-      ],
-      materials: [
-      ]
-    },
-    {
       id: 5,
       label: "Sub-Módulo 05",
       title: "Doenças da Vulva e Vagina",
@@ -6969,16 +6911,6 @@ export const courseData = [
         { title: "Ficha Resumo - Anatomia Pélvica Feminina", pdfLink: "https://drive.google.com/file/d/1UaIzEmmYFjfSsMIxo79UhpxlgsSbYfyg/view?usp=sharing" },
         { title: "Ficha Resumo - Propedêutica em Uroginecologia", pdfLink: "https://drive.google.com/file/d/1_uDmEUuyEtNIO3xPuuXPgkmQM9opzW6c/view?usp=sharing" },
         { title: "Ficha Resumo - Estudo Urodinâmico", pdfLink: "https://drive.google.com/file/d/1EPa_zx7GR-rnl5n0tCCx3FSY31iGy1e1/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 2,
-      label: "Sub-Módulo 02",
-      title: "Incontinência Urinária (Esforço, Urgência)",
-      imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-      ],
-      materials: [
       ]
     },
     {
@@ -7075,16 +7007,6 @@ export const courseData = [
         { title: "PDF de Slides - Tumores Anexiais", pdfLink: "https://drive.google.com/file/d/1U7amyofVP571j7rGoyfLSzJFi27lGA0W/view?usp=sharing" },
         { title: "Ficha Resumo - Câncer de Ovário", pdfLink: "https://drive.google.com/file/d/1otSFPCfCA7Pw2R9ABOBJo87DcEvxKqc0/view?usp=sharing" },
         { title: "Ficha Resumo - Tumores Anexiais", pdfLink: "https://drive.google.com/file/d/1ITJRab_EumGsrc0oznTmpsa-P9F4rz0l/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 5,
-      label: "Sub-Módulo 05",
-      title: "Câncer de Vulva/Vagina",
-      imageUrl: "https://images.unsplash.com/photo-1581595219315-a187dd40c322?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-      ],
-      materials: [
       ]
     },
     {
