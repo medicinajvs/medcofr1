@@ -1,5340 +1,7519 @@
 export const courseData = [
-  // --- MÓDULO 1: ONBOARDING ---
   {
-    id: 1,
-    title: "Módulo 01 - Onboarding",
-    label: "Módulo 01",
-    subModules: [
-      {
-        id: 1,
-        label: "Sub-Módulo 01",
-        title: "Introdução e Metodologia",
-        imageUrl: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Introdução ao Extensivo.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1az0yrYOQFf884VfvlXKdD6rKKLSeHtLP/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Onboardings - Mateus Cavarzan.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1GDJboto8gKLZLFQiZ9DNIYQH3J_5h_6I/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Introdução ao Extensivo.pdf", pdfLink: "https://drive.google.com/file/d/1LGt02mztDF6zKoWo5PyjNtBQt7jtQiGn/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 2,
-        label: "Sub-Módulo 02",
-        title: "Ferramentas (Plataforma e Questões)",
-        imageUrl: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Onboardings - Matheus Meireles.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1sci4P4PojQZVLqCnHSbcikTPPj8VVuXm/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Onboarding - Ettore.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1mqqpKTqDqeaKJeFAw62Aooz7Z6FIYsbC/view?usp=sharing" }
-        ],
-        materials: []
-      },
-      {
-        id: 3,
-        label: "Sub-Módulo 03",
-        title: "Revisões do 1º Trimestre (Blocos 1-6)",
-        imageUrl: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Week Review 01 - Mateus Cavarzan.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1plSzYIdJMbPBz9XqvVX3Ts1qjgT3WnDm/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Week in Review - Jackie - R1 e R+ - Semana 06.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1u3gKNLnztz6TiCrKADUPEpxauyCHdlhj/view?usp=sharing" }
-        ],
-        materials: []
-      },
-      {
-        id: 4,
-        label: "Sub-Módulo 04",
-        title: "Revisões do 2º Trimestre (Blocos 7-12)",
-        imageUrl: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?auto=format&fit=crop&q=80&w=400",
-        lessons: [],
-        materials: []
-      },
-      {
-        id: 5,
-        label: "Sub-Módulo 05",
-        title: "Revisões do 3º Trimestre (Blocos 13-18)",
-        imageUrl: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Week Review - R1 - Bloco 13.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1-lzSvgQja8725_QsSbqyGIB0ZuFPrDpB/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Week in Review - R1 Bloco 15 - Jaqueline.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/18unnfKDrargyrznHNx3_xFAU0_yDLF1w/view?usp=sharing" }
-        ],
-        materials: []
-      },
-      {
-        id: 6,
-        label: "Sub-Módulo 06",
-        title: "Revisões Finais (Blocos 19-24)",
-        imageUrl: "https://images.unsplash.com/photo-1513530534585-c7b1394c6d51?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Week in Review 2025 - R1 Bloco 19.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1g-_LJa8ZpKPrijZgC0r9jdJGnp4lz8YN/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Week in Review - R1 - Bloco 22.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/169Ah_mDJTdjGSj0B6pgh1pod9wtx4zYj/view?usp=sharing" }
-        ],
-        materials: []
-      }
-    ]
-  },
-
-  // --- MÓDULO 2: CIRURGIA GERAL ---
-  {
-    id: 2,
-    title: "Módulo 02 - Cirurgia Geral",
-    label: "Módulo 02",
-    subModules: [
-      {
-        id: 1,
-        label: "Sub-Módulo 01",
-        title: "Trauma: Introdução e Atendimento Inicial",
-        imageUrl: "https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Trauma Introdução ao trauma e atendimento inicial.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1f5Ix1w3eEFq_tWOyvFIu8HgTdq_47beI/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Trauma Revisão ABCDE.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1hUQ3DKLGrPCpBI-pBGCXbB66tgm3UW9p/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Trauma: Introdução ao trauma e atendimento inicial.pdf", pdfLink: "https://drive.google.com/file/d/1S9tp0IXoBin9xLeA6EDE-kwk4iU85Dpd/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Trauma - Introdução ao trauma e atendimento inicial.pdf", pdfLink: "https://drive.google.com/file/d/10sn4-LGcV2LXk0HXB7tQskxCO1bgk5Yr/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 2,
-        label: "Sub-Módulo 02",
-        title: "Trauma: Vias Aéreas",
-        imageUrl: "https://images.unsplash.com/photo-1628354225027-2c13636f2e8c?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Trauma Vias aéreas.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1EO5zUWKoPgdlbUQjZXWHx8ebM69l3F0j/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Trauma Vias aéreas_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1sxQ30Ilaeo8qv4tqXlLFoYIrLLz-U1y3/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Trauma: Vias aéreas.pdf", pdfLink: "https://drive.google.com/file/d/11kLL7YJ1Wa14Vv-uDQdNd0zzwCArmzTO/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Trauma - Vias aéreas.pdf", pdfLink: "https://drive.google.com/file/d/1L4mThmDK6TmV1_PuP8M0qTitICcyFH8w/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 3,
-        label: "Sub-Módulo 03",
-        title: "Trauma: Choque",
-        imageUrl: "https://images.unsplash.com/photo-1584362917165-52e812f8dc08?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Choque - Abordagem Inicial_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1fKafl74xi3_d-MWglEPFZzx6eySP3u5e/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Choque - Abordagem Inicial.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1hrWV9aoD4yMKSqg2li1LKm5u620Tnrab/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Trauma: Choque.pdf", pdfLink: "https://drive.google.com/file/d/1IF1HZeGgQSyox7h03M-0EM4Q31zivtyZ/view?usp=sharing" },
-          { title: "E-Book - ERRATA - TRAUMA: CHOQUE.pdf", pdfLink: "https://drive.google.com/file/d/1n_1ljtPKZ_xLYIQCsTRfU6WeMdOrNcZw/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 4,
-        label: "Sub-Módulo 04",
-        title: "Trauma: Ressuscitação Hemostática",
-        imageUrl: "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Hemoterapia_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/17S8r9ELFFgbwkW42zfr2l59uYUG2idRH/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Trauma Medidas Auxiliares e FAST_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1F15bJQhfiMS_foWS-hMcg6M4qrLWNKFw/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Trauma: Ressuscitação hemostática.pdf", pdfLink: "https://drive.google.com/file/d/1DKchgiTppMgzDeQtbmfb6Z9MivmrDpdS/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Trauma - Ressuscitação hemostática.pdf", pdfLink: "https://drive.google.com/file/d/1vrpuHKd0NmUp7XtJtixDsLF5c5MXD26J/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 5,
-        label: "Sub-Módulo 05",
-        title: "Diagnósticos diferenciais das massas cervicais",
-        imageUrl: "https://images.unsplash.com/photo-1550831107-1553da8c8464?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Diagnósticos diferenciais das massas cervicais.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1zvlvIcs8dl_pEbrJAI3v38hCMmreGG8m/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Cabeça e Pescoço Anomalias Congênitas em cabeça e pescoço_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1g5Y-cSqtjHyIG2MW3wKUhdGluUMr2o1e/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Ficha Resumo: Esvaziamentos Cervicais.pdf", pdfLink: "https://drive.google.com/file/d/13U8-frlucM7O9aUwY_hcwQMaaC6TiXrq/view?usp=sharing" },
-          { title: "E-Book - Cabeça e Pescoço: Esvaziamentos cervicais + Anatomia.pdf", pdfLink: "https://drive.google.com/file/d/1s3WH8tgPbKv9VoWuRd5XojES1Qtp5gRS/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 6,
-        label: "Sub-Módulo 06",
-        title: "Introdução ao Extensivo",
-        imageUrl: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Introdução ao Extensivo.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1az0yrYOQFf884VfvlXKdD6rKKLSeHtLP/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Introdução ao Extensivo.pdf", pdfLink: "https://drive.google.com/file/d/1LGt02mztDF6zKoWo5PyjNtBQt7jtQiGn/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 7,
-        label: "Sub-Módulo 07",
-        title: "Esvaziamentos cervicais + Anatomia",
-        imageUrl: "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Trauma Cervical_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/11Gb8yVjA6LVlah2G9j-TFdljO6L6_mTi/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Trauma Cervical especifico_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1rjpWcuZTIvwGbqGOCTweVBMq8OcFUawG/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Cabeça e Pescoço: Esvaziamentos cervicais + Anatomia.pdf", pdfLink: "https://drive.google.com/file/d/1s3WH8tgPbKv9VoWuRd5XojES1Qtp5gRS/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Esvaziamentos Cervicais.pdf", pdfLink: "https://drive.google.com/file/d/13U8-frlucM7O9aUwY_hcwQMaaC6TiXrq/view?usp=sharing" }
-        ]
-      }
-    ]
-  },
-  // --- MÓDULO 03: CLÍNICA MÉDICA ---
-  {
-    id: 3,
-    title: "Módulo 03 - Clínica Médica",
-    label: "Módulo 03",
-    subModules: [
-      // --- 1. CARDIOLOGIA ---
-      {
-        id: 1,
-        label: "Sub-Módulo 01",
-        title: "Síndrome Coronariana Aguda sem Supra de ST (SCASSST)",
-        imageUrl: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=400",
-        lessons: [],
-        materials: [
-          { title: "E-Book - Síndrome Coronariana Aguda sem Supra de ST (SCASSST).pdf", pdfLink: "https://drive.google.com/file/d/1soOSSJIsm_XpMr7LUVCcWqq9NHqkUvbq/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Síndrome Coronariana Aguda sem Supra de ST (SCASSST).pdf", pdfLink: "https://drive.google.com/file/d/1gJsYq03dmRiMKSmoh9VKf6ohbHZUk9F9/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 2,
-        label: "Sub-Módulo 02",
-        title: "Síndrome Coronariana Aguda com Supra de ST (SCACSST)",
-        imageUrl: "https://images.unsplash.com/photo-1628348068343-c6a848d2b6dd?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Síndrome Coronariana Aguda com Supra de ST (SCACSST)_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1l2qzpeZkA08JBMLqpPDIdJxksdgJ8Oui/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Síndrome Coronariana Aguda com Supra de ST (SCACSST).pdf", pdfLink: "https://drive.google.com/file/d/1skcNBiiG7ZUKjQ_aCYyu18w4CmMotTDR/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Síndrome Coronariana Aguda com Supra de ST.pdf", pdfLink: "https://drive.google.com/file/d/1iyo4njf8t5aVw1Lw4e33MZOi9lj1WVrS/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 3,
-        label: "Sub-Módulo 03",
-        title: "Síndromes Aórticas Agudas",
-        imageUrl: "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Síndromes Aórticas Agudas.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/12U-IER02MqXsB-In3Sa50qN87xe2rWCK/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Síndromes Aórticas Agudas_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1igx-W_33lUmQuyohleHw-QqflyEWKi31/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Síndromes Aórticas Agudas.pdf", pdfLink: "https://drive.google.com/file/d/1YU0V0ryyNHQtzstKEOCFwSN_ELWBLHZx/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Síndromes Aórticas Agudas.pdf", pdfLink: "https://drive.google.com/file/d/1JCsXjg_-WKz6SKiLeaMDN8h972dppN8U/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 4,
-        label: "Sub-Módulo 04",
-        title: "Pericardite e Miocardite",
-        imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Cardio 3 Miocardite, Síncope, Insuficiência Cardíaca.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1FS_QEHjz_ezoy5cL10bFPbYKwl0z6tgp/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Cardio 3 Miocardite, Síncope, Insuficiência Cardíaca_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1mtAluYR0s1ke_f4y_2lXIbpf9cOWsrSH/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Pericardite e Miocardite.pdf", pdfLink: "https://drive.google.com/file/d/1aKFIFwrwZSUNuZWx77zzyIpfh8AfY2sM/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Pericardite e Miocardite.pdf", pdfLink: "https://drive.google.com/file/d/1esHB6ey8lCz5UyHE1r94S3fjzYj31EX-/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 5,
-        label: "Sub-Módulo 05",
-        title: "Hipertensão Arterial Sistêmica (HAS)",
-        imageUrl: "https://images.unsplash.com/photo-1628348070889-cb656235b4eb?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Hipertensão Arterial Sistêmica (HAS)_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/12_CMrUQkd_WFUTzvaNehFgGQE01iKaFP/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Hipertensão Arterial Sistêmica (HAS)_COFEXPRESS [Parte II].ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/16LAIYmHL_mzGFPrZOwrGZzBizTMF3cdT/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Hipertensão Arterial Sistêmica (HAS).pdf", pdfLink: "https://drive.google.com/file/d/1SyUDZHMCRQJ7e-WFhAEQNm4co4VqtHl5/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Hipertensão Arterial Sistêmica (HAS).pdf", pdfLink: "https://drive.google.com/file/d/1nimI8b4OJp4JDWSFShtsxGbp1j1TPH5T/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 6,
-        label: "Sub-Módulo 06",
-        title: "Emergências Hipertensivas",
-        imageUrl: "https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - COFEXPRESS Emergências Hipertensivas.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/14FCclIk0pdmQVRFiBM6pI1kDEI7Nv2im/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - VISÃO DO ESPECIALISTA Emergências Hipertensivas.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/14KaSBrEdAoHvMyJ6IOHUZQBVZicehJpQ/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Emergências Hipertensivas.pdf", pdfLink: "https://drive.google.com/file/d/1v8Gx6WaqEQN5Fj2Hfc0YHFeDEDg2sU2z/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Emergências Hipertensivas.pdf", pdfLink: "https://drive.google.com/file/d/1u4ChmjRdps7AmATSPamSJbnT3PA-v3rl/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 7,
-        label: "Sub-Módulo 07",
-        title: "Insuficiência Cardíaca - Manejo Ambulatorial",
-        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Insuficiência Cardíaca - Manejo Ambulatorial_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1hLrhmlW9kzZzSPkOZTpUjSP1NewIPr9v/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Insuficiência Cardíaca - Manejo Ambulatorial.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1BEjaK5N7IpgOaLZlDA1NArbTBVSbUSFK/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Insuficiência Cardíaca - Manejo Ambulatorial.pdf", pdfLink: "https://drive.google.com/file/d/1rmKbefQxLiykV3PemXPMONWoTs3p5N5k/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Insuficiência Cardíaca - Manejo Ambulatorial.pdf", pdfLink: "https://drive.google.com/file/d/1_bIJaa0oCqlwqNibW99ArUwB7R28r4Ay/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 8,
-        label: "Sub-Módulo 08",
-        title: "Insuficiência Cardíaca - Descompensações Agudas",
-        imageUrl: "https://images.unsplash.com/photo-1584362917165-52e812f8dc08?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Insuficiência Cardíaca - Descompensações Agudas.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Hk36GomLzaRUVp8Kj1pX0tW3nM8U-zs7/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Insuficiência Cardíaca - Descompensações Agudas.pdf", pdfLink: "https://drive.google.com/file/d/18mR4UdOuLe6n0yc4wefYU-W23mjXKrfl/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Insuficiência Cardíaca - Descompensações Agudas.pdf", pdfLink: "https://drive.google.com/file/d/1iRjVg8z_Vot6GMr4o4o0qfFKSclvDGte/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 9,
-        label: "Sub-Módulo 09",
-        title: "Taquiarritmias",
-        imageUrl: "https://images.unsplash.com/photo-1628348068343-c6a848d2b6dd?auto=format&fit=crop&q=80&w=400",
-        lessons: [],
-        materials: [
-          { title: "E-Book - Taquiarritmias.pdf", pdfLink: "https://drive.google.com/file/d/1taFTQISbg5mzOAXJ3it4gr0aW4bC3t7k/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Taquiarritmias.pdf", pdfLink: "https://drive.google.com/file/d/11tfjYb95lDHuF8DTia0VOBcoW1s782-N/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 10,
-        label: "Sub-Módulo 10",
-        title: "Bradiarritmias",
-        imageUrl: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&q=80&w=400",
-        lessons: [],
-        materials: [
-          { title: "E-Book - Bradiarritmias.pdf", pdfLink: "https://drive.google.com/file/d/1odATHL8ZW4hVxvR4-xFjwTjWR9Uyb3gC/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Bradiarritmias.pdf", pdfLink: "https://drive.google.com/file/d/1lmxk94T68-Rmd4kPUPKFEaqkqIrIC7yO/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 11,
-        label: "Sub-Módulo 11",
-        title: "Síncope",
-        imageUrl: "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Síncope_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1h3Htbg8_MQg7rhNaIUFZ8hmEyv8wtdCY/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Síncope.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1jF-9DE3HUxhZ3QKgLvf0N2O3u7khWlNj/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Síncope.pdf", pdfLink: "https://drive.google.com/file/d/1F-q3uN3lnInXO-cZn8QoAYkf6qZvgdzP/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Síncope.pdf", pdfLink: "https://drive.google.com/file/d/1aZa1vvaf6UufSQuRO1ep8V2JVDVxg9NS/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 12,
-        label: "Sub-Módulo 12",
-        title: "Febre Reumática e Endocardite",
-        imageUrl: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Reumato Kawasaki, Vasculite por Iga e Febre Reumática_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1G-58UGE9O0tEa4MRPlrG-9cFO0HNE_NC/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Reumato Kawasaki, Vasculite por Iga e Febre Reumática.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1dJ0SnxdeJgf-XbYkXuRuFpqzBku463Hk/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Febre Reumática e Endocardite.pdf", pdfLink: "https://drive.google.com/file/d/1UJcE1w79fQ6Z04dmj_ZTHwLLeneMktOi/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Febre Reumática e Endocardite.pdf", pdfLink: "https://drive.google.com/file/d/1iu1rismlN814uMbxWTCkxGVdew5sriFm/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 13,
-        label: "Sub-Módulo 13",
-        title: "Valvopatias",
-        imageUrl: "https://images.unsplash.com/photo-1628348068343-c6a848d2b6dd?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Valvopatias_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1FX_72LASXAQlGFtSXhKHwqpn2xBpNvb0/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Cirurgia Cardíaca Doenças Valvares_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1GNuAcxAk--Db_F9R7cRK0w6KCy9PXiWX/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Valvopatias.pdf", pdfLink: "https://drive.google.com/file/d/1xiFjTD7dJHWwXj61I9-_txA6Av6MSIYA/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Valvopatias.pdf", pdfLink: "https://drive.google.com/file/d/1EsRZv_0yBpLDHWgnt1a9erMNKynpKUb9/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 14,
-        label: "Sub-Módulo 14",
-        title: "BLS e ACLS",
-        imageUrl: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - BLS e ACLS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1rhZ27jZOtJFYh7jGkhPvT2vaYsqQ8D57/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - BLS e ACLS_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1mTucaaY7UNM2CDYYI6EpGFIszbAMwZI8/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - BLS e ACLS.pdf", pdfLink: "https://drive.google.com/file/d/1AosoCr7yQ8tktOo0179nsIZVRFJ8ud5K/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: BLS e ACLS.pdf", pdfLink: "https://drive.google.com/file/d/1lJvCDnaPSVfmoEvp-Vc3cF2NdVpJmWg0/view?usp=sharing" }
-        ]
-      },
-      // --- 2. PNEUMOLOGIA ---
-      {
-        id: 15,
-        label: "Sub-Módulo 15",
-        title: "Pneumonia Adquirida na Comunidade",
-        imageUrl: "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Pneumonia Adquirida na Comunidade_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1zb4mB7opL5QUPMzWW31pzEqWbOBCkJ3U/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Pneumonias.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1fDMZlP2SsnDFLQb0QbJvm-FzQ4akup1I/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Pneumonia: Adquirida na Comunidade.pdf", pdfLink: "https://drive.google.com/file/d/1wx6K53OTo9IbDSXwSHfXbBEPYK8x3Kln/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Pneumonia Adquirida na Comunidade.pdf", pdfLink: "https://drive.google.com/file/d/1s9pYXIWwAwomD-s8C2oy87kUlcjW5Oyd/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 16,
-        label: "Sub-Módulo 16",
-        title: "Derrame Pleural",
-        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Derrame Pleural_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1EwoBT-jK3Q1IZuFM0B2gUxmKkviQzXsy/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Cirurgia Torácica Derrame Pleural_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1305SnXBcom1pL2nXAgJ36aoIflwINkiB/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Derrame Pleural.pdf", pdfLink: "https://drive.google.com/file/d/1C2Fo9hG00vYl9EAIKNSt5ks4DHse96Yp/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Derrame Pleural.pdf", pdfLink: "https://drive.google.com/file/d/1NlimEoY0LIIVD_ARZe35HESE_UQX8WLW/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 17,
-        label: "Sub-Módulo 17",
-        title: "Asma",
-        imageUrl: "https://images.unsplash.com/photo-1584362917165-52e812f8dc08?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Asma_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1kHTXA6kKedUqzYbC0WbdVJ-UOzvUNyMk/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Asma e Fibrose Cística_HIIT EXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1-ogcz93mfg1ZOymFBTKEB4PbjkBkiYoY/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Asma.pdf", pdfLink: "https://drive.google.com/file/d/1mdVrZstggJsbv84GNkd0tGBQb4X5EqxU/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Asma.pdf", pdfLink: "https://drive.google.com/file/d/1Vy-eAeDXqNLa-cCo6GKArgVu7Xhnki0Q/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 18,
-        label: "Sub-Módulo 18",
-        title: "Doença Pulmonar Obstrutiva Crônica (DPOC)",
-        imageUrl: "https://images.unsplash.com/photo-1631558556708-3482a1762c23?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Doença Pulmonar Obstrutiva Crônica (DPOC).ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1c9yHjhj0vwuouZdxtfoJKUcmqI_JwyvP/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Doença Pulmonar Obstrutiva Crônica (DPOC).pdf", pdfLink: "https://drive.google.com/file/d/1dKpvkfWWES-zDaU3HdKvzszLi9HFya8A/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Doença Pulmonar Obstrutiva Crônica (DPOC).pdf", pdfLink: "https://drive.google.com/file/d/16zBqW3tF71gKY3PemszfPoW97rL2Ru0T/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 19,
-        label: "Sub-Módulo 19",
-        title: "Tabagismo",
-        imageUrl: "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Tabagismo_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1_uNLkVn7sz8XtLpSV5I1z1wiu5JERK08/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Tabagismo.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/18hxCd_Wu6zGQxX7nvIp4adRf4ebUGUlp/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Tabagismo.pdf", pdfLink: "https://drive.google.com/file/d/1XEpGhrLHQrgkfNalJgL7OgnAjcft2UHP/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Tabagismo.pdf", pdfLink: "https://drive.google.com/file/d/13pE2mqBl4vABu09WU0QybPtrYfOcQpHT/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 20,
-        label: "Sub-Módulo 20",
-        title: "Espirometria",
-        imageUrl: "https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Espirometria_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1vWsJXGVmhtquW7fUjtaRKneLsQ906uN0/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Espirometria.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/128Dc5FB-m9GKUVjMuyNkqR07iUKpdWIz/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Espirometria.pdf", pdfLink: "https://drive.google.com/file/d/1Iqu9TuBC42Qkbv2w3BAOMJSeM0G2dvnP/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Espirometria.pdf", pdfLink: "https://drive.google.com/file/d/1b5sfG_NNHUBnH1CDiaG6fV0qnqgtZvi4/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 21,
-        label: "Sub-Módulo 21",
-        title: "Tromboembolismo Pulmonar (TEP)",
-        imageUrl: "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - TEP_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1bHr1CLb6P4uYsbbydDg7ritW3TNKkfKb/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - TEP.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1wUWUfXNgnH95nrGQbFVV0NX22e1CVdLp/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - TEP.pdf", pdfLink: "https://drive.google.com/file/d/1sVoVM48HLFJcF35rSZpxdQ4oyDgJ699T/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: TEP.pdf", pdfLink: "https://drive.google.com/file/d/1wrMZYZ2VtGlzt_JaeBjEZU5jsWHuOV_0/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 22,
-        label: "Sub-Módulo 22",
-        title: "Hipertensão Pulmonar",
-        imageUrl: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Hipertensão pulmonar_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1jkpgWOq15zIU8sQ_uNa2nrJYtOwDs53M/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Hipertensão Pulmonar.pdf", pdfLink: "https://drive.google.com/file/d/1H7q0XrwpeGd1puxVQAyFgp3tnIdNCyBh/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Hipertensão Pulmonar.pdf", pdfLink: "https://drive.google.com/file/d/1Vh05DxFAUQ6ITHDJvzUQXFG_whHDWpW0/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 23,
-        label: "Sub-Módulo 23",
-        title: "Distúrbios do Sono",
-        imageUrl: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Distúrbios do Sono.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1bfY_-TuFG2PDZJlicY-xsyUcThOxmQzB/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Sono e seus distúrbios.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1l9hvHwj2vLbake0-o2D6_Km_cbN8xhvl/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Distúrbios do Sono.pdf", pdfLink: "https://drive.google.com/file/d/1k7qlVj0JN3crq9km8GfF6J19Fot5U0SJ/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Distúrbios do Sono.pdf", pdfLink: "https://drive.google.com/file/d/1P4GzE0alMzHrhnJxsg313vpw0SZFU_e5/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 24,
-        label: "Sub-Módulo 24",
-        title: "Doença Pulmonar Intersticial (DPI)",
-        imageUrl: "https://images.unsplash.com/photo-1581093588401-fbb07365f557?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Doença Pulmonar Intersticial (DPI).ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ui3kDDuMzyoemahbVvpiRQ4dyfORo6eS/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Doença Pulmonar Intersticial (DPI).pdf", pdfLink: "https://drive.google.com/file/d/1Cq1EmHUVq6GPfbGP9SiXO_O8fqw16YLs/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Doença Pulmonar Intersticial (DPI).pdf", pdfLink: "https://drive.google.com/file/d/1a6Y4E61pxy-9WIb22Ji2pcZw6QJujl_i/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 25,
-        label: "Sub-Módulo 25",
-        title: "Nódulo Pulmonar",
-        imageUrl: "https://images.unsplash.com/photo-1550831107-1553da8c8464?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Nódulo Pulmonar_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Dhm0pwMuqbGl_wsF8Y7I3Lyt9m81XiPS/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Nódulo Pulmonar.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1cLE3MoRj6Dm9x-CaIKHaswG73KTgjsqy/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Nódulo Pulmonar.pdf", pdfLink: "https://drive.google.com/file/d/1dQpOcqhEVH6JtS6bUZfkQ4CClhd8_thP/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Nódulo Pulmonar.pdf", pdfLink: "https://drive.google.com/file/d/1z4HCwcClpwyZJUOqh3C0X4REQutumxeV/view?usp=sharing" }
-        ]
-      },
-      // --- 3. ENDOCRINOLOGIA E METABOLOGIA ---
-      {
-        id: 26,
-        label: "Sub-Módulo 26",
-        title: "Diabetes: Classificação, Fisiopatologia e Diagnóstico",
-        imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Diabetes Classificação, Fisiopatologia e Diagnóstico.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/13XEAfJk9EagwPMCi01ocxjsL8qQyGCNi/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Diabetes: Classificação, Fisiopatologia e Diagnóstico.pdf", pdfLink: "https://drive.google.com/file/d/1PjqrYqRDaLdwzxiaaNGeawR475X00O8S/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Diabetes: Classificação, Fisiopatologia e Diagnóstico.pdf", pdfLink: "https://drive.google.com/file/d/16uTBVEFm7MCWQSkOG32hTZqyj6g0A3SU/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 27,
-        label: "Sub-Módulo 27",
-        title: "Meta Terapêutica, Manejo do Pré-DM e Tratamento Não Farmacológico",
-        imageUrl: "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Meta Terapêutica, Manejo do pré-DM e Tratamento Não Farmacológico do DM_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/13nnepLngEftLrgi8BwBshZgztZyOSnKI/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Meta Terapêutica, Manejo do pré-DM e Tratamento Não Farmacológico do DM.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/17ffb-HPqmlj1aSZYb9Jdma5n5MutitM1/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Meta Terapêutica, Manejo do Pré-DM e Tratamento Não-Farmacológico do DM.pdf", pdfLink: "https://drive.google.com/file/d/118ReH1zWOiKyjMQPx_dn2TeW2yfcI-id/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Meta Terapêutica, Manejo do Pré-DM e Tratamento Não-Farmacológico do DM.pdf", pdfLink: "https://drive.google.com/file/d/1taqm1jNX-sFE_NFKt9lM53ipZ83blQfO/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 28,
-        label: "Sub-Módulo 28",
-        title: "Antidiabéticos Orais e Subcutâneos - Parte I",
-        imageUrl: "https://images.unsplash.com/photo-1584362917165-52e812f8dc08?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Antidiabéticos Orais e Subcutâneos - Parte I_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1amq1LSveuqAQuzTVK8VZ3ItbW9t5fFhp/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Antidiabéticos Orais e Subcutâneos - Parte I.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/14hqA4YLrf7l9BC2aSwZ7RK4U-HC6glYr/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Antidiabéticos Orais e Subcutâneos I.pdf", pdfLink: "https://drive.google.com/file/d/1vbmJkxPTWj1U9tXFgVDrmIkDtMSafVkp/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Antidiabéticos Orais e Subcutâneos I.pdf", pdfLink: "https://drive.google.com/file/d/1mO23G_EklGKZRhAvKx-K1N-yoJjbAlaw/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 29,
-        label: "Sub-Módulo 29",
-        title: "Antidiabéticos Orais e Subcutâneos - Parte II",
-        imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Antidiabéticos Orais e Subcutâneos - Parte II_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/19HUkFXAi5RWLpvOzLUAkG_t5lRUz6q06/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Antidiabéticos Orais e Subcutâneos - Parte II.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1k2hsxQyjoe-td6dyfy9_PiGDUwct_rmX/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Antidiabéticos Orais e Subcutâneos - Parte II.pdf", pdfLink: "https://drive.google.com/file/d/1sfvulbBnfDqsZCkn2AMURTmmbnKhIDou/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Antidiabéticos Orais e Subcutâneos - Parte II.pdf", pdfLink: "https://drive.google.com/file/d/1gHKNICFlUJ5xuZSUAHArrzlabUX9rGIF/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 30,
-        label: "Sub-Módulo 30",
-        title: "Insulinoterapia",
-        imageUrl: "https://images.unsplash.com/photo-1584362917165-52e812f8dc08?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Insulinoterapia_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1iopFdn0yxsgELw222p038LJjgEmI6sDb/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Insulinoterapia.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1-LLZrBOts8gEPeUzFie142YjEbVMaW-D/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Insulinoterapia.pdf", pdfLink: "https://drive.google.com/file/d/16maglEGYCuLgerJT4dXcwuuJIEIQM3HQ/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Insulinoterapia.pdf", pdfLink: "https://drive.google.com/file/d/1FmLxne5R8KLlrXfkruGJPz4vXVnPBTe5/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 31,
-        label: "Sub-Módulo 31",
-        title: "Complicações Crônicas do Diabetes Mellitus (DM)",
-        imageUrl: "https://images.unsplash.com/photo-1550831107-1553da8c8464?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Complicações Crônicas do Diabetes Mellitus (DM)_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1vblyO5MTvCjxcWGdDYIN2Aqq8Uknh-0O/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Complicações Crônicas do Diabetes Mellitus (DM).pdf", pdfLink: "https://www.google.com/search?q=https://drive.google.com/file/d/1YJmbhUgREMHSgfK3cacdfns6w4JUojX/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Complicações Crônicas do Diabetes Mellitus (DM).pdf", pdfLink: "https://drive.google.com/file/d/1S73VwlKXpcvn4D94UdakeDyeKpl18fLi/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 32,
-        label: "Sub-Módulo 32",
-        title: "Hiperglicemia Hospitalar",
-        imageUrl: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Hiperglicemia Hospitalar_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1u2wWuzSiX2WMTg23xOIvz-hgW6-wtVZ6/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Hiperglicemia Hospitalar.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1fzgYSQgmHYQ-GM34tJsSAhgXxTnmhZQS/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Hiperglicemia Hospitalar.pdf", pdfLink: "https://drive.google.com/file/d/1_MN_yZ0Ifya3ikj1aHQuuEeAfj0jA0LU/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Hiperglicemia Hospitalar.pdf", pdfLink: "https://drive.google.com/file/d/1sqg6K8nDyY7r5qGVxajaDrJeGpl-o6Dt/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 33,
-        label: "Sub-Módulo 33",
-        title: "Emergências Hiperglicêmicas (CAD e EHH)",
-        imageUrl: "https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Emergências Hiperglicêmicas (CAD e EHH).ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/14wEKRjDDQRKDCm9HfrSaGSao1Quj-G3i/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Cetoacidose Diabética_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/15xxoDkHVg80lsdSdGlIOfP0u-iElUiNl/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Emergências Hiperglicêmicas (CAD e EHH).pdf", pdfLink: "https://drive.google.com/file/d/1lSfJwNq3IVKgFKmQE1Qf3v30oUKzgX6w/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Emergências Hiperglicêmicas (CAD e EHH).pdf", pdfLink: "https://drive.google.com/file/d/1BjTPW9lntamHTDVBPojxB-bemKPVOY7W/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 34,
-        label: "Sub-Módulo 34",
-        title: "Dislipidemia - Classificação e Diagnóstico",
-        imageUrl: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Dislipidemia - Classificação e Diagnóstico_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Htg-PeQN_LydQwVrcAzrjaypP7SZ0Q6W/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Dislipidemia: Classificação e Diagnóstico.pdf", pdfLink: "https://drive.google.com/file/d/1R_Jgb5MVEzHk_Yy5DBsFOWtf55DOPPMA/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Dislipidemia: Classificação e Diagnóstico.pdf", pdfLink: "https://drive.google.com/file/d/1VFlyX_wL15dacNxpDVoxtvQIZCZmpI70/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 35,
-        label: "Sub-Módulo 35",
-        title: "Tratamento das Dislipidemias",
-        imageUrl: "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Tratamento das Dislipidemias_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1mea-xEf_rGDv7smCz0M02u7qHBuR7Rmv/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Tratamento das Dislipidemias.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/15uEb68qS6GPFSmklCfpdyhZQcZX2KSOx/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Tratamento das Dislipidemias.pdf", pdfLink: "https://drive.google.com/file/d/1A4yi1ulwQGU-2Cyd3fsJOV9PaR8Vrp0H/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Tratamento das Dislipidemias.pdf", pdfLink: "https://drive.google.com/file/d/16emHh9M7N6lg4notVVqq3vsqj7INcOAj/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 36,
-        label: "Sub-Módulo 36",
-        title: "Síndrome Metabólica",
-        imageUrl: "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Obesidade e Síndrome Metabólica_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1hNSnA-tzoklQ1dmkpqC37JDaq8_l8toX/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Síndrome Metabólica.pdf", pdfLink: "https://drive.google.com/file/d/1VOMBuiEXGI5WACFbkNe8bdLvO1EXLJ_g/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Síndrome Metabólica.pdf", pdfLink: "https://drive.google.com/file/d/1LO_98XHROEzoYVk37SiFqno3B1plodS5/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 37,
-        label: "Sub-Módulo 37",
-        title: "Obesidade: Introdução e Tratamento Não Farmacológico",
-        imageUrl: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=400",
-        lessons: [],
-        materials: [
-          { title: "E-Book - Obesidade: Introdução e Tratamento Não-Farmacológico.pdf", pdfLink: "https://drive.google.com/file/d/1QwAwYIxeEestr7dr4IKb413AMeRoAqwv/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Obesidade: Introdução e Tratamento Não-Farmacológico.pdf", pdfLink: "https://drive.google.com/file/d/1RZVJ1uESXku_cexX2jcohud-ZpDcpFRd/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 38,
-        label: "Sub-Módulo 38",
-        title: "Obesidade: Tratamento Farmacológico e Cirúrgico",
-        imageUrl: "https://images.unsplash.com/photo-1584362917165-52e812f8dc08?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Obesidade Tratamento Farmacológico e Cirúrgico_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1BB9zR-NnaPX6txMIIkzIcVveyq6UZzfT/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Obesidade Princípios Gerais e Cirurgia Bariátrica_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/19Kb7GEafGyyu2gtuJc8HJ7uCt9F-Jm_2/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Obesidade: Tratamento Farmacológico e Cirúrgico.pdf", pdfLink: "https://drive.google.com/file/d/1ujz4oCI6F47Oa86xIAPQvg29NcGFIYZ_/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Obesidade: Tratamento Farmacológico e Cirúrgico.pdf", pdfLink: "https://drive.google.com/file/d/1qeOY05Qf0GbAD6xJcHyA_WzoW9hPGHcb/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 39,
-        label: "Sub-Módulo 39",
-        title: "Fisiologia da Tireoide",
-        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Fisiologia da Tireoide_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1jyd8aBOZJHHD4fzoOaxJDrDO4fyNVVB7/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Fisiologia da Tireoide.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1lEPet77EolCJRzrxxcMWHRH6jiH2BZph/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Fisiologia da Tireoide.pdf", pdfLink: "https://drive.google.com/file/d/1RPvuT1SbhF_eHEbfvIclo5WxrzgXe84A/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Fisiologia da Tireoide.pdf", pdfLink: "https://drive.google.com/file/d/1L94q6Ri78Ea8tiMDLChrh6EWLwJLKA0v/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 40,
-        label: "Sub-Módulo 40",
-        title: "Hipotireoidismo",
-        imageUrl: "https://images.unsplash.com/photo-1628348070889-cb656235b4eb?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Hipotireoidismo_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1gMn5Pn2_zYBbe1ffTFKAaf8SC1TEcFkc/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Hipotireoidismo.pdf", pdfLink: "https://drive.google.com/file/d/110VOWsuXWZgEwi1ytMWDA0nEiWn_GC9s/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Hipotireoidismo.pdf", pdfLink: "https://drive.google.com/file/d/1LBHeXzlR_qJaGCWpxHJzzsNSEh4MSJw2/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 41,
-        label: "Sub-Módulo 41",
-        title: "Hipertireoidismo",
-        imageUrl: "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Hipertireoidismo.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1iU50yfOHogKlq2lrGoO-V26-vFmc4cs7/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Hipertireoidismo.pdf", pdfLink: "https://drive.google.com/file/d/1ooUmcMEveftilWeMJA3r3txVvTWkEClQ/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Hipertireoidismo.pdf", pdfLink: "https://drive.google.com/file/d/1cqDnxaXMwalKH1vRKL-T2TTr-EK5xnGA/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 42,
-        label: "Sub-Módulo 42",
-        title: "Tireoidites & Síndrome do Eutireoidiano Doente",
-        imageUrl: "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Tireoidites & Síndrome do Eutireoidiano Doente.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/14HHDqCxrwMGLIlgoP3zif_rhi-FI1HaQ/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - VISÃO DO ESPECIALISTA Cabeça e Pescoço Tireóide I - anatomia, fisiologia e tireoidites.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1nMgO6tDtB6QhBsUhUrSa8_fWoz2vqpzI/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Tireoidites & Síndrome do Eutireoidiano Doente.pdf", pdfLink: "https://drive.google.com/file/d/1q5uVtAZRBqIYSd0cyelJyJzQ6238mmrC/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Tireoidites & Síndrome do Eutireoidiano Doente.pdf", pdfLink: "https://drive.google.com/file/d/1YtpY0d0HSF1Zt6P_yKb2EXzA-W14Lft3/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 43,
-        label: "Sub-Módulo 43",
-        title: "Nódulos e Câncer de Tireoide",
-        imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Nódulos e Câncer de Tireoide_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1EjdxVb9K1CJrbji0Hk5UYgTNPsOlzvYY/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Nódulo de tireoide parte 1 avaliação inicial, PAAF.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/16UfVbpZVIEC6BmCWQQX-K1xLJxd1UP-u/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Nódulos e Câncer de Tireoide.pdf", pdfLink: "https://drive.google.com/file/d/1DrZcHhcxMfaeoJI5ZMn7nnijpPUt1znE/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Nódulos e Câncer de Tireoide.pdf", pdfLink: "https://drive.google.com/file/d/1E_6g9uHESFA3A9-4mq-Hytm8BynoZcRz/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 44,
-        label: "Sub-Módulo 44",
-        title: "Fisiologia e Anatomia da Adrenal",
-        imageUrl: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Fisiologia e Anatomia da Adrenal_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1EO-uqwwnWuiJvbrX114XSEOzvfLjnB0U/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Fisiologia e Anatomia da Adrenal.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1kHTXA6kKedUqzYbC0WbdVJ-UOzvUNyMk/view?usp=sharing" }
-        ],
-        materials: []
-      },
-      {
-        id: 45,
-        label: "Sub-Módulo 45",
-        title: "Incidentaloma Adrenal",
-        imageUrl: "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Incidentaloma Adrenal_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/18N582vyv2UWs3V0dO10Zmz11_UT2LOWZ/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Incidentaloma Adrenal.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1inolvNhK36QJ1xM5EnEJQMkgvJrNrdVT/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Incidentaloma Adrenal.pdf", pdfLink: "https://drive.google.com/file/d/1qKfxapoqel6OnAOvbF3582C6O9LuHQDF/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Incidentaloma Adrenal.pdf", pdfLink: "https://drive.google.com/file/d/10Q-j9S5AKEZQVOOWi2xN6ZFXV2O71dHO/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 46,
-        label: "Sub-Módulo 46",
-        title: "Síndrome de Cushing",
-        imageUrl: "https://images.unsplash.com/photo-1511174511562-5f7f18b874f8?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Síndrome de Cushing ACTH independente e CA adrenal_COFEXPRESS_1.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ioXjV2uyoiu8bhtguEcbsw-bfnCOlaVA/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Síndrome de Cushing.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1p0J8erNsSsoez2GvJi4Q1E1nS8dVF2GX/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Síndrome de Cushing.pdf", pdfLink: "https://drive.google.com/file/d/1wlYXhKtTWZ7SwhyfDXxgd8Y_EcKLdTxu/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Síndrome de Cushing.pdf", pdfLink: "https://drive.google.com/file/d/15poww6uHLf-6f6eCqAbynEaXOh0CL9yy/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 47,
-        label: "Sub-Módulo 47",
-        title: "Insuficiência Adrenal",
-        imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Insuficiência Adrenal_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1tB4DazPl93xrui-gpvR5f7DnddPERep5/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Insuficiência Adrenal.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1FH9l96SKn53gyxdLmPuYfRIIjevTFA0Y/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Insuficiência Adrenal.pdf", pdfLink: "https://drive.google.com/file/d/1ENcsNlM-JpA_sOSAu0uj6sZRNlsr5Jmf/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Insuficiência Adrenal.pdf", pdfLink: "https://drive.google.com/file/d/1jegd8TBNDETPCMFerr5k5HSM-S0ch-09/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 48,
-        label: "Sub-Módulo 48",
-        title: "Hiperaldosteronismo Primário",
-        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Hiperaldosteronismo Primário_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1jDIEmUJn3OCKuL44ghXAOOX_nSBaOdxR/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Hiperaldosteronismo Primário.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1gLD7OD-bLDpGkZl0-YdfpwfAOURczHnv/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Hiperaldosteronismo Primário.pdf", pdfLink: "https://drive.google.com/file/d/1tGcMMn6pl4u5ViMCsfZXypVZTQzLpTtb/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Hiperaldosteronismo Primário.pdf", pdfLink: "https://drive.google.com/file/d/1A0M98trYGv9Z6Wla-JMRl_dIhzVEH0VH/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 49,
-        label: "Sub-Módulo 49",
-        title: "Feocromocitoma",
-        imageUrl: "https://images.unsplash.com/photo-1584362917165-52e812f8dc08?auto=format&fit=crop&q=80&w=400",
-        lessons: [],
-        materials: []
-      },
-      {
-        id: 50,
-        label: "Sub-Módulo 50",
-        title: "Prolactinomas",
-        imageUrl: "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Prolactinomas_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1cZKpZAFI6dK8cRaE6sWrYj10FdesxgV2/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Prolactinomas.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/107IjXP2mejzBhFVtSPsQckSZe9jH4Hlr/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Prolactinomas.pdf", pdfLink: "https://drive.google.com/file/d/1yTnO3F4QGlq0CtKHDZEFCQjtoGYdBqcR/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Prolactinomas.pdf", pdfLink: "https://drive.google.com/file/d/1nI8UVILDOZD9GC_uRQQeZJNC9_f7A9E6/view?usp=sharing" }
-        ]
-      },
-      // --- 4. GASTROENTEROLOGIA E HEPATOLOGIA ---
-      {
-        id: 51,
-        label: "Sub-Módulo 51",
-        title: "Dispepsia",
-        imageUrl: "https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - COFEXPRESS Dispepsia.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1tKHVLCP51pu0Nbm3z60M-s9Si619yVTZ/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - VISÃO DO ESPECIALISTA Dispepsia.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ddgziC1rwgn_t79T_H8LMgkNr0_R5L4w/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Dispepsia.pdf", pdfLink: "https://drive.google.com/file/d/1DMJD4pYW0IdurD9qsMJnxG_4V4ZfLKmj/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Dispepsia.pdf", pdfLink: "https://drive.google.com/file/d/1jH7I_HQB0XbN4nvLjqRiOagMIv5SNmRH/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 52,
-        label: "Sub-Módulo 52",
-        title: "DRGE",
-        imageUrl: "https://images.unsplash.com/photo-1511174511562-5f7f18b874f8?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - COFEXPRESS DRGE.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1fIUM7PguVckk3Oh67n6ZIaN4c4o2TUWF/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Esôfago Hernias de Hiato_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/15uGzA82yomg3finTqZft6EyF8k-8gl3y/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - DRGE.pdf", pdfLink: "https://drive.google.com/file/d/1S0CeeUimruDy-P8hfXp7nWTibHAggwtx/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: DRGE.pdf", pdfLink: "https://drive.google.com/file/d/1Ef8zQwBQTR5nMjp4LsFGk4jDkjyAcY-4/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 53,
-        label: "Sub-Módulo 53",
-        title: "Úlcera péptica, H. pylori, Gastrite Atrófica e Dispepsia Funcional",
-        imageUrl: "https://images.unsplash.com/photo-1628348070889-cb656235b4eb?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Úlcera péptica, H. pylori, Gastrite Atrófica e Dispepsia Funcional_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1s1wjGlsyL__Tt9dQFcPenSwnQRpi_GBv/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Úlcera péptica, H. pylori, Gastrite Atrófica e Dispepsia Funcional.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1vSa3oFWO7lRfcw7TsqpdoXLbt1W7UGhV/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Úlcera Péptica, H. Pylori, Gastrite Atrófica e Dispepsia Funcional.pdf", pdfLink: "https://drive.google.com/file/d/1hMH1n9JUMV88pwAvzLes1ouH7vsBTJTo/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Úlcera Péptica, H. Pylori, Gastrite Atrófica e Dispepsia Funcional.pdf", pdfLink: "https://drive.google.com/file/d/1VZKAIXFgHx0boa01SqE8uXG6hFd-s-L7/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 54,
-        label: "Sub-Módulo 54",
-        title: "Disfagia, Esofagite Eosinofílica e Acalasias",
-        imageUrl: "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Disfagia, Esofagite Eosinofílica e Acalasias.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1fuKaqkUStau-gfchamgKSnot4CyBFU6r/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Esôfago Diagnósticos e diferenciais de disfagia_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1fH45OyT_XBHCCAk4S0OvKPqSwIRxei7L/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Esôfago: Diagnósticos e Diferenciais de Disfagia.pdf", pdfLink: "https://drive.google.com/file/d/11aphBw1EWyBehWXJoGVY6xAJysgeBZXk/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Esôfago: Diagnósticos e Diferenciais de Disfagia.pdf", pdfLink: "https://drive.google.com/file/d/1Pu2WJB0U5N7UzP8ssc5fc3n6JE9C--D1/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 55,
-        label: "Sub-Módulo 55",
-        title: "Diarreia Agudas e Colite Pseudomembranosa",
-        imageUrl: "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&q=80&w=400",
-        lessons: [],
-        materials: [
-          { title: "E-Book - Diarreia Agudas e Colite Pseudomembranosa.pdf", pdfLink: "https://drive.google.com/file/d/1YzKCdN31O3f47yxlfnOaZg4nCid2Ef-d/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Diarreia Agudas e Colite Pseudomembranosa.pdf", pdfLink: "https://drive.google.com/file/d/1CHRf5mjcV1xWt3l-REfhrz0rOKGCAnNb/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 56,
-        label: "Sub-Módulo 56",
-        title: "Diarreias Crônicas",
-        imageUrl: "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Diarreias Crônicas.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1q46CdCgxLhuDSC3gtEX8v1SKHGZYQmgF/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Gastro 2 Diarreia Crônica e Doenças Funcionais.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1iopFdn0yxsgELw222p038LJjgEmI6sDb/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Ficha Resumo: Diarreias Crônicas.pdf", pdfLink: "https://drive.google.com/file/d/19DK5atTMYTfrZjj5A_0qXUi6t_1_vIP5/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 57,
-        label: "Sub-Módulo 57",
-        title: "Doença Inflamatória Intestinal (DII)",
-        imageUrl: "https://images.unsplash.com/photo-1628348068343-c6a848d2b6dd?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Doença Inflamatória Intestinal (DII)_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1DOsoNlS8kKZlX_eC0FsxeQzr8WF0w6et/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Doença Inflamatória intestinal - Parte I.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Gai0QWOzsON22LY5cR4wcRfB-PLP9mQc/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Doença Inflamatória Intestinal (DII).pdf", pdfLink: "https://drive.google.com/file/d/124xXwG1SHsH52QG1MZ6Ikk2oMrXsNwQq/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Doença Inflamatória Intestinal (DII).pdf", pdfLink: "https://drive.google.com/file/d/1WTjNBpfH51u_GSUvQ6M-rPsMLbnuxL3e/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 58,
-        label: "Sub-Módulo 58",
-        title: "Avaliação de Enzimas Hepáticas",
-        imageUrl: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Avaliação de Enzimas Hepáticas.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/11pxbwP5x0c3wexgJS4MiW3qV7Cbkm1R-/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Avaliação de Enzimas Hepáticas.pdf", pdfLink: "https://drive.google.com/file/d/14pwRASAWgx2p7Sqg7Nfik7fHCSzPVu7k/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Avaliação de Enzimas Hepáticas.pdf", pdfLink: "https://drive.google.com/file/d/11K91g-xDY4WgTTKP_BYx4m0TaUzbz6-H/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 59,
-        label: "Sub-Módulo 59",
-        title: "Doenças Hepáticas: CBP, CEP, HAI e Doença de Wilson",
-        imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Doenças hepáticas CBP, CEP, HAI e Doença de Wilson_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1sl5-TdMK6mI4NBJe5DbaY4YefX5VTLhh/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Doenças hepáticas CBP, CEP, HAI e Doença de Wilson.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/18xa3Q0nopPX7kGdIBs2t7uUCz33Y-P1b/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Doenças Hepáticas: CBP, CEP, HAI e Doença de Wilson.pdf", pdfLink: "https://drive.google.com/file/d/1ZIjcZsdK-Lkua1Lw-Wnr-mDQgYPaxlMK/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Doenças Hepáticas: CBP, CEP, HAI e Doença de Wilson.pdf", pdfLink: "https://drive.google.com/file/d/1tO7G3uAxFp7QuICd2FFyjJE5IIOtraRI/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 60,
-        label: "Sub-Módulo 60",
-        title: "Doença Hepática Esteatótica Metabólica (DHEM)",
-        imageUrl: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Doença hepática esteatótica Metabólica (DHEM).ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1okKuKjYaPuvnUDkuwzlp_UtwYzkw9_Gl/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Doença Hepática Esteatótica Metabólica (DHEM).pdf", pdfLink: "https://drive.google.com/file/d/1r8OAGHKaNdL4kPOLAVyiiBv2alxZYiGj/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 61,
-        label: "Sub-Módulo 61",
-        title: "Cirrose Hepática: Conceitos Gerais",
-        imageUrl: "https://images.unsplash.com/photo-1584362917165-52e812f8dc08?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Cirrose hepática Conceitos Gerais.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1zR3zXbF20evOtLdpk0b74jDIdrSf0yAr/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Cirrose Hepática: Conceitos Gerais.pdf", pdfLink: "https://drive.google.com/file/d/1V1S4rLkcc4BZ3tE0cSra-doQvF2obSFj/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Cirrose Hepática: Conceitos Gerais.pdf", pdfLink: "https://drive.google.com/file/d/1ItEW4zmIK8kJd-1RUg146Ym5Q0XE5hv_/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 62,
-        label: "Sub-Módulo 62",
-        title: "Cirrose Hepática: Ascite + PBE",
-        imageUrl: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Cirrose hepática Ascite + PBE_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/18vr7EbI49zWVmdb9i8fdiwyVAqGof238/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Cirrose hepática Ascite + PBE.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1i9FdEI1BEarfsfypfnF4fGS0sO1LVmNJ/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Cirrose Hepática: Ascite + PBE.pdf", pdfLink: "https://drive.google.com/file/d/1z2pMC4zRjcGonJX0ZN-0SfAN5L5yZICC/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Cirrose Hepática: Ascite + PBE.pdf", pdfLink: "https://drive.google.com/file/d/1-3P6sBzVtpe4VtebBMje64_Y8KcfUO20/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 63,
-        label: "Sub-Módulo 63",
-        title: "Cirrose Hepática: Encefalopatia Hepática e Síndrome Hepatorrenal",
-        imageUrl: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Cirrose hepática Encefalopatia Hepática e Síndrome Hepatorrenal_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/173TrJU409pcj3aOQoCuZJH5uJrQGW0-G/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Cirrose Hepática: Encefalopatia Hepática e Síndrome Hepatorrenal.pdf", pdfLink: "https://drive.google.com/file/d/1q_b3wnTy--3ylyp9bBIkCaEcd__hZPjg/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Cirrose Hepática: Encefalopatia Hepática e Síndrome Hepatorrenal.pdf", pdfLink: "https://drive.google.com/file/d/1Vi8jgwQBNoa1QSMpHPsZdgRF-vwVPQ80/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 64,
-        label: "Sub-Módulo 64",
-        title: "Cirrose Hepática: Varizes esofágicas e Síndrome Hepatopulmonar",
-        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Cirrose hepática Varizes esofágicas e Síndrome Hepatopulmonar.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1cWworyk_Jy3AZG5F-fQfaFwsGKRefMfI/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Cirrose Hepática: Varizes Esofágicas e Síndrome Hepatopulmonar.pdf", pdfLink: "https://drive.google.com/file/d/1o0rlq35hU-s2jP6Gt0CrinA14TvWLbv6/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Cirrose Hepática: Varizes Esofágicas e Síndrome Hepatopulmonar.pdf", pdfLink: "https://drive.google.com/file/d/1MOsvqUbgS1OYD_CYShHsFQyEHouRQweF/view?usp=sharing" }
-        ]
-      },
-      {
-      id: 65,
-      label: "Sub-Módulo 65",
-      title: "Doenças oportunistas HIV",
-      imageUrl: "https://images.unsplash.com/photo-1584362917165-52e812f8dc08?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Doenças oportunistas HIV_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1foVyiuN8-KIKSvHyOsAaIOlb0FmvsxGK/view?usp=sharing" },
-        { id: 2, title: "Aula 02 - Doenças oportunistas HIV.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1dtL9jk-KTnaWQ1NB_JB5qsS36S_yWAMX/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Doenças oportunistas HIV.pdf", pdfLink: "https://drive.google.com/file/d/1lfnW81wFjvaWC6ecVRcnsq-2_jN4fL5O/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Doenças Oportunistas: HIV.pdf", pdfLink: "https://drive.google.com/file/d/1WPCK24_ZHHFa30Oa6slyVIeAN5nOmvw-/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 66,
-      label: "Sub-Módulo 66",
-      title: "HIV",
-      imageUrl: "https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - HIV - Pediatria_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1qv9V7YbN-hxgueZWe5LGZ9y_S957W_0q/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - HIV.pdf", pdfLink: "https://drive.google.com/file/d/1S4AnHkaYiQ1-ZjTGVM21A2KIR4DkW88X/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: HIV.pdf", pdfLink: "https://drive.google.com/file/d/1K5h3DIUcSRxBNUnCqtEz2lG4h45g6lRD/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 67,
-      label: "Sub-Módulo 67",
-      title: "Antibióticos I",
-      imageUrl: "https://images.unsplash.com/photo-1584362917165-52e812f8dc08?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Antibióticos I.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1bAORXQIbZL_rH4GYbnLe87lGYqAWlTuB/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Antibióticos I.pdf", pdfLink: "https://drive.google.com/file/d/1ytr0i9sh80ZsbeTCJH5hvdONrHszCNUM/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Antibióticos I.pdf", pdfLink: "https://drive.google.com/file/d/14Ds2Q7dKJaiD9dUfTUf_5lh6ib3lRskN/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 68,
-      label: "Sub-Módulo 68",
-      title: "Antibióticos II",
-      imageUrl: "https://images.unsplash.com/photo-1584362917165-52e812f8dc08?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Antibióticos II_cofexpress.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1d9MZNwpjWKG7UyiHQF9OJq8ISmvI4738/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Antibióticos II.pdf", pdfLink: "https://drive.google.com/file/d/19hk6vtL-lRDK6tNuxzJhRqyhYtqlIcXI/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Antibióticos II.pdf", pdfLink: "https://drive.google.com/file/d/1-oO5_k7wd-5F2lH_QqpN7liwG6gb_owr/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 69,
-      label: "Sub-Módulo 69",
-      title: "Sífilis e Uretrites Infecciosas",
-      imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Sífilis e Uretrites Infecciosas_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1oTJQS9l7ehfeAHimf-N1mUyU1p27sogW/view?usp=sharing" },
-        { id: 2, title: "Aula 02 - Urologia DSTs_COFEXPRES.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1gkx8aMjZ1MvUFi06TWAkW4Py5TfEHqtH/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Sífilis e Uretrites Infecciosas.pdf", pdfLink: "https://drive.google.com/file/d/1MEVy5PYVNyGoJSwBotmeMGNFDaM0Dfha/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Sífilis e Uretrites Infecciosas.pdf", pdfLink: "https://drive.google.com/file/d/1qjGxfy-67JIal8QOojPyIF8hJluubnW8/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 70,
-      label: "Sub-Módulo 70",
-      title: "Neurossífilis",
-      imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
-      lessons: [],
-      materials: [
-        { title: "E-Book - Neurossífilis.pdf", pdfLink: "https://drive.google.com/file/d/1dlKJg8b0jfFYxsgZyTRyDvlYYOs3qoQb/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Neurossífilis.pdf", pdfLink: "https://drive.google.com/file/d/1gba2RM3kXiagwJAtknOA7iw1BYl26ldD/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 71,
-      label: "Sub-Módulo 71",
-      title: "Tuberculose Pulmonar",
-      imageUrl: "https://images.unsplash.com/photo-1584362917165-52e812f8dc08?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Tuberculose Pulmonar_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1i9FdEI1BEarfsfypfnF4fGS0sO1LVmNJ/view?usp=sharing" },
-        { id: 2, title: "Aula 02 - Tuberculose.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/135qA10Y0Vgo0EUyc4b0dgNY7t3TmkECK/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Tuberculose Pulmonar.pdf", pdfLink: "https://drive.google.com/file/d/1UW5aMMV4fbEoeUvc015msX8DVPU65SJL/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Tuberculose Pulmonar.pdf", pdfLink: "https://drive.google.com/file/d/1dXzdBlQBZTYDLNmNDwE6CC6ABVWeg1FF/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 72,
-      label: "Sub-Módulo 72",
-      title: "Tratamento de Tuberculose e efeitos colaterais do RIPE",
-      imageUrl: "https://images.unsplash.com/photo-1550831107-1553da8c8464?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Tratamento de Tuberculose e efeitos colaterais do RIPE.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1H1tBUdPjmVTjVqwAfwVfXhhN4dM8fcxE/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Tratamento de Tuberculose e Efeitos Colaterais do RIPE.pdf", pdfLink: "https://drive.google.com/file/d/1qjloFERWmac545XDuFtS9995FvLdUu6l/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Tratamento de Tuberculose e Efeitos Colaterais do RIPE.pdf", pdfLink: "https://drive.google.com/file/d/1afruLai8CgaBDHlXGaJloVC8mePp3jj7/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 73,
-      label: "Sub-Módulo 73",
-      title: "Tuberculose Extra Pulmonar",
-      imageUrl: "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Tuberculose Extra Pulmonar_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1cfkwkEmYGkWOUaiWTTt_2N6RpQd-pLcB/view?usp=sharing" },
-        { id: 2, title: "Aula 02 - Tuberculose Extra Pulmonar.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ye-v_R-TrWFv_K39TMwcfKMekEceKQw2/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Tuberculose Extra Pulmonar.pdf", pdfLink: "https://drive.google.com/file/d/1ZXTu-DS072g6FkW5SwsSvYApuR9ruODp/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Tuberculose Extra Pulmonar.pdf", pdfLink: "https://drive.google.com/file/d/1JYixfQI_HRsdHha7wM8meREOzGeAMlCC/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 74,
-      label: "Sub-Módulo 74",
-      title: "Doenças Negligenciadas",
-      imageUrl: "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&q=80&w=400",
-      lessons: [],
-      materials: [
-        { title: "E-Book - Doenças Negligenciadas.pdf", pdfLink: "https://drive.google.com/file/d/1ZYHWGJGgM5rRiWvyTEmE0wCnQ8CO6M-8/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Doenças Negligenciadas.pdf", pdfLink: "https://drive.google.com/file/d/1KGCFUlqx31xMFp73or3BYspGSg8rmFGh/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 75,
-      label: "Sub-Módulo 75",
-      title: "Acidentes com Animais Peçonhentos",
-      imageUrl: "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Acidentes com Animais Peçonhentos_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1zoKYF1AMkM20PBSUo6Yp7C2dbB5HEaxa/view?usp=sharing" },
-        { id: 2, title: "Aula 02 - Acidentes com Animais Peçonhentos.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1vU3VgKehudy-b_Q9Sr_MBWiK-dGj0tKV/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Acidentes com Animais Peçonhentos.pdf", pdfLink: "https://drive.google.com/file/d/1LJcCUwMaNAmBPJhypvkkSH2CwGIYIGRZ/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Acidentes com Animais Peçonhentos.pdf", pdfLink: "https://drive.google.com/file/d/1naWZde85mRz_ji4xIEQMhbgpZwBFsel0/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 76,
-      label: "Sub-Módulo 76",
-      title: "Vacinação - Situações Especiais",
-      imageUrl: "https://images.unsplash.com/photo-1584362917165-52e812f8dc08?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Vacinação - Situações Especiais_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1vaIVvgE1QefO5LtGi9W1c4zGg8SnQ5gT/view?usp=sharing" },
-        { id: 2, title: "Aula 02 - Vacinação - Situações Especiais.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1p_bSvlmI183pB0c7tTLR1gK5pG1zey-4/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Vacinação: Situações Especiais.pdf", pdfLink: "https://drive.google.com/file/d/1-DiWh4-OJku87EBlNB5dua-3FYRC5MsS/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Vacinação: Situações Especiais.pdf", pdfLink: "https://drive.google.com/file/d/14UKz4XOfG0Aax2L3IXL4Q1rihGibUzMS/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 77,
-      label: "Sub-Módulo 77",
-      title: "Doenças Virais e Pandêmicas",
-      imageUrl: "https://images.unsplash.com/photo-1584036561566-b93a945cd3ae?auto=format&fit=crop&q=80&w=400",
-      lessons: [],
-      materials: [
-        { title: "E-Book - Doenças Virais e Pandêmicas.pdf", pdfLink: "https://drive.google.com/file/d/1YWPHvAkZlIBCD9QDK1aSW1Rjy4db9DhV/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Doenças Virais.pdf", pdfLink: "https://drive.google.com/file/d/1O96bUVhul1YPNRqz_Jon1q_Cw9fRF-6u/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 78,
-      label: "Sub-Módulo 78",
-      title: "Arboviroses",
-      imageUrl: "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Arboviroses - Clínica Médica.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1o26omSsCte2qlM9OumhMJypjvPaKDXXr/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Arboviroses.pdf", pdfLink: "https://drive.google.com/file/d/19TaORZTiGJBVn3xwdEjGItdgdpt8xj_j/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Arboviroses.pdf", pdfLink: "https://drive.google.com/file/d/1ILnhy3KU6rxVTtDqmwUzrKuvjAvMhbFV/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 79,
-      label: "Sub-Módulo 79",
-      title: "Icterícias febris e Febre Maculosa",
-      imageUrl: "https://images.unsplash.com/photo-1511174511562-5f7f18b874f8?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Icterícias febris e Febre Maculosa.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1_rZQ5ehPRYp8i-d5XcgimdQIsvJUuX6p/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Icterícias Febris e Febre Maculosa.pdf", pdfLink: "https://drive.google.com/file/d/1JtdwNkVfZnxjCZpgti66tANcSaj34bfJ/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Icterícias Febris e Febre Maculosa.pdf", pdfLink: "https://drive.google.com/file/d/1SLgUPkuw9jBkd6gXlJuqz-WjLz2VudhS/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 80,
-      label: "Sub-Módulo 80",
-      title: "Hepatites Virais",
-      imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Hepatites Virais - Clínica Médica_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Gfvbfyxg5U0X1JLuRBrrKOLBym4OeGbf/view?usp=sharing" },
-        { id: 2, title: "Aula 02 - Hepatites Virais - Pediatria_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1mgBAregIPCtKobWAVFSjgkrSUC2jLm3I/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Hepatites Virais.pdf", pdfLink: "https://drive.google.com/file/d/1e6jUF2apjGf45Cj7eEpdqY_jx4hHH8k0/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Hepatites Virais.pdf", pdfLink: "https://drive.google.com/file/d/1KxVDLZNfWBRNkVhDBHhzWkAXyUbcrA9K/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 81,
-      label: "Sub-Módulo 81",
-      title: "Parasitoses Intestinais",
-      imageUrl: "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Parasitoses Intestinais_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/17r-Eg5J1GPGikRZPIOR6Xc5qFaDfQvn2/view?usp=sharing" },
-        { id: 2, title: "Aula 02 - Parasitoses Intestinais - Pediatria.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1jNsy5gF_hZHLm0IK782vrCH9yfkIsysM/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Parasitoses Intestinais - Clínica Médica.pdf", pdfLink: "https://drive.google.com/file/d/11vir3SiW62SK1jP1GuUKNPVAdUp18UGI/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Parasitoses Intestinais - Clínica Médica.pdf", pdfLink: "https://drive.google.com/file/d/10H3poLmgx8mZR-N9SZbWEBvW1cgdG_DD/view?usp=sharing" }
-      ]
-    },
-    // --- 6. NEUROLOGIA ---
-    {
-      id: 82,
-      label: "Sub-Módulo 82",
-      title: "Acidente Vascular Cerebral Isquêmico (AVCi)",
-      imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
-      lessons: [],
-      materials: [
-        { title: "E-Book - Acidente Vascular Cerebral Isquêmico (AVCi).pdf", pdfLink: "https://drive.google.com/file/d/1OsHlUtRRwXeOqIVlfLmTtZtR30md8va6/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Acidente Vascular Cerebral Isquêmico (AVCi).pdf", pdfLink: "https://drive.google.com/file/d/1pa7yH7D_9169I-pFU1jw22OHnXJaBg92/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 83,
-      label: "Sub-Módulo 83",
-      title: "AVCi - Tratamento e Complicações",
-      imageUrl: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Acidente Vascular Cerebral Isquêmico (AVCi) - Tratamento.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1cZEsyDSbcDbB6z_oSeimrZp6_krDXkl8/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Acidente Vascular Cerebral Isquêmico (AVCi): Tratamento e Complicações.pdf", pdfLink: "https://drive.google.com/file/d/1CGCVi1IU--axsI216yc0PHtXsd0PHU2-/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Acidente Vascular Cerebral Isquêmico (AVCi): Tratamento e Complicações.pdf", pdfLink: "https://drive.google.com/file/d/1JIttGg8wITboGPOpUdgoEuNjYUtvyJ9q/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 84,
-      label: "Sub-Módulo 84",
-      title: "Acidente Vascular Cerebral Hemorrágico (AVCh) Intraparenquimatoso",
-      imageUrl: "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&q=80&w=400",
-      lessons: [],
-      materials: [
-        { title: "E-Book - Acidente Vascular Cerebral Hemorrágico (AVCh) Intraparenquimatoso.pdf", pdfLink: "https://drive.google.com/file/d/1S3FgiPVknpnfIOx59eWBzpxbAzhjn2qM/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Acidente Vascular Cerebral Hemorrágico (AVCh) Intraparenquimatoso.pdf", pdfLink: "https://drive.google.com/file/d/1xMhTsCI3XQ7ZMVsf0uEKDtEiiXO-Dbgj/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 85,
-      label: "Sub-Módulo 85",
-      title: "Hemorragia subaracnóidea (HSA)",
-      imageUrl: "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Hemorragia subaracnóidea (HSA)_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1igz_SA7e-lbNlLsvVigu2NXzbdgb6QJQ/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Hemorragia Subaracnóidea (HSA).pdf", pdfLink: "https://drive.google.com/file/d/10mUmf5JDbfRO8RtBkBR6FA7szAJjOmyC/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Hemorragia Subaracnóidea (HSA).pdf", pdfLink: "https://drive.google.com/file/d/1BiQ74eJb4E0-sjFu49C6qnyn37jwdHao/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 86,
-      label: "Sub-Módulo 86",
-      title: "Introdução às Cefaleias Primárias",
-      imageUrl: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Introdução às Cefaleias Primárias.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Ckth1P_YcQ0zhl85MK1OSDY7h6P70tRD/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Introdução às Cefaleias Primárias.pdf", pdfLink: "https://drive.google.com/file/d/1k09OB4PFDMAmnCR5C3nHMmgOqutGH2mm/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Introdução às Cefaleias Primárias.pdf", pdfLink: "https://drive.google.com/file/d/18iDFjMUf_Z5ec8UHyCRaHS66OyXNNYmz/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 87,
-      label: "Sub-Módulo 87",
-      title: "Enxaqueca (Migrânea)",
-      imageUrl: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&q=80&w=400",
-      lessons: [],
-      materials: [
-        { title: "E-Book - Enxaqueca (Migrânea).pdf", pdfLink: "https://drive.google.com/file/d/1QN-CaqV1OYkGj_7D5edX742cT9O6_h12/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Enxaqueca (Migrânea).pdf", pdfLink: "https://drive.google.com/file/d/1utDj-zhANmGWfg1sCDx_OqXbuUsg6zxl/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 88,
-      label: "Sub-Módulo 88",
-      title: "Cefaleias Trigêmino-Autonômicas",
-      imageUrl: "https://images.unsplash.com/photo-1628348070889-cb656235b4eb?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Cefaleias Trigêmino-Autonômicas_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1GkgRAhluQ3fBKKXr0NLZ7dy8r1wukeZS/view?usp=sharing" },
-        { id: 2, title: "Aula 02 - Cefaleias Trigêmino-Autonômicas.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1C71q3WrV9Fz73LSSLxJI_IzipnHLaY8Z/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Cefaleias Trigêmino-Autonômicas.pdf", pdfLink: "https://drive.google.com/file/d/18tlhL3igxOOF9z-eiN1MD-JgP_US6uUl/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Cefaleias Trigêmino-Autonômicas.pdf", pdfLink: "https://drive.google.com/file/d/1yBNi1OlHTYpNY1HyiW4G-xatVeqRLyT9/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 89,
-      label: "Sub-Módulo 89",
-      title: "Meningites e Encefalites",
-      imageUrl: "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Meningite e Encefalite_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1B9NQRNS5T6q5aqJfxIe0tQHosvWPHhBx/view?usp=sharing" },
-        { id: 2, title: "Aula 02 - Meningites e Encefalites_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1--4UYx3BTXDFeJNpbEFp3jwzImb3b8GD/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Meningites & Encefalites.pdf", pdfLink: "https://drive.google.com/file/d/11XR8tl2pa6WjFP0WVJns5d_eVS3-aBfH/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Meningites & Encefalites.pdf", pdfLink: "https://drive.google.com/file/d/1IBaSuMd-qRyggS75GZ2UVBmKJWb9yq6k/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 90,
-      label: "Sub-Módulo 90",
-      title: "Síndrome de Guillain-Barré (SGB)",
-      imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Síndrome de Guillain-Barré (SGB).ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1F4MIs8tURPOQSEc0_JaXO4hd7Ewk4VmX/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Síndrome de Guillain-Barré (SGB).pdf", pdfLink: "https://drive.google.com/file/d/12bQRGHa4EKwAXR1hs1p_sXC1HuEAUfrp/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Síndrome de Guillain-Barré (SGB).pdf", pdfLink: "https://drive.google.com/file/d/1unXJTBv9CO6NBXQ0tf7t0MjDOxkyamhT/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 91,
-      label: "Sub-Módulo 91",
-      title: "Miastenia Gravis",
-      imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Miastenia Gravis_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/14EO1Z_727dbe5zuGR4LaGj4z84c5sjOA/view?usp=sharing" },
-        { id: 2, title: "Aula 02 - Miastenia Gravis.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/16PKtzV-9PG0btObeqtINCwTLkuNSj4Gm/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Miastenia Gravis.pdf", pdfLink: "https://drive.google.com/file/d/1rNUNbotDyut9G4OVRtSSAsN31MnQcpWL/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Miastenia Gravis.pdf", pdfLink: "https://drive.google.com/file/d/1ecOkfC9pOMY8lMhQCYTSA82TBdYoJVHa/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 92,
-      label: "Sub-Módulo 92",
-      title: "Epilepsia",
-      imageUrl: "https://images.unsplash.com/photo-1628348068343-c6a848d2b6dd?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Epilepsia 1.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1D2ahe0EC7Ns_8PVfWvHnipYYk95TJSjH/view?usp=sharing" },
-        { id: 2, title: "Aula 02 - Epilepsia 2.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1jYKj9p9QKOuRhvsLpvOYJF5VVUU06veM/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Epilepsia.pdf", pdfLink: "https://drive.google.com/file/d/1pRyo6nsOM2-mnt1-ebYFgEdV0ZNrB5yi/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Epilepsia.pdf", pdfLink: "https://drive.google.com/file/d/1t2k4SQ8Go2qu-Um3O9pyz0QA1zV-9svd/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 93,
-      label: "Sub-Módulo 93",
-      title: "Doença de Parkinson",
-      imageUrl: "https://images.unsplash.com/photo-1511174511562-5f7f18b874f8?auto=format&fit=crop&q=80&w=400",
-      lessons: [],
-      materials: [
-        { title: "E-Book - Doença de Parkinson.pdf", pdfLink: "https://drive.google.com/file/d/1BzqUSqgwncaGkZcK_2ZGgp8pGuj5yiWv/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Doença de Parkinson.pdf", pdfLink: "https://drive.google.com/file/d/1dAEvQaHSqPYQ54YrcM2GRUIDakqxQmJQ/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 94,
-      label: "Sub-Módulo 94",
-      title: "Esclerose Múltipla (EM)",
-      imageUrl: "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&q=80&w=400",
-      lessons: [],
-      materials: [
-        { title: "E-Book - Esclerose Múltipla (EM).pdf", pdfLink: "https://drive.google.com/file/d/1AhBsTufeArh5PJNnhNeLpKtbl7-XW5L5/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Esclerose Múltipla (EM).pdf", pdfLink: "https://drive.google.com/file/d/1mfl19cL4gzplo2GCRndHocZ4rKWCf41q/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 95,
-      label: "Sub-Módulo 95",
-      title: "Neuromielite Óptica (NMO)",
-      imageUrl: "https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Neuromielite Óptica (NMO)_COFEXPRESS..ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1FTeG-Apl1FmJg1l3n9SDjKG_XNAGjQrM/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Neuromielite Optica (NMO).pdf", pdfLink: "https://drive.google.com/file/d/1EvlWv0b4kY4gr3yy5eoEAOoVjtydRnc9/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Neuromielite Optica (NMO).pdf", pdfLink: "https://drive.google.com/file/d/1DEx79gQ7uJQpIFK1rlBH-AaIjktnkjPv/view?usp=sharing" }
-      ]
-    },
-    // --- 7. NEFROLOGIA E DISTÚRBIOS HIDROELETROLÍTICOS ---
-    {
-      id: 96,
-      label: "Sub-Módulo 96",
-      title: "Gasometria Arterial I",
-      imageUrl: "https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Gasometria Arterial I (PDF com link de aula interna).ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1G07ke43twvIbrPLd7-26cTDb_Gpp6DLD/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Gasometria Arterial I.pdf", pdfLink: "https://drive.google.com/file/d/1pY090lojECS0YYOq7K1h2HMp_lTDdVNv/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Gasometria Arterial I.pdf", pdfLink: "https://drive.google.com/file/d/1mIUpmP2mZWzjTsB8iX2_3yKUoD8uaKM2/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 97,
-      label: "Sub-Módulo 97",
-      title: "Gasometria Arterial II",
-      imageUrl: "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Gasometria Arterial II_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/10qGBNz2HUPqU3UwWczIsULkmp_UrcxhQ/view?usp=sharing" },
-        { id: 2, title: "Aula 02 - Gasometria Arterial II.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1uUNsm9DW7LHBI5_l2vX4B-i4HVkzus5p/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Gasometria Arterial II.pdf", pdfLink: "https://drive.google.com/file/d/1MptRHq86RN4zBhc_PVHu4SeF8rmEysXg/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Gasometria Arterial II.pdf", pdfLink: "https://drive.google.com/file/d/16vWvv40yDLGgUS8l-AsChhhrLMBWla0F/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 98,
-      label: "Sub-Módulo 98",
-      title: "Distúrbios do Sódio",
-      imageUrl: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80&w=400",
-      lessons: [],
-      materials: [
-        { title: "E-Book - Distúrbios do Sódio.pdf", pdfLink: "https://drive.google.com/file/d/1G8i0cNwO13piBnWM4f1WIU4WQmVCsQtq/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Distúrbios do Sódio.pdf", pdfLink: "https://drive.google.com/file/d/1BHhUP2fH-2SFRannV00Wh8oxOXfviWGy/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 99,
-      label: "Sub-Módulo 99",
-      title: "Distúrbios do Potássio",
-      imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Distúrbios do Potássio.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1C4U1bXTOzq7U3fW4JSLOyTp3j6JO6RDD/view?usp=sharing" },
-        { id: 2, title: "Aula 02 - Distúrbios do Potássio_COFEXPRESS-.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1l0a18X1fcuvc8e_NLIVjyToGVy9raxuP/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Distúrbios do Potássio.pdf", pdfLink: "https://drive.google.com/file/d/1q9r5R8ZbdFFqyA-M4xCeD7RPE0Y2XAZa/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Distúrbios do Potássio.pdf", pdfLink: "https://drive.google.com/file/d/1zMyACK2YAGi9vZpEv8aeHSH4xet6MhWS/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 100,
-      label: "Sub-Módulo 100",
-      title: "Distúrbios do Cálcio",
-      imageUrl: "https://images.unsplash.com/photo-1628348070889-cb656235b4eb?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Distúrbios do Cálcio_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/16FkHHifF-3VKoV9lSlkDUrFhgh6S0mm0/view?usp=sharing" },
-        { id: 2, title: "Aula 02 - Distúrbios do Cálcio.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/19sjL9AYx6FuVlmdwTvsLqeFt8vST1fLD/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Distúrbios do Cálcio.pdf", pdfLink: "https://drive.google.com/file/d/1Nl_J3yfebV8SKgTs7l8_YIq5k3J4PGDH/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Distúrbios do Cálcio.pdf", pdfLink: "https://drive.google.com/file/d/1xhSVSuI61CdhjtT4l1FGdqozKFZIUpg6/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 101,
-      label: "Sub-Módulo 101",
-      title: "Distúrbios Hidroeletrolíticos - Outros (Magnésio e Fósforo)",
-      imageUrl: "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Distúrbios Hidroeletrolíticos - Outros (Magnésio e Fósforo)COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/15Zh3QSADArGZjEDYTMHsYmY-jZ56PvLw/view?usp=sharing" },
-        { id: 2, title: "Aula 02 - Distúrbios Hidroeletrolíticos - Outros (Magnésio e Fósforo).ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1cPgf8vzZeRwEqFz8RAhO6wRRZPh8qdCb/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Distúrbios Hidroeletrolíticos: Outros (Magnésio e Fósforo).pdf", pdfLink: "https://drive.google.com/file/d/1cMeVoKVXcA2QeLmvTZ8Z8YEH5zs9m3hs/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Distúrbios Hidroeletrolíticos: Outros (Magnésio e Fósforo).pdf", pdfLink: "https://drive.google.com/file/d/1aNNDwKmCJVBxqNHlkQBCX8WEnnxuvg9y/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 102,
-      label: "Sub-Módulo 102",
-      title: "Hipercalcemias",
-      imageUrl: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Hipercalcemias_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1n6BT80oerBtIlmHZKOWPFlgA6S5DsOPA/view?usp=sharing" },
-        { id: 2, title: "Aula 02 - Hipercalcemias.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1GS3vlLugr_JbwHOaT9upYmY-6cZjU3z-/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Hipercalcemias.pdf", pdfLink: "https://drive.google.com/file/d/1wLLLa59v7tVsQjskGGQCTdwZME2wyqbK/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Hipercalcemias.pdf", pdfLink: "https://drive.google.com/file/d/1bufG-gOfRyDnDknMVYOO920Qxp-arF6W/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 103,
-      label: "Sub-Módulo 103",
-      title: "Hipocalcemias",
-      imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Hipocalcemias_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1igz_SA7e-lbNlLsvVigu2NXzbdgb6QJQ/view?usp=sharing" },
-        { id: 2, title: "Aula 02 - Hipocalcemias.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1o4j2mAKMJsrX2V1JwJz_8usl2zR_3zTS/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Hipocalcemias.pdf", pdfLink: "https://drive.google.com/file/d/1ouFfB_5w7FFv0e2mAJW5yKuOOUOQNcH0/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Hipocalcemias.pdf", pdfLink: "https://drive.google.com/file/d/1L2Ikm_0cRRbMcnETBCbg4KwoTm-iS8u4/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 104,
-      label: "Sub-Módulo 104",
-      title: "Injúria Renal Aguda (IRA) - Parte I",
-      imageUrl: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Injúria Renal Aguda (IRA) Parte 1_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1j5AYcc-bwbYnTINxzqObPjVcojQRCfG4/view?usp=sharing" },
-        { id: 2, title: "Aula 02 - Injúria Renal Aguda (IRA) Parte 1.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1bCCS1yD7KXSyyyvfw9cRAmTlAH4_Vh1e/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Injúria Renal Aguda (IRA): Parte I.pdf", pdfLink: "https://drive.google.com/file/d/19yiaNdER8lnPj-p3oNwoU71oWzsTfy6y/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Injúria Renal Aguda (IRA): Parte I.pdf", pdfLink: "https://drive.google.com/file/d/1t0-C0B35Exp66bQiuNRlF94Ej4Q3fxFX/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 105,
-      label: "Sub-Módulo 105",
-      title: "Injúria Renal Aguda (IRA) - Parte II",
-      imageUrl: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Injúria Renal Aguda (IRA) Parte 2_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1e-cRkYNTfXIGb67tBRIAAtU7tr8ytM4J/view?usp=sharing" },
-        { id: 2, title: "Aula 02 - Injúria Renal Aguda (IRA) Parte 2.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/18gv_lUmicHxao4wBa_gO7-Zm8YTU1Zmn/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Injúria Renal Aguda (IRA): Parte II.pdf", pdfLink: "https://drive.google.com/file/d/1cZolUpdMlgMfSK59PqfCrBBkspzoec1T/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Injúria Renal Aguda (IRA): Parte II.pdf", pdfLink: "https://drive.google.com/file/d/1sWNyGvIstITbQR_8xTlaf2P96ZEpyMAG/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 106,
-      label: "Sub-Módulo 106",
-      title: "Doença Renal Crônica I",
-      imageUrl: "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Doença Renal Crônica I_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1gP5RTcucR78sO3q-wri-jdNXjwCGYuvJ/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Doença Renal Crônica I.pdf", pdfLink: "https://drive.google.com/file/d/1syhh3svcRB8pV01-UZryJVIB6ppBRpI_/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Doença Renal Crônica I.pdf", pdfLink: "https://drive.google.com/file/d/1LSrydfFkGfDbDW4VGsriL7nvZLs3ILBr/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 107,
-      label: "Sub-Módulo 107",
-      title: "Doença Renal Crônica II",
-      imageUrl: "https://images.unsplash.com/photo-1584362917165-52e812f8dc08?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Doença Renal Crônica II.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1dLB0bCsX666jGMq_ltrP-L-bh92u7WfT/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Doença Renal Crônica II.pdf", pdfLink: "https://drive.google.com/file/d/1CGOcslT9YKDDAekemTBMEjreq5HfSoxS/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Doença Renal Crônica II.pdf", pdfLink: "https://drive.google.com/file/d/1Xxf0-JXHjjcAxP4o4oHu0ZPPY-lpln9H/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 108,
-      label: "Sub-Módulo 108",
-      title: "Glomerulopatias I",
-      imageUrl: "https://images.unsplash.com/photo-1631558556708-3482a1762c23?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - COFEXPRESS Glomerulopatias I-.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1qrayQ8ZbcWjq5dJTjxvuSbVnGHQmTFiZ/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Glomerulopatias I.pdf", pdfLink: "https://drive.google.com/file/d/1lCC5cOG6_d7VMJtl9R5-pEJHzCPJSlSG/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Glomerulopatias I.pdf", pdfLink: "https://drive.google.com/file/d/1KOy_L-jO1McBqkgK7oUqUybQ4gvSFtY3/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 109,
-      label: "Sub-Módulo 109",
-      title: "Glomerulopatias II",
-      imageUrl: "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - COFEXPRESS Glomerulopatias II.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/12ogTCEUSdkuLknByogqdYoVmfezEVr7a/view?usp=sharing" },
-        { id: 2, title: "Aula 02 - VISÃO DO ESPECIALISTA Glomerulopatias II.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1wQtTcNIafvxaJtDhDO7Zkyc9JF-NkYS/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Glomerulopatias II.pdf", pdfLink: "https://drive.google.com/file/d/1Qq-dmPZjfgxaTBaoJY9WJ9v_bb_N_idi/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Glomerulopatias II.pdf", pdfLink: "https://drive.google.com/file/d/1MoMlrIZZB6gzPqnI9JYMgiGrpPBlFfp8/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 110,
-      label: "Sub-Módulo 110",
-      title: "Infecção do Trato Urinário (ITU)",
-      imageUrl: "https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Infecção do Trato Urinário (ITU)_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ejlbxYFr2YJa1iIsmpyQDSkycGUKZXE7/view?usp=sharing" },
-        { id: 2, title: "Aula 02 - Infecção de Trato Urinário (ITU).ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1DdhAG-Gcpvsav2_kVJPl3aIq2adH8QVz/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Infecção do Trato Urinário (ITU).pdf", pdfLink: "https://drive.google.com/file/d/1qnEOPovCmy12hJ1fd-kmS03A8Aw_jsAX/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Infecção do Trato Urinário (ITU).pdf", pdfLink: "https://drive.google.com/file/d/1wpcypGv2DxtxUnmz2f9IBILLEsmpp4qP/view?usp=sharing" }
-      ]
-    },
-    // --- 8. REUMATOLOGIA ---
-    {
-      id: 111,
-      label: "Sub-Módulo 111",
-      title: "Introdução às Artrites e Artrite Reumatoide (AR)",
-      imageUrl: "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Artrites e Artrite Reumatoide (AR)_COFEXPRESS parte 1.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/15GlKcYNtnHpCpca9wrMSwe5SDfU6Rn3Y/view?usp=sharing" },
-        { id: 2, title: "Aula 02 - Introdução às Artrites e Artrite Reumatoide (AR).ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1vwKzWfHQ02qqcOQDlQg8Ath5Awj_wmtt/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Introdução às Artrites e Artrite Reumatoide (AR).pdf", pdfLink: "https://drive.google.com/file/d/1MpMvsQ-B6i7UsHbVIEfLZOrnoTOb2CKj/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Introdução às Artrites.pdf", pdfLink: "https://drive.google.com/file/d/1N4HznwRTJEmFXi5VmF1tPST7peaonph8/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 112,
-      label: "Sub-Módulo 112",
-      title: "Espondiloartrites",
-      imageUrl: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Espondiloartrites_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1cR1Tn_7bxfhJxrc_ncxQrKEobfAyhFFG/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Espondiloartrites.pdf", pdfLink: "https://drive.google.com/file/d/1fwVnE9ZSdA9bWG7E_By4M4l4zoCGZiwB/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Espondiloartrites.pdf", pdfLink: "https://drive.google.com/file/d/1Qpze6hro0uYF6KsU6E9ree7KEid_P9wz/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 113,
-      label: "Sub-Módulo 113",
-      title: "Artrites Microcristalinas (Gota e CPPD)",
-      imageUrl: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Artrites Microcristalinas (Gota e CPPD) parte 1.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1o57W4ghhkrXR2O_Qr8PJOp8zhgz58342/view?usp=sharing" },
-        { id: 2, title: "Aula 02 - Artrites Microcristalinas (Gota e CPPD)_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1wKx_JZ0vX9fDNpmuD5Vqdm8lDdAmixdt/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Artrites Microcristalinas (Gota e CPPD).pdf", pdfLink: "https://drive.google.com/file/d/1-rpmWPz_UNP_qWsSFSB51AiiSpGiKLj9/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Artrites Microcristalinas (Gota e CPPD).pdf", pdfLink: "https://drive.google.com/file/d/1dRIPYfk8_wMzxcJ4NTyTpJuzjeyX1-wS/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 114,
-      label: "Sub-Módulo 114",
-      title: "Osteoartrite",
-      imageUrl: "https://images.unsplash.com/photo-1581093588401-fbb07365f557?auto=format&fit=crop&q=80&w=400",
-      lessons: [],
-      materials: [
-        { title: "E-Book - Osteoartrite.pdf", pdfLink: "https://drive.google.com/file/d/19rYz6u-q70sRhGxq8S_cDVf-TJ4hHkl9/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Osteoartrite.pdf", pdfLink: "https://drive.google.com/file/d/1yABQK3XRt6fLHpkbVSLO1ZAL82GVNFwi/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 115,
-      label: "Sub-Módulo 115",
-      title: "Fibromialgia",
-      imageUrl: "https://images.unsplash.com/photo-1550831107-1553da8c8464?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Fibromialgia.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1p0BI5Qd8KTNF85JE96ArScCniz-il4-S/view?usp=sharing" },
-        { id: 2, title: "Aula 02 - Fibromialgia_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1d-AF5InUIJF7avtqj4s-RdweqY09Djth/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Fibromialgia.pdf", pdfLink: "https://drive.google.com/file/d/1PlWqVNvm0JEvhoiQM53jghOpkkeSOVeF/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Fibromialgia.pdf", pdfLink: "https://drive.google.com/file/d/1Hw5i8eOP3YGox8hEAAaqhifyvvv_Iy-a/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 116,
-      label: "Sub-Módulo 116",
-      title: "Vasculites de Grandes e Médios Vasos",
-      imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Vasculites de Grandes e Médios Vasos.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1r76HNT4Fo5-1xMLatVs_sjRDD-CisIEz/view?usp=sharing" },
-        { id: 2, title: "Aula 02 - Vasculites de Grandes e Médios Vasos_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1rYgrfEafOYoVD9iNwCp_6AzhGeJ__8GT/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Vasculites de Grandes e Médios Vasos.pdf", pdfLink: "https://drive.google.com/file/d/1DTfQt8Iu_mNjIWVDIqq4NwCQtHcp_lAa/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Vasculites de Grandes e Médios Vasos.pdf", pdfLink: "https://drive.google.com/file/d/1hswaI8oKipmRVc3pmYn6e2Ht0OF9iEyc/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 117,
-      label: "Sub-Módulo 117",
-      title: "Vasculites de Pequenos Vasos",
-      imageUrl: "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&q=80&w=400",
-      lessons: [],
-      materials: [
-        { title: "E-Book - Vasculites de Pequenos Vasos.pdf", pdfLink: "https://drive.google.com/file/d/1N8SViwAJZMfwPGsNlFgZSwJDPJYDs4-U/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Vasculites de Pequenos Vasos.pdf", pdfLink: "https://drive.google.com/file/d/1X0ELVzWgDJ0wTbabEHx34pKYXw6Qmf4I/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 118,
-      label: "Sub-Módulo 118",
-      title: "Doença de Behçet",
-      imageUrl: "https://images.unsplash.com/photo-1584362917165-52e812f8dc08?auto=format&fit=crop&q=80&w=400",
-      lessons: [],
-      materials: [
-        { title: "E-Book - Doença de Behçet.pdf", pdfLink: "https://drive.google.com/file/d/1J5A3Fw46lPwoMMifDhT_dBnyeOYCSvX9/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Doença de Behçet.pdf", pdfLink: "https://drive.google.com/file/d/1h4PAiXG4evgRSTZ4y-InMnMDDPcqd2A4/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 119,
-      label: "Sub-Módulo 119",
-      title: "Lúpus Eritematoso Sistêmico (LES)",
-      imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Lúpus Eritematoso Sistêmico - Clínica Médica.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ee_GEB3ePOJ6ngWZWvO6Dv2kvFrLfRzF/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Lúpus Eritematoso Sistêmico.pdf", pdfLink: "https://drive.google.com/file/d/1NELpO6ZBxR8IJXqxEfMDHdzH27UYODhS/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Lúpus Eritematoso Sistêmico.pdf", pdfLink: "https://drive.google.com/file/d/1byxyBopIOXuQ0zlwmALjQvSrAWr40IRb/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 120,
-      label: "Sub-Módulo 120",
-      title: "Osteoporose",
-      imageUrl: "https://images.unsplash.com/photo-1584362917165-52e812f8dc08?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Osteoporose_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1BWZwKNG-pMGNCmTO1SzI3JHpLvyA74Ar/view?usp=sharing" },
-        { id: 2, title: "Aula 02 - Osteoporose.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1HR2k8_iIc7KDttYSi0ftd6qRsG5auSu-/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Osteoporose.pdf", pdfLink: "https://drive.google.com/file/d/1WcwaqER9Il1kPyU69ttDtUB47zMiUdSk/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Osteoporose.pdf", pdfLink: "https://drive.google.com/file/d/1mNFQQ1s9t1Y0zZv0R09NMoKFRHgXkCFM/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 121,
-      label: "Sub-Módulo 121",
-      title: "Esclerose Sistêmica",
-      imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
-      lessons: [],
-      materials: [
-        { title: "E-Book - Esclerose Sistêmica.pdf", pdfLink: "https://drive.google.com/file/d/1s8CLYgIN_b4iEDe7jcZcGECJVNwQtW_6/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Esclerose Sistêmica.pdf", pdfLink: "https://drive.google.com/file/d/11znY0YM7iqeUuCXdnvAbEdqULb6I1lLQ/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 122,
-      label: "Sub-Módulo 122",
-      title: "Doença de Sjögren",
-      imageUrl: "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Doença de Sjögren_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1jDIEmUJn3OCKuL44ghXAOOX_nSBaOdxR/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Doença de Sjögren.pdf", pdfLink: "https://drive.google.com/file/d/1uWvhFpBhM-jUdjotaSc4GB2Hfr0PImcL/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Doença de Sjögren.pdf", pdfLink: "https://drive.google.com/file/d/137ODLa4tN5MBUZPnAQX-_wsGshDmxCCt/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 123,
-      label: "Sub-Módulo 123",
-      title: "Miopatias Autoimunes Sistêmicas",
-      imageUrl: "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Miopatias Autoimunes Sistêmicas - Clínica Médica.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1jkpgWOq15zIU8sQ_uNa2nrJYtOwDs53M/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Miopatias Autoimunes Sistêmicas - Clínica Médica.pdf", pdfLink: "https://drive.google.com/file/d/18mduokRCi3bEVP9Zyklhctmpf-TUtfWy/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Miopatias Autoimunes Sistêmicas - Clínica Médica.pdf", pdfLink: "https://drive.google.com/file/d/1WlMtzotjh_qA54jKAAFomLY97TE-2kfT/view?usp=sharing" }
-      ]
-    },
-    // --- 9. HEMATOLOGIA ---
-    {
-      id: 124,
-      label: "Sub-Módulo 124",
-      title: "Avaliação Global do Hemograma",
-      imageUrl: "https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Hemato 1 Introdução às Anemias e Hemocomponentes.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/18cqIMQm-ARGCKZSebzDqeJmhIdr7rYkP/view?usp=sharing" },
-        { id: 2, title: "Aula 02 - Introdução às Anemias e Hemocomponentes_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1tSkihEokit03iSsQ1DY7jAJzhyGYNnX5/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Avaliação Global do Hemograma.pdf", pdfLink: "https://drive.google.com/file/d/1UVintVyVFQzE9xZqAIh1a4hQXz3Km0mc/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Avaliação Global do Hemograma.pdf", pdfLink: "https://drive.google.com/file/d/1eylmstGfoicPd9tfvtb93ZrGwRXqjQOs/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 125,
-      label: "Sub-Módulo 125",
-      title: "Anemias Hipoproliferativas I",
-      imageUrl: "https://images.unsplash.com/photo-1615461168405-28925c70c0f8?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Anemias Hipoproliferativas I_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1-fX48BVCbjG-pHKXHZxZWcSkHopHsvMz/view?usp=sharing" },
-        { id: 2, title: "Aula 02 - Hemato 3 Anemia Ferropriva e Talassemia_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1-T5rxnGYWyf9dUqaVmwYbSbTPFccd3aw/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Anemias Hipoproliferativas I.pdf", pdfLink: "https://drive.google.com/file/d/1paERnQQ1_ZfY4hdKXTH096F4fEx1S9mX/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Anemias Hipoproliferativas I.pdf", pdfLink: "https://drive.google.com/file/d/1Gee6QCCCayK8Q-om0C77eweE66bo0Ut-/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 126,
-      label: "Sub-Módulo 126",
-      title: "Anemias Hipoproliferativas II",
-      imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Anemias Hipoproliferativas II.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1vwH0JCJtAhHFhid7nT5sC9BBq9luh5bS/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Anemias Hipoproliferativas II.pdf", pdfLink: "https://drive.google.com/file/d/1JCjiRjg99UwLMxIR-wgnucUTz-pCDs54/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Anemias Hipoproliferativas II.pdf", pdfLink: "https://drive.google.com/file/d/1hfj6R0nRXVA_zjZMRKxIwRXzL4_u8OoG/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 127,
-      label: "Sub-Módulo 127",
-      title: "Anemias Hemolíticas Adquiridas",
-      imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Anemias Hemolíticas Adquiridas_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1rONillVxVcE_HzYpFesIts7lk2qie9X6/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Anemias Hemolíticas Adquiridas.pdf", pdfLink: "https://drive.google.com/file/d/1zE3GlS0L6K7D5qbeC0Gy31jOqsvHCm66/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Anemias Hemolíticas Adquiridas.pdf", pdfLink: "https://drive.google.com/file/d/1wNvGP_xxsDGK4adiNjeJkNHGFWTqaOyT/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 128,
-      label: "Sub-Módulo 128",
-      title: "Anemias Hemolíticas Hereditárias",
-      imageUrl: "https://images.unsplash.com/photo-1584362917165-52e812f8dc08?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Anemias Hemolíticas Hereditárias_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1qveH0eyP1JKOptnsuPA35HnBWkXuAWYw/view?usp=sharing" },
-        { id: 2, title: "Aula 02 - Hemato 2 Anemia Falciforme_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1AXpW8jooY0zcutkWou1jK2TO7Bk8PipU/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Anemias Hemolíticas Hereditárias.pdf", pdfLink: "https://drive.google.com/file/d/1C6ShvayIm8p780qSmCO7s4cKl8L66fQP/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Anemias Hemolíticas Hereditárias.pdf", pdfLink: "https://drive.google.com/file/d/12CZVn7aRxS1rwGOhmvpWb5_DPvJ0ZSEu/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 129,
-      label: "Sub-Módulo 129",
-      title: "Púrpura Trombocitopênica Trombótica (PTT)",
-      imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Púrpura Trombocitopênica Trombótica (PTT)_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1nC4CD_HrwgJeb1sODY3VAIZ70QFJDJo-/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Púrpura Trombocitopênica Trombótica (PTT).pdf", pdfLink: "https://drive.google.com/file/d/1Dxrc45YlWg9uY_HZBV4C_l9K_FO065Sv/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Púrpura Trombocitopênica Trombótica (PTT).pdf", pdfLink: "https://drive.google.com/file/d/1PFBpyR3p1lV27LyidKiMWn-aBPlPK8ib/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 130,
-      label: "Sub-Módulo 130",
-      title: "Fisiologia da Coagulação",
-      imageUrl: "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&q=80&w=400",
-      lessons: [],
-      materials: [
-        { title: "E-Book - Fisiologia da Coagulação.pdf", pdfLink: "https://drive.google.com/file/d/1vTVksWIcRbDNkhcPFJI3MSpy_dvJ1Bev/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Fisiologia da Coagulação.pdf", pdfLink: "https://drive.google.com/file/d/1uG5vY5ST_Q9X20tVNc-4EA8T1odmJxyY/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 131,
-      label: "Sub-Módulo 131",
-      title: "Distúrbios da Hemostasia",
-      imageUrl: "https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Hemato 4 Hemostasia e Distúrbios Hemorrágicos.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1vVduborvlRrC1uCyjKLbSyqdbI8CwHhL/view?usp=sharing" },
-        { id: 2, title: "Aula 02 - Hemato 4 Hemostasia e Distúrbios Hemorrágicos_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1D20QTxENHtoiXti6PVE9XttB33Je6HXe/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Distúrbios da Hemostasia.pdf", pdfLink: "https://drive.google.com/file/d/1-t8W0FbpYwa7dUlonLg023hP3E0ARG0J/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Distúrbios da Hemostasia.pdf", pdfLink: "https://drive.google.com/file/d/1IvquhKsLrw5wvkEzMFTtlhZ-ivoht_TS/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 132,
-      label: "Sub-Módulo 132",
-      title: "Hemoterapia",
-      imageUrl: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Hemoterapia_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/17S8r9ELFFgbwkW42zfr2l59uYUG2idRH/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Hemoterapia.pdf", pdfLink: "https://drive.google.com/file/d/1k5ZUiQdFVIB0URXJwWRaHJjNYoiBFu_I/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Hemoterapia.pdf", pdfLink: "https://drive.google.com/file/d/131FFF1ITC78_4ND0kdvl8BeRA9VSxZRp/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 133,
-      label: "Sub-Módulo 133",
-      title: "Leucemias",
-      imageUrl: "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Onco 1 Tumores e Leucemias_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1vtVOLuWBqZU1tF13B5oHtD6g3BubNSnd/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Leucemias.pdf", pdfLink: "https://drive.google.com/file/d/1-lOnRGq1gXVhfvbNeWFmj3eCbpoDgXMV/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Leucemias - Básico.pdf", pdfLink: "https://drive.google.com/file/d/1-3hm_0LXsZyTx1XCgIonZLQJG6hSK_-n/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 134,
-      label: "Sub-Módulo 134",
-      title: "Linfomas",
-      imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Estômago Câncer, introdução e linfomas_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1vfG4fNfRyNlKih2ucR0AOgnaNQuxwq2G/view?usp=sharing" },
-        { id: 2, title: "Aula 02 - Linfomas.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1dehP3W_MAU-oIhHKCaAG4RueAwmUvta5/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Linfomas.pdf", pdfLink: "https://drive.google.com/file/d/1uEuLnmt22gKxBGJ6NRKjpv-Mmtp3Pf8r/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Linfomas - Básico.pdf", pdfLink: "https://drive.google.com/file/d/1bLyhpy115lGWzA8pESUv90vvb7TaR5tH/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 135,
-      label: "Sub-Módulo 135",
-      title: "Discrasias Plasmocitárias",
-      imageUrl: "https://images.unsplash.com/photo-1628348070889-cb656235b4eb?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Discrasias Plasmocitárias_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1D0OU2jTeeXLR3Ydk30-6Wc8vHlFHR1hM/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Discrasias Plasmocitárias.pdf", pdfLink: "https://drive.google.com/file/d/1uMaMKAdt1HJz8m8tHLNhvzfVy4nV8Q6H/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Discrasias Plasmocitárias.pdf", pdfLink: "https://www.google.com/search?q=https://drive.google.com/file/d/1R-DM024Z1h_xstkPMYNAdecyxfAhzv/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 136,
-      label: "Sub-Módulo 136",
-      title: "Síndromes Medulares",
-      imageUrl: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Síndromes Medulares COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1swIYXSf-zqSf-fD24ynZRIcjENY4K3AS/view?usp=sharing" },
-        { id: 2, title: "Aula 02 - Síndromes Medulares (2).ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1bGhCRTTvPEArl4ltC6MJU1WwI6928Jm8/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Síndromes Medulares.pdf", pdfLink: "https://drive.google.com/file/d/1Ll7fmMSYDaQcLRh8rC4JXwfeeaRngEdR/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Síndromes Medulares.pdf", pdfLink: "https://drive.google.com/file/d/12KxqASBnPaDrkcKqR3MZ9vqI5mWKLfx0/view?usp=sharing" }
-      ]
-    },
-    // --- 10. MEDICINA DE EMERGÊNCIA E TERAPIA INTENSIVA ---
-    {
-      id: 137,
-      label: "Sub-Módulo 137",
-      title: "Via Aérea, Intubação e Ventilação Não Invasiva (VNI)",
-      imageUrl: "https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?auto=format&fit=crop&q=80&w=400",
-      lessons: [],
-      materials: [
-        { title: "E-Book - Via Aérea, Intubação e Ventilação Não-Invasiva (VNI).pdf", pdfLink: "https://drive.google.com/file/d/1CCx5jFUZ2TaLpz_mi98ZPbQLtlwWuePb/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Via Aérea, Intubação e Ventilação Não-Invasiva (VNI).pdf", pdfLink: "https://drive.google.com/file/d/1UufMw_1hxNWWYtQ3DJCbBSy0qEOiDT-6/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 138,
-      label: "Sub-Módulo 138",
-      title: "Síndrome do Desconforto Respiratório Agudo (SDRA)",
-      imageUrl: "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Insuficiência Respiratória e Síndrome do Desconforto Respiratório Agudo Pediátrico (PARDS).ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1yFBVmiFZzVMpfSOuh85qVmYZNb8g__z4/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Síndrome do Desconforto Respiratório Agudo (SDRA).pdf", pdfLink: "https://drive.google.com/file/d/11rZMPePJIlcCBdiCR1gZXFyGJ2ckRmo6/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Síndrome do Desconforto Respiratório Agudo (SDRA).pdf", pdfLink: "https://drive.google.com/file/d/1v3zVGb6391QrRDNNoGxA8IyyaAWntQvQ/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 139,
-      label: "Sub-Módulo 139",
-      title: "Princípios de Ventilação Mecânica (VM)",
-      imageUrl: "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Ventilação Mecânica_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/11027NIEsPf754pA7G4NPz1vk_EByH4vz/view?usp=sharing" },
-        { id: 2, title: "Aula 02 - Princípios de ventilação mecânica (VM)_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1-0DnaFq6CC8biVY7hYjqLKaON_D2sKaa/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Princípios de Ventilação Mecânica (VM).pdf", pdfLink: "https://drive.google.com/file/d/1QdXHGLLbTyJeM1WSfLCU_OE1TDoR3oYH/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Princípios de Ventilação Mecânica (VM).pdf", pdfLink: "https://drive.google.com/file/d/1OUSV3KSyFdWoLDwh6_2h9g5Uzp0AiJ5_/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 140,
-      label: "Sub-Módulo 140",
-      title: "Ventilação Mecânica (VM): Exercícios",
-      imageUrl: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Ventilação Mecânica.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1kO-_4DtZYfqtLAWcLPOIkv5dWKZfzl0-/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Ventilação Mecânica (VM): Exercícios.pdf", pdfLink: "https://drive.google.com/file/d/18FA8y6y28QnnHz3SDrNzHgXRy08YLiqy/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 141,
-      label: "Sub-Módulo 141",
-      title: "Pneumonia Associada à Ventilação Mecânica",
-      imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Pneumonia Associada à Ventilação Mecânica.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/11oxaflutkEDK-dNfWRVYEP8Z0pEYHx9k/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Pneumonia Associada à Ventilação Mecânica.pdf", pdfLink: "https://drive.google.com/file/d/1HeDDEzNEcXp12qfMS0etSe10mLRhgDgH/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Pneumonia Associada à Ventilação Mecânica.pdf", pdfLink: "https://drive.google.com/file/d/1kw6Vrgx--jHVqsLIKRVoWHmay0JEzM7A/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 142,
-      label: "Sub-Módulo 142",
-      title: "Intoxicações Exógenas",
-      imageUrl: "https://images.unsplash.com/photo-1628348070889-cb656235b4eb?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Intoxicações Exógenas_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1no2eKOjyFErx2xy6U0Hwqm_mxppAgzvA/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Intoxicações Exógenas.pdf", pdfLink: "https://drive.google.com/file/d/1HlRpXreIKYRjiOOkZ9lK2E4Jv1CDRar2/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Intoxicações Exógenas.pdf", pdfLink: "https://drive.google.com/file/d/1vm-X8thIRwXCiJrdz0yjZMNb0CBsYbcT/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 143,
-      label: "Sub-Módulo 143",
-      title: "Choque - Abordagem Inicial",
-      imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Choque - Abordagem Inicial_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1fKafl74xi3_d-MWglEPFZzx6eySP3u5e/view?usp=sharing" },
-        { id: 2, title: "Aula 02 - Choque - Abordagem Inicial.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1hrWV9aoD4yMKSqg2li1LKm5u620Tnrab/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Choque: Abordagem Inicial.pdf", pdfLink: "https://drive.google.com/file/d/1EWYRWn7_6vaDjM4_QZErSpagS5LOes8M/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Choque: Abordagem Inicial.pdf", pdfLink: "https://drive.google.com/file/d/1XLUpDHqC-FFrtxF91qpaPgZbbPk5fVka/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 144,
-      label: "Sub-Módulo 144",
-      title: "Choque - Tipos de Choque",
-      imageUrl: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - COFEXPRESS Choque e Drogas Vasoativas.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1FV5srgR6yLePJV89XNmZqRNLzt1Nkejk/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Choque: Tipos de Choque.pdf", pdfLink: "https://drive.google.com/file/d/1M3LppYMS4PtKuaHud70hj6niKZDVWxLk/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Choque: Tipos de Choque.pdf", pdfLink: "https://drive.google.com/file/d/1Pcc_jZUOob3dwIrFN0toQtOOBk0QbcHh/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 145,
-      label: "Sub-Módulo 145",
-      title: "Infecção de Corrente Sanguínea (ICS)",
-      imageUrl: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Infecção de Corrente Sanguínea (ICS)_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1z7hpG6IrurxiVBnVEWzYqa4wPIur27T4/view?usp=sharing" },
-        { id: 2, title: "Aula 02 - Infecção de Corrente Sanguínea (ICS).ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1GaotAM7se1HQLMTrQ_OIALihzbyN3lAj/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Infecção de Corrente Sanguínea (ICS).pdf", pdfLink: "https://drive.google.com/file/d/1gJhomDEw0xKGiOMijIELVl7gIFO8evh_/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Infecção de Corrente Sanguínea (ICS).pdf", pdfLink: "https://drive.google.com/file/d/1fa89bslzRox373ETCWyS5z6gnHaKu8Xx/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 146,
-      label: "Sub-Módulo 146",
-      title: "Analgesia e Sedação",
-      imageUrl: "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Analgesia e Sedação_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1dK-ZHr8xfEiYg4wtBHl-ZUc8bMx3BZsn/view?usp=sharing" },
-        { id: 2, title: "Aula 02 - Sedoanalgesia e Sequência Rápida de Intubação.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1-h94Yc9gEVB92N3pwxZmP7oKJIY_Fxlg/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Analgesia e Sedação.pdf", pdfLink: "https://drive.google.com/file/d/19QJ6fwBqLeGFpuLBVKI_En4_UFvIR7hk/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Analgesia e Sedação.pdf", pdfLink: "https://drive.google.com/file/d/1k74n0EQKB7ZzNkJOJwlvSRRAbLiQ6YhG/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 147,
-      label: "Sub-Módulo 147",
-      title: "Drogas Vasoativas (DVA)",
-      imageUrl: "https://images.unsplash.com/photo-1631558556708-3482a1762c23?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Drogas vasoativas (DVA).ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ujmGIcBNbvDjNqHMXBuvWUW3xHcV3WDS/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Drogas Vasoativas (DVA).pdf", pdfLink: "https://drive.google.com/file/d/10DRW3JXYGTeIRVCmPyho6X4E8V7375fn/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Drogas Vasoativas (DVA).pdf", pdfLink: "https://drive.google.com/file/d/1YK1TIMCIfhWjoHqPFOu2brGOBinW-i3b/view?usp=sharing" }
-      ]
-    },
-    // --- 11. PSIQUIATRIA ---
-    {
-      id: 148,
-      label: "Sub-Módulo 148",
-      title: "Emergências Psiquiátricas",
-      imageUrl: "https://images.unsplash.com/photo-1550831107-1553da8c8464?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Emergências psiquiátricas_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1HDmIfwe3qyK0byckjhSBt0eaPY2JRFCR/view?usp=sharing" },
-        { id: 2, title: "Aula 02 - Emergências psiquiátricas.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1jGLBaUcbGRTpa1sWAF7Gb50Dcl_uRKAd/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Emergências Psiquiátricas.pdf", pdfLink: "https://drive.google.com/file/d/1aVuZi9-x25ewXC7WGoNIM2a5AHDQVuen/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 149,
-      label: "Sub-Módulo 149",
-      title: "Transtorno de Humor - Parte I",
-      imageUrl: "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Transtorno de Humor I.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1GcKBJkF4iCczCWRBI8GQgDYE6KD-NdbI/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Transtorno de Humor I.pdf", pdfLink: "https://drive.google.com/file/d/1Ts8cczgG2oQCBuH0Kql_I1n8dbAvKBAf/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Transtorno de Humor I.pdf", pdfLink: "https://drive.google.com/file/d/1fremGCDNGhAfSUjPoHK7X3PX3YPxdpOy/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 150,
-      label: "Sub-Módulo 150",
-      title: "Transtorno de Humor - Parte II: Antidepressivos",
-      imageUrl: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Transtorno de Humor II Antidepressivos.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/14oy42xGH_PL4DqTyVW5X3aBqnnUCon70/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Transtorno de Humor II: Antidepressivos.pdf", pdfLink: "https://drive.google.com/file/d/1QslR_r4-mdNVzJS4PD4lWLK0pVN0eIgs/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Transtorno de Humor II: Antidepressivos.pdf", pdfLink: "https://drive.google.com/file/d/13_OXYhQnVQPRHp9ptHkL_LYUKlUCrkyh/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 151,
-      label: "Sub-Módulo 151",
-      title: "Transtorno de Humor - Parte III: Mania e Transtorno Bipolar",
-      imageUrl: "https://images.unsplash.com/photo-1584362917165-52e812f8dc08?auto=format&fit=crop&q=80&w=400",
-      lessons: [],
-      materials: [
-        { title: "E-Book - Transtorno de Humor III: Mania e Transtorno Bipolar.pdf", pdfLink: "https://drive.google.com/file/d/1jaQUWsFmwRNudVuHV_MTXo1anAK-qIEB/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Transtorno de Humor III: Mania e Transtorno Bipolar.pdf", pdfLink: "https://drive.google.com/file/d/1kx-nMesyBzVo5SbGdq0QWfHrqW2cMc8N/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 152,
-      label: "Sub-Módulo 152",
-      title: "Transtorno de Ansiedade",
-      imageUrl: "https://images.unsplash.com/photo-1628348068343-c6a848d2b6dd?auto=format&fit=crop&q=80&w=400",
-      lessons: [],
-      materials: [
-        { title: "E-Book - Transtorno de Ansiedade.pdf", pdfLink: "https://drive.google.com/file/d/10zMs3WU6oZqS1O833_jrGhy2jsmo8h_N/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Transtorno de Ansiedade.pdf", pdfLink: "https://drive.google.com/file/d/1gA6ijEsWp5vosI9SDVuF7TTaGRXachfp/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 153,
-      label: "Sub-Módulo 153",
-      title: "Transtornos Relacionados a Substâncias - Álcool",
-      imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Transtornos Relacionados a Substâncias - Álcool_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/141PZN4MIhQyi9sfLivWZBiuurxtaYozv/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Transtornos Relacionados a Substâncias: Álcool.pdf", pdfLink: "https://drive.google.com/file/d/1hbX2UdgIaB7NLleDfIO_JApK41Lyh2_k/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Transtornos Relacionados a Substâncias: Álcool.pdf", pdfLink: "https://drive.google.com/file/d/1Ov3X-rDyTNyNzrHu0uo_5fzvFlorQ0R9/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 154,
-      label: "Sub-Módulo 154",
-      title: "Transtorno Psicótico",
-      imageUrl: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Transtorno Psicótico.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/112PzkivdmCqpUPXeylAVnPGXqLZkuyXD/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Transtorno Psicótico.pdf", pdfLink: "https://drive.google.com/file/d/1C_Uf77MjrJDJ0sJ0XJ7bEr5D_i5T1OkP/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Transtorno Psicótico.pdf", pdfLink: "https://drive.google.com/file/d/12ntqH-kD9RoyTbLOmthG4wBLpPRxnG6e/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 155,
-      label: "Sub-Módulo 155",
-      title: "Transtornos Alimentares e Somatoformes",
-      imageUrl: "https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&q=80&w=400",
-      lessons: [],
-      materials: [
-        { title: "E-Book - Transtorno alimentares e somatoformes.pdf", pdfLink: "https://drive.google.com/file/d/1k5CBlM9G3GXrdP3dNULhl7DnLj5hn0qF/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 156,
-      label: "Sub-Módulo 156",
-      title: "Transtorno de Personalidade",
-      imageUrl: "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Transtorno de personalidade.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1is5276-Qund026TvCbu6Ne6bKUE0walG/view?usp=sharing" },
-        { id: 2, title: "Aula 02 - Transtorno de personalidade_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1D0jFEepf3jjWelhW-e6y6ksyAmSncmhv/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Transtorno de personalidade.pdf", pdfLink: "https://drive.google.com/file/d/15zqo0RpUdiiIo0-cTFv-gb5keFQhbY60/view?usp=sharing" }
-      ]
-    },
-    // --- 12. GERIATRIA ---
-    {
-      id: 157,
-      label: "Sub-Módulo 157",
-      title: "Introdução à Geriatria",
-      imageUrl: "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Introdução à Geriatria.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1w-TckTaobRXrNEMmY6yenWqopGJ2Io_t/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Introdução à Geriatria.pdf", pdfLink: "https://drive.google.com/file/d/17wo_RbT0hDqzIDKIEagmcB_GWetFSrt8/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Introdução à Geriatria.pdf", pdfLink: "https://drive.google.com/file/d/1NCTgJeMkvpak7cW_rRk8jJS49qnO_0BK/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 158,
-      label: "Sub-Módulo 158",
-      title: "Avaliação Geriátrica Ampla",
-      imageUrl: "https://images.unsplash.com/photo-1584036561566-b93a945cd3ae?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Avaliação Geriátrica Ampla_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/18PCxSOMQ8HYHXOIPcJSBgXyFS2oZa8Bm/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Avaliação Geriátrica Ampla.pdf", pdfLink: "https://drive.google.com/file/d/1juTmt0DnlxDTNEoPdBOxWNsMHwN9unMI/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Avaliação Geriátrica Ampla.pdf", pdfLink: "https://drive.google.com/file/d/1SXFJOPingaDxQZWi26pm9dTRIYhSh0-l/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 159,
-      label: "Sub-Módulo 159",
-      title: "Iatrogenia no Idoso",
-      imageUrl: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Iatrogenia no Idoso.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1lRnIzffCUH0XwVEhw7IL6mLmKChKlrNM/view?usp=sharing" },
-        { id: 2, title: "Aula 02 - Iatrogenia no Idoso_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1AvqxR0AI1MSQcz1UIViBcUlHFzn_S1XN/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Iatrogenia no Idoso.pdf", pdfLink: "https://www.google.com/search?q=https://drive.google.com/file/d/1R-p7u6_yFWE00byPMkggDHcbNemmo148/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Iatrogenia no Idoso.pdf", pdfLink: "https://drive.google.com/file/d/1pJJ3JCm9CD9fOS5lG9n05KPReLFcJBK5/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 160,
-      label: "Sub-Módulo 160",
-      title: "Instabilidade Postural, Quedas e Imobilidade",
-      imageUrl: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Instabilidade Postural, Quedas e Imobilidade_COEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1rl6s4kqkAIHAwXvrHxqNKRCH-ER5wZX4/view?usp=sharing" },
-        { id: 2, title: "Aula 02 - Instabilidade Postural, Quedas e Imobilidade.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1k2hsxQyjoe-td6dyfy9_PiGDUwct_rmX/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Instabilidade Postural, Quedas e Imobilidade.pdf", pdfLink: "https://drive.google.com/file/d/1kMNdEnhzu67O3r5JRAn7tu8v4AtEyBbF/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Instabilidade Postural, Quedas e Imobilidade.pdf", pdfLink: "https://drive.google.com/file/d/1YgqUpcidicTofn0bKcUPxIrFBLV3-LDV/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 161,
-      label: "Sub-Módulo 161",
-      title: "Vacinação do Idoso",
-      imageUrl: "https://images.unsplash.com/photo-1584362917165-52e812f8dc08?auto=format&fit=crop&q=80&w=400",
-      lessons: [],
-      materials: [
-        { title: "E-Book - Vacinação do Idoso.pdf", pdfLink: "https://drive.google.com/file/d/1JNcJcIUY9quAYeM126ux_T-hnfnysddy/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Vacinação do Idoso.pdf", pdfLink: "https://drive.google.com/file/d/1baeutTr7S8MdBY3Of8cCMrVyvU8j3l5S/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 162,
-      label: "Sub-Módulo 162",
-      title: "Depressão no Idoso",
-      imageUrl: "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Depressão no Idoso.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/117I_1_nFFlJ1S2y5Hk1hyfkh8nH05HVw/view?usp=sharing" },
-        { id: 2, title: "Aula 02 - Depressão no Idoso_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1koh7CMwiS0D3LR2j13k7vM4psUyekpqB/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Depressão no Idoso.pdf", pdfLink: "https://drive.google.com/file/d/1GxvfqG_dLlbzbzPtkNPeD1nXf7XD0gzb/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Depressão no Idoso.pdf", pdfLink: "https://drive.google.com/file/d/1dNNhMKDZefNCqGh8pOzXbrBRwkzs7Skg/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 163,
-      label: "Sub-Módulo 163",
-      title: "Insuficiência Cognitiva - Demências",
-      imageUrl: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Insuficiência Cognitiva Demências_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1mTE9luI4brCDhYvqA_CiloPTcoSHUg6f/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Insuficiência Cognitiva: Demências.pdf", pdfLink: "https://drive.google.com/file/d/1vd5pLUpcfrClsrV-MOHG-LrYmy4mrl6V/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Insuficiência Cognitiva: Demências.pdf", pdfLink: "https://drive.google.com/file/d/1cJKr6A-sUrPxc3YQITM89BghQNpHvL-v/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 164,
-      label: "Sub-Módulo 164",
-      title: "Insuficiência Cognitiva - Delirium no Idoso",
-      imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Insuficiência Cognitiva Delirium no Idoso.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1bPUhwpDgRJ5w-pJ38cgC0i2OTUflozEH/view?usp=sharing" },
-        { id: 2, title: "Aula 02 - Insuficiência Cognitiva Delirium no Idoso_COFEXPRES.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1w8c3jGlzA70HQ4Z_gmcRIiPUs_uHrqao/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Insuficiência Cognitiva: Delirium no Idoso.pdf", pdfLink: "https://drive.google.com/file/d/1b9pWI_2sGq_9m3PjiYKnHBorrT-jIAEK/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Insuficiência Cognitiva: Delirium no Idoso.pdf", pdfLink: "https://drive.google.com/file/d/1Dw28xGE8ZbQin5mg2Tugi7uXu39H-2Xt/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 165,
-      label: "Sub-Módulo 165",
-      title: "Fragilidade",
-      imageUrl: "https://images.unsplash.com/photo-1550831107-1553da8c8464?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Fragilidade.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/16-1xy9jCu8JYa4xQm4HSPMpV4nUiAfCL/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Fragilidade.pdf", pdfLink: "https://drive.google.com/file/d/1y7I3UZDl1kOYLUEIVlj2JV_zq20keSLH/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Fragilidade.pdf", pdfLink: "https://drive.google.com/file/d/1knXVoMMqE-aLAttZjKTuuj3nL_rwUOVr/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 166,
-      label: "Sub-Módulo 166",
-      title: "Incontinência Urinária no Idoso",
-      imageUrl: "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Incontinência Urinária no Idoso_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/12u-bxlHBIwu_F1HlvSG1ZmPKVjhgtTqC/view?usp=sharing" },
-        { id: 2, title: "Aula 02 - Incontinência Urinária no Idoso.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1pXz9l2h7HmMjD5k-eXk8zKV2URr8qhR1/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Incontinência Urinária no Idoso.pdf", pdfLink: "https://drive.google.com/file/d/1qt24H29hoZM4-M3WvpTZq5s2XpDfWqJO/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Incontinência Urinária no Idoso.pdf", pdfLink: "https://drive.google.com/file/d/1Ap1NALjwWqBMg-FWFhk6ljkWknNn_7fB/view?usp=sharing" }
-      ]
-    },
-    // --- 13. DERMATOLOGIA ---
-    {
-      id: 167,
-      label: "Sub-Módulo 167",
-      title: "Hanseníase",
-      imageUrl: "https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Hanseníase.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1tss35iGQItXfEG1zeXch6XcoGFbglseC/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Hanseníase.pdf", pdfLink: "https://drive.google.com/file/d/1CCNajJH9biCKItcQdysjG2jTE_WPSp-P/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Hanseníase.pdf", pdfLink: "https://drive.google.com/file/d/1iKVZfIwemv-ike1kDLyR_NLlAX-qwNnl/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 168,
-      label: "Sub-Módulo 168",
-      title: "Lesões Elementares",
-      imageUrl: "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Lesões Elementares_COFEXPRESS-.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1qGfGfxfXs_EQz1CtnY_5-iXa6-o_20rW/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Lesões Elementares.pdf", pdfLink: "https://drive.google.com/file/d/1i5ku3Vg4dUUlwzATfCDUy0BCHdmVGNY7/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Lesões Elementares.pdf", pdfLink: "https://drive.google.com/file/d/1k67l2wvEG4dHKMM52lS6W9JdGFwq23Pj/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 169,
-      label: "Sub-Módulo 169",
-      title: "Dermatoses Bolhosas",
-      imageUrl: "https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Dermatoses Bolhosas_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/11Uz_ZoEfuX1r8z-p159q8icS4xolS9Bz/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Dermatoses Bolhosas.pdf", pdfLink: "https://drive.google.com/file/d/1NzN52ty0tjZKF2-fWZG15T4FORHbK307/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Dermatoses Bolhosas.pdf", pdfLink: "https://drive.google.com/file/d/1iVGW7xmpD4yxiBmQKTAlIj83QVnhgdE3/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 170,
-      label: "Sub-Módulo 170",
-      title: "Psoríase",
-      imageUrl: "https://images.unsplash.com/photo-1550831107-1553da8c8464?auto=format&fit=crop&q=80&w=400",
-      lessons: [],
-      materials: [
-        { title: "E-Book - Psoríase.pdf", pdfLink: "https://www.google.com/search?q=https://drive.google.com/file/d/1u-XIW41tZe3HYHbt_hw5dnM73SHMmhui/view?usp=sharing" }
-      ]
-    },
-    // --- 14. OTORRINOLARINGOLOGIA E OFTALMOLOGIA ---
-    {
-      id: 171,
-      label: "Sub-Módulo 171",
-      title: "Otologia - Parte I",
-      imageUrl: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Otologia I_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1pXWiT8Se_3uvT7ZDeqluXpb_l_LKQpyQ/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Otologia I.pdf", pdfLink: "https://drive.google.com/file/d/12rAWqqcPvJIzXFDBFlcVT3MvNYDD087C/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Otologia I.pdf", pdfLink: "https://drive.google.com/file/d/1izx5wdZdMvj4FhF9__QpD_77wqd5AMh7/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 172,
-      label: "Sub-Módulo 172",
-      title: "Otologia - Parte II",
-      imageUrl: "https://images.unsplash.com/photo-1584362917165-52e812f8dc08?auto=format&fit=crop&q=80&w=400",
-      lessons: [],
-      materials: [
-        { title: "E-Book - Otologia II.pdf", pdfLink: "https://drive.google.com/file/d/1r4uV7rLqYi8J80ijfXDtBNW2YmvcjnmF/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Otologia II.pdf", pdfLink: "https://drive.google.com/file/d/1fNIkWVtvBMjW1qqfyE5zy-tWXCLdtBWg/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 173,
-      label: "Sub-Módulo 173",
-      title: "Rinologia",
-      imageUrl: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Rinologia.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Hvj0t7C5yIZ45bzJIkB3Rbvgi5zcOpGj/view?usp=sharing" },
-        { id: 2, title: "Aula 02 - Rinologia_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/127N6AQcHGlX0_kSbMN_0jfN-FcsTJ_3N/view?usp=sharing" }
-      ],
-      materials: []
-    },
-    {
-      id: 174,
-      label: "Sub-Módulo 174",
-      title: "Bucofaringolaringologia - Parte I",
-      imageUrl: "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Bucofaringolaringologia I.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1mDX37N7UTzqW_UfWG8CDu7Zmy43Gk4-e/view?usp=sharing" },
-        { id: 2, title: "Aula 02 - Bucofaringolaringologia I_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1oEoqtuL0FDC4YUmAo7tONwL2q7mVuuK4/view?usp=sharing" }
-      ],
-      materials: []
-    },
-    {
-      id: 175,
-      label: "Sub-Módulo 175",
-      title: "Bucofaringolaringologia - Parte II",
-      imageUrl: "https://images.unsplash.com/photo-1628348070889-cb656235b4eb?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Bucofaringolaringologia II.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1knh_T_yR4NKSE3MBJSggGkcR3EP0JYPp/view?usp=sharing" },
-        { id: 2, title: "Aula 02 - Bucofaringolaringologia II_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1qi2qCwDpbGxISgfK_vSfW4CYGvN9Trqo/view?usp=sharing" }
-      ],
-      materials: []
-    },
-    {
-      id: 176,
-      label: "Sub-Módulo 176",
-      title: "Oftalmologia para o Generalista - Parte I",
-      imageUrl: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=400",
-      lessons: [],
-      materials: [
-        { title: "E-Book - Oftalmologia para o Generalista: Parte I.pdf", pdfLink: "https://drive.google.com/file/d/1UqKz2faphrb17LZO3CwcdvtMasRSkuiz/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Oftalmologia para o Generalista: Parte I.pdf", pdfLink: "https://drive.google.com/file/d/1OKFM9ILMmjhmG6TNeZT9t9v2fMtCBXX9/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 177,
-      label: "Sub-Módulo 177",
-      title: "Oftalmologia para o Generalista - Parte II",
-      imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
-      lessons: [],
-      materials: [
-        { title: "E-Book - Oftalmologia para o Generalista: Parte II.pdf", pdfLink: "https://drive.google.com/file/d/1VJZAvAofSqFh0zclMJPcwFAJjjWzlCfj/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Oftalmologia para o Generalista: Parte II.pdf", pdfLink: "https://drive.google.com/file/d/1FabizvzebdZzPTcbUbDBiZ6J1ykFTQwT/view?usp=sharing" }
-      ]
-    },
-    // --- 15. MISCELÂNEA EM CLÍNICA MÉDICA ---
-    {
-      id: 178,
-      label: "Sub-Módulo 178",
-      title: "Rastreamentos - Clínica Médica",
-      imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Rastreamento.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1bq9rD132yP5C4Efv8RcOKDcUDdVZp5-5/view?usp=sharing" },
-        { id: 2, title: "Aula 02 - Novas Diretrizes de Rastreamento extensivo 2025.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1qYeQAJ9RYQi4gMW1NtGFD7AfSQ9pluSx/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Rastreamentos.pdf", pdfLink: "https://drive.google.com/file/d/1qGF8vC7HfN3RlM0xs6k97Shk6aCKeJlo/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Rastreamentos.pdf", pdfLink: "https://drive.google.com/file/d/1MoWmpUoLD_s-wBOx7IcYeN6bH_NNLbRV/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 179,
-      label: "Sub-Módulo 179",
-      title: "Oncologia - Cuidados Paliativos",
-      imageUrl: "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Oncologia Cuidados paliativos.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1FoALNfV0D12Xn0ibA7ZWQFgcmWsce06N/view?usp=sharing" },
-        { id: 2, title: "Aula 02 - Oncologia Cuidados paliativos_COFEXPRESS-.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1lc59961PJR2rsrNylCymX3ZzrQLOBYjx/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Oncologia: Cuidados Paliativos.pdf", pdfLink: "https://drive.google.com/file/d/1O5XtBOAwN8QroAWcy0ZrYDk436ADonHJ/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Oncologia: Cuidados Paliativos.pdf", pdfLink: "https://drive.google.com/file/d/1i7OOoQB2FjiQTBefypVPFkuSuHJff5hG/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 180,
-      label: "Sub-Módulo 180",
-      title: "Emergências Oncológicas",
-      imageUrl: "https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Emergências Oncológicas_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1hITt3MN8B_C2dfnqmQbbsCKv7azu2JGa/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Emergências Oncológicas.pdf", pdfLink: "https://drive.google.com/file/d/1sQeTzAEelumIdnOtOBsZWd6v2QVrsIeq/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Emergências Oncológicas.pdf", pdfLink: "https://drive.google.com/file/d/1traxvMnafhc1SunMoth3Lo3-g4mUNttX/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 181,
-      label: "Sub-Módulo 181",
-      title: "Alergia I - Rinite e Angioedema",
-      imageUrl: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Alergia I Rinite e Angioedema.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1bRrfuzaAafllSmlG258dBaXr_pHFYqhO/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Alergia I: Rinite e Angioedema.pdf", pdfLink: "https://drive.google.com/file/d/1oKGoPswLXJcGMGT2eSG_OdxvlxMErWRO/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Alergia I: Rinite e Angioedema.pdf", pdfLink: "https://drive.google.com/file/d/1eRzDAk-5bczO3NWI8ztNxhVIq8aExhcR/view?usp=sharing" }
-      ]
-    },
-    {
-      id: 182,
-      label: "Sub-Módulo 182",
-      title: "Alergia II - Reações de Hipersensibilidade",
-      imageUrl: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=400",
-      lessons: [
-        { id: 1, title: "Aula 01 - Alergia II Reações de hipersensibilidade_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1aodsApKaCHpMLofgGEHqq3GyfBJ5E2AG/view?usp=sharing" },
-        { id: 2, title: "Aula 02 - Alergia II Reações de hipersensibilidade.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1EQugTf2dNhv-w4gtLLNbBPFMUH1EqoXf/view?usp=sharing" }
-      ],
-      materials: [
-        { title: "E-Book - Alergia II: Reações de Hipersensibilidade.pdf", pdfLink: "https://drive.google.com/file/d/1ht34gXL02Hz_WZrtFD68o2ZnvwSMFh8f/view?usp=sharing" },
-        { title: "E-Book - Ficha Resumo: Alergia II: Reações de Hipersensibilidade.pdf", pdfLink: "https://drive.google.com/file/d/1_dWH7nlEjEHYAfzob0RnrNxaPU0HScLe/view?usp=sharing" }
-      ]
-    }
-    ]
-  },
-  // --- 5. INFECTOLOGIA ---
-    
-    // --- MÓDULO 04: GINECOLOGIA E OBSTETRÍCIA ---
-    {
-      id: 4,
-      title: "Módulo 04 - Ginecologia e Obstetrícia",
-      label: "Módulo 04",
+      id: 1,
+      title: "Módulo 01 - Onboarding",
+      label: "Módulo 1",
+      subModules: [
+        {
+          id: 1,
+          label: "Introdução",
+          title: "Boas-Vindas e Metodologia",
+          imageUrl: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Boas-Vindas Iniciais, História e Valores da MedCof", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1U7P-D1LOCeLViSTvPe9aTJyH9Dqi9_6B/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Conheça as Plataformas", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1GlLjujVu7U-lYeEsTD_NFOBvb1JTUwdY/view?usp=sharing" },
+            { id: 3, title: "Aula 03 - Conheça Nossa Comunidade: MedCof Plus", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Ap76tmIvXxIT5dii1qIaN7chAPT4e7lB/view?usp=sharing" },
+            { id: 4, title: "Aula 04 - Introdução ao Extensivo", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ZiCm6-aQbb9cpeJeiuPlcZtrRBqqusnD/view?usp=sharing" },
+            { id: 5, title: "Aula 05 - Como Começar a Organizar Meus Estudos?", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/199gY3_P2--MFPLg5YyTviuDimgQ88__t/view?usp=sharing" }
+          ],
+          materials: []
+        }
+      ]
+    },
+    // --- MÓDULO 2: NEUROLOGIA ---
+    {
+      id: 2,
+      title: "Módulo 02 - Neurologia",
+      label: "Módulo 2",
       subModules: [
         {
           id: 1,
           label: "Sub-Módulo 01",
-          title: "Assistência ao Pré-Natal",
-          imageUrl: "https://images.unsplash.com/photo-1555252333-9f8e92e65df9?auto=format&fit=crop&q=80&w=400",
+          title: "AVC Isquêmico",
+          imageUrl: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&q=80&w=400",
           lessons: [
-            { id: 1, title: "Aula 01 - Assistência ao pré-natal_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1j7nfaE-h-X05kJTgZR8pzJbD1msZG1Gk/view?usp=sharing" },
-            { id: 2, title: "Aula 02 - VISÃO DO ESPECIALISTA Estática Fetal.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/12JSz208I08xOTqYf-LCjviHgBIuHQYLl/view?usp=sharing" }
+            { id: 1, title: "Aula 01 - AVC Isquêmico", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1usswQ5gODX9QVGiuntXK1-v82Tmav0O4/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: AVC Isquêmico", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1PaYHrY5Zdbg6ayUPHjKRAZZcJ-WnwGe5/view?usp=sharing" }
           ],
           materials: [
-            { title: "E-Book - Assistência ao Pré-Natal.pdf", pdfLink: "https://drive.google.com/file/d/1gp9npRTathf86exHMaYQmmqHu3Uew-y6/view?usp=sharing" },
-            { title: "E-Book - Ficha Resumo: Assistência ao Pré-Natal.pdf", pdfLink: "https://drive.google.com/file/d/1Ls3Krov3S4ICDtGCjHXwt4vE2QpoqaUh/view?usp=sharing" }
+            { title: "AVC Isquêmico", pdfLink: "https://drive.google.com/file/d/1sjMw33i-5Af9lQRGlv6KNKVYQZw8WpZR/view?usp=sharing" }
           ]
         },
         {
           id: 2,
           label: "Sub-Módulo 02",
-          title: "Síndromes Hipertensivas na Gestação",
-          imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
+          title: "AVC Hemorrágico",
+          imageUrl: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=400",
           lessons: [
-            { id: 1, title: "Aula 01 - Síndromes Hipertensivas na Gestação - Parte I.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1aH_Rer38mDbOn5Eh8dqm97a4wGziddfA/view?usp=sharing" }
+            { id: 1, title: "Aula 01 - AVC Hemorrágico Intraparenquimatoso", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1NYxeRSLxA0dyi5kSAiPrxTbNNST_jI4i/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: AVC Hemorrágico Intraparenquimatoso", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1lDgOjOcNVbW0Rte890nQjVsIsZkJqTkr/view?usp=sharing" }
           ],
-          materials: []
+          materials: [
+            { title: "AVC Hemorrágico Intraparenquimatoso", pdfLink: "https://drive.google.com/file/d/1PbwGuPIXxmXG-i0JHg_P7OchT3e3QPoW/view?usp=sharing" }
+          ]
         },
         {
           id: 3,
           label: "Sub-Módulo 03",
-          title: "Sangramentos da 1ª Metade (Abortamento e Ectópica)",
-          imageUrl: "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&q=80&w=400",
+          title: "Hemorragia Subaracnóidea",
+          imageUrl: "https://images.unsplash.com/photo-1551884170-09fb70a3a2ed?auto=format&fit=crop&q=80&w=400",
           lessons: [
-            { id: 1, title: "Aula 01 - COFEXPRESS Gestação Ectópica.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/13GNhDde150aDrNI1-NohrqCDUfSqwZBl/view?usp=sharing" },
-            { id: 2, title: "Aula 02 - Aborto Legal.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1zid1Ru_CYrZfXO3l4VN-IMOpd5s5AJRp/view?usp=sharing" }
+            { id: 1, title: "Aula 01 - Hemorragia Subaracnóidea", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1SDPpuPbpsvQlL9IRiGtGIv4Z9DF6tW1Z/view?usp=sharing" },
+            { id: 2, title: "Hemorragia Subaracnóidea (HSA)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1SSrlYW1PG8CjuH01DzAIloSSj77YHVaw/view?usp=sharing" }
           ],
           materials: [
-            { title: "E-Book - VISÃO DO ESPECIALISTA Abortamento.pdf", pdfLink: "https://drive.google.com/file/d/1CYF_f9t0FidQx5ktGAj8oW1eArVcPM-Z/view?usp=sharing" }
+            { title: "Hemorragia Subaracnóidea (HSA)", pdfLink: "https://drive.google.com/file/d/1SSrlYW1PG8CjuH01DzAIloSSj77YHVaw/view?usp=sharing" }
           ]
         },
         {
           id: 4,
           label: "Sub-Módulo 04",
-          title: "Sangramentos da 2ª Metade (Placenta Prévia e DPP)",
-          imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+          title: "Meningites e Encefalites",
+          imageUrl: "https://images.unsplash.com/photo-1584362917165-526a968579e8?auto=format&fit=crop&q=80&w=400",
           lessons: [
-            { id: 1, title: "Aula 01 - Descolamento Prematuro de Placenta.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/12vf1ntS4moEK8EajnY0K0lc2L-NrxUU5/view?usp=sharing" },
-            { id: 2, title: "Aula 02 - Placenta Prévia_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1i3LkObtqBpmO2fSfBdY7TcWCcWmrmXyb/view?usp=sharing" }
+            { id: 1, title: "Aula 01 - Meningites e Encefalites", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1pI2MkfmpfsTMoXqGAUpAXzT2tmHGem2H/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Meningites e Encefalites", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1U6YsMwDedAag881G2F3KkvNfHFT_FlfK/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Meningites e Encefalites", pdfLink: "https://drive.google.com/file/d/1g_PqYTpxEwXSHV2yXmyckphLLnEFTOp4/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 5,
+          label: "Sub-Módulo 05",
+          title: "Introdução às Cefaleias Primárias",
+          imageUrl: "https://images.unsplash.com/photo-1616012480717-fd9867059ca0?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Introdução às Cefaleias Primárias", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/11am7-8XUvpwibnVH1tsFUOEbMsiihVbm/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Introdução às Cefaleias Primárias", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1C49MmBRrty_WkP8If2MJ6W0KcXkjwPTa/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Introdução às Cefaleias Primárias", pdfLink: "https://drive.google.com/file/d/16q7gN9zNmel1vrPo5UVw_pFAGO253qGA/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 6,
+          label: "Sub-Módulo 06",
+          title: "Enxaqueca (Migrânea)",
+          imageUrl: "https://images.unsplash.com/photo-1544118849-c53bd9d00377?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Enxaqueca (Migrânea)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1WOSSBNKyRPySad_3z2i9rpUfQG1R5vRt/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Enxaqueca (Migrânea)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/10O_7PecZtdaIlatmYO-sAWEfzXrH0o_s/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Enxaqueca (Migrânea)", pdfLink: "https://drive.google.com/file/d/1RjdZIFMvonO3qNcXqMxDwal7rHtSg4nR/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 7,
+          label: "Sub-Módulo 07",
+          title: "Cefaleias Trigêmino-Autonômicas",
+          imageUrl: "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Cefaleias Trigêmino-Autonômicas", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1x4ZVCXB1MOzjYJQXKscwQqq9dpWZsQnP/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Cefaleias Trigêmino-Autonômicas", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1t-jpRsqvtQi7h6gHP9CoHFTvwcDW7NcW/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Cefaleias Trigêmino-Autonômicas", pdfLink: "https://drive.google.com/file/d/1c85WyLUYlfqpwUMf0kQiZTZjbkP-uIPo/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 8,
+          label: "Sub-Módulo 08",
+          title: "Miastenia Gravis",
+          imageUrl: "https://images.unsplash.com/photo-1559757175-7b249a56012e?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Miastenia Gravis", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1lhTYkfZBv8WW_RDLO2bghgF80vfoKm1B/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Miastenia Gravis", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Rsil9PMwTEc0GEZaitLHHwOVnr8kBs-m/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Miastenia Gravis", pdfLink: "https://drive.google.com/file/d/1FX7kbQEJrzAU7XyE3hWbC4gv78R6AWo6/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 9,
+          label: "Sub-Módulo 09",
+          title: "Síndrome de Guillain-Barré",
+          imageUrl: "https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Síndrome de Guillain-Barré", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1hXiTivJ5wmrlsu3WNIfJn01_hqfxs3Ei/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Síndrome de Guillain-Barré", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Z4K4OiCpGt_jBwyUfd_ih-18z17cNcPC/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Síndrome de Guillain-Barré", pdfLink: "https://drive.google.com/file/d/1TtSkY4c5wwk8NeNaIQEOR-iBlYJC9kn3/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 10,
+          label: "Sub-Módulo 10",
+          title: "Esclerose Múltipla",
+          imageUrl: "https://images.unsplash.com/photo-1555685812-4b943f1cb0eb?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Cof Xpress: Esclerose Múltipla", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1rEce8yEX5pb0Sg-9EGs1NYr43S--AqzZ/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Esclerose Múltipla", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1f8hxGvRCy2FkGQf-3RvA9IEowDrxmiT7/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Esclerose Múltipla", pdfLink: "https://drive.google.com/file/d/199wrz6E9Wr8SQxQmFYvplqsFK0A8Qh83/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 11,
+          label: "Sub-Módulo 11",
+          title: "Doença de Parkinson",
+          imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Doença de Parkinson", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/12lpBSmGCFmDz6LfcZery0TxzCtu6v1_R/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Doença de Parkinson", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/16C7ab1AGOrTJcw56PTn2QBq1zmLyAa2f/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Doença de Parkinson", pdfLink: "https://drive.google.com/file/d/1PiLeukPiyiZKzea5BNL0Bd3xXM9BA1Lr/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 12,
+          label: "Sub-Módulo 12",
+          title: "Epilepsia",
+          imageUrl: "https://images.unsplash.com/photo-1617135092914-72c082b26002?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Cof Xpress: Epilepsia", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ry-REqkgTW8AtfKeLdlo_EycudU5BLtH/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Epilepsia", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Y61OwOd7BcbSvQ_gC9m3CVA1i1_SmqOX/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Epilepsia", pdfLink: "https://drive.google.com/file/d/1mDn371ZBcMAL5ImAITWZrZMkGWzhKIRL/view?usp=sharing" }
+          ]
+        }
+      ]
+    },
+
+    // --- MÓDULO 3: EMERGÊNCIAS ---
+    {
+      id: 3,
+      title: "Módulo 03 - Emergências",
+      label: "Módulo 3",
+      subModules: [
+        {
+          id: 1,
+          label: "Sub-Módulo 01",
+          title: "Via Aérea, Intubação e VNI",
+          imageUrl: "https://images.unsplash.com/photo-1516574187841-69301976e499?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Cof Xpress: Via Aérea, Intubação, e VNI", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1xu2ZmuqlQ44WMR5DjNfB8Qb3tcMb_bfq/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Via Aérea, Intubação, e VNI", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1xn5j028FpwJ_iz_cYGSLliCAmkGkS1GO/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Via Aérea, Intubação e VNI", pdfLink: "https://drive.google.com/file/d/1Kz8cnPOLfJxHATx6mZUzSLgANs67ZmAT/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 2,
+          label: "Sub-Módulo 02",
+          title: "Emergências Hipertensivas",
+          imageUrl: "https://images.unsplash.com/photo-1576091160550-21878bf718d9?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Emergências Hipertensivas", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1lP2Td_jVirW8c3H_yhh9tbNABTt-KALt/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Emergências Hipertensivas", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1kd_6qWkV53Uz3gzRM79W9nYR_f_wYlj6/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Emergências Hipertensivas", pdfLink: "https://drive.google.com/file/d/1bAZ7A1PCx1GvzUvOjcX85lrRJyjqjG3j/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 3,
+          label: "Sub-Módulo 03",
+          title: "Intoxicações",
+          imageUrl: "https://images.unsplash.com/photo-1624727828489-a1e03b79bba8?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Intoxicações", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1U3DoCR_nozsRVXBE_XnVmntacwqw27WB/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Intoxicações", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1-62KVakJA1blfszQfTQ1tXGA6oKILvqH/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Intoxicações", pdfLink: "https://drive.google.com/file/d/1Jg_GI9SkHMTbyE3v3GzGFqsvyzBfRaoy/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 4,
+          label: "Sub-Módulo 04",
+          title: "Diabetes: Emergências Hiperglicêmicas (CAD e EHH)",
+          imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Diabetes: Emergências Hiperglicêmicas (CAD e EHH)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1HYOJ2EgGQYUTAoCTyGQk9CcuR1ZNigs1/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Diabetes - Emergências Hiperglicêmicas (CAD e EHH)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1y1igTgdar58AXL41nxQ8-eUMnhYt4bFy/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Diabetes - Emergências Hiperglicêmicas (CAD e EHH)", pdfLink: "https://drive.google.com/file/d/18ztPmVsz95rNlKWT0rvrP4fYKh0NXxZj/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 5,
+          label: "Sub-Módulo 05",
+          title: "ACLS e BLS",
+          imageUrl: "https://images.unsplash.com/photo-1516574187841-69301976e499?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Cof Xpress: ACLS e BLS", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/110dXCvBTPlZ7RH6du-7aOQJVuvERzlck/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - ACLS e BLS", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1cbQyWbC8tNf2-adz6T0jjdRgmLmjWe4O/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "ACLS e BLS", pdfLink: "https://drive.google.com/file/d/15pUbq_mmD6odvucQCSP89VJMETv8lbGz/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 6,
+          label: "Sub-Módulo 06",
+          title: "Choque: Abordagem Inicial",
+          imageUrl: "https://images.unsplash.com/photo-1631815589968-fdb09a223b1e?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Choque: Abordagem Inicial", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1dn-5zUUNWpOuoF-nzQ09hGQqe8CxToxQ/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Choque - Abordagem Inicial", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/151aV4ZLujJ2l6drfGBjuhzOn1fy2y4TU/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Choque - Abordagem Inicial", pdfLink: "https://drive.google.com/file/d/1_sGAa_Vh3jrJ_R2xAqC0CPQQNdFTJZcA/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 7,
+          label: "Sub-Módulo 07",
+          title: "Choque: Tipos de Choque",
+          imageUrl: "https://images.unsplash.com/photo-1631815589968-fdb09a223b1e?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Choque: Tipos de Choque", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1sQvb_Lrm8LplfkNAB2UfT6F12o8jbcGT/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Choque - Tipos de Choque", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1hkANrv_immK1X_Y4JgoW8I9p2Qgmc8TL/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Choque - Tipos de Choque", pdfLink: "https://drive.google.com/file/d/1EQPH7CXCxlq7YPG7G7EPGcpQzANPphVK/view?usp=sharing" }
+          ]
+        }
+      ]
+    },
+
+    // --- MÓDULO 4: UTI ---
+    {
+      id: 4,
+      title: "Módulo 04 - UTI",
+      label: "Módulo 4",
+      subModules: [
+        {
+          id: 1,
+          label: "Sub-Módulo 01",
+          title: "Síndrome do Desconforto Respiratório Agudo (SDRA)",
+          imageUrl: "https://images.unsplash.com/photo-1530497610245-94d3c16cda28?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Cof Xpress: Síndrome do Desconforto Respiratório Agudo", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1QwPSsj--Q0b31L7fWaefkulNbl0dGFBu/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Síndrome do Desconforto Respiratório Agudo", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/135dfrUCJhAvO3i2CKpyl3tPxciHRCUr_/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Síndrome do Desconforto Respiratório Agudo", pdfLink: "https://drive.google.com/file/d/1H-bPiEZa2Vj0iTk8NlcAbqBBdMfbfIDf/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 2,
+          label: "Sub-Módulo 02",
+          title: "Princípios de Ventilação Mecânica",
+          imageUrl: "https://images.unsplash.com/photo-1631815587646-b85a160eb632?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Cof Xpress: Princípios de Ventilação Mecânica", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1k2fzSKfynfXG5oCpEVJqonWCAubcg7tV/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Princípios de Ventilação Mecânica", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1GPHNdA-QKG6Kxvc8qnuVzo3qBWLIhxWG/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Princípios de Ventilação Mecânica", pdfLink: "https://drive.google.com/file/d/1hOHJ-wesjJ4YBxMAbHWLQgOgwIevqfBo/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 3,
+          label: "Sub-Módulo 03",
+          title: "Ventilação Mecânica Avançada",
+          imageUrl: "https://images.unsplash.com/photo-1631815587646-b85a160eb632?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Cof Xpress: Ventilação Mecânica Avançada", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1RhNUAkyw0qdnwUuvS6neG9-0-0GRWv5L/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Ventilação Mecânica Avançada", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1I792h85oJm-5jfZ7TGJt4kR_LitmMnI5/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Ventilação Mecânica Avançada", pdfLink: "https://drive.google.com/file/d/1HiYaX7ju3u41qfyR52n_PnMNypHVlEmu/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 4,
+          label: "Sub-Módulo 04",
+          title: "Ventilação Mecânica Exercícios",
+          imageUrl: "https://images.unsplash.com/photo-1584036561566-b93a50208c1c?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Ventilação Mecânica: Exercícios", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1-xeIUXhABvgf6AIaGSgCx4dnpuWwvDEh/view?usp=sharing" },
+            { id: 2, title: "Ventilação Mecânica - Exercícios", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/11c0cPcW7xhUi578vMjxOaafv-iE83zuv/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Ventilação Mecânica - Exercícios", pdfLink: "https://drive.google.com/file/d/11c0cPcW7xhUi578vMjxOaafv-iE83zuv/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 5,
+          label: "Sub-Módulo 05",
+          title: "Infecção de Corrente Sanguínea",
+          imageUrl: "https://images.unsplash.com/photo-1579684453423-f84349ef60b0?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Cof Xpress: Infecção de Corrente Sanguínea", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1mjSTy7gUeKw78JYELatta8LxSR88pzCa/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Infecção de Corrente Sanguínea", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1q3CFtL3vYOOz_0Y1lumxZ-5Jn-5bzGsT/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Infecção de Corrente Sanguínea", pdfLink: "https://drive.google.com/file/d/12FzXdD2_r-Vq8OYs8UrnX69-wfEG_jM7/view?usp=sharing" }
+          ]
+        }
+      ]
+    },
+
+    // --- MÓDULO 5: GASTROENTEROLOGIA ---
+    {
+      id: 5,
+      title: "Módulo 05 - Gastroenterologia",
+      label: "Módulo 5",
+      subModules: [
+        {
+          id: 1,
+          label: "Sub-Módulo 01",
+          title: "Doença Inflamatória Intestinal",
+          imageUrl: "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Doença Inflamatória Intestinal", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1-SlXLbIKb0V4Ll2LSA_1Uv9S4JnsQxZ4/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Doença Inflamatória Intestinal", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1YiVDn5oG6jRdOBhraoLzTNxZReoy1mtC/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Doença Inflamatório Intestinal", pdfLink: "https://drive.google.com/file/d/19oLpw0Vgqi13qd4hXGYup6oamQ73GrTv/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 2,
+          label: "Sub-Módulo 02",
+          title: "Estômago I: Dispepsia, Fisiologia Gástrica e IBPS",
+          imageUrl: "https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Estômago I: Dispepsia, Fisiologia Gástrica e IBPS", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1TMjQ-EG9BacVUQ1dNeFLoJIqk_Hj4xuw/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Estômago I - Dispepsia, Fisiologia Gástrica e IBPS", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ZU9v-uSWO_gan5OVJnAutTh7lqprHkiy/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Estômago I - Dispepsia, Fisiologia Gástrica e IBPS", pdfLink: "https://drive.google.com/file/d/1M_HuYmSFY-J06-WwfU3zk7elVeYq32Rt/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 3,
+          label: "Sub-Módulo 03",
+          title: "Esôfago I: DRGE",
+          imageUrl: "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Cof Xpress: Esôfago I - DRGE", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1nZHBn0ipjK2GsAgnkcZDFzbHSYQC2h4U/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Esôfago I: DRGE", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Nlr5nO40RMXEM2AOSw1gvYRKv7r9_cRH/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Esôfago I - DRGE", pdfLink: "https://drive.google.com/file/d/1KJ1jat5cEEK5P_IP8ZplIZ5gzrN4p-7a/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 4,
+          label: "Sub-Módulo 04",
+          title: "Estômago II: Úlcera, H. Pylori, Gastrite Atrófica e Dispepsia Funcional",
+          imageUrl: "https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Cof Xpress: Estômago II - Úlcera, H. Pylori, Gastrite Atrófica e Dispepsia Funcional", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1BlNa2In-ehWpaqyOktVbt1cBxmRmAg79/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Estômago II: Úlcera, H. Pylori, Gastrite Atrófica e Dispepsia Funcional", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/146tI3hSJvoEa5boIIXcj8tfwt4PDXTiU/view?usp=sharing" }
           ],
           materials: []
         },
         {
           id: 5,
           label: "Sub-Módulo 05",
-          title: "Mecanismo e Assistência ao Parto",
-          imageUrl: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=400",
+          title: "Cirrose: Conceitos Gerais",
+          imageUrl: "https://images.unsplash.com/photo-1631558556019-d974e643c7b3?auto=format&fit=crop&q=80&w=400",
           lessons: [
-            { id: 1, title: "Aula 01 - Assistência ao Parto_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1add3qCEYiCGAs6NIi4Yb8skoIW1SisMp/view?usp=sharing" }
+            { id: 1, title: "Aula 01 - Cof Xpress: Cirrose - Conceitos Gerais", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1J1Xq9w8EYkhdBl-TEaQyuNYxyTK-wkek/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cirrose: Conceitos Gerais", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/118m83L5qK_KBJLDN-8n2L2bkfwAJZzYW/view?usp=sharing" }
           ],
-          materials: []
+          materials: [
+            { title: "Cirrose - Conceitos Gerais", pdfLink: "https://drive.google.com/file/d/1_gBJP1FAK7Y3Z2j2qaUG7RRM_WJq0Q0j/view?usp=sharing" }
+          ]
         },
         {
           id: 6,
           label: "Sub-Módulo 06",
-          title: "Hemorragia Pós-Parto",
-          imageUrl: "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&q=80&w=400",
+          title: "Ascite + PBE",
+          imageUrl: "https://images.unsplash.com/photo-1631558556019-d974e643c7b3?auto=format&fit=crop&q=80&w=400",
           lessons: [
-            { id: 1, title: "Aula 01 - Hemorragia pós parto_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/12voh5edi7GRA3KoagCLw_DjOux3EzZP5/view?usp=sharing" },
-            { id: 2, title: "Aula 02 - Hemorragia pós parto.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1oSf61y_uVhu4zqiR6cAk8b7rOs7dr4SE/view?usp=sharing" }
+            { id: 1, title: "Aula 01 - Ascite + PBE", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1pdVqDqd3R6rpP5islNCD-txg72K57sk4/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Ascite + PBE", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1opwwa8B022_Ahw4xamx5Ja5jVrt8OkJK/view?usp=sharing" }
           ],
-          materials: []
+          materials: [
+            { title: "Ascite + PBE", pdfLink: "https://drive.google.com/file/d/1g3UmLH9mCsWSSY25i0AVK9LPy3HBrmkU/view?usp=sharing" }
+          ]
         },
         {
           id: 7,
           label: "Sub-Módulo 07",
-          title: "Infecções Genitais (Corrimentos, Úlceras e DIP)",
-          imageUrl: "https://images.unsplash.com/photo-1584362917165-52e812f8dc08?auto=format&fit=crop&q=80&w=400",
+          title: "Encefalopatia Hepática e Síndrome Hepatorrenal",
+          imageUrl: "https://images.unsplash.com/photo-1631558556019-d974e643c7b3?auto=format&fit=crop&q=80&w=400",
           lessons: [
-            { id: 1, title: "Aula 01 - Corrimentos Vaginais.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1jV5veHcq7RJxB4sNufljKp1i0csrqeRk/view?usp=sharing" },
-            { id: 2, title: "Aula 02 - Doenças da Vulva e da Vagina_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ow-5ubLWE37VoezCab9ZmPl9AKc_dBMk/view?usp=sharing" }
+            { id: 1, title: "Aula 01 - Cof Xpress: Encefalopatia Hepática - Síndrome Hepatorrenal", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1p3wpekhjeOtZQUzBT7uqrSFZmG-XIw7p/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Encefalopatia Hepática: Síndrome Hepatorrenal", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1axRk4Iugk1rCyHDHNoUu7IO1c4Yc0MSr/view?usp=sharing" }
           ],
-          materials: []
+          materials: [
+            { title: "Encefalopatia Hepática - Síndrome Hepatorrenal", pdfLink: "https://drive.google.com/file/d/16YyXWHeL-Z7QHX2TAjzNoaONXHoSgPx1/view?usp=sharing" }
+          ]
         },
         {
           id: 8,
           label: "Sub-Módulo 08",
-          title: "Anticoncepção (Métodos e Critérios de Elegibilidade)",
-          imageUrl: "https://images.unsplash.com/photo-1628348070889-cb656235b4eb?auto=format&fit=crop&q=80&w=400",
+          title: "HDA e Síndrome Hepatopulmonar",
+          imageUrl: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=400",
           lessons: [
-            { id: 1, title: "Aula 01 - Anticoncepção - Fundamentos_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1B7WAlidKoCNB0fQb0X8FkUYRgwHwlCXG/view?usp=sharing" },
-            { id: 2, title: "Aula 02 - Anticoncepção em Situações Especiais.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Hwvtg6yPaS-wj6yzcx4GD7tPqnryRdiM/view?usp=sharing" }
+            { id: 1, title: "Aula 01 - HDA e Síndrome Hepatopulmonar", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1KJX7-S3dUME97TV8IQaibGzDyiFa3mrG/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: HDA e Síndrome Hepatopulmonar", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ngeumGfc5EzG2bx4f4FUoqtdeKAhNcBr/view?usp=sharing" }
           ],
           materials: [
-            { title: "E-Book - Foca na APS GO: Anticoncepção e sigilo médico.pdf", pdfLink: "https://drive.google.com/file/d/1ym-nPdwN7cbh_z6iIu0hMlwAs4XmhfKq/view?usp=sharing" }
+            { title: "HDA e Síndrome Hepatopulmonar", pdfLink: "https://drive.google.com/file/d/1wBLSb66l2NGwK_bujCMMSiQikRRlH3Yg/view?usp=sharing" }
           ]
         },
         {
           id: 9,
           label: "Sub-Módulo 09",
-          title: "Rastreamento de Câncer de Colo (Pap e Condutas)",
-          imageUrl: "https://images.unsplash.com/photo-1550831107-1553da8c8464?auto=format&fit=crop&q=80&w=400",
+          title: "Pancreatite Aguda",
+          imageUrl: "https://images.unsplash.com/photo-1559757175-7b249a56012e?auto=format&fit=crop&q=80&w=400",
           lessons: [
-            { id: 1, title: "Aula 01 - Câncer de Colo de Útero_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1b95hH9XsLJgkzXP-cHBNRI2UtS09nFE4/view?usp=sharing" },
-            { id: 2, title: "Aula 02 - Alterações Colpocitológicas e Condutas.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Dvm2Xx033sLkUTOuRK070_PswGgUE7jO/view?usp=sharing" }
+            { id: 1, title: "Aula 01 - Pancreatite Aguda", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1-pV_GtD-N-q2Z3q6-V2iszfXxmIrwcv6/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Pancreatite Aguda", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1E-ggPWrMjcHFfuQQzIU1dFCg4-FDAzQl/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Pancreatite Aguda", pdfLink: "https://drive.google.com/file/d/1Wuz8m7OuoV3vNRSdGCYANM1ZlhnVXO_e/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 10,
+          label: "Sub-Módulo 10",
+          title: "Pancreatite Crônica",
+          imageUrl: "https://images.unsplash.com/photo-1559757175-7b249a56012e?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Pancreatite Crônica", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1b0k0OGCDeFoVxisAi6QTxIAT6Gr3IGf8/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Pancreatite Crônica", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1gMTYZ5IQ1YMEOlf5P4uO4sRcu9lfc0LW/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Pancreatite Crônica", pdfLink: "https://drive.google.com/file/d/1_itPRjGLi-70w6Vk_tzdZBwO5TRgEmsW/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 11,
+          label: "Sub-Módulo 11",
+          title: "Diarreia Aguda + Clostridium",
+          imageUrl: "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Diarreia Aguda + Clostridium", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/18JJ7tlu1jEWN1cN8giUt3fxI3rB1pYa-/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Diarreia Aguda + Clostridium", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1BfYLlb4lUPuhksQoefBwRUtIoIAcYKdf/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Diarreia Aguda + Clostridium", pdfLink: "https://drive.google.com/file/d/1mdssmT9L5TsPIIGZF4HXBT0f7yGUK49I/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 12,
+          label: "Sub-Módulo 12",
+          title: "Diarreia Crônica (com Colite Microscópica)",
+          imageUrl: "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Cof Xpress: Diarreia Crônica (com Colite Microscópica)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1SaE2OsJauUhm3AFYBUkf1dTTItuxG8nH/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Diarreia Crônica (com Colite Microscópica)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1XadSPm3UXGsQUmPrbBtIeQ5qkxr3RFb4/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Diarreia Crônica (com Colite Microscópica)", pdfLink: "https://drive.google.com/file/d/13l_dXGKcZdlaKAyK2gEPCYCQJwwDKh3W/view?usp=sharing" }
+          ]
+        }
+      ]
+    },
+
+    // --- MÓDULO 6: INFECTOLOGIA ---
+    {
+      id: 6,
+      title: "Módulo 06 - Infectologia",
+      label: "Módulo 6",
+      subModules: [
+        {
+          id: 1,
+          label: "Sub-Módulo 01",
+          title: "Sífilis e Uretrites Infecciosas",
+          imageUrl: "https://images.unsplash.com/photo-1583912267550-d44d991b9847?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Sífilis e Uretrites Infecciosas", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1QEyWxtYhUuCpZNKTcVNIxU3bqppphxlJ/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Sífilis e Uretrites Infecciosas", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/11F6U6EZCj9-LQkNemdZv2BarZMehVePX/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Sífilis e Uretrites Infecciosas", pdfLink: "https://drive.google.com/file/d/1GrH35DcOwzlnU97fp-ZQGSC6xjpY2Tuc/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 2,
+          label: "Sub-Módulo 02",
+          title: "Neurossífilis",
+          imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Neurossífilis", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1LaBzYTFsNxpSx2OxnXCYSJestkKbqQtV/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Neurossífilis", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1v_5FK82w-87eiNwXsGfTeUsH1LYEQogL/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Neurossífilis", pdfLink: "https://drive.google.com/file/d/10lTjowG3SXl7VPtM6O2Kn1c_YmvwiViO/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 3,
+          label: "Sub-Módulo 03",
+          title: "Arboviroses",
+          imageUrl: "https://images.unsplash.com/photo-1596568297464-912235940986?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Arboviroses", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1yxH70PCq3yUB2J7kQ1NCoQngxQUrcx3A/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Arboviroses", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1x25CVH3-sIZGI9q6HhexnlmUx1ENEKoE/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Arboviroses", pdfLink: "https://drive.google.com/file/d/1aUyC3I0kOhbVfClb9L8LrE6gUJhM9nm-/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 4,
+          label: "Sub-Módulo 04",
+          title: "Icterícias Febris e Febre Maculosa",
+          imageUrl: "https://images.unsplash.com/photo-1584036561566-b93a50208c1c?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Cof Xpress: Icterícias Febris e Febre Maculosa", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1GrrUtMqDUDJ6ThTS1sl0GbyH_MF7CSw5/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Icterícias Febris e Febre Maculosa", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1BWYyextL9f6N6bbzaaazhGX12GJO5zDe/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Icterícias Febris e Febre Maculosa", pdfLink: "https://drive.google.com/file/d/1cjCYniCl3iLu4ikd-3m4YiEI-9kap-YI/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 5,
+          label: "Sub-Módulo 05",
+          title: "Hepatites Virais",
+          imageUrl: "https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Hepatites Virais", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1BEkJ_iHPyLr-RZCl5m6aOxHgtb2Xvr27/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Hepatites Virais", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1pqk1HgWKnFAgvMS9nJMTusr-ewaBqIbd/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Hepatites Virais", pdfLink: "https://drive.google.com/file/d/1_OfBzDDQc4PFwMuMSxyHuempO24Cp5yw/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 6,
+          label: "Sub-Módulo 06",
+          title: "Tuberculose Pulmonar",
+          imageUrl: "https://images.unsplash.com/photo-1530497610245-94d3c16cda28?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Tuberculose Pulmonar", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1mUQlCUq0YX6oRmNukOPeixcLvpY24i1Y/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Tuberculose Pulmonar", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/14kcdSQzMDJPYhq4sKeRJL1NUDINw6vuX/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Tuberculose Pulmonar", pdfLink: "https://drive.google.com/file/d/1jJi-Tsuw_Du7LZLu5ARqo3ePOrX_tlXw/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 7,
+          label: "Sub-Módulo 07",
+          title: "Tuberculose Extra Pulmonar",
+          imageUrl: "https://images.unsplash.com/photo-1530497610245-94d3c16cda28?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Tuberculose Extra Pulmonar", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1cZzjvFpgq70KOxThHbRoizjB3DBx_oql/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Tuberculose Extra Pulmonar", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1KkoagRImEzTE_8-yBT951NH2iojPjDWj/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Tuberculose Extra Pulmonar", pdfLink: "https://drive.google.com/file/d/1wSwAHIrhxCfhUxKhAZ2JoRBN7d7o_bh8/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 8,
+          label: "Sub-Módulo 08",
+          title: "Tratamento de Tuberculose e Efeitos Colaterais do Ripe",
+          imageUrl: "https://images.unsplash.com/photo-1584362917165-526a968579e8?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Tratamento de Tuberculose e Efeitos Colaterais do Ripe", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1eUdsnyJAsWLgmB9lYOavBf5VRddV36Nu/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Tratamento de Tuberculose e Efeitos Colaterais do Ripe", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1uji0V1DCW9B6kP76gQL3S2CjnerdrZCe/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Tratamento de Tuberculose e Efeitos Colaterais do Ripe", pdfLink: "https://drive.google.com/file/d/16AjtznpiB_zjTSbyEN-ou0QzK9_UTXbj/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 9,
+          label: "Sub-Módulo 09",
+          title: "Antibióticos I",
+          imageUrl: "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Cof Xpress: Antibióticos I", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/149O70TyDtClrEhjmxLji-Z7WKnJvFREN/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Antibióticos I", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1wIBtT1ql3wX8YnEUHosAMrE26fofFgKb/view?usp=sharing" }
           ],
           materials: []
         },
         {
           id: 10,
           label: "Sub-Módulo 10",
-          title: "Câncer de Mama (Rastreamento e BI-RADS)",
-          imageUrl: "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&q=80&w=400",
+          title: "HIV",
+          imageUrl: "https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&q=80&w=400",
           lessons: [
-            { id: 1, title: "Aula 01 - Câncer de Mama - Rastreamento.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1g4uzU0MKj1ZIRombx5MfAo4b4pF1cJH8/view?usp=sharing" },
-            { id: 2, title: "Aula 02 - Principais Sintomas em Mastologia_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1_3BLdqUoksIvI6VPMwDDpD2tL5eBJdus/view?usp=sharing" }
+            { id: 1, title: "Aula 01 - HIV", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1TWA29C1Tytyym9UXLtbmHDvRypK90bW3/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: HIV", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1llO_KbmyMw0UC4IBdVU1kJJFJUkB8iTj/view?usp=sharing" }
           ],
-          materials: []
+          materials: [
+            { title: "HIV", pdfLink: "https://drive.google.com/file/d/1fRHnvH-g1jFkMXlQnMaA17kmY3YbBjA3/view?usp=sharing" }
+          ]
         },
         {
           id: 11,
           label: "Sub-Módulo 11",
-          title: "Diabetes na Gestação",
-          imageUrl: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=400",
-          lessons: [],
-          materials: []
+          title: "Doenças Oportunistas HIV",
+          imageUrl: "https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Doenças Oportunistas: HIV", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1OFLw8Mlsz19ej65GfTKhbtjiDj6pvKVe/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Doenças Oportunistas - HIV", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1O3Rg-EfXKv9c86ly4CJlki8qg8SHcWZt/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Doenças Oportunistas - HIV", pdfLink: "https://drive.google.com/file/d/1zfJYZhzVfvcyXNNcR1l6f0WzDkNZ4URP/view?usp=sharing" }
+          ]
         },
         {
           id: 12,
           label: "Sub-Módulo 12",
-          title: "Rotura Prematura de Membranas (RPMO)",
-          imageUrl: "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&q=80&w=400",
+          title: "Doenças Negligenciadas",
+          imageUrl: "https://images.unsplash.com/photo-1628102491629-778571d893a3?auto=format&fit=crop&q=80&w=400",
           lessons: [
-            { id: 1, title: "Aula 01 - Rotura Prematura de Membranas Ovulares COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1aekfK78_5nPpIr-FX6nJ8JTmyxHJDNpv/view?usp=sharing" }
+            { id: 1, title: "Aula 01 - Doenças Negligenciadas", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1jcmfklednDMCoUzpcTVARWbj9ZG3QTlw/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Doenças Negligenciadas", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1a6atZHf3rUAtSgB4gEqCg0JGWkkUvDQV/view?usp=sharing" }
           ],
-          materials: []
+          materials: [
+            { title: "Doenças Negligenciadas", pdfLink: "https://drive.google.com/file/d/1ThpCrH6A394O0UGaYn0-kigBTnJN_tsD/view?usp=sharing" }
+          ]
         },
         {
           id: 13,
           label: "Sub-Módulo 13",
-          title: "Trabalho de Parto Prematuro (TPP)",
-          imageUrl: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=400",
+          title: "Parasitoses Intestinais",
+          imageUrl: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=400",
           lessons: [
-            { id: 1, title: "Aula 01 - Trabalho de Parto Prematuro.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1B_5L-8PD0yax_YqTUdRrLJuribds3kSK/view?usp=sharing" },
-            { id: 2, title: "Aula 02 - Colo Curto e Incompetência Istmocervical.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1j324u6RI14IIgJPODFAnBBMWAk6-K8D4/view?usp=sharing" }
+            { id: 1, title: "Aula 01 - Parasitoses Intestinais", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1cyk3qwNIsPGcsH9Bl5mwI2FcFFmsOuN4/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Parasitoses Intestinais", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/18E4RviPwqM2EtEEimGY4XXiFZCsur88T/view?usp=sharing" }
           ],
-          materials: []
+          materials: [
+            { title: "Parasitoses Intestinais", pdfLink: "https://drive.google.com/file/d/1-DFAHJbZYHhV_TbdmT7hSXF9hUDnbYcZ/view?usp=sharing" }
+          ]
         },
         {
           id: 14,
           label: "Sub-Módulo 14",
-          title: "Fisiologia Menstrual e Amenorreias",
-          imageUrl: "https://images.unsplash.com/photo-1628348068343-c6a848d2b6dd?auto=format&fit=crop&q=80&w=400",
+          title: "Acidentes com Animais Peçonhentos",
+          imageUrl: "https://images.unsplash.com/photo-1535591273668-578e31182c4f?auto=format&fit=crop&q=80&w=400",
           lessons: [
-            { id: 1, title: "Aula 01 - Fisiologia Menstrual.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1vHrF9Q3oDv5no7saT80ZUKbbkQX4Pa8w/view?usp=sharing" },
-            { id: 2, title: "Aula 02 - Amenorreia Secundária_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ySltVJelegQG_d0ORsptiDE1Tpm7-NG3/view?usp=sharing" }
+            { id: 1, title: "Aula 01 - Cof Xpress: Acidentes com Animais Peçonhentos", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1JtuGTjEXtTTH2JO1o1-pBsXYR6iliCqq/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Acidentes com Animais Peçonhentos", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1y-t30gvWYBJHG2GNzCq2cc3YtIyQGd68/view?usp=sharing" }
           ],
           materials: [
-            { title: "E-Book - Fisiologia Menstrual_COFEXPRESS.pdf", pdfLink: "https://drive.google.com/file/d/1CMzE8Z9i6CacnQFr1jz-QsYQUsJ3CqP4/view?usp=sharing" }
+            { title: "Acidentes com Animais Peçonhentos", pdfLink: "https://drive.google.com/file/d/1n5zegX6w6kMCflmCcmdXmXLNSFS5gAod/view?usp=sharing" }
           ]
         },
         {
           id: 15,
           label: "Sub-Módulo 15",
-          title: "Síndrome dos Ovários Policísticos (SOP)",
-          imageUrl: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&q=80&w=400",
+          title: "Doenças Virais e Pandêmicas",
+          imageUrl: "https://images.unsplash.com/photo-1584036561566-b93a50208c1c?auto=format&fit=crop&q=80&w=400",
           lessons: [
-            { id: 1, title: "Aula 01 - Síndrome dos Ovários Policísticos_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1nhxLYynIlKZ2iash5gDl0aWq-o_Qs8_m/view?usp=sharing" },
-            { id: 2, title: "Aula 02 - Síndrome dos Ovários Policísticos.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1EsKssNFjD0HEWW72Ba_9r4kvVsE_ISl6/view?usp=sharing" }
+            { id: 1, title: "Aula 01 - Cof Xpress: Doenças Virais e Pandêmicas - Parte I e II", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Fb52OMnM20W5uqyyrLm-zJHDaAO15QXi/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Doenças Virais e Pandêmicas: Parte I", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1DvxHlJdIwvUXVmkkSSzn6rwc1xIjDvT_/view?usp=sharing" },
+            { id: 3, title: "Aula 03 - Doenças Virais e Pandêmicas: Parte II", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/13odxfaS8flB8CTkhz5xUI142U8035lip/view?usp=sharing" }
           ],
-          materials: []
+          materials: [
+            { title: "Doenças Virais e Pandêmicas", pdfLink: "https://drive.google.com/file/d/1a228yNDAXjbod8H7oxFvoFhjk98QPGTP/view?usp=sharing" }
+          ]
         },
         {
           id: 16,
           label: "Sub-Módulo 16",
-          title: "Sangramento Uterino Anormal (SUA) e Miomatose",
-          imageUrl: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?auto=format&fit=crop&q=80&w=400",
+          title: "Vacinação",
+          imageUrl: "https://images.unsplash.com/photo-1628102491629-778571d893a3?auto=format&fit=crop&q=80&w=400",
           lessons: [
-            { id: 1, title: "Aula 01 - Sangramento Uterino Anormal - Leiomioma_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1mtu6trmmsYWmM1ToIkdPEwRtjtn-Vnf8/view?usp=sharing" },
-            { id: 2, title: "Aula 02 - Sangramento Uterino Anormal - Adenomiose_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1rYFOEY30e5PiXAJ-KGc2Eb6j1MwKeH1k/view?usp=sharing" }
+            { id: 1, title: "Aula 01 - Cof Xpress: Vacinação", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ElABdIZelDdKzBA5kIegs56xLNOIjroo/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Vacinação", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1aT4uqVQ8mjc2gFXKhNFNEyzIRM7Zwn5s/view?usp=sharing" }
           ],
           materials: [
-            { title: "E-Book - Sangramento Uterino Anormal - Fundamentos.pdf", pdfLink: "https://drive.google.com/file/d/1zaKiUPvpLp_jkvsHd4IiSCAb8yNPc-za/view?usp=sharing" }
+            { title: "Vacinação", pdfLink: "https://drive.google.com/file/d/1wjpvD6CLcjaHC4JnDAN4j9zZwdRMSpE2/view?usp=sharing" }
           ]
         },
         {
           id: 17,
           label: "Sub-Módulo 17",
-          title: "Incontinência Urinária e Prolapsos",
-          imageUrl: "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&q=80&w=400",
+          title: "Antibióticos II",
+          imageUrl: "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?auto=format&fit=crop&q=80&w=400",
           lessons: [
-            { id: 1, title: "Aula 01 - Incontinência Urinária de Esforço.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ruWDQ-QTnZBpVfi8O3Bla5o6rpXuixcD/view?usp=sharing" },
-            { id: 2, title: "Aula 02 - Prolapso Genital.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/10DAOoLvNEUuhFN9QOPOuQvi7spYlb0Hh/view?usp=sharing" }
+            { id: 1, title: "Aula 01 - Antibióticos II", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1cKrDvaoyiGIywuiQxnSnC0MIbkPvaKHQ/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Antibióticos II", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1zlAFdZNW_XCl4dYXZbJPnTe0Zgy0CLWQ/view?usp=sharing" }
           ],
           materials: [
-            { title: "E-Book - Propedêutica em Uroginecologia_COFEXPRESS.pdf", pdfLink: "https://drive.google.com/file/d/1Cy9YEMUJieBkhKTxnryaoWJic_acDgin/view?usp=sharing" }
+            { title: "Antibióticos II", pdfLink: "https://drive.google.com/file/d/1G7DrwmXom-KEubGIhI8unz08dq6bqbqe/view?usp=sharing" }
           ]
+        }
+      ]
+    },
+
+    // --- MÓDULO 7: IMUNOLOGIA ---
+    {
+      id: 7,
+      title: "Módulo 07 - Imunologia",
+      label: "Módulo 7",
+      subModules: [
+        {
+          id: 1,
+          label: "Sub-Módulo 01",
+          title: "Alergia I: Reações de Hipersensibilidade",
+          imageUrl: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Cof Xpress: Alergia I - Reações de Hipersensibilidade", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/184gsQYQuUqypIlgJREh-OSRdXT8Ol2v9/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Alergia I: Reações de Hipersensibilidade", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1KQ9nSHCxP5WmlojHaXx5wR-2Tp87d5Fy/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Alergia I - Reações de Hipersensibilidade", pdfLink: "https://drive.google.com/file/d/1SlFJ-Vdo2l8E4ANKaduTuA44fMJ65tLG/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 2,
+          label: "Sub-Módulo 02",
+          title: "Alergia II: Rinite Angioedema e DPV",
+          imageUrl: "https://images.unsplash.com/photo-1584362917165-526a968579e8?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Cof Xpress: Alergia II - Rinite Angioedema e DPV", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1dQn21WE_Xs1yyn56bkc2XywS-8A0yl9P/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Alergia II: Rinite Angioedema e DPV", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Hq8ra8M1VM4RBH3Owv26nhaLVt6y0fdp/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Alergia II - Rinite Angioedema e DPV", pdfLink: "https://drive.google.com/file/d/1vudKXk-N2ZriKxqWxoXatwHL4MCIto5N/view?usp=sharing" }
+          ]
+        }
+      ]
+    },
+
+    // --- MÓDULO 8: GERIATRIA ---
+    {
+      id: 8,
+      title: "Módulo 08 - Geriatria",
+      label: "Módulo 8",
+      subModules: [
+        {
+          id: 1,
+          label: "Sub-Módulo 01",
+          title: "Introdução à Geriatria",
+          imageUrl: "https://images.unsplash.com/photo-1581056771107-24ca5f033842?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Introdução à Geriatria", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/14cmcRektrWniuRx06vsPaH_eUyRBX3F4/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Introdução à Geriatria", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/133qaqD5JrLuIgpA5eQpItgLfL3XBb0Ld/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Introdução à Geriatria", pdfLink: "https://drive.google.com/file/d/1O0xF1NitBNHnuQrax2rwTQD_uh55-nte/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 2,
+          label: "Sub-Módulo 02",
+          title: "Avaliação Geriátrica Ampla",
+          imageUrl: "https://images.unsplash.com/photo-1576091160550-21878bf718d9?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Avaliação Geriátrica Ampla", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1yhlWsKz972xaBviJ_t7NIoQUUsO56RbC/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Avaliação Geriátrica Ampla", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1zt2faeC5j9Dbbtkpc3rYB984SsP3fZak/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Avaliação Geriátrica Ampla", pdfLink: "https://drive.google.com/file/d/1LTI2P9e-kwbVLZ3hNCqu1yRx9tvrqG_C/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 3,
+          label: "Sub-Módulo 03",
+          title: "Instabilidade Postural e Quedas + Imobilidade",
+          imageUrl: "https://images.unsplash.com/photo-1559757175-7b249a56012e?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Instabilidade Postural e Quedas + Imobilidade", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1h2HuvHLFtZa_vXUKjrT5TWV6KKcxzAiM/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Instabilidade Postural e Quedas + Imobilidade", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1tUD5yVMjz4qRSszTln-NYvFFDfqPiCj-/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Instabilidade Postural e Quedas + Imobilidade", pdfLink: "https://drive.google.com/file/d/1M7ECHVKQi1fEg25pvT-5-zn1sz72pfw_/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 4,
+          label: "Sub-Módulo 04",
+          title: "Vacinação do Idoso",
+          imageUrl: "https://images.unsplash.com/photo-1628102491629-778571d893a3?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Cof Xpress: Vacinação do Idoso", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1mAt7BsJeS3DOc1CsAr0Ab_PVVYf5ywGx/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Vacinação do Idoso", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1L-wI9dLvKYZmjyIFpdbh0jdLWiSE64nr/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Vacinação do Idoso", pdfLink: "https://drive.google.com/file/d/1p2MxD7NmnJGx-ofdVhGn6dSmhKJv2K3D/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 5,
+          label: "Sub-Módulo 05",
+          title: "Iatrogenia no Idoso",
+          imageUrl: "https://images.unsplash.com/photo-1584362917165-526a968579e8?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Iatrogenia no Idoso", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Nj9lD6v6sTQAtOGXch0XTSoB378uolqo/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Iatrogenia no Idoso", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1gxgn4YwYACjVnCXifS3w9qXKrsPftZP_/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Iatrogenia no Idoso", pdfLink: "https://drive.google.com/file/d/1J06xpTxuPeo6ZjhNeS7p5qxm5dOqHzyO/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 6,
+          label: "Sub-Módulo 06",
+          title: "Incontinência Urinária no Idoso",
+          imageUrl: "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Cof Xpress: Incontinência Urinária no Idoso", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/14DUYTMDwgyQKXodscygE9lE6jpVYOTel/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Incontinência Urinária no Idoso", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/162n2UNyx_XVumWwOLkt6H6VjAWNqczTP/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Incontinência Urinária no Idoso", pdfLink: "https://drive.google.com/file/d/1dIi85SoL1QRwgJ_Og1S2cgBkEDGOYYp_/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 7,
+          label: "Sub-Módulo 07",
+          title: "Insuficiência Cognitiva: Demência",
+          imageUrl: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Insuficiência Cognitiva: Demência", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1M6p16n3EYfBRYg1RG0uvSJD_Gv7YeT83/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Insuficiência Cognitiva - Demência", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/16oUIpe3h-fSX1HRyS4y-Uf_UdO_SXvEm/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Insuficiência Cognitiva - Demência", pdfLink: "https://drive.google.com/file/d/16tEq1O8VYgJLsD2KNOhT4rDTa_Uy7EW9/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 8,
+          label: "Sub-Módulo 08",
+          title: "Depressão no Idoso",
+          imageUrl: "https://images.unsplash.com/photo-1628102491629-778571d893a3?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Depressão no Idoso", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1E2nS-zfYAHL3mdgIKkemLCZU9VJjMnJJ/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Depressão no Idoso", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1CB-FhW7UG2CxC4xBPYCv82Vu9PImxm1I/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Depressão no Idoso", pdfLink: "https://drive.google.com/file/d/141SnR6Qebo0WST7ZtMQUkpubjB4LXDPD/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 9,
+          label: "Sub-Módulo 09",
+          title: "Fragilidade",
+          imageUrl: "https://images.unsplash.com/photo-1555685812-4b943f1cb0eb?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Fragilidade", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1wImsoehV4c4IuPI1E_WoCuw3jzHD9Ykd/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Fragilidade", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1qIxELK1mewh_zX15xgjq88yuAhK6X-98/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Fragilidade", pdfLink: "https://drive.google.com/file/d/1CZLW_NsyCp2umNpOqO9olKcApm8jHfpp/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 10,
+          label: "Sub-Módulo 10",
+          title: "Insuficiência Cognitiva: Delirium no Idoso",
+          imageUrl: "https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Insuficiência Cognitiva: Delirium no Idoso", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/16I2Ji3F35D-x8UnynwjLQ0MiMa9eBHkE/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Insuficiência Cognitiva - Delirium no Idoso", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1o_tPCbsQ43-JielBSquTvLgYMXlUUvC5/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Insuficiência Cognitiva - Delirium no Idoso", pdfLink: "https://drive.google.com/file/d/1tv7no9Qopswcy-97WsCzO-0_NVPFgz4H/view?usp=sharing" }
+          ]
+        }
+      ]
+    },
+
+    // --- MÓDULO 9: NEFROLOGIA ---
+    {
+      id: 9,
+      title: "Módulo 09 - Nefrologia",
+      label: "Módulo 9",
+      subModules: [
+        {
+          id: 1,
+          label: "Sub-Módulo 01",
+          title: "Glomerulopatias: Parte I",
+          imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Glomerulopatias: Parte I", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1LNYdB9BKGdI2e-O76DV_wC2UBuY1qO-s/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Glomerulopatias - Parte I", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1KgIy71YRbE2iQKsQn6LEtmU5WhgMHyuQ/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Glomerulopatias - Parte I", pdfLink: "https://drive.google.com/file/d/1SwCB2l6xnEFVZ9UOLPum_76uHX_vF5Nr/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 2,
+          label: "Sub-Módulo 02",
+          title: "Glomerulopatias: Parte II",
+          imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Cof Xpress: Glomerulopatias - Parte II", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/14B2VntFnVOWIkyzNECtldPu3-DPEsnzQ/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Glomerulopatias: Parte II", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/12gskrfyvB37uTa9dGsgKJo4NIuxagVtp/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Glomerulopatias - Parte II", pdfLink: "https://drive.google.com/file/d/1G_JwR0BHtbLkyVGINnZDPj-Ld5yp44GO/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 3,
+          label: "Sub-Módulo 03",
+          title: "Distúrbios do Potássio",
+          imageUrl: "https://images.unsplash.com/photo-1628102491629-778571d893a3?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Cof Xpress: Distúrbios do Potássio", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/16xL-WUPl3_L1lmRDFLfllQIT2BPzu_51/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Distúrbios do Potássio", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1iGbeFk6SzTFiztBb6vehZiqY9y5PSBCd/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Distúrbios do Potássio", pdfLink: "https://drive.google.com/file/d/1J7-f0MYLFAl4GfvvaDCz1xmKlPMMWCwg/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 4,
+          label: "Sub-Módulo 04",
+          title: "Distúrbios do Sódio",
+          imageUrl: "https://images.unsplash.com/photo-1628102491629-778571d893a3?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Cof Xpress: Distúrbios do Sódio", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1D8Hij-9h_z2mOROSMNzHnYK_tYPlyvCT/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Distúrbios do Sódio", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1q5a_1AYopt42XxGpK_m-MpOTRW2oA2IT/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Distúrbios do Sódio", pdfLink: "https://drive.google.com/file/d/1-Erf6sEKNnpR7Qf3q_hxgwSM0OWFZTdJ/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 5,
+          label: "Sub-Módulo 05",
+          title: "Injúria Renal Aguda: Parte I",
+          imageUrl: "https://images.unsplash.com/photo-1559757175-7b249a56012e?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Injúria Renal Aguda: Parte I", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1fw_1QbGRZ6rsGsJVtrsgh0EnAABXjDDX/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Injúria Renal Aguda - Parte I", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/14oWbsVUEy2JwKflBJPG3j0UUZ50uCvUb/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Injúria Renal Aguda - Parte I", pdfLink: "https://drive.google.com/file/d/1NKEcTTvB_0eEQJIJLfwcVfBBvS46pYOs/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 6,
+          label: "Sub-Módulo 06",
+          title: "Injúria Renal Aguda: Parte II",
+          imageUrl: "https://images.unsplash.com/photo-1559757175-7b249a56012e?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Injúria Renal Aguda: Parte II", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1-AIZkzTaYeuooMuhXZD6cBP5qiDFJy17/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Injúria Renal Aguda - Parte II", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1zTLpEj_P6l7-yfUm-MPXznRbXMHNjjrM/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Injúria Renal Aguda - Parte II", pdfLink: "https://drive.google.com/file/d/1_YztnVb6lxEAKhKIcXpXtSdCVZmh8eiZ/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 7,
+          label: "Sub-Módulo 07",
+          title: "Gasometria Arterial: Parte I",
+          imageUrl: "https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Gasometria Arterial: Parte I", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ozS7NZepiHhfCbeKL7JMjujL69FQLA51/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Gasometria Arterial - Parte I", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Ye-5hJs7QxMiZr35fdlM7zb4VXNGiBd9/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Gasometria Arterial - Parte I", pdfLink: "https://drive.google.com/file/d/1SegkzwiaZKmXfzNB9ucOpJDaFyLW8Fwe/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 8,
+          label: "Sub-Módulo 08",
+          title: "Gasometria Arterial: Parte II",
+          imageUrl: "https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Cof Xpress: Gasometria Arterial - Parte II", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1G7ZSxaemJwG-B64aDuXLO-MkEMES3NSd/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Gasometria Arterial: Parte II", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1aDhReHFXNHbLHjgNglKf6_KZ8Za62Qgj/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Gasometria Arterial - Parte II", pdfLink: "https://drive.google.com/file/d/1FL8IN5gISzECt2aEXf9QtOkUcLCmVOSH/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 9,
+          label: "Sub-Módulo 09",
+          title: "Doença Renal Crônica I: Avaliação de Função Renal, Causas e Estratificação",
+          imageUrl: "https://images.unsplash.com/photo-1559757175-7b249a56012e?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Cof Xpress: Doença Renal Crônica I - Avaliação de Função Renal, Causas e Estratificação", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1NuFXSwoaxloUE5MXop_E5fVt88NLuGBt/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Doença Renal Crônica I: Avaliação de Função Renal, Causas e Estratificação", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Ou0J2dpHpdw3qhFc_imXhlx0vmg1PUZF/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Doença Renal Crônica I - Avaliação de Função Renal, Causas e Estratificação", pdfLink: "https://drive.google.com/file/d/1PCKySCqkYnbLRGUV5XyqnFiigCoNsih0/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 10,
+          label: "Sub-Módulo 10",
+          title: "Doença Renal Crônica II: Tratamento",
+          imageUrl: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Cof Xpress: Doença Renal Crônica II - Tratamento", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1JE030AQaTUO3Z4CdmnqCK-JnfPh6MQLI/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Doença Renal Crônica II: Tratamento", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1v7a6zw9EwQGdat3LNdwtLGmvUrB-QMcT/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Doença Renal Crônica II - Tratamento", pdfLink: "https://drive.google.com/file/d/1YMV2LFN_5K5eBT5JAIuy3TPC2dcM1HWx/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 11,
+          label: "Sub-Módulo 11",
+          title: "Infecção Urinária na Prática Clínica",
+          imageUrl: "https://images.unsplash.com/photo-1628102491629-778571d893a3?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Cof Xpress: Infecção Urinária na Prática Clínica", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1STVmUf--jcf9EcLJTtxsyTR0s7fa37-b/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Infecção Urinária na Prática Clínica", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1IshuXRtxEoNsk8WjeJfhM3VDHccfm0GL/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Infecção Urinária na Prática Clínica", pdfLink: "https://drive.google.com/file/d/1LsG61az9Rt4ztPMLmMm5TCIL2PXloBop/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 12,
+          label: "Sub-Módulo 12",
+          title: "Injúria Renal Aguda: Parte III",
+          imageUrl: "https://images.unsplash.com/photo-1559757175-7b249a56012e?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Injúria Renal Aguda: Parte III", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1GiKft7PtOKF-AYJFnSHLF1JHrnl8N5q6/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Injúria Renal Aguda - Parte III", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1JA2spz8u7NuRRZwnft5F0cWYLYbz-qPh/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Injúria Renal Aguda - Parte III", pdfLink: "https://drive.google.com/file/d/1bVP7bpihrpECpySsuXuaKXpZ-Qp3sVWn/view?usp=sharing" }
+          ]
+        }
+      ]
+    },
+    // --- MÓDULO 10: REUMATOLOGIA ---
+    {
+      id: 10,
+      title: "Módulo 10 - Reumatologia",
+      label: "Módulo 10",
+      subModules: [
+        {
+          id: 1,
+          label: "Sub-Módulo 01",
+          title: "Introdução às Artrites",
+          imageUrl: "https://images.unsplash.com/photo-1584362917165-526a968579e8?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Introdução às Artrites", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Ti0HQAGN-Ysy3r3qP7Jva8d2ffxAvC8r/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Introdução às Artrites", pdfLink: "https://drive.google.com/file/d/1Caroyh77lzx3_6cMr4PtYrcmdIbj-bEo/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 2,
+          label: "Sub-Módulo 02",
+          title: "Artrite Reumatoide",
+          imageUrl: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Cof Xpress: Artrite Reumatoide", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Uv0c2LywYResevXjcX8WYDQ7mUWrCapx/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Artrite Reumatoide", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1TzOAxN0svGo5TXzk6bjUgS0t2cGlo3Y6/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Artrite Reumatoide", pdfLink: "https://drive.google.com/file/d/1r4eYSeF2A4eIAoNZKm5p68Ubtj7tWwA7/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 3,
+          label: "Sub-Módulo 03",
+          title: "Osteoartrite",
+          imageUrl: "https://images.unsplash.com/photo-1631558556019-d974e643c7b3?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Cof Xpress: Osteoartrite", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/14qZFDamSLRIcLvgcE8Ve_EncHOqOSm7R/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Osteoartrite", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1k0QYdz0hicVyPaLBmUMug1BNjIVHrscB/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Osteoartrite", pdfLink: "https://drive.google.com/file/d/1ZoAeCRwKQaYu8x0yJqv5gukmF_e2_Pxc/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 4,
+          label: "Sub-Módulo 04",
+          title: "Artrites Microcristalinas (Gota e CPPD)",
+          imageUrl: "https://images.unsplash.com/photo-1559757175-7b249a56012e?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Artrites Microcristalinas (Gota e CPPD)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1KC32DRCHR5CLqrv9VmrjgmVye-PYX2A5/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Artrites Microcristalinas (Gota e CPPD)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/19u3yxvDJJxK5i7f6eu2S1cN6hDuQGTIh/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Artrites Microcristalinas (Gota e CPPD)", pdfLink: "https://drive.google.com/file/d/1LqT-DzjVUqQQn6IPoNyx0VyO7y3R-xWX/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 5,
+          label: "Sub-Módulo 05",
+          title: "Fibromialgia",
+          imageUrl: "https://images.unsplash.com/photo-1576091160550-21878bf718d9?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Fibromialgia", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1odjpEWTLybwY5bQzxx5nULqDYhEw7ACi/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Fibromialgia", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1MzrbkvvHNnL9DXuMm7_ZIP0cB2HQBx5Y/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Fibromialgia", pdfLink: "https://drive.google.com/file/d/1GhGZ-lRtpvfjgI9nSt9-plwplFH7t2_3/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 6,
+          label: "Sub-Módulo 06",
+          title: "Espondiloartrites",
+          imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Espondiloartrites", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/14OQlL55dOoSpP3z-uOnIP1VsErQcSItf/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Espondiloartrites", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1wOshvn92VNlmmupeuFcwgL2EMNlz4dsu/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Espondiloartrites", pdfLink: "https://drive.google.com/file/d/1YXtSFih-FXw1e4FksOBYU3ToCDOJyQWB/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 7,
+          label: "Sub-Módulo 07",
+          title: "Vasculites Sistêmicas",
+          imageUrl: "https://images.unsplash.com/photo-1628102491629-778571d893a3?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Vasculites Sistêmicas (Grandes Vasos, PAN, Vasculites Anca-Associadas e Crioglobulinemia)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1e0zwje6-S2gtow84owLExNicl5yudRFv/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Vasculites Sistêmicas (Grandes Vasos, PAN, Vasculites Anca-Associadas e Crioglobulinemia)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1WlywgW2_R57z4TN8w_ZPzvLJUN9XqVpW/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Vasculites Sistêmicas", pdfLink: "https://drive.google.com/file/d/1-BIScxM_q3s9ZlCpOtcy7Ht4DGZwaY_D/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 8,
+          label: "Sub-Módulo 08",
+          title: "Doença de Behçet",
+          imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Cof Xpress: Doença de Behçet", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/16Q7jzgULpx8B-_kaWiQdbi5-Z9eDqf5d/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Doença de Behçet", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1djM74rShRiL6hjUsAOW_ZBd-XA7lnBd9/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Doença de Behçet", pdfLink: "https://drive.google.com/file/d/1yvFtjDTEhdZPY-e4CRr22v8VbGUy75xW/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 9,
+          label: "Sub-Módulo 09",
+          title: "Osteoporose",
+          imageUrl: "https://images.unsplash.com/photo-1559757175-7b249a56012e?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Cof Xpress: Osteoporose", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1TS03ahEprKOuug8OUXV-ku9GxFZEhL3u/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Osteoporose", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1MsJoKpH1DvWKB0Jl7e8QvbX882wyUmTU/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Osteoporose", pdfLink: "https://drive.google.com/file/d/1wSh6V106ECzufLtsO95O7KBgrGIj6UMX/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 10,
+          label: "Sub-Módulo 10",
+          title: "Síndrome de Sjögren",
+          imageUrl: "https://images.unsplash.com/photo-1584362917165-526a968579e8?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Síndrome de Sjögren", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1XE--nNYGqKUAL-NukcNgPeEODXSY3HJI/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Síndrome de Sjögren", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1wKWIfN_aL5Qgx1sUFe-S2bmLFrqy-DRY/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Síndrome de Sjögren", pdfLink: "https://drive.google.com/file/d/1eMREo_pehDqtAOmtweFjdVK27jRCiV8O/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 11,
+          label: "Sub-Módulo 11",
+          title: "Esclerose Sistêmica",
+          imageUrl: "https://images.unsplash.com/photo-1628102491629-778571d893a3?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Esclerose Sistêmica", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/143JTWLsrSx8C5WU29XomgsIHUjzmiKtD/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Esclerose Sistêmica", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1-nia-APl6b-R9m6tv9tBxuhNr1P-MXtn/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Esclerose Sistêmica", pdfLink: "https://drive.google.com/file/d/1aZ6kU9pdVpeEudo-rka5EtFmV1HQWoq6/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 12,
+          label: "Sub-Módulo 12",
+          title: "Miopatias",
+          imageUrl: "https://images.unsplash.com/photo-1559757175-7b249a56012e?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Cof Xpress: Miopatias", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/19u-defoV10Vg3C4Eghk-nypuEqpgGv9f/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Miopatias", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1pwPOkPkPHvp0n933T_92YzG7jfDVX_CB/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Miopatias", pdfLink: "https://drive.google.com/file/d/1M0I73xRHBxo9vu_cqWL0c64E1_2jNxDl/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 13,
+          label: "Sub-Módulo 13",
+          title: "Lúpus Eritematoso Sistêmico",
+          imageUrl: "https://images.unsplash.com/photo-1584362917165-526a968579e8?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Lúpus Eritematoso Sistêmico", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1C18eQkiB7_6Sz6mfxbgwG699HR2XoeId/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Lúpus Eritematoso Sistêmico", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1L4WD0fH2dz8gG7KNovoXKzEWCs1XWBRO/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Lúpus Eritematoso Sistêmico", pdfLink: "https://drive.google.com/file/d/12Mx_YpLUFO--RUknCa627edKjcSolM83/view?usp=sharing" }
+          ]
+        }
+      ]
+    },
+    // --- MÓDULO 11: HEMATOLOGIA ---
+    {
+      id: 11,
+      title: "Módulo 11 - Hematologia",
+      label: "Módulo 11",
+      subModules: [
+        {
+          id: 1,
+          label: "Sub-Módulo 01",
+          title: "Avaliação Global do Hemograma",
+          imageUrl: "https://images.unsplash.com/photo-1579165466741-7f35e4755652?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Avaliação Global do Hemograma", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1stzzUAHEV77ieK_E6TcEhzjUFfQX-qHq/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Avaliação Global do Hemograma", pdfLink: "https://drive.google.com/file/d/17AAtlpYa-_DrQ18Q5Qno74yWuen37Ydv/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 2,
+          label: "Sub-Módulo 02",
+          title: "Anemias Hipoproliferativas I",
+          imageUrl: "https://images.unsplash.com/photo-1615631648086-325cd3d0038c?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Anemias Hipoproliferativas I", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1HXMEhbVoS3zyLGZOIZ5td95wrLm6OKaL/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Anemias Hipoproliferativas I", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1wZWMZs752LHvTr-tlKvWxbn43QRb5_C3/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Anemias Hipoproliferativas", pdfLink: "https://drive.google.com/file/d/1OiqJ7BlROqycucOJ0-Xg9bcHc6GYg__e/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 3,
+          label: "Sub-Módulo 03",
+          title: "Anemias Hipoproliferativas II",
+          imageUrl: "https://images.unsplash.com/photo-1615631648086-325cd3d0038c?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Cof Xpress: Anemias Hipoproliferativas II", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1lNX9Hg51U4HFlAFYTLp-oP6kXrnxeQuD/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Anemias Hipoproliferativas II", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1e-KSlPNveZVQ_ZG2ycvAgABbBKtW6rhh/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Anemias Hipoproliferativas II", pdfLink: "https://drive.google.com/file/d/1VgN6-goS19CDoJA6_7KF-H5f5ktH-skq/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 4,
+          label: "Sub-Módulo 04",
+          title: "Anemias Hermolíticas Hereditárias",
+          imageUrl: "https://images.unsplash.com/photo-1579165466741-7f35e4755652?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Anemias Hermolíticas Hereditárias", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1azUJDJMvLbB-08AfyKGJwa-9JHywUyiG/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Anemias Hermolíticas Hereditárias", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ok-SuAvxvNaUnXVBgUlwaHxM1VFM7aGP/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Anemias Hermolíticas Hereditárias", pdfLink: "https://drive.google.com/file/d/1Jf5yHQu8QZa2qdo0VtLfAecr1Tl2SEl0/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 5,
+          label: "Sub-Módulo 05",
+          title: "Anemias Hemolíticas Adquirida",
+          imageUrl: "https://images.unsplash.com/photo-1579165466741-7f35e4755652?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Anemias Hemolíticas: Adquirida", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1wFWAX3GynTCHgWzz-10-kuPoH82aqRJt/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Anemias Hemolíticas - Adquirida", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1LVc5VLubtTqehAMPQvapWNX5Q8cjRP7F/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Anemias Hemolíticas - Adquirida", pdfLink: "https://drive.google.com/file/d/1ATmWjF5xR-jUOeg7gsxs_BHVqQNJqt3k/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 6,
+          label: "Sub-Módulo 06",
+          title: "Fisiologia da Coagulação",
+          imageUrl: "https://images.unsplash.com/photo-1628348068343-c6a848d2b6dd?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Fisiologia da Coagulação", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Ot0vRsRGDa1QRgHCgc1vsCnqV0N3aWgm/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Fisiologia da Coagulação", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/19CoqzpIQjnipuWSf9qdQPknJLocU6_T9/view?usp=sharing" }
+          ],
+          materials: []
+        },
+        {
+          id: 7,
+          label: "Sub-Módulo 07",
+          title: "Distúrbios da Hemostasia",
+          imageUrl: "https://images.unsplash.com/photo-1628348068343-c6a848d2b6dd?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Cof Xpress: Distúrbios da Hemostasia", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1MMQl0W1E92XLVvoy3DP4SgfdoEOWzK51/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Distúrbios da Hemostasia", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1XYl7MrHmnIhQofpz93ejpLta3S8VDgbu/view?usp=sharing" }
+          ],
+          materials: []
+        },
+        {
+          id: 8,
+          label: "Sub-Módulo 08",
+          title: "Hemoterapia",
+          imageUrl: "https://images.unsplash.com/photo-1579165466741-7f35e4755652?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Hemoterapia", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1bwgPhLBf_mAXF17aJmnjakqsaU31wPtx/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Hemoterapia", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Alm7jc_xtl1i4GuYt7pavgzqfUGZJo8C/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Hemoterapia", pdfLink: "https://drive.google.com/file/d/1sdF2pUuNszlpaGoGTXR2CENqCKxoa5Ng/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 9,
+          label: "Sub-Módulo 09",
+          title: "Leucemias Básico",
+          imageUrl: "https://images.unsplash.com/photo-1579165466949-3180a3d056d5?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Cof Xpress: Leucemias - Básico", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1O1SNcSkd8oTWOVWpA_P5uiuwfzjOEd-A/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Leucemias: Básico", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ww1jlLPk-ixNeHhrRKrEMKYrr2SMaJcZ/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Leucemias - Básico", pdfLink: "https://drive.google.com/file/d/1uz7XOh9NbH_sYhc9z6fUl-KGAQg9vwEx/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 10,
+          label: "Sub-Módulo 10",
+          title: "Discrasias Plasmocitárias",
+          imageUrl: "https://images.unsplash.com/photo-1579165466949-3180a3d056d5?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Cof Xpress: Discrasias Plasmocitárias", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1o2ZJAMRC-CYP2b0H8Lzlpe1jz5kTkA8s/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Discrasias Plasmocitárias", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1QH_t_7G1XJh0-4vA1oc2ncpJIM_J-was/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Discrasias Plasmocitárias", pdfLink: "https://drive.google.com/file/d/1xaeqtseETfTp5GW-yU9lLrfT5Ov4fM4B/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 11,
+          label: "Sub-Módulo 11",
+          title: "Síndromes Medulares",
+          imageUrl: "https://images.unsplash.com/photo-1579165466949-3180a3d056d5?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Síndromes Medulares", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1f4vGzRtN66-jtuRNet8QfGUAI92jS__0/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Síndromes Medulares", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1tKPjP5Z2RwJtjycLdOgN20phWFjfgo2v/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Síndromes Medulares", pdfLink: "https://drive.google.com/file/d/1CzF0nEFPsbgqy85DEhJuiP1Ea5uWxN3H/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 12,
+          label: "Sub-Módulo 12",
+          title: "Linfomas Básico",
+          imageUrl: "https://images.unsplash.com/photo-1579165466949-3180a3d056d5?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Cof Xpress: Linfomas - Básico", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1wPUjfCL6_sp6VbzYFTkCUu4YDweEGMlR/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Linfomas: Básico", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1OMC1h45H0KWnbz_R70GrDO6ZeXeHrFvS/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Linfomas - Básico", pdfLink: "https://drive.google.com/file/d/1uN1UMz2rXxMUi1zMoXKtXoteTa8BEzKg/view?usp=sharing" }
+          ]
+        }
+      ]
+    },
+
+    // --- MÓDULO 12: ONCOLOGIA ---
+    {
+      id: 12,
+      title: "Módulo 12 - Oncologia",
+      label: "Módulo 12",
+      subModules: [
+        {
+          id: 1,
+          label: "Sub-Módulo 01",
+          title: "Emergências Oncológicas",
+          imageUrl: "https://images.unsplash.com/photo-1579165466949-3180a3d056d5?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Emergências Oncológicas", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1K-3T_Dk8_m_iEdYDO65-z4TzznlNZVXk/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Emergências Oncológicas", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1iXdf4v9NDUtLQJ5fcA8pP-ullelklZls/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Emergências Oncológicas", pdfLink: "https://drive.google.com/file/d/1ZvjIiVc01pqhI-P6GxOiuN6XCAPD-lu1/view?usp=sharing" }
+          ]
+        }
+      ]
+    },
+
+    // --- MÓDULO 13: CARDIOLOGIA ---
+    {
+      id: 13,
+      title: "Módulo 13 - Cardiologia",
+      label: "Módulo 13",
+      subModules: [
+        {
+          id: 1,
+          label: "Sub-Módulo 01",
+          title: "Taquiarritmias",
+          imageUrl: "https://images.unsplash.com/photo-1628348068343-c6a848d2b6dd?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Cof Xpress: Taquiarritmia", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1QEmNmr7BiOJPObokYjK2kSTcb-B3PsZ1/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Taquiarritmia", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/16R4fI7UlLdmyOLhsCiuPIRLiFEW1E2BC/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Taquiarritmia", pdfLink: "https://drive.google.com/file/d/1zA2iE-3G6r0PMDtcIMM4xFKj0L4bS3PK/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 2,
+          label: "Sub-Módulo 02",
+          title: "Bradiarritimias",
+          imageUrl: "https://images.unsplash.com/photo-1628348068343-c6a848d2b6dd?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Bradiarritimias", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ng4IXkBP-pQaLFLiHL_D9Z1uJ5-fIAPj/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Bradiarritimias", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1gpMZwjTibAO9HJQkAsx0bq4XXTIWcLEE/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Bradiarritimias", pdfLink: "https://drive.google.com/file/d/1OY0FFEhOaHxCYf1onnXEQIgo-9vcQPKR/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 3,
+          label: "Sub-Módulo 03",
+          title: "Valvopatias",
+          imageUrl: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Valvopatias", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/14Ffxl7DVnD4cdEUSjy2uHOAZWmhJsBUK/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Valvopatias", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1gAzvDd9f6HuIIfNsUtKJZaHrBlfBcDCC/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Valvopatias", pdfLink: "https://drive.google.com/file/d/1YZu4Fr_2qeXbdFKZLq1No1Fr2UEfI1mL/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 4,
+          label: "Sub-Módulo 04",
+          title: "Febre Reumática e Endocardite",
+          imageUrl: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Febre Reumática e Endocardite", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1c6Ikz60AgUs47uIxZ6od8D4-q9ZxXeJ6/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Febre Reumática e Endocardite", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Y_kQosH5SXNh1s2BcLz9B63zVD988IiP/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Febre Reumática e Endocardite", pdfLink: "https://drive.google.com/file/d/1C2H5-q-pJi_jeFU6t5CuUPXo3PTPPZq_/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 5,
+          label: "Sub-Módulo 05",
+          title: "Síncope",
+          imageUrl: "https://images.unsplash.com/photo-1628348068343-c6a848d2b6dd?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Cof Xpress: Síncope", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/12kbJK7vC1KUpt3v3TiX_0Joi6UvtwME3/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Síncope", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1NDVfSYG-mIZQOUgCmB7RmhYkjYYQY_q0/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Síncope", pdfLink: "https://drive.google.com/file/d/1Z6kl_i7-NqY81PVrQAzJzHe6RqskqOJP/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 6,
+          label: "Sub-Módulo 06",
+          title: "Insuficiência Cardíaca: Manejo Ambulatorial",
+          imageUrl: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Insuficiência Cardíaca: Manejo Ambulatorial", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1H038_GxqpGSSW1M8ZXPOJax8b2qocYTH/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Insuficiência Cardíaca - Manejo Ambulatorial", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/14EIn1ZaYkfYONpr_B3WoP-EB_dXUb4zZ/view?usp=sharing" }
+          ],
+          materials: []
+        },
+        {
+          id: 7,
+          label: "Sub-Módulo 07",
+          title: "Insuficiência Cardíaca: Descompensações Agudas",
+          imageUrl: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Insuficiência Cardíaca: Descompensações Agudas", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Cck4HD6PfOFZilsVxQ7zLZhradEzVhVv/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Insuficiência Cardíaca - Descompensações Agudas", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1OyL_f9Oh3u0HyCk9ogDF0q4-Ad_fQRKz/view?usp=sharing" }
+          ],
+          materials: []
+        },
+        {
+          id: 8,
+          label: "Sub-Módulo 08",
+          title: "HAS Ambulatorial",
+          imageUrl: "https://images.unsplash.com/photo-1628348068343-c6a848d2b6dd?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - HAS Ambulatorial", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1r0Ofst-R1cVsFT2kc3Xl_8ofMouYT3bF/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: HAS Ambulatorial", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1QGlCNHmjOTuQz0OIIvA0fJEmPxFS8V_L/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "HAS Ambulatorial", pdfLink: "https://drive.google.com/file/d/164UeEdHZOYns9V24DvW5xuLhMpQ5EEBk/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 9,
+          label: "Sub-Módulo 09",
+          title: "Coronariopatia Crônica",
+          imageUrl: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Cof Xpress: Coronariopatia Crônica", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1WSmGyLU_0nUQXNgc-jyY5Ck5FiYK13nA/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Coronariopatia Crônica", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1o0nE5Ux0_-foLB926BAyUAeAlfjZcYkL/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Coronariopatia Crônica", pdfLink: "https://drive.google.com/file/d/1eXAyJhe-pUF6HwGkbUZ7fKMh50w-XDRF/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 10,
+          label: "Sub-Módulo 10",
+          title: "IAMCSST",
+          imageUrl: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - IAMCSST", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ZPMEgvbSoh8Xtp89Imn4OitazfPt7qW4/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: IAMCSST", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1hRIltfyPWbOF0V3Ukh3-q5HNE3imQrk_/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "IAMCSST", pdfLink: "https://drive.google.com/file/d/146vPGiTxM17s8upisSMai2BBl0BFKgLz/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 11,
+          label: "Sub-Módulo 11",
+          title: "SCA sem Supra de ST",
+          imageUrl: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - SCA sem Supra de ST", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/15VyEHntIHB5nOyWGQvsd9OC-HoHxqwvt/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: SCA sem Supra de ST", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1MXdn0m8oAcCVOKFh_2zKn7sHx9-Y6iNf/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "SCA sem Supra de ST", pdfLink: "https://drive.google.com/file/d/1efFn7lmZ97Nf-K2N3WrgzcsrfmcWbQrX/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 12,
+          label: "Sub-Módulo 12",
+          title: "Síndromes Aórticas Agudas (Dissecção, Aneurisma)",
+          imageUrl: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Síndromes Aórticas Agudas (Dissecção, Aneurisma)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/18Jd1QKsi-N8-sd_b_K-ctFD_4GZ9iTii/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Síndromes Aórticas Agudas (Dissecção, Aneurisma)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Jo3bLhgzdROYHE8lkkgRZrov57EIjaFz/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Síndromes Aórticas Agudas (Dissecção, Aneurisma)", pdfLink: "https://drive.google.com/file/d/1cfnf_xibRn-Bkcf7L9fmRrnPwPCSmIsZ/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 13,
+          label: "Sub-Módulo 13",
+          title: "Pericardite e Miocardite",
+          imageUrl: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Pericardite e Miocardite", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/13tv9OBv5IktFLHyK6dbi9UpWUMohUt4V/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Pericardite e Miocardite", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/126QY37-vso5mbIQwptTd30M4FG-LepqX/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Pericardite e Miocardite", pdfLink: "https://drive.google.com/file/d/193nCTEvtzud6dnmKpW3ESgXhIXuq95dz/view?usp=sharing" }
+          ]
+        }
+      ]
+    },
+
+    // --- MÓDULO 14: ENDOCRINOLOGIA ---
+    {
+      id: 14,
+      title: "Módulo 14 - Endocrinologia",
+      label: "Módulo 14",
+      subModules: [
+        {
+          id: 1,
+          label: "Sub-Módulo 01",
+          title: "Diabetes: Classificação, Fisiopatologia e Diagnóstico do DM",
+          imageUrl: "https://images.unsplash.com/photo-1579684453423-f84349ef60b0?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Cof Xpress: Diabetes - Classificação, Fisiopatologia e Diagnóstico do DM", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1KA805fWVNudMiQjug643z74mqP05PQVU/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Diabetes: Classificação, Fisiopatologia e Diagnóstico do DM", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Ly1TSNkJrBhe66B_-2RTJVDm1VNek4Bn/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Diabetes - Classificação, Fisiopatologia e Diagnóstico do DM", pdfLink: "https://drive.google.com/file/d/1_UHckttgJncSRxSFWG33kP0F9AuwnsKO/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 2,
+          label: "Sub-Módulo 02",
+          title: "Meta Terapêutica e Tratamento Não-Farmacológico do DM",
+          imageUrl: "https://images.unsplash.com/photo-1579684453423-f84349ef60b0?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Meta Terapêutica e Tratamento Não-Farmacológico do DM", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Oarw4AbvHc0YCpKez0olrmzb3cQtzX7C/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Meta Terapêutica e Tratamento Não-Farmacológico do DM", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1HHOJW3sFhltzXhnnV8a7WDVJ6mZI-Bti/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Meta Terapêutica e Tratamento Não-Farmacológico do DM", pdfLink: "https://drive.google.com/file/d/1XtidHdxH6XFpYOoA-AShMQLEstNyRNbQ/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 3,
+          label: "Sub-Módulo 03",
+          title: "Antidiabéticos Orais e Subcutâneos",
+          imageUrl: "https://images.unsplash.com/photo-1579684453423-f84349ef60b0?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Cof Xpress: Antidiabéticos Orais e Subcutâneos", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/10WkubmDx4rvoE9O_hXVywCS_Teo19EkU/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Antidiabéticos Orais e Subcutâneos", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1rpJ6wdxibKdqPfVil1IVwrieL51AiCSD/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Antidiabéticos Orais e Subcutâneos", pdfLink: "https://drive.google.com/file/d/16V6EjfWk_sy5C50TyG06_bZFspUPRb_H/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 4,
+          label: "Sub-Módulo 04",
+          title: "Insulinoterapia",
+          imageUrl: "https://images.unsplash.com/photo-1579684453423-f84349ef60b0?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Insulinoterapia", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/123c0Q2CjAI4yxbUsJwExTVRvdTdaz1n6/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Insulinoterapia", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1v30LPp0iU94ipduR4QoCsizhIlZTj4WD/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Insulinoterapia", pdfLink: "https://drive.google.com/file/d/1UdtaaVNcVNzTFJzqNVP0yjRgS9cAIvtz/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 5,
+          label: "Sub-Módulo 05",
+          title: "Complicações Crônicas do DM",
+          imageUrl: "https://images.unsplash.com/photo-1579684453423-f84349ef60b0?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Complicações Crônicas do DM", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1202fQsKgds7gbKGkc3yNWf0WsuoYhoYL/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Complicações Crônicas do DM", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1c9D136mQMVBSDe3i16szSVYZQBocsVEm/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Complicações Crônicas do DM", pdfLink: "https://drive.google.com/file/d/1QQz5oh6Jb4IH5E-4jtmRd1H3K9qYXDjA/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 6,
+          label: "Sub-Módulo 06",
+          title: "Fisiologia da Tireoide",
+          imageUrl: "https://images.unsplash.com/photo-1579684453423-f84349ef60b0?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Fisiologia da Tireoide", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1BTq2FgFBQVtOb3CxFKzalsN1zGPQQxz7/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Fisiologia da Tireoide", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1lN-iEfJRo8J8n-IHzTsdRc4-Honmgfxp/view?usp=sharing" }
+          ],
+          materials: []
+        },
+        {
+          id: 7,
+          label: "Sub-Módulo 07",
+          title: "Hipotireoidismo",
+          imageUrl: "https://images.unsplash.com/photo-1579684453423-f84349ef60b0?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Hipotireoidismo", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ftprAFd-eW_-dDxhYLYlk7s62U62VXXg/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Hipotireoidismo", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1CTbc4ef79w-TMrkhg6mtEYFETTg-Wu5q/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Hipotireoidismo", pdfLink: "https://drive.google.com/file/d/1ESVpuEjgV-z-kBcTpliX_z-1BPkbPfsQ/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 8,
+          label: "Sub-Módulo 08",
+          title: "Hipertireoidismo",
+          imageUrl: "https://images.unsplash.com/photo-1579684453423-f84349ef60b0?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Hipertireoidismo", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1gSmq3wonCH6hBxa5-jKO6gRDxF_IFoYt/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Hipertireoidismo", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/16nVcWQCy-SRniAvbHcyytKzDH4UGmZ1Z/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Hipertireoidismo", pdfLink: "https://drive.google.com/file/d/1PpGvs3zcHI0QwdaAOTVSOXktOC1aeTC3/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 9,
+          label: "Sub-Módulo 09",
+          title: "Tireoidites e Síndrome do Eutireoidiano Doente",
+          imageUrl: "https://images.unsplash.com/photo-1579684453423-f84349ef60b0?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Cof Xpress: Tireoidites e Síndrome do Eutireoidiano Doente", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/10aKLx0_zXrYP9w42I-cko7fKoiBZ6olz/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Tireoidites e Síndrome do Eutireoidiano Doente", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1lAbjsWWAJY37ArKi3kpK8LVAxZJoroFZ/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Tireoidites e Síndrome do Eutireoidiano Doente", pdfLink: "https://drive.google.com/file/d/1WDQ36eHWRIvzm9032dK48Huif2FsMBHL/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 10,
+          label: "Sub-Módulo 10",
+          title: "Nódulos e Câncer de Tireoide",
+          imageUrl: "https://images.unsplash.com/photo-1579684453423-f84349ef60b0?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Cof Xpress: Nódulos e Câncer de Tireoide", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1NKm9eTMUK7bHHpGo_uohzEvb_f00-yh1/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Nódulos e Câncer de Tireoide", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1TTDgeLEWq6lh-RO7ATKFcphxXA0u0J_Y/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Nódulos e Câncer de Tireoide", pdfLink: "https://drive.google.com/file/d/1vjAwUzXbXEyDu_b7eSERmKy1R3d939v-/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 11,
+          label: "Sub-Módulo 11",
+          title: "Fisiologia e Anatomia da Adrenal",
+          imageUrl: "https://images.unsplash.com/photo-1579684453423-f84349ef60b0?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Fisiologia e Anatomia da Adrenal", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1EldV0pt4N-MWBcQd5pE61QuwIYltlaNm/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Fisiologia e Anatomia da Adrenal", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/14b4AM2y3nntoy9mZYGmvqZfzcVcD8JDu/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Fisiologia e Anatomia da Adrenal", pdfLink: "https://drive.google.com/file/d/1YUR4brrHY2IdeWDfjDEjZN9YPRlBgvzf/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 12,
+          label: "Sub-Módulo 12",
+          title: "Insuficiência Adrenal",
+          imageUrl: "https://images.unsplash.com/photo-1579684453423-f84349ef60b0?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Insuficiência Adrenal", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/13CQrrTVBNolNp8Zb17gNDzVzhjaBcoFe/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Insuficiência Adrenal", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/10yfjnyXNFby5vCX-TkMd-8zWD-t9qe31/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Insuficiência Adrenal", pdfLink: "https://drive.google.com/file/d/1j95kSPE1rGHk3tqnzn-59roLf6F2fj6i/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 13,
+          label: "Sub-Módulo 13",
+          title: "Hiperaldosteronismo Primário",
+          imageUrl: "https://images.unsplash.com/photo-1579684453423-f84349ef60b0?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Hiperaldosteronismo Primário", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1lepEESqkeAU6PJiUOvdKV3ft6z131EwW/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Hiperaldosteronismo Primário", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1XdY3PS0ds293Kt_lXPQF0K3Kgx5xQPPI/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Hiperaldosteronismo Primário", pdfLink: "https://drive.google.com/file/d/13EVGGzAWlPcHmjoJzhsi1RIE8kqAW4B7/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 14,
+          label: "Sub-Módulo 14",
+          title: "Feocromocitoma",
+          imageUrl: "https://images.unsplash.com/photo-1579684453423-f84349ef60b0?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Feocromocitoma", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1HGozTJjMtiD0TUudJTnWJJhlHc118Iiw/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Feocromocitoma", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1TonoTwGA1fnM4v7_ZdfzniEDZZx8ZpJQ/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Feocromocitoma", pdfLink: "https://drive.google.com/file/d/1BrIlmhcpPHivcaeDyPAdUG6WxAsflhEv/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 15,
+          label: "Sub-Módulo 15",
+          title: "Síndrome de Cushing",
+          imageUrl: "https://images.unsplash.com/photo-1579684453423-f84349ef60b0?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Síndrome de Cushing", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1_sj0AeBOvKMvfewXLK26Ttnlgjpk9h9B/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Síndrome de Cushing", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1RXRCsuG4ygSPhar_QP6yZ-Qdtyy3RB4t/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Síndrome de Cushing", pdfLink: "https://drive.google.com/file/d/1ztVX4DU4x8QsSFtFepQvFE_hPCtno7UP/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 16,
+          label: "Sub-Módulo 16",
+          title: "Prolactinomas",
+          imageUrl: "https://images.unsplash.com/photo-1579684453423-f84349ef60b0?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Prolactinomas", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1KF5IuEATyXHziyeD0kHnygmkBx7CYj9f/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Prolactinomas", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/13TOhMZksETpTtODRcnqJaaX0QhF6KP_0/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Prolactinomas", pdfLink: "https://drive.google.com/file/d/1rVfDr0jCWrJt4yY4inEXy9JptO9Nik4b/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 17,
+          label: "Sub-Módulo 17",
+          title: "Outros Distúrbios Hipofisários",
+          imageUrl: "https://images.unsplash.com/photo-1579684453423-f84349ef60b0?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Outros Distúrbios Hipofisários", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1xd2nuouMZVDsX-Zd0GaAcd444iXKwlbC/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Outros Distúrbios Hipofisários", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1rEEPm5CeZo1qz4TbuGor0D549_jlv20T/view?usp=sharing" }
+          ],
+          materials: []
         },
         {
           id: 18,
           label: "Sub-Módulo 18",
-          title: "Nódulos Benignos da Mama",
-          imageUrl: "https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&q=80&w=400",
-          lessons: [],
-          materials: []
+          title: "Metabolismo do Cálcio",
+          imageUrl: "https://images.unsplash.com/photo-1579684453423-f84349ef60b0?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Cof Xpress: Metabolismo do Cálcio", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1QmUPkbo1kqLbDVfonZQNK4sFjANr1-mW/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Metabolismo do Cálcio", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1V67mgn6L_AncbH7cGDBppw1Qe5G8TMPX/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Metabolismo do Cálcio", pdfLink: "https://drive.google.com/file/d/1z4JuBpzRIVZCjy7Dj1LM0lpkn7zstuYQ/view?usp=sharing" }
+          ]
         },
         {
           id: 19,
           label: "Sub-Módulo 19",
-          title: "Doença Hemolítica Perinatal",
-          imageUrl: "https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?auto=format&fit=crop&q=80&w=400",
-          lessons: [],
-          materials: []
+          title: "Hipercalcemias",
+          imageUrl: "https://images.unsplash.com/photo-1579684453423-f84349ef60b0?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Hipercalcemias", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ma_7XyvdrLiduCAjAUJVre5SOPklpkTN/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Hipercalcemias", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1gZqKl1wnfTBfbcFK4Ht5-WblNvMSkaa0/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Hipercalcemias", pdfLink: "https://drive.google.com/file/d/1FN65w5UlbRQnCEQ9tzzSoM1P_M0f7zIe/view?usp=sharing" }
+          ]
         },
         {
           id: 20,
           label: "Sub-Módulo 20",
-          title: "Modificações do Organismo Materno",
-          imageUrl: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=400",
+          title: "Hipocalcemias",
+          imageUrl: "https://images.unsplash.com/photo-1579684453423-f84349ef60b0?auto=format&fit=crop&q=80&w=400",
           lessons: [
-            { id: 1, title: "Aula 01 - Modificações do Organismo Materno_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1AYXWhs5GaG1td4CbbAxYfisdqKtHDZHd/view?usp=sharing" }
+            { id: 1, title: "Aula 01 - Hipocalcemias", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1PyrQe2RO6DBGI8avd4zNzCMPoXDfB1Aa/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Hipocalcemias", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/14FGUZU60pvsyP5dh4avYqu1H3icdQnlq/view?usp=sharing" }
           ],
           materials: [
-            { title: "E-Book - Modificações do Organismo Materno.pdf", pdfLink: "https://drive.google.com/file/d/1ksRSQqZMD5CXDFYrnfwC4Xq4q-J0F-8S/view?usp=sharing" },
-            { title: "E-Book - Ficha Resumo: Modificações do Organismo Materno.pdf", pdfLink: "https://drive.google.com/file/d/12xMPTpRdNVQVyz-QMSOQfCico6yEKaBw/view?usp=sharing" }
+            { title: "Hipocalcemias", pdfLink: "https://drive.google.com/file/d/1oA4vbGk7kct7TBqTfA5vNyONR5nz95w9/view?usp=sharing" }
           ]
         },
         {
           id: 21,
           label: "Sub-Módulo 21",
-          title: "Avaliação da Vitalidade Fetal e Sofrimento",
-          imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+          title: "Dislipidemia: Classificação e Diagnóstico",
+          imageUrl: "https://images.unsplash.com/photo-1579684453423-f84349ef60b0?auto=format&fit=crop&q=80&w=400",
           lessons: [
-            { id: 1, title: "Aula 01 - Sofrimento Fetal Crônico.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/10CM4UuY8DSnnrB_wJRUVsBglD6n__Ko4/view?usp=sharing" },
-            { id: 2, title: "Aula 02 - Sofrimento Fetal Agudo_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ot6H4pL6Jz1OfuGJnaymeB65Gezz3m6Z/view?usp=sharing" }
+            { id: 1, title: "Aula 01 - Dislipidemia Classificação e Diagnóstico", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1e3NQVvDjmtrsrH-_6IM1tnBZ28HLOSOd/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Dislipidemia Classificação e Diagnóstico", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1_BZM-s-Cqd0UP2Qx5CCjilhaKradZ4Gf/view?usp=sharing" }
           ],
           materials: [
-            { title: "E-Book - Avaliação de Vitalidade Fetal_COFEXPRESS.pdf", pdfLink: "https://drive.google.com/file/d/1_gSXT9VV6CnM2taAx1phELexAPHosGp8/view?usp=sharing" }
+            { title: "Dislipidemia Classificação e Diagnóstico", pdfLink: "https://drive.google.com/file/d/1O67uZ9M3d8N1TjaXuskmWHdtCtBPFsFc/view?usp=sharing" }
           ]
         },
         {
           id: 22,
           label: "Sub-Módulo 22",
-          title: "Restrição de Crescimento Intrauterino (RCIU)",
-          imageUrl: "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&q=80&w=400",
+          title: "Tratamento das Dislipidemias",
+          imageUrl: "https://images.unsplash.com/photo-1579684453423-f84349ef60b0?auto=format&fit=crop&q=80&w=400",
           lessons: [
-            { id: 1, title: "Aula 01 - Restrição de Crescimento Intrauterino_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1GebnbL3SGJdWN4UEK6v1Vfq_Vg9lRm-r/view?usp=sharing" }
+            { id: 1, title: "Aula 01 - Tratamento das Dislipidemias", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/108Olcw2cA5cXgh8eyRUiv-AIHvLK9gM2/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Tratamento das Dislipidemias", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1lle2FqmBwYGQzCszKnBSPHPyilVzy1u2/view?usp=sharing" }
           ],
           materials: []
         },
         {
           id: 23,
           label: "Sub-Módulo 23",
-          title: "Climatério e Terapia Hormonal (TRH)",
-          imageUrl: "https://images.unsplash.com/photo-1511174511562-5f7f18b874f8?auto=format&fit=crop&q=80&w=400",
+          title: "Síndrome Metabólica",
+          imageUrl: "https://images.unsplash.com/photo-1579684453423-f84349ef60b0?auto=format&fit=crop&q=80&w=400",
           lessons: [
-            { id: 1, title: "Aula 01 - Síndrome Climatérica_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1GyYSyiVs3ijNmahf8Z4T2BnTHOGmWZNy/view?usp=sharing" },
-            { id: 2, title: "Aula 02 - Foca na APS Rastreamento em ginecologia e climatério.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/16HcsPlkVT4XRne6D6i4Hxc1T8MOFYEBf/view?usp=sharing" }
+            { id: 1, title: "Aula 01 - Síndrome Metabólica", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1xN88PZB1Nw3vh0x_a2boM9YafVhllY2k/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Síndrome Metabólica", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ohC5z5UPaNI78I49-pxc_49g6g7pNvbU/view?usp=sharing" }
           ],
           materials: [
-            { title: "E-Book - Terapia de Reposição Hormonal.pdf", pdfLink: "https://drive.google.com/file/d/1lUfOTJ7oWih2LYSbFLFpfFayI--sY9yT/view?usp=sharing" },
-            { title: "E-Book - Ficha Resumo: Terapia de Reposição Hormonal.pdf", pdfLink: "https://drive.google.com/file/d/1FrlW-nbVxKcQXZtMr_NlttkLRyAM-fZ7/view?usp=sharing" }
+            { title: "Síndrome Metabólica", pdfLink: "https://drive.google.com/file/d/1nlgqJeRnrPNcyC-gi5VD4OVIvlTjZZsz/view?usp=sharing" }
           ]
         },
         {
           id: 24,
           label: "Sub-Módulo 24",
-          title: "Endometriose",
-          imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
+          title: "Obesidade: Conceitos Gerais + TTO Não-Farmacológico",
+          imageUrl: "https://images.unsplash.com/photo-1579684453423-f84349ef60b0?auto=format&fit=crop&q=80&w=400",
           lessons: [
-            { id: 1, title: "Aula 01 - Endometriose_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1jF-9DE3HUxhZ3QKgLvf0N2O3u7khWlNj/view?usp=sharing" },
-            { id: 2, title: "Aula 02 - Endometriose - Cirurgia_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1sQZlhR8HjUtBumECXbud9H7gzs8Ko3EE/view?usp=sharing" }
-          ],
-          materials: []
-        },
-        {
-          id: 25,
-          label: "Sub-Módulo 25",
-          title: "Infertilidade Conjugal",
-          imageUrl: "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&q=80&w=400",
-          lessons: [
-            { id: 1, title: "Aula 01 - Infertilidade_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1j7nfaE-h-X05kJTgZR8pzJbD1msZG1Gk/view?usp=sharing" },
-            { id: 2, title: "Aula 02 - Técnicas de Reprodução Assistida_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1_7bqYi4lD8EWhXwZ83c9RgyNGGiCcu7B/view?usp=sharing" }
-          ],
-          materials: []
-        },
-        {
-          id: 26,
-          label: "Sub-Módulo 26",
-          title: "Infecções e Gravidez (Não Ginecológicas)",
-          imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
-          lessons: [
-            { id: 1, title: "Aula 01 - Foca na APS Sífilis na gestação.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1pTIWtsOefPn5PMIuivnPlosJW7XwYcX4/view?usp=sharing" }
+            { id: 1, title: "Aula 01 - Obesidade: Conceitos Gerais + TTO Não-Farmacológico", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/16PBg2KLpXelUtbMWLGtNzFb_cZYssRU3/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Obesidade - Conceitos Gerais + TTO Não-Farmacológico", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1VQY1WduD_nBjaQuyWQYUbnzICOqcdljw/view?usp=sharing" }
           ],
           materials: [
-            { title: "E-Book - Infecções e Gravidez.pdf", pdfLink: "https://drive.google.com/file/d/1-vbl-uqrZaVCsXCFw25L05s7sjSAYI81/view?usp=sharing" },
-            { title: "E-Book - Ficha Resumo: Infecções e Gravidez.pdf", pdfLink: "https://drive.google.com/file/d/1XNROJgFlAjIQr2aw8pqWprOAsxY6h0JE/view?usp=sharing" }
+            { title: "Obesidade - Conceitos Gerais + TTO Não-Farmacológico", pdfLink: "https://drive.google.com/file/d/1jUKlDBG5mWEP5qBXXqdXT2uAvQ8O6wmc/view?usp=sharing" }
+          ]
+        }
+      ]
+    },
+
+    // --- MÓDULO 15: ELETROCARDIOGRAMA ---
+    {
+      id: 15,
+      title: "Módulo 15 - Eletrocardiograma",
+      label: "Módulo 15",
+      subModules: [
+        {
+          id: 1,
+          label: "Sub-Módulo 01",
+          title: "ECG Normal",
+          imageUrl: "https://images.unsplash.com/photo-1576091160550-21878bf718d9?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Cof Xpress: ECG Normal", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1AHiyEXr7wqs4BMnWJStSdhQDiQvxk3JU/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - ECG Normal", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/17RgRRuV3P7w1lYiemzGIBputolKKR-pi/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "ECG Normal", pdfLink: "https://drive.google.com/file/d/1EVGmOsqUHWGDbGM8eTgFWRQsDAM03oqD/view?usp=sharing" }
           ]
         },
         {
-          id: 27,
-          label: "Sub-Módulo 27",
-          title: "Gemelaridade",
-          imageUrl: "https://images.unsplash.com/photo-1628348070889-cb656235b4eb?auto=format&fit=crop&q=80&w=400",
+          id: 2,
+          label: "Sub-Módulo 02",
+          title: "Sobrecargas e Baixa Voltagem",
+          imageUrl: "https://images.unsplash.com/photo-1576091160550-21878bf718d9?auto=format&fit=crop&q=80&w=400",
           lessons: [
-            { id: 1, title: "Aula 01 - Gemelaridade_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1k9RzQALb-_5I64Bw1ICKBl2wMClkN1JT/view?usp=sharing" },
-            { id: 2, title: "Aula 02 - Gemelaridade.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1AwT1KXY_DdsaQB9w5kRifPV_jRRmi-ns/view?usp=sharing" }
-          ],
-          materials: []
-        },
-        {
-          id: 28,
-          label: "Sub-Módulo 28",
-          title: "Câncer de Colo de Útero (Invasor)",
-          imageUrl: "https://images.unsplash.com/photo-1550831107-1553da8c8464?auto=format&fit=crop&q=80&w=400",
-          lessons: [
-            { id: 1, title: "Aula 01 - Câncer de Colo de Útero.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1cAu3NZ3Sw5bDdb2SDU4yHw_k8yydH5QV/view?usp=sharing" }
-          ],
-          materials: []
-        },
-        {
-          id: 29,
-          label: "Sub-Módulo 29",
-          title: "Câncer de Ovário e Tumores Anexiais",
-          imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
-          lessons: [
-            { id: 1, title: "Aula 01 - Tumores Anexiais.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1vdUQp137VrsVGsmwTKCQ1qVM7nT80aoI/view?usp=sharing" }
-          ],
-          materials: []
-        },
-        {
-          id: 30,
-          label: "Sub-Módulo 30",
-          title: "Câncer de Endométrio e Hiperplasia",
-          imageUrl: "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&q=80&w=400",
-          lessons: [
-            { id: 1, title: "Aula 01 - Câncer de Endométrio_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/18RTOrCZ9F0c7B1OwdzyEMsBMItD0LVtt/view?usp=sharing" },
-            { id: 2, title: "Aula 02 - Hiperplasia Endometrial_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1qxDR2B5PJRRTREoQ5AWuS9iqc_OlKux3/view?usp=sharing" }
-          ],
-          materials: []
-        },
-        {
-          id: 31,
-          label: "Sub-Módulo 31",
-          title: "Anatomia e Embriologia",
-          imageUrl: "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&q=80&w=400",
-          lessons: [
-            { id: 1, title: "Aula 01 - Anatomia Pélvica Feminina_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/118LUKSbQSqfv2XkAD0pNcaeFxfRcwD4D/view?usp=sharing" },
-            { id: 2, title: "Aula 02 - Embriologia do Sistema Genital Feminino_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1tHour3Pr1giaYAX4VSW_j_enhK1R_NN4/view?usp=sharing" }
-          ],
-          materials: []
-        },
-        {
-          id: 32,
-          label: "Sub-Módulo 32",
-          title: "Malformações Mullerianas e Congênitas",
-          imageUrl: "https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&q=80&w=400",
-          lessons: [
-            { id: 1, title: "Aula 01 - Malformações Mullerianas_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1DcVP7h52HcygA8lcZINWBrqloaNDABRd/view?usp=sharing" }
-          ],
-          materials: []
-        },
-        {
-          id: 33,
-          label: "Sub-Módulo 33",
-          title: "Estática Fetal",
-          imageUrl: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=80&w=400",
-          lessons: [],
-          materials: []
-        },
-        {
-          id: 34,
-          label: "Sub-Módulo 34",
-          title: "Doença Trofoblástica Gestacional (DTG)",
-          imageUrl: "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&q=80&w=400",
-          lessons: [],
-          materials: []
-        },
-        {
-          id: 35,
-          label: "Sub-Módulo 35",
-          title: "Puberdade e Distúrbios do Desenvolvimento Sexual",
-          imageUrl: "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&q=80&w=400",
-          lessons: [
-            { id: 1, title: "Aula 01 - Puberdade_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/10S6GX70U4jKpVVBaVaAoGoBF3PdMc7pr/view?usp=sharing" },
-            { id: 2, title: "Aula 02 - Diferenças no Desenvolvimento Sexual_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/11izAmezwPlpBhb63KaqXA11naWPBRO-w/view?usp=sharing" }
-          ],
-          materials: []
-        },
-        {
-          id: 36,
-          label: "Sub-Módulo 36",
-          title: "Medicina Fetal (Aneuploidias e Procedimentos)",
-          imageUrl: "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&q=80&w=400",
-          lessons: [
-            { id: 1, title: "Aula 01 - Rastreamento de Aneuploidias_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1676H9i_hOxaVXryyPc6zigQuvXF2wNLD/view?usp=sharing" }
-          ],
-          materials: []
-        },
-        {
-          id: 37,
-          label: "Sub-Módulo 37",
-          title: "Violência Sexual e Aborto Legal",
-          imageUrl: "https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?auto=format&fit=crop&q=80&w=400",
-          lessons: [
-            { id: 1, title: "Aula 01 - Violência Sexual.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/19kqrzzJnhzUaWHgK9u8H_eTIC-BsXWdb/view?usp=sharing" }
-          ],
-          materials: []
-        },
-        {
-          id: 38,
-          label: "Sub-Módulo 38",
-          title: "Trombofilias",
-          imageUrl: "https://images.unsplash.com/photo-1581093588401-fbb07365f557?auto=format&fit=crop&q=80&w=400",
-          lessons: [
-            { id: 1, title: "Aula 01 - Trombofilias na Gestação e Puerpério.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1EHDMrYW29v47yyINvOBUlP5u39YL0Pjd/view?usp=sharing" }
-          ],
-          materials: []
-        },
-        {
-          id: 39,
-          label: "Sub-Módulo 39",
-          title: "Ultrassonografia em Obstetrícia",
-          imageUrl: "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&q=80&w=400",
-          lessons: [
-            { id: 1, title: "Aula 01 - Ultrassonografia em Obstetrícia_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1f5h7h4IQtX9spE811zPKOS9GK_y3R1u1/view?usp=sharing" }
+            { id: 1, title: "Aula 01 - Sobrecargas e Baixa Voltagem", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1n2nLnhDdzgMNvj3kk4xBVI8lyK7QbuWU/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Sobrecargas e Baixa Voltagem", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1J8frssXF9f1gjgAFkNzKg9T8GLz0D-6w/view?usp=sharing" }
           ],
           materials: [
-            { title: "E-Book - Ultrassonografia em Obstetrícia.pdf", pdfLink: "https://drive.google.com/file/d/1uEKsL-e84kWRwAnje3THf3XsnSrK6oQC/view?usp=sharing" },
-            { title: "E-Book - Ficha Resumo: Ultrassonografia em Obstetrícia.pdf", pdfLink: "https://drive.google.com/file/d/1tgIGRsC1_fQ9B1mdcYNcLPZ_oRGbmYpf/view?usp=sharing" }
+            { title: "Sobrecargas e Baixa Voltagem", pdfLink: "https://drive.google.com/file/d/1D4K6PAY3iX73vDnnDxQ93zVmw2VA6i0c/view?usp=sharing" }
           ]
         },
         {
-          id: 40,
-          label: "Sub-Módulo 40",
-          title: "Cirurgia Ginecológica e Urgências",
-          imageUrl: "https://images.unsplash.com/photo-1550831107-1553da8c8464?auto=format&fit=crop&q=80&w=400",
+          id: 3,
+          label: "Sub-Módulo 03",
+          title: "Bloqueios de Ramo",
+          imageUrl: "https://images.unsplash.com/photo-1576091160550-21878bf718d9?auto=format&fit=crop&q=80&w=400",
           lessons: [
-            { id: 1, title: "Aula 01 - Cirurgia ginecológica_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1_pzFL0YlWZWt1kEnz0iEBlfrQIH7BXlj/view?usp=sharing" },
-            { id: 2, title: "Aula 02 - Outras Urgências Ginecológicas_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1jpLoskKMwoFUaPYx2L4J5QBj3WPpF1NR/view?usp=sharing" }
+            { id: 1, title: "Aula 01 - Bloqueios de Ramo", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/12ytXbSJgRrYEE_cpgjN7zi6QR_HrF8qa/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Bloqueios de Ramo", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1WFuv68cSIkERJe76xvsbH6b9dIPfSsl3/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Bloqueios de Ramo", pdfLink: "https://drive.google.com/file/d/1PvqEJhyB5ipd95qjU5y40Da9lOhpYZvx/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 4,
+          label: "Sub-Módulo 04",
+          title: "Bradicardias I",
+          imageUrl: "https://images.unsplash.com/photo-1576091160550-21878bf718d9?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Cof Xpress: Bradicardias I", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1_Pnz9iypP21jCtCvgmjVmCg4fcB_2RfU/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Bradicardias I", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ik3Fk3Sp5XG6HAuO0h__VJLXoW0AuKn-/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Bradicardias I", pdfLink: "https://drive.google.com/file/d/1eskFdZb_RsL1neP-5pMMzcHd7ulrUdD5/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 5,
+          label: "Sub-Módulo 05",
+          title: "Bradicardias II",
+          imageUrl: "https://images.unsplash.com/photo-1576091160550-21878bf718d9?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Bradicardias II", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/18Gxu3Lq6CN1rOIu9CKplPKnlzDqFUNv0/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Bradicardias II", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1scu5pyqZsGL345IUJPKR8wjvErMtirCJ/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Bradicardias II", pdfLink: "https://drive.google.com/file/d/1AiQUUqJjDJqmBA2VGwrVWRwfJuRRtNb5/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 6,
+          label: "Sub-Módulo 06",
+          title: "Taquiarritmia",
+          imageUrl: "https://images.unsplash.com/photo-1576091160550-21878bf718d9?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Cof Xpress: Taquiarritmia", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1JRveo_tCi2Gw_8YS36Xk6ElRzdP26kXt/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Taquiarritmia", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1TPp38sgeuAITRQ2sNYmsJscSdjGcfVEb/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Taquiarritmia", pdfLink: "https://drive.google.com/file/d/1RMtOsWEzh8wmlMVwrBpRQzB_d12QP8_y/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 7,
+          label: "Sub-Módulo 07",
+          title: "Taquicardias de QRS Largo",
+          imageUrl: "https://images.unsplash.com/photo-1576091160550-21878bf718d9?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Taquicardias de QRS Largo", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1VorbdA5GArOrY44j5tAzVBWhZ5t19CjH/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Taquicardias de QRS Largo", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1r44z-Ibp8-o_3-T3mqJlWmnX9gaJ56WF/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Taquicardias de QRS Largo", pdfLink: "https://drive.google.com/file/d/13E5q0fX46sKAWWuv82-F65CxIUgX8FRd/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 8,
+          label: "Sub-Módulo 08",
+          title: "Distúrbios Hidroeletrolíticos",
+          imageUrl: "https://images.unsplash.com/photo-1576091160550-21878bf718d9?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Distúrbios Hidroeletrolíticos", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1tcSEixjbEyLUV6nl_yiI9xqxqiYx8vix/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Distúrbios Hidroeletrolíticos", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1BiK9Qrf5fl0yMgOTGURLHdMwJC9aEGft/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Distúrbios Hidroeletrolíticos", pdfLink: "https://drive.google.com/file/d/13R-u4z1sTR5no05f2Du_N2aUUA-Lca5D/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 9,
+          label: "Sub-Módulo 09",
+          title: "Síndromes Coronarianas I",
+          imageUrl: "https://images.unsplash.com/photo-1576091160550-21878bf718d9?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Síndromes Coronarianas I", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1z8vCSdjY4KGy8RwBB86hALTCef5wu6tJ/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Síndromes Coronarianas I", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1BNPZEDn0ZgN-siEAuTPyf9uKutZW5VAY/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Síndromes Coronarianas I", pdfLink: "https://drive.google.com/file/d/1c4Wxdwu129I4y6GhThw2T_hjZ8_JGHhw/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 10,
+          label: "Sub-Módulo 10",
+          title: "Síndromes Coronarianas II",
+          imageUrl: "https://images.unsplash.com/photo-1576091160550-21878bf718d9?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Cof Xpress: ECG - Síndromes Coronarianas II", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1rLyClB59ahA8T2AO5twCbG-RKNXn3nho/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - ECG: Síndromes Coronarianas II", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1pPOojLYkX48RWOAtQX5BUz413AXGgDKX/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Síndromes Coronarianas II", pdfLink: "https://drive.google.com/file/d/1O3saeOJjhHzjJReMGxSgp7CwpjcNLbco/view?usp=sharing" }
+          ]
+        }
+      ]
+    },
+
+    // --- MÓDULO 16: PNEUMOLOGIA ---
+    {
+      id: 16,
+      title: "Módulo 16 - Pneumologia",
+      label: "Módulo 16",
+      subModules: [
+        {
+          id: 1,
+          label: "Sub-Módulo 01",
+          title: "Asma",
+          imageUrl: "https://images.unsplash.com/photo-1530497610245-94d3c16cda28?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Asma", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1b-ggNlrBF1I3irc2RNEI2PXqGPuO4UZ2/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Asma", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/17NZ8z731HIl49Tj6-VivFQ9pN-gSXBRN/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Asma", pdfLink: "https://drive.google.com/file/d/1mR8Hzxi8CaNmTKAvfhcsg27CtP6w3Kxu/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 2,
+          label: "Sub-Módulo 02",
+          title: "Espirometria",
+          imageUrl: "https://images.unsplash.com/photo-1530497610245-94d3c16cda28?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Espirometria", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1STUgqfZle0S5H_V-ZfkD1XaJ4LMbronT/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Espirometria", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Lf_HMczApZ9eddZ3sogefnyRngXmwahw/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Espirometria", pdfLink: "https://drive.google.com/file/d/1Ag32HLtc8yrNZS3bGtBFBhCgqUXEc950/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 3,
+          label: "Sub-Módulo 03",
+          title: "DPOC",
+          imageUrl: "https://images.unsplash.com/photo-1530497610245-94d3c16cda28?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Cof Xpress: DPOC", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/13jHdsGnX5jN4AmwznB0Mebbup8rNV4BJ/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - DPOC", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1-GR-gJiki-Bpr-9qzcqqMfPIVxV3gO7X/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "DPOC", pdfLink: "https://drive.google.com/file/d/1RNBQ2y_oHtJMix7J7j_PAU3xdCh7Qqat/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 4,
+          label: "Sub-Módulo 04",
+          title: "Nódulo Pulmonar",
+          imageUrl: "https://images.unsplash.com/photo-1530497610245-94d3c16cda28?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Cof Xpress: Nódulo Pulmonar", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1u6v9DNFnjJqjTxHEYV0hTdSfjvZYOUfe/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Nódulo Pulmonar", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1p7cxVfeFhHKhYT_azSv4lHRbBSVoo9Ja/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Nódulo Pulmonar", pdfLink: "https://drive.google.com/file/d/1L-kCxUPcILRbApe53DOT6yaKNveKUciY/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 5,
+          label: "Sub-Módulo 05",
+          title: "TEP",
+          imageUrl: "https://images.unsplash.com/photo-1530497610245-94d3c16cda28?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Cof Xpress: TEP", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1wcxPM3CEhKWQ2C5bAFRm3xuje6L3xDIi/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - TEP", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/14bnCR0MwqJ6kDRT2mNX1vpZPBjxiR2LV/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "TEP", pdfLink: "https://drive.google.com/file/d/1yxkVCSE5lPaZ2qp4kvyx2_jQrN0gA3H6/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 6,
+          label: "Sub-Módulo 06",
+          title: "Pneumonia PAC e Hospitalar",
+          imageUrl: "https://images.unsplash.com/photo-1530497610245-94d3c16cda28?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Pneumonia: PAC e Hospitalar", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1tW3wqfOppcCx2Z9gRQbVpawej2pnyiyw/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Pneumonia - PAC e Hospitalar", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1jFVOJmk0Tkj5DBSCgXCE2FfW8rS38x8m/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Pneumonia - PAC e Hospitalar", pdfLink: "https://drive.google.com/file/d/1Lh1tp7BFbvTFovLXT09ZTIlHXyOIxR99/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 7,
+          label: "Sub-Módulo 07",
+          title: "Tabagismo",
+          imageUrl: "https://images.unsplash.com/photo-1530497610245-94d3c16cda28?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Tabagismo", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ouDRie2UKbFUMWUbmFJ30cE6GPeDhSXe/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Tabagismo", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1AzNgRbz4uAyKjqbzXKfz5cZNd9a0XnMe/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Tabagismo", pdfLink: "https://drive.google.com/file/d/1XxZFbnnKTOjp1IzPbRhxTtyOfhH1YfQJ/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 8,
+          label: "Sub-Módulo 08",
+          title: "Derrame Pleural",
+          imageUrl: "https://images.unsplash.com/photo-1530497610245-94d3c16cda28?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Cof Xpress: Derrame Pleural", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1KpG7MrHkPtF0XNp2lAVnQd25z2RAnDcN/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Derrame Pleural", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Up1kBEEngoGsV6sZuEEZ_A2ChUdGDGjz/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Derrame Pleural", pdfLink: "https://drive.google.com/file/d/1I1ABewr6zZ7b01dxMQ1a0fj6t3nWDi7k/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 9,
+          label: "Sub-Módulo 09",
+          title: "Distúrbios do Sono",
+          imageUrl: "https://images.unsplash.com/photo-1530497610245-94d3c16cda28?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Distúrbios do Sono", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1wzTicxcaDS4oCR4J_YpqBqkRrNXof5W7/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Distúrbios do Sono", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1mSrZoRaihI9yHiIDMoLk0Va7Co0OF1HB/view?usp=sharing" }
           ],
           materials: []
         }
       ]
     },
-  // --- MÓDULO 05: PEDIATRIA ---
+
+    // --- MÓDULO 17: OTORRINOLARINGOLOGIA ---
+    {
+      id: 17,
+      title: "Módulo 17 - Otorrinolaringologia",
+      label: "Módulo 17",
+      subModules: [
+        {
+          id: 1,
+          label: "Sub-Módulo 01",
+          title: "Otologia: Parte I",
+          imageUrl: "https://images.unsplash.com/photo-1516574187841-69301976e499?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Cof Xpress: Otologia - Parte I", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Cf_7URxlOivskUHn0cLu8RYlxGyr2qUK/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Otologia: Parte I", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1qXYJXRvu2dfiDcnSCtGdPCgNgg2GQWMk/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Otologia - Parte I", pdfLink: "https://drive.google.com/file/d/1XfJx3XcHDI3Tk8m3VulUZAW_bp2WQ9Ji/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 2,
+          label: "Sub-Módulo 02",
+          title: "Otologia: Parte II",
+          imageUrl: "https://images.unsplash.com/photo-1516574187841-69301976e499?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Cof Xpress: Otologia - Parte II", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1KQY4jlngRItJaufV3L-5ndRpXk_pspAM/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Otologia: Parte II", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1pCI8L1_UhHofoALmpaY6N3KNdPSQwkIK/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Otologia - Parte II", pdfLink: "https://drive.google.com/file/d/1NLjflQk1WLODt2UQsn96x22YbpG3GJxj/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 3,
+          label: "Sub-Módulo 03",
+          title: "Rinologia",
+          imageUrl: "https://images.unsplash.com/photo-1516574187841-69301976e499?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Cof Xpress: Rinologia", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1n-QZmkheA2MMuP7Sg6XFX_fgYBu9EqNz/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Rinologia", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1_8pucujFHhgk_O0BgbEIkylBy4DwgoE1/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Rinologia", pdfLink: "https://drive.google.com/file/d/1gkQAbIZbNmyWWaFz_cNAmWs5U-d5SUsq/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 4,
+          label: "Sub-Módulo 04",
+          title: "Bucofaringolaringologia: Parte I",
+          imageUrl: "https://images.unsplash.com/photo-1516574187841-69301976e499?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Cof Xpress: Bucofaringolaringologia - Parte I", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1q8V596C6qR2j3mH923pAvH1EUc7Qt9IR/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Bucofaringolaringologia: Parte I", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1tbIlfopqVEe0BCt1RmxSXBehQhkZU4eV/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Bucofaringolaringologia - Parte I", pdfLink: "https://drive.google.com/file/d/1no599jL_x2kwAnmFfSBV912poPycECEj/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 5,
+          label: "Sub-Módulo 05",
+          title: "Bucofaringolaringologia: Parte II",
+          imageUrl: "https://images.unsplash.com/photo-1516574187841-69301976e499?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Bucofaringolaringologia: Parte II", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/13lXdPlKILLNICuS5lbf4fA2bXy4FjniK/view?usp=sharing" },
+            { id: 2, title: "Bucofaringolaringologia - Parte II", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Vzzhtv_lnD4MEKQvO-6Biio5wxg_28vx/view?usp=sharing" }
+          ],
+          materials: []
+        }
+      ]
+    },
+
+    // --- MÓDULO 18: PSIQUIATRIA ---
+    {
+      id: 18,
+      title: "Módulo 18 - Psiquiatria",
+      label: "Módulo 18",
+      subModules: [
+        {
+          id: 1,
+          label: "Sub-Módulo 01",
+          title: "Transtorno de Humor: Parte I",
+          imageUrl: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Transtorno de Humor: Parte I", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1kW0cKL2Rhm1HsjrIQ_QX5H0C9I22k8gj/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Transtorno de Humor - Parte I", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/15L8uyz2gqycxkbAKuLOHHvUNXFIZUWJJ/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Transtorno de Humor - Parte I", pdfLink: "https://drive.google.com/file/d/1L-Ty77WNtVDniMS1TDLkpQv5qs_AC832/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 2,
+          label: "Sub-Módulo 02",
+          title: "Transtorno de Humor: Parte II - Antidepressivos",
+          imageUrl: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Transtorno de Humor: Parte II - Antidepressivos", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1b4DF1ZTYu2_tYaYm6R60DJ7Kx0Hg7meL/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Transtorno de Humor - Parte II: Antidepressivos", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1x8UdxmcRq7t2KDfV6yEiTIbP8bFYzcBQ/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Transtorno de Humor - Parte II: Antidepressivos", pdfLink: "https://drive.google.com/file/d/1DaEptnG0qZRAO7ly6oGRObXeeCW1WE12/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 3,
+          label: "Sub-Módulo 03",
+          title: "Transtorno de Humor: Parte III - Síndrome Maníaca",
+          imageUrl: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Transtorno de Humor: Parte III - Síndrome Maníaca", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Znr8ZOOw--K9N8K3IuYVJgkZy81PmJ6v/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Transtorno de Humor - Parte III: Síndrome Maníaca", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/175UWkWhC_eAGp7vAE6FjIRZULzB6HcA4/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Transtorno de Humor - Parte III: Síndrome Maníaca", pdfLink: "https://drive.google.com/file/d/1d2WvJMH_G1TkABHeHJZC2VSgH5qeotqT/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 4,
+          label: "Sub-Módulo 04",
+          title: "Transtorno de Humor: Parte IV - Fatores de Risco",
+          imageUrl: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Cof Xpress: Transtorno de Humor - Parte IV: Fatores de Risco", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1LhWUXKWH9z_65lkPtdH23TfPHJXOBIiI/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Transtorno de Humor: Parte IV - Fatores de Risco", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1NVxSbxU_ieecuUX3ZxF2BM2lVW6VLxKr/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Transtorno de Humor - Parte IV: Fatores de Risco", pdfLink: "https://drive.google.com/file/d/1bLBOT3iCHEcERTByog8IDSFgvHonIb7c/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 5,
+          label: "Sub-Módulo 05",
+          title: "Transtorno de Ansiedade",
+          imageUrl: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Cof Xpress: Transtorno de Ansiedade", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1NY1Sle1xpX58EPTeZCcFPpNXnyP1QIb0/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Transtorno de Ansiedade", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1WNw5LzZ-8poy8w5K-BSdGObhzEJCiK50/view?usp=sharing" }
+          ],
+          materials: []
+        },
+        {
+          id: 6,
+          label: "Sub-Módulo 06",
+          title: "Transtorno Psicótico",
+          imageUrl: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Transtorno Psicótico", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1quSBuyW3sC12lsXSVc2pDkO1G1gqOgoz/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Transtorno Psicótico", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1FZwGGjun5TltPrtsgGXOmn5yYg98pa8_/view?usp=sharing" }
+          ],
+          materials: []
+        },
+        {
+          id: 7,
+          label: "Sub-Módulo 07",
+          title: "Transtornos Relacionados a Substâncias: Álcool",
+          imageUrl: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Transtornos Relacionados a Substâncias: Álcool", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1JUCU0voH1l-tquAipEJHRYjgdK56gxBE/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Transtornos Relacionados a Substâncias - Álcool", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Li_5eYLauBkywkHASJ5H-MrajvC1fSZe/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Abuso de Álcool", pdfLink: "https://drive.google.com/file/d/11IT3_zgjzXvbB0WhgF3HHyJwAPebGRU-/view?usp=sharing" }
+          ]
+        }
+      ]
+    },
+
+    // --- MÓDULO 19: OFTALMOLOGIA ---
+    {
+      id: 19,
+      title: "Módulo 19 - Oftalmologia",
+      label: "Módulo 19",
+      subModules: [
+        {
+          id: 1,
+          label: "Sub-Módulo 01",
+          title: "O Que o Médico Generalista Precisa Saber de Oftalmologia? - Parte I",
+          imageUrl: "https://images.unsplash.com/photo-1559757175-7b249a56012e?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - O Que o Médico Generalista Precisa Saber de Oftalmologia?: Parte I", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1X3-S8mr7Rq7c80bqC6aGb9n3sR9e6PXW/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: O Que o Médico Generalista Precisa Saber de Oftalmologia? - Parte I", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/165f0qQsSisru0EkQxkwAn10FxmrJu1MA/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "O Que o Médico Generalista Precisa Saber de Oftalmologia? - Parte I", pdfLink: "https://drive.google.com/file/d/1PmXGAflPuDCLTayrzspmj-Mwvuxo0QBT/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 2,
+          label: "Sub-Módulo 02",
+          title: "O Que o Médico Generalista Precisa Saber de Oftalmologia? - Parte II",
+          imageUrl: "https://images.unsplash.com/photo-1559757175-7b249a56012e?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - O Que o Médico Generalista Precisa Saber de Oftalmologia?: Parte II", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Vc0ncOxYso_1nQlWKpVqa4yLP3Nk1MGm/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: O Que o Médico Generalista Precisa Saber de Oftalmologia? - Parte II", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1N9N397KICnoXKbI3BjLTNtd29pu9FXYPy/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "O Que o Médico Generalista Precisa Saber de Oftalmologia? - Parte II", pdfLink: "https://drive.google.com/file/d/1Rk1-UOK3MIP4sQBuHESEL6YRJg4CnwX_/view?usp=sharing" }
+          ]
+        }
+      ]
+    },
+
+    // --- MÓDULO 20: DERMATOLOGIA ---
+    {
+      id: 20,
+      title: "Módulo 20 - Dermatologia",
+      label: "Módulo 20",
+      subModules: [
+        {
+          id: 1,
+          label: "Sub-Módulo 01",
+          title: "Lesões Elementares",
+          imageUrl: "https://images.unsplash.com/photo-1617135092914-72c082b26002?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Lesões Elementares", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/18ExUWOjZPqmQ_o8wbDZv-oYIR28nqKTp/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Lesões Elementares", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/188AbPClorB1JSk6cfCwQQm0iTwEYzjZd/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Lesões Elementares", pdfLink: "https://drive.google.com/file/d/1MiimjrPZEAXMkbPDv9woHkn4RBZV8-IW/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 2,
+          label: "Sub-Módulo 02",
+          title: "Hanseníase",
+          imageUrl: "https://images.unsplash.com/photo-1617135092914-72c082b26002?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Cof Xpress: Hanseníase", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/18FSv46Qgdu2nzXxouRznzjrjjePFV8uZ/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Hanseníase", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Ut0YxFn272EB2QX5ik2AtKlP5R9LiE77/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Hanseníase", pdfLink: "https://drive.google.com/file/d/1cdfl-2YvXmgE_t1NuvhFwE_-2fK5Kwhd/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 3,
+          label: "Sub-Módulo 03",
+          title: "Dermatoses Bolhosas",
+          imageUrl: "https://images.unsplash.com/photo-1617135092914-72c082b26002?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Dermatoses Bolhosas", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1uprf5QOU0Ce5ONtQOnqF6H6ogkSSLv_j/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Dermatoses Bolhosas", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1UnY10VqOZthEtvnDcs7D2Aw66rQ9GPP3/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Dermatoses Bolhosas", pdfLink: "https://drive.google.com/file/d/1R7do1gTa9pOXxHLDCrjJBsCVlnKDpWrb/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 4,
+          label: "Sub-Módulo 04",
+          title: "Psoríase",
+          imageUrl: "https://images.unsplash.com/photo-1617135092914-72c082b26002?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Cof Xpress: Psoríase", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1HMxEnt-s38emSLnPizhYHb5wm2zhC0Eq/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Psoríase", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1qRBkpeERSxOF0Xvp9ou7othCghcPjogb/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Psoríase", pdfLink: "https://drive.google.com/file/d/15MhzUOPOHWs6ndxQ8hVRdfERKh1OhuJt/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 5,
+          label: "Sub-Módulo 05",
+          title: "Melanoma",
+          imageUrl: "https://images.unsplash.com/photo-1617135092914-72c082b26002?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Melanoma", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1uK_A2PZq3Cp5ygqKhTkh8ZQWfpnZs8zU/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Melanoma", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/17-6ywQjhDUh526QhX5GtpKz8wvwfabYg/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Melanoma", pdfLink: "https://drive.google.com/file/d/1_Bjsu98m1f0r4NcJuQqZb3FBTy1QsG_I/view?usp=sharing" }
+          ]
+        },
+        {
+          id: 6,
+          label: "Sub-Módulo 06",
+          title: "Carcinomas",
+          imageUrl: "https://images.unsplash.com/photo-1617135092914-72c082b26002?auto=format&fit=crop&q=80&w=400",
+          lessons: [
+            { id: 1, title: "Aula 01 - Carcinomas", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1hTH1g7fGnmqSKZKvhnHFAGCuUA_arExY/view?usp=sharing" },
+            { id: 2, title: "Aula 02 - Cof Xpress: Carcinomas", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/17dYUktS-sjG_I-dhSEZi7FnRiAu-Za4u/view?usp=sharing" }
+          ],
+          materials: [
+            { title: "Carcinomas", pdfLink: "https://drive.google.com/file/d/1q9BfwUY07BQQuDdWZGvu03Q_Dur-vj7V/view?usp=sharing" }
+          ]
+        }
+      ]
+    },
+    // --- MÓDULO 21: TRAUMA E ATENDIMENTO INICIAL ---
   {
-    id: 5,
-    title: "Módulo 05 - Pediatria",
-    label: "Módulo 05",
+    id: 21,
+    title: "Módulo 21 - Trauma e Atendimento Inicial",
+    label: "Módulo 21",
     subModules: [
       {
         id: 1,
         label: "Sub-Módulo 01",
-        title: "Aleitamento Materno",
-        imageUrl: "https://images.unsplash.com/photo-1555252333-9f8e92e65df9?auto=format&fit=crop&q=80&w=400",
+        title: "Trauma - Introdução ao Trauma e Atendimento Inicial",
+        imageUrl: "https://images.unsplash.com/photo-1516574187841-693018954312?auto=format&fit=crop&q=80&w=400",
         lessons: [
-          { id: 1, title: "Aula 01 - Aleitamento Materno_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1_O_Jx_V6HRdPMJoZZN-vqU1p5N1MMk2u/view?usp=sharing" }
+          { id: 1, title: "Aula 01 - Trauma: Introdução ao Trauma e Atendimento Inicial", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/17tXB4nMkh3JcK3yt8_0jcygmG-2NX4Vu/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Trauma - Introdução ao Trauma e Atendimento Inicial", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1i2vkFEiMol4pRROAzA5ZuX8UTYYpJGiS/view?usp=sharing" }
         ],
         materials: [
-          { title: "E-Book - Aleitamento Materno.pdf", pdfLink: "https://drive.google.com/file/d/11DQkUS54T02gUT4sNPlAeoqQKWQ5n5Yz/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Aleitamento Materno.pdf", pdfLink: "https://drive.google.com/file/d/1Utl8ZbjZdoyMTMgwNoD44mWWzgSxvPXL/view?usp=sharing" }
+          { title: "PDF de Slides - Trauma: Introdução ao Trauma e Atendimento Inicial", pdfLink: "https://drive.google.com/file/d/1H0yu5wJhsVMrmiL-M6zh_oxXewJSFtoV/view?usp=sharing" },
+          { title: "Ficha Resumo - Trauma: Introdução ao Trauma e Atendimento Inicial", pdfLink: "https://drive.google.com/file/d/1c4Um0fjL5koA6gfNsCQTU1LjGbuRUw4A/view?usp=sharing" }
         ]
       },
       {
         id: 2,
         label: "Sub-Módulo 02",
-        title: "Alimentação Infantil",
-        imageUrl: "https://images.unsplash.com/photo-1584362917165-52e812f8dc08?auto=format&fit=crop&q=80&w=400",
+        title: "Trauma - Revisão ABCDE",
+        imageUrl: "https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&q=80&w=400",
         lessons: [
-          { id: 1, title: "Aula 01 - Alimentação Infantil_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1-b6LDPY53vjy7AyOmdEhD2XiO5usuO1D/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Alimentação Infantil.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1abQNPiYbrZiGgna2VcGyhkXql4P6VkLC/view?usp=sharing" }
+          { id: 1, title: "Aula 01 - Trauma: Revisão ABCDE", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1isxzI0jLeF1GVaAQdRkgn0tkJBZGmQO_/view?usp=sharing" }
         ],
         materials: [
-          { title: "E-Book - Alimentação Infantil.pdf", pdfLink: "https://drive.google.com/file/d/1LEC4r24TvwwGCZH_SJJ03hhK89dPRvRs/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Alimentação Infantil.pdf", pdfLink: "https://drive.google.com/file/d/1UdYi2ekBhfrPIAoOZWplZ8fu3noj_KVI/view?usp=sharing" }
+          { title: "PDF de Slides - Trauma: Revisão ABCDE", pdfLink: "https://drive.google.com/file/d/1cMjBqe-4qaDWz3D9aJn46LTCp04yP3Cd/view?usp=sharing" }
         ]
       },
       {
         id: 3,
         label: "Sub-Módulo 03",
-        title: "Crescimento e Baixa Estatura",
-        imageUrl: "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&q=80&w=400",
+        title: "Trauma - Vias Aéreas",
+        imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
         lessons: [
-          { id: 1, title: "Aula 01 - Crescimento e Baixa Estatura_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1tSNkNIFy9HJTiguXSebC9gA-DB_DxDh3/view?usp=sharing" }
+          { id: 1, title: "Aula 01 - Trauma: Vias Aéreas", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1xVWny1oBNXZCbBdQONwhuYM2jpSgBl_o/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Trauma - Vias Aéreas", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1gAiKOdwo5Qe7LuQY63IXNxsO09spmnR4/view?usp=sharing" }
         ],
-        materials: []
+        materials: [
+          { title: "PDF de Slides - Trauma: Vias Aéreas", pdfLink: "https://drive.google.com/file/d/1snkb_-l8wY2pQuI3CLaOdlwS4QrDyHFZ/view?usp=sharing" },
+          { title: "Ficha Resumo - Trauma: Vias Aéreas", pdfLink: "https://drive.google.com/file/d/1iz_dpJB1bP3Bf3tvhUBJ2uAEzDWfxEbc/view?usp=sharing" }
+        ]
       },
       {
         id: 4,
         label: "Sub-Módulo 04",
-        title: "Desenvolvimento Infantil",
-        imageUrl: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=400",
+        title: "Trauma - Choque",
+        imageUrl: "https://images.unsplash.com/photo-1538108149393-fbbd81895907?auto=format&fit=crop&q=80&w=400",
         lessons: [
-          { id: 1, title: "Aula 01 - Alterações no Neurodesenvolvimento_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1qdDv-15FJK5dgtvd_hjrXl9v9Sh55HLR/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Alterações no Neurodesenvolvimento.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1d3oU2rWowbBM3exee9mRWuRcxE4RPi8d/view?usp=sharing" }
+          { id: 1, title: "Aula 01 - Trauma: Choque", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1E-3XeMFgRihP61PPG5SrzFIKw_fzipK4/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Trauma - Choque", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1jb4ZQggFEIm-IUML_bv_9_KHpehJfq9C/view?usp=sharing" }
         ],
         materials: [
-          { title: "E-Book - Desenvolvimento Infantil.pdf", pdfLink: "https://drive.google.com/file/d/1i3CyB7z_jyAKl2aQcH8DoVm_Xl0uqB9u/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Desenvolvimento Infantil.pdf", pdfLink: "https://drive.google.com/file/d/1JQUR61G41Ro04gDejEUPh-d7D1fLRkFf/view?usp=sharing" }
+          { title: "PDF de Slides - Trauma: Choque", pdfLink: "https://drive.google.com/file/d/1JfpZs4vSAJbdg6cZC88Jp1Rp-RH1zi16/view?usp=sharing" },
+          { title: "Ficha Resumo - Trauma: Choque", pdfLink: "https://drive.google.com/file/d/189gVX5-o0ZrJGrhwXmsuPpj7JBUipPBM/view?usp=sharing" }
         ]
       },
       {
         id: 5,
         label: "Sub-Módulo 05",
-        title: "Vacinação I e II",
-        imageUrl: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80&w=400",
+        title: "Trauma - Ressuscitação Hemostática",
+        imageUrl: "https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&q=80&w=400",
         lessons: [
-          { id: 1, title: "Aula 01 - Vacinação_HIITEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1kKI_ebiIJ6Q5rwPtCD8_FC8mNfLz8mOD/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Vacinação 1 - Pediatria_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1iHPmNiNNtluBcYgPNfOraE-tiCxd7Yno/view?usp=sharing" }
+          { id: 1, title: "Aula 01 - Trauma: Ressuscitação Hemostática", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/11MNZW2--kyuz2PqYzMRkP6qKb5bdIFmv/view?usp=sharing" }
         ],
-        materials: []
+        materials: [
+          { title: "PDF de Slides - Trauma: Ressuscitação Hemostática", pdfLink: "https://drive.google.com/file/d/1Z-CsERc_QEbEn1Z2Nh2FSzffuvNztyXG/view?usp=sharing" },
+          { title: "Ficha Resumo - Trauma: Ressuscitação Hemostática", pdfLink: "https://drive.google.com/file/d/1XdZjJi6V8h82-G5nWEWoRuYc_uCH-nt1/view?usp=sharing" }
+        ]
       },
       {
         id: 6,
         label: "Sub-Módulo 06",
-        title: "Pneumonias",
-        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
-        lessons: [],
-        materials: []
+        title: "Trauma - Medidas Auxiliares e FAST",
+        imageUrl: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Trauma: Medidas Auxiliares e FAST", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1jlbSk39vZBi8ymg8Nfao8N5ovPh5CI24/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Trauma - Medidas Auxiliares e FAST", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1DfBqRovY67bqV3ZEujbSm0lpby76xa6i/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Trauma: Medidas Auxiliares e FAST", pdfLink: "https://drive.google.com/file/d/1ISApLlyvSVkrUAvwjxSP7AsSysxcMAPz/view?usp=sharing" },
+          { title: "Ficha Resumo - Trauma: Medidas Auxiliares e FAST", pdfLink: "https://drive.google.com/file/d/1nUc_b7s30uRtLG5OYeDTtxVaYO19bCP3/view?usp=sharing" }
+        ]
       },
       {
         id: 7,
         label: "Sub-Módulo 07",
-        title: "Bronquiolite e Coqueluche",
-        imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
-        lessons: [],
-        materials: []
+        title: "Trauma - Trauma Cranioencefálico",
+        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Trauma: Trauma Cranioencefálico", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/15V5qgl5EPhyAQIbnAR_1f4JjAUzO58SH/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Trauma - Trauma Cranioencefálico", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1DH8qdbxvTlVbKNMqGhCZo9nxGlCB-e5V/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Trauma: Trauma Cranioencefálico", pdfLink: "https://drive.google.com/file/d/16zcHJt986ZruzKMToJlZzEzbjGXFiVyJ/view?usp=sharing" },
+          { title: "Ficha Resumo - Trauma: Trauma Cranioencefálico", pdfLink: "https://drive.google.com/file/d/1PboI3PMtWdkcupd7VvLjRCL72PUx0xNi/view?usp=sharing" }
+        ]
       },
       {
         id: 8,
         label: "Sub-Módulo 08",
-        title: "Asma",
-        imageUrl: "https://images.unsplash.com/photo-1584362917165-52e812f8dc08?auto=format&fit=crop&q=80&w=400",
+        title: "Trauma - Trauma Raquimedular",
+        imageUrl: "https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&q=80&w=400",
         lessons: [
-          { id: 1, title: "Aula 01 - Asma e Fibrose Cística_HIIT EXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1-ogcz93mfg1ZOymFBTKEB4PbjkBkiYoY/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Asma_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1kHTXA6kKedUqzYbC0WbdVJ-UOzvUNyMk/view?usp=sharing" }
+          { id: 1, title: "Aula 01 - Trauma: Trauma Raquimedular", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1mr3e4EFAx5HJ5BlBGw41-bN_5qWRKSsr/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Trauma - Trauma Raquimedular", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1PrML1e0BiHhq2COd-EaMsaSO4kl2Ix6v/view?usp=sharing" }
         ],
-        materials: []
+        materials: [
+          { title: "PDF de Slides - Trauma: Trauma Raquimedular", pdfLink: "https://drive.google.com/file/d/1RRTaNkChS5y8BjzOZOUPeOx4bmVCoT4Z/view?usp=sharing" },
+          { title: "Ficha Resumo - Trauma: Trauma Raquimedular", pdfLink: "https://drive.google.com/file/d/1b5ZdU98mgIUz5bVcSrPgX3DdV5TL1Mty/view?usp=sharing" }
+        ]
       },
       {
         id: 9,
         label: "Sub-Módulo 09",
-        title: "Infecções de Vias Aéreas Superiores (IVAS)",
-        imageUrl: "https://images.unsplash.com/photo-1550831107-1553da8c8464?auto=format&fit=crop&q=80&w=400",
+        title: "Trauma - Trauma Cervical",
+        imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
         lessons: [
-          { id: 1, title: "Aula 01 - Infecções de Vias Aéreas Superiores (IVAS).ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1d83R-2P-Z82sdMxpPoNaDvXwqhOnaW/view?usp=sharing" }
+          { id: 1, title: "Aula 01 - Trauma: Cervical", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Mpjqo07lJ8IkXb-ipU3C7D3ntBLVe2al/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Trauma - Cervical", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1neo9Tn20GMG6WL09VHQp6PhZbvUpV9Yz/view?usp=sharing" }
         ],
-        materials: []
+        materials: [
+          { title: "PDF de Slides - Trauma: Cervical", pdfLink: "https://drive.google.com/file/d/11MbgCzyuLISL-AVklmAnf1W1m9wPsMAA/view?usp=sharing" },
+          { title: "Ficha Resumo - Trauma: Cervical", pdfLink: "https://drive.google.com/file/d/1QagsJbQkogeLV-Phx3QmEehUU-XLcPni/view?usp=sharing" }
+        ]
       },
       {
         id: 10,
         label: "Sub-Módulo 10",
-        title: "Diarreia Aguda",
-        imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
-        lessons: [],
-        materials: []
+        title: "Trauma - Trauma Cervical Específico",
+        imageUrl: "https://images.unsplash.com/photo-1559757175-0b299a9d829c?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Trauma: Cervical Específico", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1_yqmA3gI9UYeUw-l_O5Jy72vEKWRn_jR/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Trauma - Cervical Específico", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Vxem2lND5ti_nFljqtIYz0hWQi4MR4Tc/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Trauma: Cervical Específico", pdfLink: "https://drive.google.com/file/d/1YRUA7CcyVFI6-QuEHS5WXx8zKZEP7f0N/view?usp=sharing" },
+          { title: "Ficha Resumo - Trauma: Cervical Específico", pdfLink: "https://drive.google.com/file/d/11Hjj248z1z5tOsjZU6I0_ZMMozQRsZrW/view?usp=sharing" }
+        ]
       },
       {
         id: 11,
         label: "Sub-Módulo 11",
-        title: "Reanimação Neonatal",
-        imageUrl: "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&q=80&w=400",
-        lessons: [],
-        materials: []
+        title: "Trauma - Trauma de Tórax",
+        imageUrl: "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Trauma: Trauma de Tórax", duration: "00:00", type: "aula", videoLink: "https://www.google.com/search?q=https://drive.google.com/file/d/1-4vJG7elBp7WHCZEFdCzzDWmJhlJfwgU/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Trauma - Trauma de Tórax", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1lUnYJbfDr94AKFVuJyXF_FN1rFMj9WLj/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Trauma: Trauma de Tórax", pdfLink: "https://drive.google.com/file/d/1R826Jrc4er44WIeveaCEn9v6UAjrT-pn/view?usp=sharing" },
+          { title: "Ficha Resumo - Trauma: Trauma de Tórax", pdfLink: "https://drive.google.com/file/d/13oKnSPYivsxwJrwAZwP0p8D-UKjFC04S/view?usp=sharing" }
+        ]
       },
       {
         id: 12,
         label: "Sub-Módulo 12",
-        title: "Icterícia e Colestase Neonatal",
-        imageUrl: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=80&w=400",
+        title: "Trauma - Trauma de Tórax II",
+        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
         lessons: [
-          { id: 1, title: "Aula 01 - Icterícia e Colestase Neonatal_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1kolGblRsPfNtpN4AecWTpHcvlXU37xSy/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Icterícia e Colestase Neonatal.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1fvbpXqvFmtNeGBR08AwctICB6kA626rO/view?usp=sharing" }
+          { id: 1, title: "Aula 01 - Trauma: Trauma de Tórax II", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1yCnp4RjxgfcNgU-4ycqmOi7yq0d95XPH/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Trauma - Trauma de Tórax II", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1B2bpS-C_6-ItIcz8mKttWaY7DEx1MS8Y/view?usp=sharing" }
         ],
-        materials: []
+        materials: [
+          { title: "PDF de Slides - Trauma: Trauma de Tórax II", pdfLink: "https://drive.google.com/file/d/1_1aZNtolVlbChwVHFzPLaiWCb05MSRAP/view?usp=sharing" },
+          { title: "Ficha Resumo - Trauma: Trauma de Tórax II", pdfLink: "https://drive.google.com/file/d/1sfM_3tef_poCNimu8EzQBnGWmhsN7BfY/view?usp=sharing" }
+        ]
       },
       {
         id: 13,
         label: "Sub-Módulo 13",
-        title: "Febre sem Sinais Localizatórios (FSSL)",
-        imageUrl: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&q=80&w=400",
+        title: "Trauma - Trauma Abdominal Contuso",
+        imageUrl: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=400",
         lessons: [
-          { id: 1, title: "Aula 01 - Febre sem Sinais Localizatórios_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1CFqe2l0WPrff3Jz3tuJMTDw7ojdmW55t/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Febre sem Sinais Localizatórios.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1jpLoskKMwoFUaPYx2L4J5QBj3WPpF1NR/view?usp=sharing" }
+          { id: 1, title: "Aula 01 - Trauma: Abdominal Contuso", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/15AQ4NRb95JMLzvNGAdyHWkJVkf-YGiMk/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Trauma - Abdominal Contuso", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1NJJrqxT8_eHddsmsXyKWPcX4d9HCvcZz/view?usp=sharing" }
         ],
-        materials: []
+        materials: [
+          { title: "PDF de Slides - Trauma: Abdominal Contuso", pdfLink: "https://drive.google.com/file/d/1O9YrALGNVbIYjFcb8I_EvVRyduLc4T9B/view?usp=sharing" },
+          { title: "Ficha Resumo - Trauma: Abdominal Contuso", pdfLink: "https://drive.google.com/file/d/1uD7gNxWH8CtPCp9HazmFzUBuF--RJCcQ/view?usp=sharing" }
+        ]
       },
       {
         id: 14,
         label: "Sub-Módulo 14",
-        title: "Infecção de Trato Urinário (ITU)",
-        imageUrl: "https://images.unsplash.com/photo-1631558556708-3482a1762c23?auto=format&fit=crop&q=80&w=400",
-        lessons: [],
-        materials: []
+        title: "Trauma - Trauma Abdominal Penetrante",
+        imageUrl: "https://images.unsplash.com/photo-1582719471384-3870695d9871?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Trauma: Abdominal Penetrante", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1McojdeEo3qrxAV6RrgSnZnPGGEF1arRl/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Trauma - Abdominal Penetrante", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ce0TZEZ1VY-1F_qHrOPwLau_l2S7su7y/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Trauma: Abdominal Penetrante", pdfLink: "https://drive.google.com/file/d/1pWzKpyxNEWGG4cdJtqN2qVMX-z0mH5h4/view?usp=sharing" },
+          { title: "Ficha Resumo - Trauma: Abdominal Penetrante", pdfLink: "https://drive.google.com/file/d/1l94c86iXEP1Fi5DG0DLZiT_s_GDDvxwi/view?usp=sharing" }
+        ]
       },
       {
         id: 15,
         label: "Sub-Módulo 15",
-        title: "Doenças Exantemáticas",
-        imageUrl: "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&q=80&w=400",
+        title: "Trauma - Trauma Abdominal Específico - PARTE 1",
+        imageUrl: "https://images.unsplash.com/photo-1516574187841-693018954312?auto=format&fit=crop&q=80&w=400",
         lessons: [
-          { id: 1, title: "Aula 01 - Doença Exantemática_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1jsuSlUYeJGD6btfxrMsKeEuBVfvErx-j/view?usp=sharing" }
+          { id: 1, title: "Aula 01 - Trauma: Abdominal Específico - Parte 1", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1cbRpN-YmqL-fR26jQyPV6L3HcBdi-ter/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Trauma - Abdominal Específico - Parte 1", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1NA8M5B-Q7byRQKJYXQYLX53rTDhCzBIN/view?usp=sharing" }
         ],
-        materials: []
+        materials: [
+          { title: "PDF de Slides - Trauma: Abdominal Específico - Parte 1", pdfLink: "https://drive.google.com/file/d/1sR5c2UU3xCMqFRU7xsU-p9wUCj7Xn7r3/view?usp=sharing" },
+          { title: "Ficha Resumo - Trauma: Abdominal Específico - Parte 1", pdfLink: "https://drive.google.com/file/d/1CDpr2eIZm6jqyqT-lowIS-qtY728_3lG/view?usp=sharing" }
+        ]
       },
       {
         id: 16,
         label: "Sub-Módulo 16",
-        title: "Síndromes Nefrítica e Nefrótica",
-        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
-        lessons: [],
-        materials: []
+        title: "Trauma - Trauma Abdominal Específico - PARTE 2",
+        imageUrl: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Trauma: Abdominal Específico - Parte 2", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1jf6R8MPjc0u24vQXle2-Ew7FES_obwQo/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Trauma - Abdominal Específico - Parte 2", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1NzDBetoBVNr1YpdJng_Sn9h9j13E4xhp/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Trauma: Abdominal Específico - Parte 2", pdfLink: "https://drive.google.com/file/d/1T6Nn0eJSt6-AY2NDGNF1TYVnVei7fwIC/view?usp=sharing" },
+          { title: "Ficha Resumo - Trauma: Abdominal Específico - Parte 2", pdfLink: "https://drive.google.com/file/d/1kPwO4GXkx_YGx0qVyABdYnmSdQzHsnF/view?usp=sharing" }
+        ]
       },
       {
         id: 17,
         label: "Sub-Módulo 17",
-        title: "Anemias Carenciais (Ferropriva)",
-        imageUrl: "https://images.unsplash.com/photo-1584362917165-52e812f8dc08?auto=format&fit=crop&q=80&w=400",
+        title: "Trauma - Trauma de Pelve",
+        imageUrl: "https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&q=80&w=400",
         lessons: [
-          { id: 1, title: "Aula 01 - Hemato 3 Anemia Ferropriva e Talassemia_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1-T5rxnGYWyf9dUqaVmwYbSbTPFccd3aw/view?usp=sharing" }
+          { id: 1, title: "Aula 01 - Trauma: Pelve", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1jTe4ATWGpuDT4PacvZzUM9yiBKZbRsMi/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Trauma - Pelve", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ShYP6ojB1EIOX8aFBhUTZbALg0rfdp4w/view?usp=sharing" }
         ],
-        materials: []
+        materials: [
+          { title: "PDF de Slides - Trauma: Pelve", pdfLink: "https://drive.google.com/file/d/1lYiaXEVAM0rS3i4rnozW1a05CZEATsUc/view?usp=sharing" },
+          { title: "Ficha Resumo - Trauma: Pelve", pdfLink: "https://drive.google.com/file/d/1SPoPOF8mBQntenkqOMDk0cHl969ziAl_/view?usp=sharing" }
+        ]
       },
       {
         id: 18,
         label: "Sub-Módulo 18",
-        title: "Desconforto Respiratório Neonatal",
-        imageUrl: "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&q=80&w=400",
+        title: "Trauma - Trauma Musculoesquelético",
+        imageUrl: "https://images.unsplash.com/photo-1581093458791-9f3c3900df4b?auto=format&fit=crop&q=80&w=400",
         lessons: [
-          { id: 1, title: "Aula 01 - Desconforto Respiratório Neonatal_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1-I7fqL-Xu3uHYqgwDibZ0HFo-s4T5H6a/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Desconforto Respiratório Neonatal.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1EOl3QXyC9ipzStrXoicxZK7-1iqs8JtT/view?usp=sharing" }
+          { id: 1, title: "Aula 01 - Trauma: Musculoesquelético", duration: "00:00", type: "aula", videoLink: "https://www.google.com/search?q=https://drive.google.com/file/d/1-Pp9CuxLajiACn5ef8mDJw_cCqDypk2m/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Trauma - Musculoesquelético", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1KX2jmB9w26B-w2BYGMXlR6kQBFVDFNra/view?usp=sharing" }
         ],
-        materials: []
+        materials: [
+          { title: "PDF de Slides - Trauma: Musculoesquelético", pdfLink: "https://drive.google.com/file/d/13h91q-afS_8RourB-FFaTeU10MhSvj0S/view?usp=sharing" },
+          { title: "Ficha Resumo - Trauma: Musculoesquelético", pdfLink: "https://drive.google.com/file/d/15d7QxQe7lgoFVYFbWvmw9PDBLiVQpNFG/view?usp=sharing" }
+        ]
       },
       {
         id: 19,
         label: "Sub-Módulo 19",
-        title: "Infecções Congênitas",
-        imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
+        title: "Trauma - Populações Especiais",
+        imageUrl: "https://images.unsplash.com/photo-1527613426441-4da17471b66d?auto=format&fit=crop&q=80&w=400",
         lessons: [
-          { id: 1, title: "Aula 01 - Infecções Congênitas_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1CQUBPLWwE0_3TBy6NJgeRHmW9SMQdof-/view?usp=sharing" }
+          { id: 1, title: "Aula 01 - Trauma: Populações Especiais", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1qZtHpqaAu2gSX5ocwJXJSSGio209RXxZ/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Trauma - Populações Especiais", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1p7anDOeZoCDAJT3YQBUWgeeVJQ8p1x-j/view?usp=sharing" }
         ],
-        materials: []
+        materials: [
+          { title: "PDF de Slides - Trauma: Populações Especiais", pdfLink: "https://drive.google.com/file/d/1cAuzzfFfFqfRlj_wzuYA1ymSGqWxNbp9/view?usp=sharing" },
+          { title: "Ficha Resumo - Trauma: Populações Especiais", pdfLink: "https://drive.google.com/file/d/1fdUe5rXFNfDEAyVZqSV8AAR8Jgk4U2-w/view?usp=sharing" }
+        ]
       },
       {
         id: 20,
         label: "Sub-Módulo 20",
-        title: "Choque e Sepse Pediátrica",
-        imageUrl: "https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?auto=format&fit=crop&q=80&w=400",
+        title: "Trauma - Encerramento",
+        imageUrl: "https://images.unsplash.com/photo-1512678080530-7760d81faba6?auto=format&fit=crop&q=80&w=400",
         lessons: [
-          { id: 1, title: "Aula 01 - VISÃO DO ESPECIALISTA Sepse Pediátrica.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1m1jIgW5zZRjtiuq50ZaX9kh307IcLyC9/view?usp=sharing" }
+          { id: 1, title: "Aula 01 - Trauma: Encerramento", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1fwj14WnyN0OOKs6qr6dZf1TxYLkFErPl/view?usp=sharing" }
         ],
         materials: [
-          { title: "E-Book - Sepse Pediátrica.pdf", pdfLink: "https://drive.google.com/file/d/1bWeodqyKwZNCt_tI7D6o5Nb6G5ge6rwP/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Sepse Pediátrica.pdf", pdfLink: "https://drive.google.com/file/d/1dr8NJ9txvNHgLwCxrA9ehEGqiE0oEj6v/view?usp=sharing" }
+          { title: "PDF de Slides - Trauma: Encerramento", pdfLink: "https://drive.google.com/file/d/1xr9RoUnZKVjxvjQ6vQDa0R0ne96Et6G3/view?usp=sharing" }
         ]
       },
       {
         id: 21,
         label: "Sub-Módulo 21",
-        title: "Distúrbio Hidroeletrolítico e Ácido-Básico",
-        imageUrl: "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&q=80&w=400",
+        title: "Queimados - Atendimento Inicial",
+        imageUrl: "https://images.unsplash.com/photo-1628771065518-0d82f1938462?auto=format&fit=crop&q=80&w=400",
         lessons: [
-          { id: 1, title: "Aula 01 - Distúrbio Ácido Básico_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1jKqkOBBx4d4A18eS98UtheE_LD5D_vMl/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Distúrbio Hidroeletrolítico_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1tZJfHguOLB3BZ2R98M53DQjP45weS_HG/view?usp=sharing" }
-        ],
-        materials: []
-      },
-      {
-        id: 22,
-        label: "Sub-Módulo 22",
-        title: "Cetoacidose Diabética (CAD)",
-        imageUrl: "https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&q=80&w=400",
-        lessons: [],
-        materials: []
-      },
-      {
-        id: 23,
-        label: "Sub-Módulo 23",
-        title: "Parasitoses Intestinais",
-        imageUrl: "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Parasitoses Intestinais_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/17r-Eg5J1GPGikRZPIOR6Xc5qFaDfQvn2/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Parasitoses Intestinais - Pediatria.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1jNsy5gF_hZHLm0IK782vrCH9yfkIsysM/view?usp=sharing" }
-        ],
-        materials: []
-      },
-      {
-        id: 24,
-        label: "Sub-Módulo 24",
-        title: "Puberdade",
-        imageUrl: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Puberdade_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/10S6GX70U4jKpVVBaVaAoGoBF3PdMc7pr/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Puberdade.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1qNjbKfse_1qL-mPr8UQkQUg-zNNm3CIh/view?usp=sharing" }
-        ],
-        materials: []
-      },
-      {
-        id: 25,
-        label: "Sub-Módulo 25",
-        title: "Obesidade e Síndrome Metabólica",
-        imageUrl: "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Obesidade e eixos endócrinos I.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ySO2VM6F-EP8bN8hEzd1Jj7DSyzD1y7V/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - VISÃO DO ESPECIALISTA Obesidade Infantil.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1j_q9ZMHz2f1xoTjJO2zQk-Hqmgc9UfuU/view?usp=sharing" }
+          { id: 1, title: "Aula 01 - Cirurgia Plástica: Queimados - Atendimento Inicial", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Y1UFmHxQ0hNQRspUTrHoXwlkJz98t_Ce/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Cirurgia Plástica - Queimados - Atendimento Inicial", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/12bCxxCs97tfpzhxkZISHBjSGrlcKXD3U/view?usp=sharing" }
         ],
         materials: [
-          { title: "E-Book - Obesidade infantil e lípides.pdf", pdfLink: "https://drive.google.com/file/d/1sMzCn2FuxEGJIMuM5_stFeOWTjGE--ua/view?usp=sharing" },
-          { title: "E-Book - Obesidade infantil e lípides_COFEXPRESS.pdf", pdfLink: "https://drive.google.com/file/d/1c65bX7VL11OcLENTt_22hm-ny_BX0hwQ/view?usp=sharing" }
+          { title: "PDF de Slides - Cirurgia Plástica: Queimados - Atendimento Inicial", pdfLink: "https://drive.google.com/file/d/11YLJlXv26xdYHyKxPeuqAoG36nlND8rC/view?usp=sharing" },
+          { title: "Ficha Resumo - Cirurgia Plástica: Queimados - Atendimento Inicial", pdfLink: "https://drive.google.com/file/d/1txQv4VVwhokdI-lq8D4vMyIFbkU57XTX/view?usp=sharing" }
         ]
-      },
-      {
-        id: 26,
-        label: "Sub-Módulo 26",
-        title: "Alergia Alimentar, Refluxo e Constipação",
-        imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
-        lessons: [],
-        materials: []
-      },
-      {
-        id: 27,
-        label: "Sub-Módulo 27",
-        title: "Anemia Falciforme",
-        imageUrl: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Hemato 2 Anemia Falciforme_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1AXpW8jooY0zcutkWou1jK2TO7Bk8PipU/view?usp=sharing" }
-        ],
-        materials: []
-      },
-      {
-        id: 28,
-        label: "Sub-Módulo 28",
-        title: "Meningite e Encefalite",
-        imageUrl: "https://images.unsplash.com/photo-1584362917165-52e812f8dc08?auto=format&fit=crop&q=80&w=400",
-        lessons: [],
-        materials: [
-          { title: "E-Book - Meningite e Encefalite_COFEXPRESS.pdf", pdfLink: "https://drive.google.com/file/d/1B9NQRNS5T6q5aqJfxIe0tQHosvWPHhBx/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 29,
-        label: "Sub-Módulo 29",
-        title: "Convulsões e Epilepsia",
-        imageUrl: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Epilepsia na Infância - Parte I_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/19bBnwwZi0XFnNJeHN0ecWyoiNBd8gW_q/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Epilepsia na Infância - Parte II.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/120uEc8LvF4355uOtHX18qqgip68MJrri/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Epilepsia na Infância - Parte III.mp4", pdfLink: "https://drive.google.com/file/d/1kO-_4DtZYfqtLAWcLPOIkv5dWKZfzl0-/view?usp=sharing" },
-          { title: "E-Book - Epilepsias na Infância - Parte II_COFEXPRESS.mp4", pdfLink: "https://drive.google.com/file/d/1tW6yU3D-tZm-Qs3AyH-cAzBXVw_Dg2ea/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 30,
-        label: "Sub-Módulo 30",
-        title: "Cardiopatias Congênitas",
-        imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Cardio 1 Cardiopatias Congênitas_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1knh_T_yR4NKSE3MBJSggGkcR3EP0JYPp/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Cirurgia Cardíaca Doenças congênitas_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/12rn3gekP630XiabkSKG0uHWAD-6w2cmp/view?usp=sharing" }
-        ],
-        materials: []
-      },
-      {
-        id: 31,
-        label: "Sub-Módulo 31",
-        title: "Sepse Neonatal",
-        imageUrl: "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&q=80&w=400",
-        lessons: [],
-        materials: []
-      },
-      {
-        id: 32,
-        label: "Sub-Módulo 32",
-        title: "Dermatite Atópica e Lesões do RN",
-        imageUrl: "https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&q=80&w=400",
-        lessons: [],
-        materials: []
-      },
-      {
-        id: 33,
-        label: "Sub-Módulo 33",
-        title: "Arboviroses",
-        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
-        lessons: [],
-        materials: []
-      },
-      {
-        id: 34,
-        label: "Sub-Módulo 34",
-        title: "Tuberculose",
-        imageUrl: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=400",
-        lessons: [],
-        materials: []
-      },
-      {
-        id: 35,
-        label: "Sub-Módulo 35",
-        title: "Suporte Avançado (PALS)",
-        imageUrl: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Suporte Avançado de Vida em Pediatrias (PALS).ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1yAMoOSmzNRbxxa-Co4MoI47HtImMTyBN/view?usp=sharing" }
-        ],
-        materials: []
-      },
-      {
-        id: 36,
-        label: "Sub-Módulo 36",
-        title: "Reumatologia Pediátrica",
-        imageUrl: "https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Artrite Idiopática Juvenil_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1vUvGnVBm4gZXWuKSeHxJHSAeMKt-nnp1/view?usp=sharing" }
-        ],
-        materials: []
-      },
-      {
-        id: 37,
-        label: "Sub-Módulo 37",
-        title: "Oncologia Pediátrica",
-        imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Cirurgia infantil Tumores da infância_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1srBau6rcJVHdZsdrmxSFGCnOPy_p5lH3/view?usp=sharing" }
-        ],
-        materials: []
-      },
-      {
-        id: 38,
-        label: "Sub-Módulo 38",
-        title: "Imunodeficiências",
-        imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Imunodeficiências para o Pediatra.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/17iE5jDpYUXv5znkZxEKWF0LzLSKclmaK/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Imunodeficiências.pdf", pdfLink: "https://drive.google.com/file/d/13mNr2DO0PRAwWYKIxvCebqmf2upkoq6W/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Imunodeficiências.pdf", pdfLink: "https://drive.google.com/file/d/113LdBtJfZ_SfNxtOH89R0BOxKlRFeIOW/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 39,
-        label: "Sub-Módulo 39",
-        title: "Fibrose Cística",
-        imageUrl: "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Pneumo 2 Fibrose Cística e Diferenciais_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/13aZvzq0MWmSeVJUvuV_7lLa-DABetBIs/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Pneumo 2 Fibrose Cística e Diferenciais.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/12g1CCH34WS8MrR5K9sLrNz9ufj_l3ouB/view?usp=sharing" }
-        ],
-        materials: []
-      },
-      {
-        id: 40,
-        label: "Sub-Módulo 40",
-        title: "Intoxicações e Acidentes",
-        imageUrl: "https://images.unsplash.com/photo-1584036561566-b93a945cd3ae?auto=format&fit=crop&q=80&w=400",
-        lessons: [],
-        materials: []
-      },
-      {
-        id: 41,
-        label: "Sub-Módulo 41",
-        title: "Ingestão de Corpo Estranho",
-        imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
-        lessons: [],
-        materials: []
-      },
-      {
-        id: 42,
-        label: "Sub-Módulo 42",
-        title: "Nutrologia e Vitaminas",
-        imageUrl: "https://images.unsplash.com/photo-1550831107-1553da8c8464?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - COFEXPRESS Puericultura - Desnutrição e Vitaminas.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1A_AWqyX5MwKsb63jH40WMpclU5641bt9/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - VISÃO DO ESPECIALISTA Puericultura - Desnutrição e Vitaminas.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1FoEVx7mTWmO5eB3-Sbh-k1mtxn6UzRWV/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Nutrição Neonatal_COFEXPRESS.pdf", pdfLink: "https://drive.google.com/file/d/1bK3X5gsX09GgXBac_HiuT2DA7GgmZOMx/view?usp=sharing" },
-          { title: "E-Book - Nutrição Neonatal.pdf", pdfLink: "https://drive.google.com/file/d/1hB7oOVOggJ7rrv9Dx2WrARHyLSH9kQS3/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 43,
-        label: "Sub-Módulo 43",
-        title: "Triagens e Metabólicos Neonatais",
-        imageUrl: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Triagens Neonatais_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1cJw2id3LdbN8LmMSwILmUHi2QfU9Sdjz/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Distúrbios Metabólicos Neonatais_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1zoPnfKI-KO1-zJ-ebffmqME4fdNEGxAA/view?usp=sharing" }
-        ],
-        materials: []
-      },
-      {
-        id: 44,
-        label: "Sub-Módulo 44",
-        title: "Ortopedia Pediátrica",
-        imageUrl: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Ortopedia Pediátrica_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/13k6jFwV0tkUC3IOfciiv_lVu3N3rCepx/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Ortopedia Pediátrica.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1w-o6lSV9jF9T0GcBG7V5_Hqd_p91B4Qs/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Osteogênese imperfeita_COFEXPRESS.pdf", pdfLink: "https://drive.google.com/file/d/1zlVzUhdHJnF0-LYpYJXhV4NjGccL0ZWp/view?usp=sharing" },
-          { title: "E-Book - Osteogênese imperfeita.pdf", pdfLink: "https://drive.google.com/file/d/1-_T7IxbjbVfefWT7LZXT6R5318GXz1rH/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 45,
-        label: "Sub-Módulo 45",
-        title: "Oftalmo e Otorrino Pediátricos",
-        imageUrl: "https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Oftalmo Pediatria 1_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1h_lDtMKMzVKt6CPHLiLtQFzBrgkq3DBH/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Oftalmo Pediatria 2 Doenças Pediátricas_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1bkfMTxsK4m5vdZznTQo6BcmrQEJtUhXa/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Otorrino Pediatria 2 _COFEXPRESS.pdf", pdfLink: "https://drive.google.com/file/d/16KwnJtOAfptsp7z88wHBja9JR34Let0V/view?usp=sharing" },
-          { title: "E-Book - Otorrino Pediatria 2.pdf", pdfLink: "https://drive.google.com/file/d/1Ew3yQ2ppqyo_GZ6AA4jbVW30weFgu1tT/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 46,
-        label: "Sub-Módulo 46",
-        title: "Genética e Malformações",
-        imageUrl: "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Genética_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/10Xw5wJcgHBOeFOgKiJ74hHATaEHMWVf4/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Genética.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1uYIhWVzhK5cbNCkB7njJbxbvix480dws/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Malformações Congênitas_COFEXPRESS.pdf", pdfLink: "https://drive.google.com/file/d/1hfnJ6WKGveVwYhqDRN1QpmYtkw0c79h_/view?usp=sharing" },
-          { title: "E-Book - Malformações Congênitas.pdf", pdfLink: "https://drive.google.com/file/d/1j_q9ZMHz2f1xoTjJO2zQk-Hqmgc9UfuU/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 47,
-        label: "Sub-Módulo 47",
-        title: "Psiquiatria e Sono",
-        imageUrl: "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Psiquiatria da Infância e Adolescência.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1gss4UhF-crpLMdaT4nImRnT8QqM7lVh_/view?usp=sharing" }
-        ],
-        materials: []
-      },
-      {
-        id: 48,
-        label: "Sub-Módulo 48",
-        title: "Ética e Cuidados Paliativos",
-        imageUrl: "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Cuidados Paliativos na Pediatria_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/10qngyU6LuPZ-qBjUMZ_GyjbM-qN5wAt0/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Ética em Pediatria - Parte I _COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1mBZIluoZerTSG_86FJvlvncV-bNiqUbu/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Cuidados Paliativos na Pediatria.pdf", pdfLink: "https://drive.google.com/file/d/14c76AGtRqJaqsEDLW3mfO1HR1q9YRzEN/view?usp=sharing" },
-          { title: "E-Book - Ética em Pediatria - Parte II_COFEXPRESS.pdf", pdfLink: "https://drive.google.com/file/d/1CesOQG8Hf7ZNElXQ2sOMctavMdG23NpF/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 49,
-        label: "Sub-Módulo 49",
-        title: "Ventilação Mecânica e Sedação",
-        imageUrl: "https://images.unsplash.com/photo-1584362917165-52e812f8dc08?auto=format&fit=crop&q=80&w=400",
-        lessons: [],
-        materials: []
       }
     ]
   },
-  // --- MÓDULO 06: PREVENTIVA ---
+
+  // --- MÓDULO 22: ABDOME AGUDO E PAREDE ABDOMINAL ---
   {
-    id: 6,
-    title: "Módulo 06 - Preventiva",
-    label: "Módulo 06",
+    id: 22,
+    title: "Módulo 22 - Abdome Agudo e Parede Abdominal",
+    label: "Módulo 22",
     subModules: [
       {
         id: 1,
         label: "Sub-Módulo 01",
-        title: "Lei Orgânica de Saúde: 8080/90",
-        imageUrl: "https://images.unsplash.com/photo-1550831107-1553da8c8464?auto=format&fit=crop&q=80&w=400",
-        lessons: [],
+        title: "Abdome Agudo - Introdução e Take-Home Message",
+        imageUrl: "https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Abdome Agudo: Introdução", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/103BPJBXcKrGS4p0zYout4SQsG0SNug9P/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Abdome Agudo - Introdução", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ZFMh2ioWZJMvA-ittml4ucVXMgDUf8ir/view?usp=sharing" }
+        ],
         materials: [
-          { title: "E-Book - Ficha Resumo: Lei Orgânica de Saúde: 8080/90.pdf", pdfLink: "https://drive.google.com/file/d/1b5d5RXsJwTizu5ypKyEWM68KF--iPWDa/view?usp=sharing" },
-          { title: "E-Book - Lei Orgânica de Saúde: 8080/90.pdf", pdfLink: "https://drive.google.com/file/d/1wrPhWB7lCyQCidk3n8Dvd0t1xqZR4aL4/view?usp=sharing" }
+          { title: "PDF de Slides - Abdome Agudo: Introdução", pdfLink: "https://drive.google.com/file/d/1jStfX7lONUmDBsL7LRFwWocJg3j9HMxo/view?usp=sharing" },
+          { title: "PDF de Slides - Abdome Agudo: Take-Home Message", pdfLink: "https://drive.google.com/file/d/1XL5XdPskjcvORcknRU_XntkVkYkhwIkJ/view?usp=sharing" },
+          { title: "Ficha Resumo - Abdome Agudo: Introdução", pdfLink: "https://drive.google.com/file/d/1DZsb_f1dTauHGytzUfyf4xsuZhfR7kd0/view?usp=sharing" }
         ]
       },
       {
         id: 2,
         label: "Sub-Módulo 02",
-        title: "Lei Orgânica de Saúde: 8142/90",
-        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
-        lessons: [],
+        title: "Abdome Agudo Inflamatório - Apendicite Aguda",
+        imageUrl: "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Abdome Agudo Inflamatório: Apendicite Aguda", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1OoVkYEUSyJJ91ag3SfF-O-LwDzmF-JXR/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Abdome Agudo Inflamatório - Apendicite Aguda", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1IyyY2Qp2UNAFzLAQ8sPUxPBdUQObaZTv/view?usp=sharing" }
+        ],
         materials: [
-          { title: "E-Book - Ficha Resumo: Lei Orgânica de Saúde: 8142/90.pdf", pdfLink: "https://drive.google.com/file/d/1pa0vDrktiySxqsklni033Ilyw1__-uHX/view?usp=sharing" },
-          { title: "E-Book - Lei Orgânica de Saúde: 8142/90.pdf", pdfLink: "https://www.google.com/search?q=https://drive.google.com/file/d/1WNjA5ClbNo-uhXvRfecSEC4WbLstfqV/view?usp=sharing" }
+          { title: "PDF de Slides - Abdome Agudo Inflamatório: Apendicite Aguda", pdfLink: "https://drive.google.com/file/d/1HU5Hjm4DDosjDLGAfmnW4raPn4Y0jazP/view?usp=sharing" },
+          { title: "Ficha Resumo - Abdome Agudo Inflamatório: Apendicite Aguda", pdfLink: "https://drive.google.com/file/d/1QoPvJ7LfZwYlW0pndLoLJUu6vc7oXgmX/view?usp=sharing" }
         ]
       },
       {
         id: 3,
         label: "Sub-Módulo 03",
-        title: "Princípios do SUS",
-        imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
-        lessons: [],
+        title: "Abdome Agudo Inflamatório - Colecistite (e Visão Crítica)",
+        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Abdome Agudo Inflamatório: Colecistite - Visão Crítica de Segurança", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1pVgidpvH14F0jcZQQmlHtHBlVVfCwujZ/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Abdome Agudo Inflamatório - Colecistite - Visão Crítica de Segurança", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/13ngmgyMJ52QLnKsCrF_teAPm5-2zAg6k/view?usp=sharing" },
+          { id: 3, title: "Aula 03 - CofExpress: Abdome Agudo Inflamatório - Colecistite", duration: "00:00", type: "aula", videoLink: "https://www.google.com/search?q=https://drive.google.com/file/d/1-fLP601Wf_ZdkB2CAbIHovmUs6A6YGll/view?usp=sharing" }
+        ],
         materials: [
-          { title: "E-Book - Ficha Resumo: Princípios do SUS.pdf", pdfLink: "https://drive.google.com/file/d/1dswmubntdH0B3hl3iwSulwYJOd-icqWp/view?usp=sharing" },
-          { title: "E-Book - Princípios do SUS.pdf", pdfLink: "https://drive.google.com/file/d/1JXju73chHyYaBSnbXkOzEKXAAL9jhb_i/view?usp=sharing" }
+          { title: "PDF de Slides - Abdome Agudo Inflamatório: Colecistite", pdfLink: "https://drive.google.com/file/d/11z-7_nIrObOOtxD17mXwn2Rz_gtQaRYV/view?usp=sharing" },
+          { title: "PDF de Slides - Abdome Agudo Inflamatório: Colecistite - Visão Crítica de Segurança", pdfLink: "https://drive.google.com/file/d/1tAc6LtF5FmXMtpYK3oVzvAvcDyy2A263/view?usp=sharing" },
+          { title: "Ficha Resumo - Abdome Agudo Inflamatório: Colecistite", pdfLink: "https://drive.google.com/file/d/18V_Avi_yJ0uYKq3A0bUSq9HV1_y-AH2R/view?usp=sharing" },
+          { title: "Ficha Resumo - Abdome Agudo Inflamatório: Colecistite - Visão Crítica de Segurança", pdfLink: "https://drive.google.com/file/d/10Rlr07dcPWwifDSFW-9vv68QTBVPF7Vh/view?usp=sharing" }
         ]
       },
       {
         id: 4,
         label: "Sub-Módulo 04",
-        title: "Testes Diagnósticos (Características e Cálculos)",
-        imageUrl: "https://images.unsplash.com/photo-1584036561566-b93a945cd3ae?auto=format&fit=crop&q=80&w=400",
+        title: "Abdome Agudo Inflamatório - Colangite",
+        imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
         lessons: [
-          { id: 1, title: "Aula 01 - Testes Diagnósticos aplicabilidade clínica.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1aZCR6Oa_eCCToL3zSTkbDlY2ewKeOKaW/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Testes Diagnósticos características básicas_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1byzy9rBduBW8xsxujuuymi8NE4JIUUOb/view?usp=sharing" }
+          { id: 1, title: "Aula 01 - Abdome Agudo Inflamatório: Colangite", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ErNvylzLwSSTkdJHY-yUA7-xs7XeqlTh/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Abdome Agudo Inflamatório - Colangite", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1DpCQ86XLc3tsuSq5n91IqxgKNlYQD5Ih/view?usp=sharing" }
         ],
         materials: [
-          { title: "E-Book - Testes Diagnósticos características básicas.pdf", pdfLink: "https://drive.google.com/file/d/1GDW91mKcpZ_VXoSx0Ic6j_YT_p9P3X1J/view?usp=sharing" },
-          { title: "E-Book - Teste diagnosticos exercicios.pdf", pdfLink: "https://drive.google.com/file/d/1M4tOjXXP5o-1uaR9ET_eaB37t6d_gpmt/view?usp=sharing" }
+          { title: "PDF de Slides - Abdome Agudo Inflamatório: Colangite", pdfLink: "https://drive.google.com/file/d/1d0g4L15GDaKWUlO-99GESYvJo-ty_-nk/view?usp=sharing" },
+          { title: "Ficha Resumo - Abdome Agudo Inflamatório: Colangite", pdfLink: "https://drive.google.com/file/d/1tdDfOvXhnj9UcrwGyk24KJKTE8lTPX8D/view?usp=sharing" }
         ]
       },
       {
         id: 5,
         label: "Sub-Módulo 05",
-        title: "Classificação dos Estudos Epidemiológicos",
-        imageUrl: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=80&w=400",
+        title: "Abdome Agudo Inflamatório - Pancreatite Aguda",
+        imageUrl: "https://images.unsplash.com/photo-1538108149393-fbbd81895907?auto=format&fit=crop&q=80&w=400",
         lessons: [
-          { id: 1, title: "Aula 01 - Classificação dos Estudos Epidemiológicos_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1t5Pb8CiEPOAItSxLcR4QtXzW6XAJbgv0/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Classificaçãodos Estudos Epidemiológicos.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1oDqLK8HvYGHp_pU56R2D7InX1OCwXhTi/view?usp=sharing" }
+          { id: 1, title: "Aula 01 - Pancreatite Aguda", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1m8cETeJ3YbtJ_5JEeS1k1oILZXfg0NtX/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Pancreatite Aguda", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1SNw-aQjKrgsNtZqW6jtUqHwZLdq1kWpa/view?usp=sharing" }
         ],
         materials: [
-          { title: "E-Book - Classificacao dos estudos epidemiologicos.pdf", pdfLink: "https://drive.google.com/file/d/1FX7S6-Q2cLMK0QfzPSRYvDmoLnG5LIAx/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Classificacao dos estudos epidemiologicos.pdf", pdfLink: "https://drive.google.com/file/d/1n8HkIgVtFlzaBJqinRW9q_IUn6iQoc0c/view?usp=sharing" }
+          { title: "PDF de Slides - Abdome Agudo Inflamatório: Pancreatite Aguda", pdfLink: "https://drive.google.com/file/d/1CKtqAVESFMC-AKKpzJUgvVPwPMFWzZnR/view?usp=sharing" },
+          { title: "Ficha Resumo - Abdome Agudo Inflamatório: Pancreatite Aguda", pdfLink: "https://drive.google.com/file/d/12mSjYL_oqmjiNMCDVGSG_uZ7HGVGcLmv/view?usp=sharing" }
         ]
       },
       {
         id: 6,
         label: "Sub-Módulo 06",
-        title: "Estudos Longitudinais e Transversais",
-        imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
+        title: "Abdome Agudo Inflamatório - Diverticulite Aguda",
+        imageUrl: "https://images.unsplash.com/photo-1584036561566-b93a50208c3c?auto=format&fit=crop&q=80&w=400",
         lessons: [
-          { id: 1, title: "Aula 01 - Estudos Longitudinais_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/18PBDrrviEpNuN3k_v7JijUL12shN-wjc/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Estudos Longitudinais.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1DYQ2GJRltwtoXrnxN-J8aYwwBicddTc5/view?usp=sharing" }
+          { id: 1, title: "Aula 01 - Diverticulite Aguda", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Mp_ij96wjOtYbQjrf0UjJkOUHnQf6XqP/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Diverticulite Aguda", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1T6-jE1JkxauBb1k_rSLKnlMAZ60QL91o/view?usp=sharing" }
         ],
         materials: [
-          { title: "E-Book - Estudos Transversais.pdf", pdfLink: "https://drive.google.com/file/d/1cKTKq1pu9J0A7mTVcuL4DpdIUFdtG4Xn/view?usp=sharing" },
-          { title: "E-Book - Estudos longitudinais_ coorte e caso control.pdf", pdfLink: "https://drive.google.com/file/d/1l8Tn7rRK3DvWzvXJR8X0f-bQQLQVHG0L/view?usp=sharing" }
+          { title: "PDF de Slides - Abdome Agudo Inflamatório: Diverticulite Aguda", pdfLink: "https://drive.google.com/file/d/1MdWJvFaShhYT56T2BdaMypEpBW5SqCGM/view?usp=sharing" },
+          { title: "Ficha Resumo - Abdome Agudo Inflamatório: Diverticulite Aguda", pdfLink: "https://drive.google.com/file/d/1qJ-3MQMh4yqdwCuDeBGYVnC8Tqh7JjWS/view?usp=sharing" }
         ]
       },
       {
         id: 7,
         label: "Sub-Módulo 07",
-        title: "Atenção Primária à Saúde (APS)",
-        imageUrl: "https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?auto=format&fit=crop&q=80&w=400",
+        title: "Abdome Agudo Inflamatório - Abscesso Hepático",
+        imageUrl: "https://images.unsplash.com/photo-1559757175-577952467e38?auto=format&fit=crop&q=80&w=400",
         lessons: [
-          { id: 1, title: "Aula 01 - Atenção Primária à Saúde - Parte I_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1qJrz35KTtvphvhG64CZ8Fh0qaEE7b2wh/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Atenção Primária à Saúde - Parte I.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/17ReEIRx-atIlrXQbPJL0en7rYNwTIMYc/view?usp=sharing" }
+          { id: 1, title: "Aula 01 - Abdome Agudo Inflamatório: Abscesso Hepático", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/16GyDJzPdj2NqeHmv53va2zaCOim3dhQD/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Abdome Agudo Inflamatório - Abscesso Hepático", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1PXb9IIcIe1PyXb4lMxeq5RJ65CYrbTGH/view?usp=sharing" }
         ],
         materials: [
-          { title: "E-Book - Atenção Primária à Saúde - Parte II.pdf", pdfLink: "https://drive.google.com/file/d/1C9bAqWJigIaTSNqXZalz418MUKcYDvbw/view?usp=sharing" },
-          { title: "E-Book - Atenção Primária à Saúde - Parte II_COFEXPRESS.pdf", pdfLink: "https://drive.google.com/file/d/1F68rL3apHAW_yIoz5Kp3e9aJSqguJGtn/view?usp=sharing" }
+          { title: "PDF de Slides - Abdome Agudo Inflamatório: Abscesso Hepático", pdfLink: "https://drive.google.com/file/d/1a8YpFHSgoUIY_d4TNGgquna6bIMl92Iv/view?usp=sharing" },
+          { title: "Ficha Resumo - Abdome Agudo Inflamatório: Abscesso Hepático", pdfLink: "https://drive.google.com/file/d/1CeXSSAgb_vVgwV1SN0lhFcsUaPGym8Sz/view?usp=sharing" }
         ]
       },
       {
         id: 8,
         label: "Sub-Módulo 08",
-        title: "Estratégia Saúde da Família (ESF)",
-        imageUrl: "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&q=80&w=400",
+        title: "Abdome Agudo Inflamatório - Complicações",
+        imageUrl: "https://images.unsplash.com/photo-1520206183501-b80df610434f?auto=format&fit=crop&q=80&w=400",
         lessons: [
-          { id: 1, title: "Aula 01 - Estratégia Saúde da Família I organização e funcionamento - Parte I_COFEXPRESS_1.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1gYc0gWAx2HpdJYD8aMgzKYTuaGM1cCwL/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Estratégia Saúde da Família I organização e funcionamento - Parte II_1.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1mSuZeIL8mRP4xeHtDPTGuBg2pbAVkNwS/view?usp=sharing" }
+          { id: 1, title: "Aula 01 - Abdome Agudo Inflamatório: Complicações", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1wa5sumCBEcWa2VsldI3vO9LgkK12Q0UJ/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Abdome Agudo Inflamatório - Complicações", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1KHe_s1eGILnxyCqIm4aDgtd6zJ62t19V/view?usp=sharing" }
         ],
         materials: [
-          { title: "E-Book - Estratégia Saúde da Família II Financiamento e Programas Especiais _COFEXPRESS.pdf", pdfLink: "https://drive.google.com/file/d/1ptXKSxQIFsZQwuNBy_QNP_9vBhpejIOT/view?usp=sharing" }
+          { title: "PDF de Slides - Abdome Agudo Inflamatório: Complicações", pdfLink: "https://drive.google.com/file/d/1hVlSK6Ocx9F6Lvfn8rnkJGEgmlTbCBNO/view?usp=sharing" },
+          { title: "Ficha Resumo - Abdome Agudo Inflamatório: Complicações", pdfLink: "https://drive.google.com/file/d/1lAXt37RM0ixr1M15HEy6dGSD1eq51-O6/view?usp=sharing" }
         ]
       },
       {
         id: 9,
         label: "Sub-Módulo 09",
-        title: "Princípios da Medicina de Família e Comunidade",
-        imageUrl: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Princípios da Medicina de Família e comunidade_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1zxg-wkiXMzJIrC3NhEnBxa7JkRn_9COt/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Princípios da Medicina de Família e comunidade.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1rHXBakTMhY9iUh_Z0TjvimsCLX7hAAYc/view?usp=sharing" }
-        ],
-        materials: []
-      },
-      {
-        id: 10,
-        label: "Sub-Módulo 10",
-        title: "Ferramentas da APS/ESF (Genograma, Ecomapa)",
-        imageUrl: "https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Ferramentas da APSESF I - Parte I.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1wH_rBn-yLJ5pPih5-VmIUqw-0uLmoKR/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Ferramentas da APSESF I - Parte II Equipes e-MULTI.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1jKqkOBBx4d4A18eS98UtheE_LD5D_vMl/view?usp=sharing" }
-        ],
-        materials: []
-      },
-      {
-        id: 11,
-        label: "Sub-Módulo 11",
-        title: "Método Clínico Centrado na Pessoa (MCCP)",
-        imageUrl: "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Método Clínico Centrado na Pessoa_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1fbYzgxDV70dSKVoG0nYVbv9ZuL3C7Szr/view?usp=sharing" }
-        ],
-        materials: []
-      },
-      {
-        id: 12,
-        label: "Sub-Módulo 12",
-        title: "Medicina Legal (Declaração de Óbito e Atestados)",
-        imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Medicina legal Declaração de óbito, atestados e laudos_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/11JX26bd8fIFghzYQrdcwEiyCWKxxf6QL/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Medicina legal Declaração de óbito, atestados e laudos.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1iyPrPwgG-vlYCf1yTj3szgyI_VbSB9PW/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Medicina Legal: Declaração de Óbito, Atestados e Laudos.pdf", pdfLink: "https://drive.google.com/file/d/1bSn-54eJx-s9PJ1tjHkvxzb30rpzKPZk/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Medicina Legal: Declaração de Óbito, Atestados e Laudos.pdf", pdfLink: "https://drive.google.com/file/d/1QTVPnuFKsNU3UUu7rrRi4ITxGhBen3Mq/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 13,
-        label: "Sub-Módulo 13",
-        title: "Ética Médica",
-        imageUrl: "https://images.unsplash.com/photo-1584362917165-52e812f8dc08?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Etica Medica.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1_XU5YdCH0BmUOM4qHIr6nzXr40ndhrha/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Ética Médica.pdf", pdfLink: "https://drive.google.com/file/d/1D1Rp3dZpoHFmqmsCmaKq3ZhXLii1h_ek/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Ética Médica.pdf", pdfLink: "https://drive.google.com/file/d/17IKsDNBxcl9ndqUQLV--F-247QxKQd-q/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 14,
-        label: "Sub-Módulo 14",
-        title: "Níveis de Prevenção (Primária a Quaternária)",
-        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Níveis de Prevenção.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1AzTF3xr5eGtL5W7-TGP2Ju7Z8Y3aSp2X/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Níveis de Prevenção.pdf", pdfLink: "https://drive.google.com/file/d/1u-PmVnZhsLupgb1HJslHS371pun_3aN8/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Níveis de Prevenção.pdf", pdfLink: "https://drive.google.com/file/d/1lrfUBAs_8qBrZgXMsX3c4sl3onXJhtDZ/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 15,
-        label: "Sub-Módulo 15",
-        title: "Indicadores de Saúde",
-        imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Indicadores de saúde - Parte I - COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1lh9kKlmaectFkD56WrzxD58hsPjw-e7E/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Indicadores de saúde - Parte I.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1GQRRSQ-1Fhqe-TGz15BLRhjGgFj5bPYV/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Indicadores de saúde_ Parte I.pdf", pdfLink: "https://drive.google.com/file/d/1oIMfa7ZqDzuiQkTNCoLTmjFavxv0Ui5b/view?usp=sharing" },
-          { title: "E-Book - Indicadores de saúde - Parte II - COFEXPRESS.pdf", pdfLink: "https://drive.google.com/file/d/1cgRVQg-LrN7fz0vn8dZ89JZm1C2yE03P/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 16,
-        label: "Sub-Módulo 16",
-        title: "Vigilância em Saúde",
-        imageUrl: "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&q=80&w=400",
-        lessons: [],
-        materials: []
-      },
-      {
-        id: 17,
-        label: "Sub-Módulo 17",
-        title: "Medidas de Associação",
-        imageUrl: "https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Associação VS Causalidade.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1395l9-wfOfgu5LeOVUHnVuj9H3IeYnD2/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Associação VS Causalidade_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1CU2B8konmcP9x2TGMEIImVDiZ_PQF4eA/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Associação x Causalidade.pdf", pdfLink: "https://drive.google.com/file/d/1rzI-h2Jjd0R04_eO3p0pkWuZ7ayOs6JI/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Associação x Causalidade.pdf", pdfLink: "https://drive.google.com/file/d/1zp-OyfjOmn_jGh1uoeXc3x6642Do5Xz5/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 18,
-        label: "Sub-Módulo 18",
-        title: "Financiamento do SUS",
-        imageUrl: "https://images.unsplash.com/photo-1584362917165-52e812f8dc08?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Financiamento do SUS_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1zVkS4R7RW4uJ7YdkaHrv6y_IINCPpy04/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Financiamento do SUS.pdf", pdfLink: "https://drive.google.com/file/d/1GntgQdBGZLjiEr-VGLw37eaoVxnLXZOy/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Financiamento do SUS.pdf", pdfLink: "https://drive.google.com/file/d/19SrXz9UyyP8dbj4H0KC2UBYwOavifrjW/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 19,
-        label: "Sub-Módulo 19",
-        title: "Ensaio Clínico",
-        imageUrl: "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Ensaio clínico 1 _COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1lsuR2ClFt1xQcQ0HuDCqPejkVL5U9FeD/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Ensaio clínico 2_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1m378YtxOGdllGhzDKz-O3gAkDZUVfizY/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Ensaio clinico 1.pdf", pdfLink: "https://drive.google.com/file/d/1PsyuJOaO0ETyXWpP6jx0Kzjp_rGglZh8/view?usp=sharing" },
-          { title: "E-Book - Ensaio clinico 2.pdf", pdfLink: "https://drive.google.com/file/d/1iC1Lz-wHyYSkG2Eni5Ae6Dgmmdmp6a09/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 20,
-        label: "Sub-Módulo 20",
-        title: "Acidente de Trabalho",
-        imageUrl: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Medicina do trabalho - acidente de trabalho.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/13inC1isXlCFSxGKRWdTO7dk85jXLF8yc/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Medicina do trabalho - acidente de trabalho_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/175cXW8O0WcMLYQZEXKC9oBbU946JkfEg/view?usp=sharing" }
-        ],
-        materials: []
-      },
-      {
-        id: 21,
-        label: "Sub-Módulo 21",
-        title: "Doenças Ocupacionais (Pneumoconioses e LER/DORT)",
-        imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Saúde do trabalhador Pneumoconioses.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1hwK-bsRWSo9OEcA_GJvjxNF7psLuy9qL/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Saúde do trabalhador lesões musculoesqueléticas.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/14hhkuA0fvlraFh7EJE_CW-yLZ0_ddy-S/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Saúde do Trabalhador: Pneumoconioses.pdf", pdfLink: "https://drive.google.com/file/d/19Or_1zzJJY5fCQxFABbpzEvBEGzn-cfI/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Saúde do Trabalhador: Pneumoconioses.pdf", pdfLink: "https://drive.google.com/file/d/1o0yIQeDNgVnxbaiOBUlhikiP04DyfgvM/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 22,
-        label: "Sub-Módulo 22",
-        title: "Intoxicações Ocupacionais e Burnout",
-        imageUrl: "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&q=80&w=400",
-        lessons: [],
-        materials: [
-          { title: "E-Book - Saúde do Trabalhador: Intoxicações, Pairo e Burnout.pdf", pdfLink: "https://drive.google.com/file/d/1yp4NITSoyQiYSE2XpORykJxK7O4THCkh/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Saúde do Trabalhador: Intoxicações, Pairo e Burnout.pdf", pdfLink: "https://drive.google.com/file/d/1JbWa5qHLC5kUOIZAHgFXeCeseQiBGi_A/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 23,
-        label: "Sub-Módulo 23",
-        title: "História da Saúde no Brasil",
-        imageUrl: "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Pré-SUS Modelos de Proteção Social e História da Saúde no Brasil.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1FIut8ZFU6Z9NiMbH4RMRZJA9iUGjr0Xk/view?usp=sharing" }
-        ],
-        materials: []
-      },
-      {
-        id: 24,
-        label: "Sub-Módulo 24",
-        title: "Decreto 7508/11",
-        imageUrl: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Decreto 750811_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1GjR_WODmRajuxtcA4EZWc4CzkHJYRvcj/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Decreto 7508/11.pdf", pdfLink: "https://drive.google.com/file/d/1bsEfZFucXDBUfT9Eoi_OiPh8kUmWv6CV/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Decreto 7508/11.pdf", pdfLink: "https://drive.google.com/file/d/1-Cxq-MbnikoJOu6ySYnAvA3l0urKPLYp/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 25,
-        label: "Sub-Módulo 25",
-        title: "Saúde Suplementar",
-        imageUrl: "https://images.unsplash.com/photo-1584362917165-52e812f8dc08?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Saúde Suplementar_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1zTb-OgH0jpy0u9LHAGEuJrdGAZNO0fTt/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Saúde Suplementar.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1lIKqrRHtyzrjnxLdYV7qL1utub41EueZ/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Saúde Suplementar.pdf", pdfLink: "https://drive.google.com/file/d/1vjlg0FslTN8BBw6nLk8RejOtRLd2jFDq/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Saúde Suplementar.pdf", pdfLink: "https://drive.google.com/file/d/1UvYJa21WSrTrUGgPIof_MvxToYE2KsJN/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 26,
-        label: "Sub-Módulo 26",
-        title: "Medicina Baseada em Evidências (MBE)",
-        imageUrl: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Conceitos de MBE.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1wOVdjktdA_uOumTenQS4GZAsI2jTs2G1/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Revisão Sistemática.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1shnXAXeKQFeMHieuTMzynnC6C5F1fFLY/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Conceitos de MBE.pdf", pdfLink: "https://drive.google.com/file/d/10rjgZIx_BlRSOVQaCpx6UsMZmXmuhcrw/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Conceitos de MBE.pdf", pdfLink: "https://drive.google.com/file/d/1Z_AAGrX6XMo5ZADYOt1EqvROrVxbQhX-/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 27,
-        label: "Sub-Módulo 27",
-        title: "Habilidades de Comunicação",
-        imageUrl: "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Habilidades de Comunicação - Parte I.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1D34GCYdAAQv5ugKSLtkQqgpRnEJgjZN3/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Habilidades de Comunicação - Parte II.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/19pVQMbMKWlK9qIY1DDdzMC5dw3icbFEm/view?usp=sharing" }
-        ],
-        materials: []
-      },
-      {
-        id: 28,
-        label: "Sub-Módulo 28",
-        title: "Políticas Públicas de Saúde (Populações Especiais)",
-        imageUrl: "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Políticas Públicas de Saúde II Políticas Setoriais.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/17pGITzHVtxx_wOeBTCmoPzDclfTKDaHI/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - CUIDADO À COMUNIDADE LGBTQIAPN+.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/17GYOyRsbtQJ6uL9qCGwqtS4lG1nOfqbb/view?usp=sharing" }
-        ],
-        materials: []
-      },
-      {
-        id: 29,
-        label: "Sub-Módulo 29",
-        title: "Saúde Mental e RAPS",
-        imageUrl: "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Políticas Especificas Reforma Psiquiátrica e RAPS - Rede de Atenção Psicossocial_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/14VI29LW0pvuwrQFPKB_3FEfPfRUK5XuK/view?usp=sharing" }
-        ],
-        materials: []
-      },
-      {
-        id: 30,
-        label: "Sub-Módulo 30",
-        title: "Determinação Social do Processo Saúde-Doença",
-        imageUrl: "https://images.unsplash.com/photo-1584362917165-52e812f8dc08?auto=format&fit=crop&q=80&w=400",
-        lessons: [],
-        materials: []
-      },
-      {
-        id: 31,
-        label: "Sub-Módulo 31",
-        title: "Rastreamentos",
-        imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
-        lessons: [],
-        materials: []
-      },
-      {
-        id: 32,
-        label: "Sub-Módulo 32",
-        title: "Abordagem Familiar e Comunitária",
-        imageUrl: "https://images.unsplash.com/photo-1628348070889-cb656235b4eb?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Abordagem Comunitária_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1kVw_0O_2FHBFK6hxt2ZEY1wzSuXv4WTv/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Abordagem Familiar_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1bmjbq_gj8D_rDIsCZ8jIIdyO4P776XsC/view?usp=sharing" }
-        ],
-        materials: []
-      },
-      {
-        id: 33,
-        label: "Sub-Módulo 33",
-        title: "ReSOAP e Registro Clínico",
-        imageUrl: "https://images.unsplash.com/photo-1550831107-1553da8c8464?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - ReSOAP.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/10aAmUrYwnyrZsTLncHmJWx_xcB9xok9e/view?usp=sharing" }
-        ],
-        materials: []
-      },
-      {
-        id: 34,
-        label: "Sub-Módulo 34",
-        title: "\"Foca na APS\" (Revisão Clínica em Preventiva)",
-        imageUrl: "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Foca na APS Clínica Médica Geral.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/10PcVT8BjpyCSN2OnuNSSHODuxNNBLEH8/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Foca na APS Endocrino - Diabetes, sind metabolica e dislipdemia.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1DOOhpxhl0hQfcBQaJyKMoGPEnKWBIfHK/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Foca na APS Psiquiatria.pdf", pdfLink: "https://drive.google.com/file/d/1C-BZqeph0XTdeMbm_AXKB28TWrXyJTTD/view?usp=sharing" },
-          { title: "E-Book - Foca na APS_ cardiologia  - Risco CV e HAS.pdf", pdfLink: "https://drive.google.com/file/d/1AEEEJsrX58r0QRzKW3-CbjLpeNbFV1aO/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 35,
-        label: "Sub-Módulo 35",
-        title: "NOBs e NOAS",
-        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - NOBS E NOAS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1v42MYxmAkyx83gpEbCu_9chsT1cjN6vL/view?usp=sharing" }
-        ],
-        materials: []
-      },
-      {
-        id: 36,
-        label: "Sub-Módulo 36",
-        title: "Pacto pela Saúde",
-        imageUrl: "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Pacto pela Saúde_COFEXPRESS-.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1n8Rh2dvDpzYw4A04aBykm_J5O40JUXMv/view?usp=sharing" }
-        ],
-        materials: []
-      },
-      {
-        id: 37,
-        label: "Sub-Módulo 37",
-        title: "Concepções sobre Saúde e Doença",
-        imageUrl: "https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?auto=format&fit=crop&q=80&w=400",
-        lessons: [],
-        materials: [
-          { title: "E-Book - Concepções sobre Saúde e Doença .pdf", pdfLink: "https://drive.google.com/file/d/1RIU69x9dTsxCt2ksk7HjJ8xuGSZpw8uM/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Concepções sobre Saúde e Doença.pdf", pdfLink: "https://drive.google.com/file/d/1gh7JjMUfhiTrACJ9s8Na_xf7W0WKvpcf/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 38,
-        label: "Sub-Módulo 38",
-        title: "Planejamento em Saúde",
-        imageUrl: "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Planejamento em Saúde_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ErfFbVGed6JCmonUjU0Uv3TPO4RbWT5J/view?usp=sharing" }
-        ],
-        materials: []
-      },
-      {
-        id: 39,
-        label: "Sub-Módulo 39",
-        title: "Ética em Pesquisa Clínica",
-        imageUrl: "https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Ética em pesquisa clínica.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/10XrB1TPWuupF8Fh0Q9ivVqnXGfWVGKA2/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Ética em pesquisa clínica_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/13ioKm6Ks1fyD8xEqg9iFl3S44gbpY-c-/view?usp=sharing" }
-        ],
-        materials: []
-      },
-      {
-        id: 40,
-        label: "Sub-Módulo 40",
-        title: "Saúde Planetária",
-        imageUrl: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Saúde Planetária_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1eXN0uto5FMAJBXgW4nXDk4Rk7Twi7ZsQ/view?usp=sharing" }
-        ],
-        materials: []
-      },
-      {
-        id: 41,
-        label: "Sub-Módulo 41",
-        title: "Redes de Atenção à Saúde (RAS)",
-        imageUrl: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80&w=400",
-        lessons: [],
-        materials: [
-          { title: "E-Book - Redes de Atenção à Saúde e Níveis de Atenção.pdf", pdfLink: "https://drive.google.com/file/d/1pXkzg5I3KO6flILyIEkBJyNdrm7bmCya/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Redes de Atenção à Saúde e Níveis de Atenção.pdf", pdfLink: "https://drive.google.com/file/d/1ftsVdCgcRB9NdyUxvFOF6prhip48z-Eq/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 42,
-        label: "Sub-Módulo 42",
-        title: "Avaliação e Tecnologia em Saúde",
-        imageUrl: "https://images.unsplash.com/photo-1584036561566-b93a945cd3ae?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Outros Tópicos de Saúde Coletiva- Avaliação em Saúde, Tecnologia em Saúde e Segurança do Paciente.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1aSE1Ql9uv9LxxbG4tQnnRHggj9py-TCY/view?usp=sharing" }
-        ],
-        materials: []
-      }
-    ]
-  },
-  // --- MÓDULO 07: CIRURGIA COMPLETA / NEURO & PSIQUIATRIA ---
-  {
-    id: 7,
-    title: "Módulo 07 - Cirurgia Completa / Neuro & Psiquiatria",
-    label: "Módulo 07",
-    subModules: [
-      {
-        id: 1,
-        label: "Sub-Módulo 01",
-        title: "Trauma: Revisão ABCDE",
-        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Trauma Revisão ABCDE.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1hUQ3DKLGrPCpBI-pBGCXbB66tgm3UW9p/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Trauma Introdução ao trauma e atendimento inicial.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1f5Ix1w3eEFq_tWOyvFIu8HgTdq_47beI/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Trauma: Revisão ABCDE.pdf", pdfLink: "https://drive.google.com/file/d/1Uu2E_ShLaBNHlr--co3jxExebrKHLels/view?usp=sharing" },
-          { title: "E-Book - Trauma: Introdução ao trauma e atendimento inicial.pdf", pdfLink: "https://drive.google.com/file/d/1S9tp0IXoBin9xLeA6EDE-kwk4iU85Dpd/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 2,
-        label: "Sub-Módulo 02",
-        title: "Trauma de Tórax: Parte I",
-        imageUrl: "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Trauma Trauma de Tórax.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1oJjsAT26aXPPNired_PeVaCa6Qf0PtVr/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Trauma: Trauma de Tórax.pdf", pdfLink: "https://drive.google.com/file/d/1WrmtNUzHePftkwL_9RTFmQsDiimEweFl/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Trauma de Tórax.pdf", pdfLink: "https://drive.google.com/file/d/1cfpZ4-FcebagulOovs_7u9xvCYO2_Ti0/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 3,
-        label: "Sub-Módulo 03",
-        title: "Trauma de Tórax: Parte II",
-        imageUrl: "https://images.unsplash.com/photo-1584362917165-52e812f8dc08?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Trauma Trauma de Tórax II.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1yeYRMyGTcu7VO497FbZGZwda78ZPdPhl/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Trauma Trauma de Tórax II_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Gfk0JJg_2dNo2A2RskeJdrpjL9soHw-o/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Trauma: Trauma de Tórax II.pdf", pdfLink: "https://drive.google.com/file/d/1Y9wBVagZz1YM5baYw-cqZk8khyFhIxld/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Trauma de Tórax II.pdf", pdfLink: "https://drive.google.com/file/d/1rGE1GgHz3bomEMsfZY-adlH14TgyAx9M/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 4,
-        label: "Sub-Módulo 04",
-        title: "Medidas Auxiliares e FAST",
-        imageUrl: "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Trauma Medidas Auxiliares e FAST.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/14SjieT7PoX12j9SqAqk0jZHjEteHtvmU/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Trauma Medidas Auxiliares e FAST_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1F15bJQhfiMS_foWS-hMcg6M4qrLWNKFw/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Trauma: Medidas Auxiliares e FAST.pdf", pdfLink: "https://drive.google.com/file/d/1c69Y1V94OhXn6Qs4_iaA1UsSYtr60pXV/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Trauma - Medidas Auxiliares e FAST.pdf", pdfLink: "https://drive.google.com/file/d/1RjgQ1upnW64LDqx_2QBiMVKw3LjJuXXt/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 5,
-        label: "Sub-Módulo 05",
-        title: "Trauma em Populações Especiais",
-        imageUrl: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Trauma Populações especiais.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1yxwFuYI_oARqNtdfPAd3XxZ89GuqFIzy/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Trauma Populações especiais_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1pmOI8LzYtDmK0RoTbPSYf3AvgAx3GG3X/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Trauma: Populações especiais.pdf", pdfLink: "https://drive.google.com/file/d/1GbHlYuvmSUZTknD0YOigq9gTOqyE3diy/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Trauma - Populações especiais.pdf", pdfLink: "https://drive.google.com/file/d/1tBEILtr5nAZz50sy6w_uVgfLkGhhHQOM/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 6,
-        label: "Sub-Módulo 06",
-        title: "Trauma Abdominal Penetrante",
-        imageUrl: "https://images.unsplash.com/photo-1628348070889-cb656235b4eb?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Trauma Abdominal penetrante_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/17-zCkUXfg60Pf3wbLWN5Twn8YiXgqz-G/view?usp=sharing" }
-        ],
-        materials: []
-      },
-      {
-        id: 7,
-        label: "Sub-Módulo 07",
-        title: "Trauma Abdominal Contuso",
-        imageUrl: "https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Trauma Abdominal contuso_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1gGX7lJenwfs_Cmv_Dt0NBO_AkQFgTE33/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Trauma Abdominal contuso.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1pztZMORu4vQZ87bJ1Ap_hxWBvb6APAjd/view?usp=sharing" }
-        ],
-        materials: []
-      },
-      {
-        id: 8,
-        label: "Sub-Módulo 08",
-        title: "Trauma Abdominal Específico: Parte I",
-        imageUrl: "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Trauma Abdominal específico - PARTE I_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/17bO_MGGVRYiQ843RjXOI8Pm6cD_SoW3H/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Trauma Trauma Abdominal específico - PARTE I.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1DVKem_o1c8pVG2lwx8iC6GxxCfXi5bcy/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Trauma Trauma Abdominal específico - PARTE I.pdf", pdfLink: "https://drive.google.com/file/d/1HWHKio0-PLbyjsu2aQXOBm0nvWTTj6NB/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 9,
-        label: "Sub-Módulo 09",
-        title: "Trauma Abdominal Específico: Parte II",
-        imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Trauma Abdominal específico - PARTE II.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1l9VFjUP26WyiSxYaCekgCb9bPaaoSiPM/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Trauma Abdominal específico - PARTE II_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1nDiJ6DNdRpLf0iGMVc9Bh-e11lZdQuNS/view?usp=sharing" }
-        ],
-        materials: []
-      },
-      {
-        id: 10,
-        label: "Sub-Módulo 10",
-        title: "Trauma Cervical",
-        imageUrl: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Trauma Cervical_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/11Gb8yVjA6LVlah2G9j-TFdljO6L6_mTi/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Trauma Cervical especifico_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1rjpWcuZTIvwGbqGOCTweVBMq8OcFUawG/view?usp=sharing" }
-        ],
-        materials: []
-      },
-      {
-        id: 11,
-        label: "Sub-Módulo 11",
-        title: "Trauma Cranioencefálico (TCE)",
-        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Trauma Trauma Cranioencefálico.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1zzjox7qmpNZftcMk-GLjWvLJ-TTCuw81/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Trauma Trauma Cranioencefálico_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1omlnUAlTmTjbiMad0sl2u5T3JzHylQy/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - TCE Grave e Morte encefálica.pdf", pdfLink: "https://drive.google.com/file/d/19aSMMYUthuK0GTV8eDo43ciZsVgbJH4R/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 12,
-        label: "Sub-Módulo 12",
-        title: "Trauma Raquimedular (TRM)",
-        imageUrl: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Trauma Trauma Raquimedular_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1fvET8UoPN-lqPC7jE6A5L5EcktiOt6A7/view?usp=sharing" }
-        ],
-        materials: []
-      },
-      {
-        id: 13,
-        label: "Sub-Módulo 13",
-        title: "Trauma Musculoesquelético",
-        imageUrl: "https://images.unsplash.com/photo-1584362917165-52e812f8dc08?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Trauma Trauma Musculoesquelético_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1fyw-rrXu9JAued8VPPRiBaWhgNUQ0Et0/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Trauma Trauma Musculoesquelético.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1zohBB1RNrz3vpYSmb8Q9oPw0Vhzc4oBy/view?usp=sharing" }
-        ],
-        materials: []
-      },
-      {
-        id: 14,
-        label: "Sub-Módulo 14",
-        title: "Anatomia da Parede Abdominal",
-        imageUrl: "https://images.unsplash.com/photo-1550831107-1553da8c8464?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Hérnias Anatomia da parede abdominal.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1-7rTPGg1GbdleoozlAPiwJLwp8VczxwG/view?usp=sharing" }
-        ],
-        materials: []
-      },
-      {
-        id: 15,
-        label: "Sub-Módulo 15",
-        title: "Hérnia Inguinal",
-        imageUrl: "https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Hérnias Hérnia Inguinal_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1vlThWh-r7eM9fMuECPjrkoPUyYzU4dYd/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Hérnias Hérnia Inguinal.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1nVO_24UGTRrALZlnCMMHS7tzQ_rehQQO/view?usp=sharing" }
-        ],
-        materials: []
-      },
-      {
-        id: 16,
-        label: "Sub-Módulo 16",
-        title: "Hérnia Femoral e Umbilical",
-        imageUrl: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Hérnias Outras hérnias.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1-gs3qYhfyVhn6n9LOBVlxmIs-YKZWNUY/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Hérnias Outras hérnias_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/10YaXc3Mb5unyOAwAb2pMSx-5vLhh3juO/view?usp=sharing" }
-        ],
-        materials: []
-      },
-      {
-        id: 17,
-        label: "Sub-Módulo 17",
-        title: "Hérnias Incisionais e Outras",
-        imageUrl: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Hérnia Incisional_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/15Kj4uRWb1MkJaaV_oeJzgMXa912Jjb11/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Hérnia Incisional.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1j324u6RI14IIgJPODFAnBBMWAk6-K8D4/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Hérnias Fechamento de parede abdominal.pdf", pdfLink: "https://drive.google.com/file/d/135bo4TzjFXuJ0q3pB2xzQYWL8h3QzgtF/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 18,
-        label: "Sub-Módulo 18",
-        title: "Abdome Agudo: Introdução",
-        imageUrl: "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Abdome Agudo Introdução.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1h9rOX6YcX6-y2kWA2ZiwXmVAeKNDdAuo/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Abdome Agudo Introdução_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1z440PRT_avePCoStKxEqVz6HBls7DQHM/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Ficha Resumo: Abdome Agudo - Introdução.pdf", pdfLink: "https://drive.google.com/file/d/1lRINdMYOBQCd4x8sRHndktnHCAmg54aw/view?usp=sharing" },
-          { title: "E-Book - Abdome Agudo: Introdução.pdf", pdfLink: "https://drive.google.com/file/d/1V9ujunY60yIvDZFK2ss411185hokckeW/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 19,
-        label: "Sub-Módulo 19",
-        title: "Apendicite Aguda",
-        imageUrl: "https://images.unsplash.com/photo-1584362917165-52e812f8dc08?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Abdome Agudo Inflamatório Apendicite Aguda_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1DWtM3mU6X2y6GLoSp-8Q8Lj6tLLAeFAW/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Abdome Agudo Inflamatório: Apendicite Aguda.pdf", pdfLink: "https://drive.google.com/file/d/16Tfv_3R8cQOoOiSq9zrOiSdAcFkPyeW5/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Abdome Agudo Inflamatório - Apendicite Aguda.pdf", pdfLink: "https://drive.google.com/file/d/1icJ-THK1XvUg-4zVyEFYBQ2C1SUBApEi/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 20,
-        label: "Sub-Módulo 20",
-        title: "Colelitíase e Colecistite",
-        imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Abdome Agudo Inflamatório Colecistite_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/11S6au3v2CLfSEJh5J53LjPnbCDKl6G1h/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Abdome Agudo Inflamatório Colelitíase.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/105QpQnTaW0mnJejhFgJX2hQbquwMkBBE/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Abdome Agudo Inflamatório: Colecistite.pdf", pdfLink: "https://drive.google.com/file/d/1If2rMgZQPtQFNmrMMl6zGxxn5gxX66Xd/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Abdome Agudo Inflamatório - Colecistite.pdf", pdfLink: "https://drive.google.com/file/d/1Z9MgVDunwKe0MgzVwn6cqfaLc-IKqAM8/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 21,
-        label: "Sub-Módulo 21",
-        title: "Coledocolitíase e Colangite",
-        imageUrl: "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Abdome Agudo Inflamatório Colangite.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1DYUyJrDHiQbmxfJtJd38EtFxIkVU-P14/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Abdome Agudo Inflamatório Colangite_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1l1RxQivsr8Om0O_9Uxxdz70cfR7kaOCM/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Abdome Agudo Inflamatório: Colangite.pdf", pdfLink: "https://drive.google.com/file/d/1dMeIelLyvkVK7eCTtVGdzTCSaIc9JieX/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Abdome Agudo Inflamatório - Colangite.pdf", pdfLink: "https://drive.google.com/file/d/1B2M8ZpD16aXZXD07PMkfeQejRWzmJ8OA/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 22,
-        label: "Sub-Módulo 22",
-        title: "Pancreatite Aguda",
-        imageUrl: "https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Pancreatite Aguda_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1wDNp7EMlM-S0yvjYUX2x6znrAZTuGjcn/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Abdome Agudo Inflamatório: Pancreatite Aguda.pdf", pdfLink: "https://drive.google.com/file/d/1kJMBC__j5jhjPP6Yq797AF8G1b02haoO/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Abdome Agudo Inflamatório - Pancreatite Aguda.pdf", pdfLink: "https://drive.google.com/file/d/1a13Zz9b78I73mqcW8nq3e0zLfgiagf0W/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 23,
-        label: "Sub-Módulo 23",
-        title: "Diverticulite Aguda",
-        imageUrl: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Diverticulite Aguda_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1odgFIQQlHoREdjOlEBQV6CgHICYcyAM6/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Abdome Agudo Inflamatório: Diverticulite Aguda.pdf", pdfLink: "https://drive.google.com/file/d/1mLVY4KJw3eHBMXIhWPvSxi8chvXSTM-b/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Abdome Agudo Inflamatório - Diverticulite Aguda.pdf", pdfLink: "https://drive.google.com/file/d/1G518Ztf5Vjw3OHcAaSm1kz22rZoJhIov/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 24,
-        label: "Sub-Módulo 24",
         title: "Abdome Agudo Obstrutivo",
-        imageUrl: "https://images.unsplash.com/photo-1511174511562-5f7f18b874f8?auto=format&fit=crop&q=80&w=400",
+        imageUrl: "https://images.unsplash.com/photo-1559757175-9e359c952155?auto=format&fit=crop&q=80&w=400",
         lessons: [
-          { id: 1, title: "Aula 01 - Abdome Agudo Obstrutivo.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1s_y8D_B-G-0s0ate99EoX5nAyxvV4B6l/view?usp=sharing" }
+          { id: 1, title: "Aula 01 - Abdome Agudo Obstrutivo", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1aW_yMQwuYN00QvXv478w3I0jp3TA8bh4/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Abdome Agudo Obstrutivo", duration: "00:00", type: "aula", videoLink: "https://www.google.com/search?q=https://drive.google.com/file/d/1gVaBFud-ZTKWM3sR2WGGVlufvcAXggj/view?usp=sharing" }
         ],
         materials: [
-          { title: "E-Book - Abdome Agudo Obstrutivo.pdf", pdfLink: "https://drive.google.com/file/d/1o8E1zMw5HnDOoyXu46FPJjppP9WvOgeX/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Abdome Agudo Obstrutivo.pdf", pdfLink: "https://drive.google.com/file/d/1YQdtQjXC9WAiAmgLpb8ka3N6L2BFHF4y/view?usp=sharing" }
+          { title: "PDF de Slides - Abdome Agudo Obstrutivo", pdfLink: "https://drive.google.com/file/d/1AtAE9l1Ge8_JqL26cgLmA8hsRoxmN4h5/view?usp=sharing" },
+          { title: "Ficha Resumo - Abdome Agudo Obstrutivo", pdfLink: "https://drive.google.com/file/d/1NgqkHN9tFM_crhnaw4mAXM4-NCpjYNhp/view?usp=sharing" }
         ]
       },
       {
-        id: 25,
-        label: "Sub-Módulo 25",
+        id: 10,
+        label: "Sub-Módulo 10",
         title: "Abdome Agudo Perfurativo",
-        imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
+        imageUrl: "https://images.unsplash.com/photo-1628352081506-83c43123ed6d?auto=format&fit=crop&q=80&w=400",
         lessons: [
-          { id: 1, title: "Aula 01 - Abdome Agudo Perfurativo_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/180CxbuylIo0Vuwd-8gEb5bKUiG4yQCR6/view?usp=sharing" }
+          { id: 1, title: "Aula 01 - Abdome Agudo Perfurativo", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1wLGtapM1rSL0-UpQdLmtcgnLS5M9Hj4K/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Abdome Agudo Perfurativo", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Cbb9SOUBZGwxD9kvFWuMGCOgOl2IHC2H/view?usp=sharing" }
         ],
-        materials: []
+        materials: [
+          { title: "PDF de Slides - Abdome Agudo Perfurativo", pdfLink: "https://drive.google.com/file/d/1623NbFetkzkT3TKdQfmiY9Hs-Ygl_WjD/view?usp=sharing" },
+          { title: "Ficha Resumo - Abdome Agudo Perfurativo", pdfLink: "https://drive.google.com/file/d/1nAj-o41eDDU_UMg31bHACjjihXNPXaTe/view?usp=sharing" }
+        ]
       },
       {
-        id: 26,
-        label: "Sub-Módulo 26",
+        id: 11,
+        label: "Sub-Módulo 11",
         title: "Abdome Agudo Vascular",
-        imageUrl: "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&q=80&w=400",
+        imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
         lessons: [
-          { id: 1, title: "Aula 01 - Abdome Agudo Vascular_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1beXHcduJRULzqeHSE77hISyQQc_pTeL5/view?usp=sharing" }
+          { id: 1, title: "Aula 01 - Abdome Agudo Vascular", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ZHAnYy21eFAduWQij9IeI4M5ZoqO7Dij/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Abdome Agudo Vascular", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1QNeYPwN8YZyt-OgdDU1TEfBOz-8PJnSK/view?usp=sharing" }
         ],
-        materials: []
+        materials: [
+          { title: "PDF de Slides - Abdome Agudo Vascular", pdfLink: "https://drive.google.com/file/d/1RWQFcccfyjTGputVFodjPbXiIlDrSTod/view?usp=sharing" },
+          { title: "Ficha Resumo - Abdome Agudo Vascular", pdfLink: "https://drive.google.com/file/d/1UXe3o5l2-9MCCcBGhajUbr3a8iUXPuvg/view?usp=sharing" }
+        ]
       },
       {
-        id: 27,
-        label: "Sub-Módulo 27",
+        id: 12,
+        label: "Sub-Módulo 12",
         title: "Abdome Agudo Hemorrágico",
-        imageUrl: "https://images.unsplash.com/photo-1584362917165-52e812f8dc08?auto=format&fit=crop&q=80&w=400",
+        imageUrl: "https://images.unsplash.com/photo-1584036561566-b93a50208c3c?auto=format&fit=crop&q=80&w=400",
         lessons: [
-          { id: 1, title: "Aula 01 - Abdome Agudo Hemorrágico.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1fSOCHvLLvFr-emzBH4odIYhZI8u8U6Kk/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Abdome Agudo Hemorrágico_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1aJ4CZzruF3v2Q7JY1cFvBzCTZpQezPef/view?usp=sharing" }
-        ],
-        materials: []
-      },
-      {
-        id: 28,
-        label: "Sub-Módulo 28",
-        title: "Esôfago: Introdução e Disfagia",
-        imageUrl: "https://images.unsplash.com/photo-1550831107-1553da8c8464?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Esôfago Introdução_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1uCxDXsJeOGYDsyP4LOn9dtMgs2iOHb5y/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Esôfago Diagnósticos e diferenciais de disfagia.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1oKmKjugr8CMJhEUdI8OBMEk9i2ddtOYZ/view?usp=sharing" }
-        ],
-        materials: []
-      },
-      {
-        id: 29,
-        label: "Sub-Módulo 29",
-        title: "Câncer de Esôfago",
-        imageUrl: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Esôfago Câncer de esôfago.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1-VUzHuiAEwvAnBzF2lEhh9ZMo4iKqJJa/view?usp=sharing" }
-        ],
-        materials: []
-      },
-      {
-        id: 30,
-        label: "Sub-Módulo 30",
-        title: "Acalasia",
-        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Esôfago Acalasia.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/137UHMSTD_T8OI3WySNWEp_Q0Wk9EPBDz/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Esôfago Acalasia_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1jNsy5gF_hZHLm0IK782vrCH9yfkIsysM/view?usp=sharing" }
-        ],
-        materials: []
-      },
-      {
-        id: 31,
-        label: "Sub-Módulo 31",
-        title: "DRGE, Barrett e Hérnias de Hiato",
-        imageUrl: "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Esôfago Hernias de Hiato.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1dCJ6PETEvOMyZz9fZG5De5pVB6qRVXvy/view?usp=sharing" }
-        ],
-        materials: []
-      },
-      {
-        id: 32,
-        label: "Sub-Módulo 32",
-        title: "Estômago: Anatomia e Fisiologia",
-        imageUrl: "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Estômago Anatomia e fisiologia_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/13M7RNdB9fx4sjZfEWaUIM15CiODD7zXp/view?usp=sharing" }
-        ],
-        materials: []
-      },
-      {
-        id: 33,
-        label: "Sub-Módulo 33",
-        title: "Adenocarcinoma Gástrico e Linfomas",
-        imageUrl: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Estômago Câncer, introdução e linfomas_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1vfG4fNfRyNlKih2ucR0AOgnaNQuxwq2G/view?usp=sharing" }
-        ],
-        materials: []
-      },
-      {
-        id: 34,
-        label: "Sub-Módulo 34",
-        title: "GIST e Tumores Neuroendócrinos Gástricos",
-        imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Estômago GIST.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ahEDSyf5A3WBnCutB1GdvJj1U6-2HRaG/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Estômago Tumores neuroendócrinos.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1AINKclORxfYiLWnBhW5w8Sc8JGNGqEVm/view?usp=sharing" }
-        ],
-        materials: []
-      },
-      {
-        id: 35,
-        label: "Sub-Módulo 35",
-        title: "Complicações Pós-Gastrectomias",
-        imageUrl: "https://images.unsplash.com/photo-1550831107-1553da8c8464?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Estômago Complicações agudas pós gastrectomias_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1aTRcS2bRUb9st39gsjjSAGbVg_dMRIG0/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Estômago Complicações agudas pós gastrectomias.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ioXjV2uyoiu8bhtguEcbsw-bfnCOlaVA/view?usp=sharing" }
-        ],
-        materials: []
-      },
-      {
-        id: 36,
-        label: "Sub-Módulo 36",
-        title: "Obesidade e Cirurgia Bariátrica",
-        imageUrl: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Obesidade Princípios Gerais e Cirurgia Bariátrica.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1AKJqMgA9Ft7OooLWinz3mlRE8CKA8U_z/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Obesidade Procedimentos Cirúrgicos_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1G8JsqPh2QrB2yi-vwxQ4HYVgm77Y1mzv/view?usp=sharing" }
+          { id: 1, title: "Aula 01 - Abdome Agudo Hemorrágico", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1fxPBeEl4WxGsvUY3kFhvCyWc8_R8FRKf/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Abdome Agudo Hemorrágico", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1TWn_djNa0ScvTVDXATugINJJipFePncN/view?usp=sharing" }
         ],
         materials: [
-          { title: "E-Book - Obesidade: Tratamento Farmacológico e Cirúrgico.pdf", pdfLink: "https://drive.google.com/file/d/1ujz4oCI6F47Oa86xIAPQvg29NcGFIYZ_/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Obesidade - Tratamento Farmacológico e Cirúrgico.pdf", pdfLink: "https://drive.google.com/file/d/1qeOY05Qf0GbAD6xJcHyA_WzoW9hPGHcb/view?usp=sharing" }
+          { title: "PDF de Slides - Abdome Agudo Hemorrágico", pdfLink: "https://drive.google.com/file/d/1b7KhTL9I8f7wmJzA5uiJr-gl_HdeO6pZ/view?usp=sharing" },
+          { title: "Ficha Resumo - Abdome Agudo Hemorrágico", pdfLink: "https://drive.google.com/file/d/1ykJeMTPr7krxOQb5W_WoEvzX4L206BFO/view?usp=sharing" }
         ]
       },
       {
-        id: 37,
-        label: "Sub-Módulo 37",
-        title: "Complicações Pós-Bariátrica e Reganho",
-        imageUrl: "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&q=80&w=400",
+        id: 13,
+        label: "Sub-Módulo 13",
+        title: "Hérnias - Anatomia da Parede Abdominal",
+        imageUrl: "https://images.unsplash.com/photo-1541781777621-0e8cc0e57b32?auto=format&fit=crop&q=80&w=400",
         lessons: [
-          { id: 1, title: "Aula 01 - Obesidade Complicações pós bariátrica_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1k9RzQALb-_5I64Bw1ICKBl2wMClkN1JT/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Obesidade Complicações pós bariátrica.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1pY675msP3GNesDKgro-GZqgvcURJYStZ/view?usp=sharing" }
-        ],
-        materials: []
-      },
-      {
-        id: 38,
-        label: "Sub-Módulo 38",
-        title: "Fígado: Anatomia e Lesões Benignas",
-        imageUrl: "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Fígado Hemangioma hepático_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1-6uJ7cNCuatFGdYJqbH9QZaXx4f6mKFG/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Fígado Hiperplasia Nodular Focal.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1tvGq-y2dtmEnhVFO8warq2YKm6zMK1WG/view?usp=sharing" }
+          { id: 1, title: "Aula 01 - Hérnias: Anatomia da Parede Abdominal", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1RieB133D_bzNy4aI-J2okWWKYgfgl9KR/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Hérnias - Anatomia da Parede Abdominal", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1vKD1uYjv9I-vrV3r8j100nvybDDBIa9-/view?usp=sharing" }
         ],
         materials: [
-          { title: "E-Book - Fígado Hemangioma hepático.pdf", pdfLink: "https://drive.google.com/file/d/1vdmfHz1IIMZ_kTygBnyazC6gZSA5seqK/view?usp=sharing" },
-          { title: "E-Book - Fígado Cisto Hepático_COFEXPRESS.pdf", pdfLink: "https://drive.google.com/file/d/1HrIzTq0i-79bCs4HJDtEXTnhet0iGYrp/view?usp=sharing" }
+          { title: "PDF de Slides - Hérnias: Anatomia da Parede Abdominal", pdfLink: "https://drive.google.com/file/d/1PZTnMmrmAbv2c3cgpwuEtYNOCBdwB9ku/view?usp=sharing" },
+          { title: "Ficha Resumo - Hérnias: Anatomia da Parede Abdominal", pdfLink: "https://drive.google.com/file/d/1HA4vKr8aGwSY-a1D3VPu7TSYXmXtUKlQ/view?usp=sharing" }
         ]
       },
       {
-        id: 39,
-        label: "Sub-Módulo 39",
-        title: "Carcinoma Hepatocelular",
-        imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
+        id: 14,
+        label: "Sub-Módulo 14",
+        title: "Hérnias - Hérnia Inguinal",
+        imageUrl: "https://images.unsplash.com/photo-1628595351029-c2bf17511435?auto=format&fit=crop&q=80&w=400",
         lessons: [
-          { id: 1, title: "Aula 01 - Fígado Carcinoma hepatocelular_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1oeKjotwZZPjE1KWGQealmRoNRzVqrhmt/view?usp=sharing" }
+          { id: 1, title: "Aula 01 - Hérnias: Hérnia Inguinal", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1YugmVoR667FJSnUobQsCAPdX1vHPui3T/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Hérnias - Hérnia Inguinal", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1h2ub1BU8e1vGGluNW1n4MdbrSPuIutP4/view?usp=sharing" }
         ],
         materials: [
-          { title: "E-Book - Fígado: Carcinoma Hepatocelular.pdf", pdfLink: "https://drive.google.com/file/d/1O3htKOMXxrD79ZBfP88m0Jz2SHIh8frX/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Fígado - Carcinoma Hepatocelular.pdf", pdfLink: "https://drive.google.com/file/d/1dgLe0suXhhJcTLwdldOxjMne6epGP3K9/view?usp=sharing" }
+          { title: "PDF de Slides - Hérnias: Hérnia Inguinal", pdfLink: "https://drive.google.com/file/d/1f3f38o_K_kIJZ7AVi6Izo3dciOGQ-tld/view?usp=sharing" },
+          { title: "Ficha Resumo - Hérnias: Hérnia Inguinal", pdfLink: "https://drive.google.com/file/d/1jZvTEjOBYRZNGx9dY7y6jZaG7nLI-XPS/view?usp=sharing" }
         ]
       },
       {
-        id: 40,
-        label: "Sub-Módulo 40",
-        title: "Metástases Hepáticas",
-        imageUrl: "https://images.unsplash.com/photo-1584362917165-52e812f8dc08?auto=format&fit=crop&q=80&w=400",
+        id: 15,
+        label: "Sub-Módulo 15",
+        title: "Hérnias - Hernioplastia Inguinal",
+        imageUrl: "https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&q=80&w=400",
         lessons: [
-          { id: 1, title: "Aula 01 - Fígado Metástases Hepáticas de CA colorretal - Parte II.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/13vM627djC6nIwsupacdvj0FgFeWPOrz-/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Fígado Metástases Hepáticas de CA colorretal - Parte II_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1p3w70Xo8zcIn2pGnvZtXIpVG1XBwqaD1/view?usp=sharing" }
-        ],
-        materials: []
-      },
-      {
-        id: 41,
-        label: "Sub-Módulo 41",
-        title: "Abscesso e Cistos Hepáticos",
-        imageUrl: "https://images.unsplash.com/photo-1550831107-1553da8c8464?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Abdome Agudo Inflamatório Abscesso Hepático_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1CjHiDD_DNxEkwHXJoR0oNO7Z3Sd2VdhZ/view?usp=sharing" }
+          { id: 1, title: "Aula 01 - Hernioplastia Inguinal", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ZX1x2dSLFfrdLjPXTxlh7xLT0TVS6wSH/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Hernioplastia Inguinal", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1WrRRSX9fjNYgteKPYjBCncw8FupoK6he/view?usp=sharing" }
         ],
         materials: [
-          { title: "E-Book - Abdome Agudo Inflamatório: Abscesso Hepático.pdf", pdfLink: "https://drive.google.com/file/d/1xyPQXFoxXGqp38TkiniITvD7nghOeiht/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Abdome Agudo Inflamatório - Abscesso Hepático.pdf", pdfLink: "https://drive.google.com/file/d/1fNhoDEHgbIWYXQ2fhRg3dgLK96dHUCKr/view?usp=sharing" }
+          { title: "PDF de Slides - Hérnias: Hernioplastia Inguinal", pdfLink: "https://drive.google.com/file/d/1LWwhfIHDDGGXJE-0yHWnXt__Rd4qY8Bb/view?usp=sharing" },
+          { title: "Ficha Resumo - Hérnias: Hernioplastia Inguinal", pdfLink: "https://drive.google.com/file/d/1b1DGPpGI6a0mRLeYUXKP5dMNDBX0EYx7/view?usp=sharing" }
         ]
       },
       {
-        id: 42,
-        label: "Sub-Módulo 42",
-        title: "Patologias da Vesícula",
-        imageUrl: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Pâncreas e vias biliares Pólipo de vesícula biliar_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1lmfIf9Kg1mwhCsPsMjFKgCw99mR9Kcp2/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Pâncreas e vias biliares Câncer de Vesícula_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1HyVAxSTqq2lMRWNSfp-l75EM2ucPPlU6/view?usp=sharing" }
-        ],
-        materials: []
-      },
-      {
-        id: 43,
-        label: "Sub-Módulo 43",
-        title: "Lesão Iatrogênica da Via Biliar",
-        imageUrl: "https://images.unsplash.com/photo-1628348070889-cb656235b4eb?auto=format&fit=crop&q=80&w=400",
-        lessons: [],
-        materials: [
-          { title: "E-Book - Fígado e VB Quiz.pdf", pdfLink: "https://drive.google.com/file/d/1ofRSTFq9xORy90J3xPX5pi16F7lI3_AD/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 44,
-        label: "Sub-Módulo 44",
-        title: "Adenocarcinoma de Pâncreas",
-        imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Pâncreas e vias biliares Adenocarcinoma de pâncreas_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/17NxhqZCGaAC17XogDBnKUYOZFLzY6r0s/view?usp=sharing" }
-        ],
-        materials: []
-      },
-      {
-        id: 45,
-        label: "Sub-Módulo 45",
-        title: "Pancreatite Crônica",
-        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Pâncreas e vias biliares Pancreatite Crônica_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1kCyGEDHaUmw0nbBTwVzijpg-1Q_Orht5/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Pancreatite Crônica (R+).pdf", pdfLink: "https://drive.google.com/file/d/186Nc2LSL262cakEukOveDwEg-v6FF6xg/view?usp=sharing" },
-          { title: "E-Book - Ficha Resumo: Pancreatite Crônica (R+).pdf", pdfLink: "https://drive.google.com/file/d/1_3Hy2qITSZU570YjEA-cPcDVIqDe9DEY/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 46,
-        label: "Sub-Módulo 46",
-        title: "Tumores Periampulares e Císticos do Pâncreas",
-        imageUrl: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - COFEXPRESS Pâncreas e vias biliares Neoplasias Císticas Pancreáticas (1).ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1sE8DkYfWdLOZN2WREZuC7p0gXqbAnXqA/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Pâncreas e vias biliares Tumores Neuroendócrinos_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ovOI2BDuIc-TLBxkl3zDudGp7LoV2Y-S/view?usp=sharing" }
-        ],
-        materials: []
-      },
-      {
-        id: 47,
-        label: "Sub-Módulo 47",
-        title: "Câncer Colorretal e Síndromes Associadas",
-        imageUrl: "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Coloproctologia Síndromes Associadas ao CCR_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1AzNg0bOHxtVkrJSjllMAHzVELm3aDjZL/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Coloproctologia Síndromes Associadas ao CCR.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1zgyNm5EmY7cxxMnqBMzvsTDgSKppVy70/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Coloproctologia CA colorretal_COFEXPRESS.pdf", pdfLink: "https://drive.google.com/file/d/1iyPrPwgG-vlYCf1yTj3szgyI_VbSB9PW/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 48,
-        label: "Sub-Módulo 48",
-        title: "Doenças Orificiais",
-        imageUrl: "https://images.unsplash.com/photo-1584362917165-52e812f8dc08?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Coloproctologia Doenças Orificiais_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1lvok5QDqihWOEMxedTpnV-v4R2PIzAts/view?usp=sharing" }
-        ],
-        materials: []
-      },
-      {
-        id: 49,
-        label: "Sub-Módulo 49",
-        title: "CEC Canal Anal e Pilonidal",
-        imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Coloproctologia CEC Canal Anal_COFERXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1dkH3jPN5c0f6HSK0-_KuZOBisL_J0z2k/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Cisto Pilonidal_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1n12ycoEUd6EDQHYtjJfqLXq7qemXz2NV/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Cisto Pilonidal.pdf", pdfLink: "https://drive.google.com/file/d/1C4MP-TAp5I7h32FbyH9CYpE4aBi5I88u/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 50,
-        label: "Sub-Módulo 50",
-        title: "Doença Inflamatória Intestinal (DII)",
-        imageUrl: "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Doença Inflamatória intestinal - Parte II.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1-2eXnmnZ0ABr6tV0EWPFLxUF2_8227Ak/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Doença Inflamatória intestinal - Parte II_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1qH39ksoLCvXGhciu8_1zKKZ6sy22Zz7v/view?usp=sharing" }
-        ],
-        materials: []
-      },
-      {
-        id: 51,
-        label: "Sub-Módulo 51",
-        title: "Tumores do Intestino Delgado e SII",
-        imageUrl: "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - SII.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1rG1LGKeyG-likQLulHXIOC7pTEhoD64g/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - SII _COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1bXzj4fex5PeZJJaU-xebDIVmZKz9oFLM/view?usp=sharing" }
-        ],
-        materials: []
-      },
-      {
-        id: 52,
-        label: "Sub-Módulo 52",
-        title: "Distúrbios do Assoalho Pélvico",
-        imageUrl: "https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Estudo Urodinâmico.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/14WFOAqSfuy88DNSzgL4miKH0iHswMuPM/view?usp=sharing" }
-        ],
-        materials: []
-      },
-      {
-        id: 53,
-        label: "Sub-Módulo 53",
-        title: "Hemorragia Digestiva Alta (Varicosa e Não Varicosa)",
-        imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Urgências endoscópicas HDA varicosa_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ekwVzm7oGepob_NUTj-1C_UdO5VOa784/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Urgências Endoscópicas HDA Não Varicosa_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/15XyOJgt7Qrj0SgXLAgAkLAaPt-euAEls/view?usp=sharing" }
-        ],
-        materials: []
-      },
-      {
-        id: 54,
-        label: "Sub-Módulo 54",
-        title: "Hemorragia Digestiva Baixa e Média",
-        imageUrl: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Urgências endoscópicas Hemorragia digestiva média.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/13K8QmAbgWS1GYmtDvP4ef_BM5qX8hHCB/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Urgências endoscópicas HDB_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1zgWkWwDTCExYIJL0981_mHTiR9NkOcd5/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Urgências endoscópicas HDB.pdf", pdfLink: "https://drive.google.com/file/d/1HJ45rWaz-hM33HRYRoAKTdnfnGWVxd27/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 55,
-        label: "Sub-Módulo 55",
-        title: "Corpo Estranho e Preparo de Cólon",
-        imageUrl: "https://images.unsplash.com/photo-1584362917165-52e812f8dc08?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Endoscopia Preparo de Cólon.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/18GqG9oODWHAKXeoWYFjghtC7BZdjgG2c/view?usp=sharing" }
-        ],
-        materials: []
-      },
-      {
-        id: 56,
-        label: "Sub-Módulo 56",
-        title: "Pólipos Colorretais e CA Precoce",
-        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Endoscopia CA colorretal precoce_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1hPd0hxcGrgc-eBbmfB4dXBZ9POfO4fTX/view?usp=sharing" }
-        ],
-        materials: []
-      },
-      {
-        id: 57,
-        label: "Sub-Módulo 57",
-        title: "Litíase Urinária: Diagnóstico e Tratamento",
-        imageUrl: "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Litíase no pronto socorro.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1-MdTs65rTSH8lX3vPOA9xJzUBq-cbzYo/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Litíase Introdução.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/15qmuHoY_ErF6hYFkKjCpWMce4840zNtz/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Ficha Resumo: Urologia - Litíase no Pronto-Socorro.pdf", pdfLink: "https://drive.google.com/file/d/1Og6GRc7WJnmAAQAGMJzNYStXsg-xPHqr/view?usp=sharing" },
-          { title: "E-Book - Litíase no pronto-socorro_COFEXPRESS.mp4", pdfLink: "https://drive.google.com/file/d/1hxE_IN37owZbt1hdUvbVVN7OHf3rduv5/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 58,
-        label: "Sub-Módulo 58",
-        title: "Câncer de Próstata, Rim e Bexiga",
-        imageUrl: "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Uro-oncologia Bexiga_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1flsqADw8hPANlV4SmmSIgpKmhKIZ_Qq2/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Uro-oncologia Rim_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1qW3wOa0zMsE6SviLtHeHr-NBF-Ei8Siy/view?usp=sharing" }
-        ],
-        materials: []
-      },
-      {
-        id: 59,
-        label: "Sub-Módulo 59",
-        title: "Câncer de Testículo, Pênis e Adrenal",
-        imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Uro-oncologia Pênis _COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1gaTjScF0vI-XlFiDktCI3GcJFMkuC962/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Uro-oncologia Pênis.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1j5AYcc-bwbYnTINxzqObPjVcojQRCfG4/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Uro-oncologia Testículo_COFEXPRESS.pdf", pdfLink: "https://drive.google.com/file/d/1wbMY2vX3J__mJopmMqNc1zmmo-tmV3Iz/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 60,
-        label: "Sub-Módulo 60",
-        title: "Hiperplasia Prostática Benigna (HPB)",
+        id: 16,
+        label: "Sub-Módulo 16",
+        title: "Hérnias - Hérnia Umbilical",
         imageUrl: "https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&q=80&w=400",
-        lessons: [],
-        materials: []
-      },
-      {
-        id: 61,
-        label: "Sub-Módulo 61",
-        title: "Urgências Urológicas (Escroto Agudo, Priapismo, Fratura)",
-        imageUrl: "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&q=80&w=400",
         lessons: [
-          { id: 1, title: "Aula 01 - Urologia PS - Escroto Agudo_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1tMV6b2L4TRl0PQWWgcWHpIkOuKDNFpZ2/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Urologia PS - Fratura Peniana.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1u5i2kgv2EO8tPvHKunYuzBHDFf2Z19h7/view?usp=sharing" }
+          { id: 1, title: "Aula 01 - CofExpress: Hérnias - Hérnia Umbilical", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1uOYRe0E9luM0Op_uhv2p9TtSJSoPmq2k/view?usp=sharing" }
         ],
         materials: [
-          { title: "E-Book - Urologia PS - Priapismo_COFEXPRESS.pdf", pdfLink: "https://drive.google.com/file/d/1zqMV2AydyOgM0SUWbJtKvdWVIQ290Ki_/view?usp=sharing" },
-          { title: "E-Book - Urologia PS - Fratura Peniana_COFEXPRESS.pdf", pdfLink: "https://drive.google.com/file/d/18kBRdz_3MQ17vik3HMDr1pLMI5zeBc7N/view?usp=sharing" }
+          { title: "PDF de Slides - Hérnias: Hérnia Umbilical", pdfLink: "https://drive.google.com/file/d/1TSu5Bqbk4xnq6i8BAhHZ3QjGOZmAk2Cm/view?usp=sharing" },
+          { title: "Ficha Resumo - Hérnias: Hérnia Umbilical", pdfLink: "https://drive.google.com/file/d/10Ce_JGtj7_UDPN2_k4UcMf2K1OIToIa1/view?usp=sharing" }
         ]
       },
       {
-        id: 62,
-        label: "Sub-Módulo 62",
-        title: "Trauma Urológico (Rim, Ureter, Bexiga, Uretra)",
-        imageUrl: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=80&w=400",
-        lessons: [],
-        materials: []
-      },
-      {
-        id: 63,
-        label: "Sub-Módulo 63",
-        title: "Incontinência, Bexiga Neurogênica e Disfunções",
-        imageUrl: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?auto=format&fit=crop&q=80&w=400",
+        id: 17,
+        label: "Sub-Módulo 17",
+        title: "Hérnias - Hérnia Femoral",
+        imageUrl: "https://images.unsplash.com/photo-1615631648086-325cd3d0038c?auto=format&fit=crop&q=80&w=400",
         lessons: [
-          { id: 1, title: "Aula 01 - Urologia Síndrome da bexiga hiperativa e bexiga dolorosa.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1hzA213yCEINQI2Skg5HG55NPTMdgczuZ/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Urologia Incontinência urinária de esforço.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1phsk4N0vjZlYpfjIpoRn8FxywvhLtwRA/view?usp=sharing" }
+          { id: 1, title: "Aula 01 - CofExpress: Hérnias - Hérnia Femoral", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1_jQ_sEPI8qKets2BxhJrV0EvIZTqgJEM/view?usp=sharing" }
         ],
         materials: [
-          { title: "E-Book - Urologia Bexiga neurogênica.pdf", pdfLink: "https://drive.google.com/file/d/1Gbm46jmY1sv4qyDiTb775LxWX2j0l_an/view?usp=sharing" },
-          { title: "E-Book - Urologia Incontinência urinária de esforço _COFEXPRESS.pdf", pdfLink: "https://drive.google.com/file/d/18h8v5gg0UKme6rq2iFuFf6_r4DFNaVcM/view?usp=sharing" }
+          { title: "PDF de Slides - Hérnias: Hérnia Femoral", pdfLink: "https://drive.google.com/file/d/1TunA4zh1kJhX6-JW8mcQpDhWNiVi0HtD/view?usp=sharing" },
+          { title: "Ficha Resumo - Hérnias: Hérnia Femoral", pdfLink: "https://drive.google.com/file/d/1Ib1nDjozf_X8zeUbQggDTxkSp9TF6H1S/view?usp=sharing" }
         ]
       },
       {
-        id: 64,
-        label: "Sub-Módulo 64",
-        title: "Andrologia (Medicina Sexual, DSTs, Infertilidade)",
-        imageUrl: "https://images.unsplash.com/photo-1584036561566-b93a945cd3ae?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Urologia_ Medicina Sexual.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1l2hAiGtAU8hrgKp7jzYGknRnIpEKcKqS/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Urologia Desafios finais.pdf", pdfLink: "https://drive.google.com/file/d/1gx2xNZ5y-ju3yivAbs2JsriV6tMRNwXU/view?usp=sharing" },
-          { title: "E-Book - Urologia Desafios finais_COFEXPRESS.pdf", pdfLink: "https://drive.google.com/file/d/1bzep37J7HslemqyeHCTsb8CS1mGqM_ux/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 65,
-        label: "Sub-Módulo 65",
-        title: "Aneurisma de Aorta",
-        imageUrl: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Cirurgia Vascular Aneurisma de aorta I.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1eLrZC3fCzLu_6Vvv4mBQahciAeE6zzNp/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Cirurgia Vascular Aneurisma de aorta II_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1rpPmIL5B9Q_EnZVo4m22Wxvau3IAlTTy/view?usp=sharing" }
-        ],
-        materials: []
-      },
-      {
-        id: 66,
-        label: "Sub-Módulo 66",
-        title: "Síndromes Aórticas Agudas",
-        imageUrl: "https://images.unsplash.com/photo-1581093588401-fbb07365f557?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Cirurgia Vascular Síndromes aórticas agudas_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1aetxsGNM-b2x1a3WfiwKJxg9goAL3m2f/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Cirurgia Vascular Síndromes aórticas agudas.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1BnmKnfKgC_Vo9I1e0kCKGGJqmjVg2UGQ/view?usp=sharing" }
-        ],
-        materials: []
-      },
-      {
-        id: 67,
-        label: "Sub-Módulo 67",
-        title: "Doença Arterial Obstrutiva (OAA e OAC)",
-        imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Cirurgia Vascular Isquemia de membros inferiores - OAA COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/138huvjRgCfknmgw07RfPFYg1abdnvBzU/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Isquemia de membros inferiores-oaa.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1srSrEZTQUnG_rC9C5DWvDuig-0TyKXEL/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Isquemia de membros inferiores-oac.pdf", pdfLink: "https://drive.google.com/file/d/1ug4Aaq9VnYmxj4aePuD0HbArH_GnBvKV/view?usp=sharing" },
-          { title: "E-Book - Cirurgia Vascular Isquemia de membros inferiores - OAC _COFEXPRESS.pdf", pdfLink: "https://drive.google.com/file/d/1div0DIqHK-FTfLxu9d1bqZkXz4wkno-M/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 68,
-        label: "Sub-Módulo 68",
-        title: "Trombose Venosa Profunda (TVP) e Insuficiência Venosa",
-        imageUrl: "https://images.unsplash.com/photo-1584362917165-52e812f8dc08?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Cirurgia Vascular Insuficiência venosa crônica.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1jCJy8GOiFv75bPtjRs49H1x0DkDlBdvk/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Cirurgia Vascular Insuficiência venosa crônica_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1jCJy8GOiFv75bPtjRs49H1x0DkDlBdvk/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Cirurgia Vascular Trombose venosa profunda_COFEXPRESS.pdf", pdfLink: "https://drive.google.com/file/d/1jyd8aBOZJHHD4fzoOaxJDrDO4fyNVVB7/view?usp=sharing" },
-          { title: "E-Book - Cirurgia Vascular Trombose venosa profunda.pdf", pdfLink: "https://drive.google.com/file/d/1kVw_0O_2FHBFK6hxt2ZEY1wzSuXv4WTv/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 69,
-        label: "Sub-Módulo 69",
-        title: "Estenose Carotídea",
-        imageUrl: "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Cirurgia Vascular Estenose Carotídea Sintomática_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ejdwvUIqp2ZiaHhIW5ef0D4dRu9I0PIx/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Estenose Carotidea Assintomatica.pdf", pdfLink: "https://drive.google.com/file/d/1ujQ_bJgAnbaZ-IBm-o7RARV2WsQHdWuT/view?usp=sharing" },
-          { title: "E-Book - Estenose Carotidea Sintomatica.pdf", pdfLink: "https://drive.google.com/file/d/1lr_1sKaqH6ctgdFtkqd0l-2lby_iI4Wm/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 70,
-        label: "Sub-Módulo 70",
-        title: "Trauma Vascular",
-        imageUrl: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Cirurgia Vascular Trauma Vascular de Aorta_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ogzITFanXAqgGXeVotSULeasYH2Wh60w/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Cirurgia Vascular Trauma Vascular de Aorta.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1nEuS3sjaWxYJE4-6p5jWbtYTMOc9DlPJ/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Cirurgia Vascular Trauma Vascular de extremidades_COFEXPRESS.pdf", pdfLink: "https://drive.google.com/file/d/1Fmb7xA9aLE1GaH9kuOpu-6krJydXIapD/view?usp=sharing" },
-          { title: "E-Book - Cirurgia Vascular Trauma Vascular de extremidades.pdf", pdfLink: "https://drive.google.com/file/d/1q-_hWrcbkUYGqzFfis1eOP-HeUk0joAp/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 71,
-        label: "Sub-Módulo 71",
-        title: "Pé Diabético e Vasculites",
-        imageUrl: "https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Cirurgia Vascular Pé diabético_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1hds9v5jfHxwmrRh1yrRYE89FRIjfP8Gq/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Cirurgia Vascular Vasculites_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/19FGNn59uRk7HXNCja6RAobJhewzVT_KW/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Cirurgia Vascular Síndrome do desfiladeiro torácico.pdf", pdfLink: "https://drive.google.com/file/d/1GpMm3q7rparBDuZDRGZrzMkJpxruuAzW/view?usp=sharing" },
-          { title: "E-Book - Cirurgia Vascular Síndromes compressivas _COFEXPRESS.pdf", pdfLink: "https://drive.google.com/file/d/1zL9d0dI05G-k1Y9l-GTiFl6yxHlO-8na/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 72,
-        label: "Sub-Módulo 72",
-        title: "Tireoide: Anatomia, Fisiologia e Tireoidites",
-        imageUrl: "https://images.unsplash.com/photo-1550831107-1553da8c8464?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - VISÃO DO ESPECIALISTA Cabeça e Pescoço Tireóide I - anatomia, fisiologia e tireoidites.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1nMgO6tDtB6QhBsUhUrSa8_fWoz2vqpzI/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Tireoide e Endocrinopediatria_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ouZ2kI8uKzGYpbN08oRn4RJp0hHzBsaF/view?usp=sharing" }
-        ],
-        materials: []
-      },
-      {
-        id: 73,
-        label: "Sub-Módulo 73",
-        title: "Nódulos e Câncer de Tireoide",
-        imageUrl: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - VISÃO DO ESPECIALISTA Cabeça e Pescoço Tireóide II - nódulo e bócio.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/17YQb_JVPiUSNGyyogfTm3h1JOiW3RmW4/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - VISÃO DO ESPECIALISTA Cabeça e Pescoço Tireóide III - carcinoma bem diferenciado.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1-3kCkiJdKMzCgzt7YFThZqJwxAT7k1bb/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Cabeça e Pescoço Tireóide IV - carcinoma medular e anaplásico_Cofexpress.pdf", pdfLink: "https://drive.google.com/file/d/1rJzJyCzIC7JOBm0bx4vM_BR3-QcB383I/view?usp=sharing" },
-          { title: "E-Book - Cabeça e Pescoço Tireóide IV - carcinoma medular e anaplásico.pdf", pdfLink: "https://drive.google.com/file/d/1lPRuv31CpTpj7K1ubjwsWnX4X7M9e9XW/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 74,
-        label: "Sub-Módulo 74",
-        title: "Tireoidectomia e Esvaziamento",
-        imageUrl: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=400",
-        lessons: [],
-        materials: []
-      },
-      {
-        id: 75,
-        label: "Sub-Módulo 75",
-        title: "Paratireoide e Hiperparatireoidismo",
-        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Cabeça e Pescoço Paratireoide II - hiperparatireoidismo primário.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1-4xAQaN9iW3293G1sr67Xj3Swe23C2Zk/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - COFEXPRESS Cabeça e Pescoço Paratireoide II - hiperparatireoidismo primário.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/19-VxPJ3Ueg9Sr4cFLMbV2Pt3wxVuRSSh/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Cabeça e Pescoço Paratireoide III - hiperparatireoidismo secundário e terciário.pdf", pdfLink: "https://drive.google.com/file/d/14V3toEEQsLSkxrnrDTsNUXDxzY-1-WNS/view?usp=sharing" },
-          { title: "E-Book - COFEXPRESS Cabeça e Pescoço Paratireoide III - hiperparatireoidismo secundário e terciário.pdf", pdfLink: "https://drive.google.com/file/d/1mlSq9oo7mP--NiyzYG9kjUf1AIUzh-uI/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 76,
-        label: "Sub-Módulo 76",
-        title: "Anomalias Congênitas e Câncer de Pele (Cabeça e Pescoço)",
-        imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Cabeça e Pescoço Anomalias Congênitas em cabeça e pescoço.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1vwFOr0SjCfNOhDOFUKfL0EXkmsy0NzB/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Cabeça e Pescoço Câncer de pele não melanoma.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1e6pmIXybuwvXzjwbuLY_SrWkTnK5iF63/view?usp=sharing" }
-        ],
-        materials: []
-      },
-      {
-        id: 77,
-        label: "Sub-Módulo 77",
-        title: "Derrame Pleural e Pneumotórax",
-        imageUrl: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Cirurgia Torácica Pneumotórax_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1cPjGbqnyABtP5H2hMzgLW23SQm_bBt-2/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Cirurgia Torácica Exsudato Neutrofílico.pdf", pdfLink: "https://drive.google.com/file/d/1-Iv5sw4YJWghe2qUiVKIAV1hsDRpx_CN/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 78,
-        label: "Sub-Módulo 78",
-        title: "Câncer de Pulmão",
-        imageUrl: "https://images.unsplash.com/photo-1584362917165-52e812f8dc08?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Cirurgia Torácica Câncer de Pulmão (Parte I)_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1nzDXByHjZG17t-QqXTxN1HiwSQrTjxj3/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Cirurgia Torácica Câncer de Pulmão (Parte II).ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1t6To6q1X9xGJpy32XwmJVoWV0WlN6Lur/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Cirurgia Torácica Câncer de Pulmão (Parte II)_COFEXPRESS.pdf", pdfLink: "https://drive.google.com/file/d/173XPSTGhFESN0DGbSMKXLxuEPMsWf9NP/view?usp=sharing" },
-          { title: "E-Book - Cirurgia Torácica Câncer de Pulmão - Quiz.pdf", pdfLink: "https://drive.google.com/file/d/1B9-RpNkSxUVKXNG7_n8zvm2qyrAcm2N4/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 79,
-        label: "Sub-Módulo 79",
-        title: "Mediastino e Doenças Traqueais",
-        imageUrl: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Cirurgia Torácica Doenças Traqueais_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1fbOqPlaTfdp9MKtLwNwzuOnynzmdvSRq/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Cirurgia Torácica Quiz Doenças Traqueais.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1qLDvwWAVe_Ggt4ND-XzyHFY3yt-uuZ0u/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Cirurgia Torácica Mediastino _COFEXPRESS.pdf", pdfLink: "https://drive.google.com/file/d/1is5276-Qund026TvCbu6Ne6bKUE0walG/view?usp=sharing" },
-          { title: "E-Book - Cirurgia Torácica Complicações Mediastinais_COFEXPRESS.pdf", pdfLink: "https://drive.google.com/file/d/1igx-W_33lUmQuyohleHw-QqflyEWKi31/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 80,
-        label: "Sub-Módulo 80",
-        title: "Cirurgia Cardíaca: Coronária, Valvas e Aorta",
-        imageUrl: "https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Cirurgia Cardíaca Doença da Aorta_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1z5dlClosJApsGXfRwize4WvJgIoNMWje/view?usp=sharing" }
-        ],
-        materials: []
-      },
-      {
-        id: 81,
-        label: "Sub-Módulo 81",
-        title: "Pós-Operatório e Transplante Cardíaco",
-        imageUrl: "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Cirurgia Cardíaca Pós-Operatório.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1F2VqvR02vUIXtnegednIvBXQMDDeczd_/view?usp=sharing" }
-        ],
-        materials: []
-      },
-      {
-        id: 82,
-        label: "Sub-Módulo 82",
-        title: "Queimados: Atendimento Inicial e Tratamento",
-        imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Cirurgia Plástica Queimados - Atendimento Inicial_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1gwfXTfeAk1i124yyaCxEl8PGObyiJTIy/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Cirurgia Plástica Queimados - Atendimento Inicial.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ziDihuB1VesSpa64vVUnBqoUmigxHzu-/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Queimados Sequelas de Queimadura.pdf", pdfLink: "https://drive.google.com/file/d/1v1BsdJTkRbqyRzjZe0EV6IercWEB4hDF/view?usp=sharing" },
-          { title: "E-Book - Queimados Sequelas de Queimadura_COFEXPRESS.pdf", pdfLink: "https://drive.google.com/file/d/1lTfkO8fLAWtkPHhzkkYCRUQBy5_TKMD4/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 83,
-        label: "Sub-Módulo 83",
-        title: "Cicatrização, Enxertos e Retalhos",
+        id: 18,
+        label: "Sub-Módulo 18",
+        title: "Hérnias - Hérnias Incisionais",
         imageUrl: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&q=80&w=400",
         lessons: [
-          { id: 1, title: "Aula 01 - Cicatrização Fisiológica.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1s7K5M6FxNEcU14k9MlRa7zKY0zWPZFEu/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Cicatrização Patológica.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1uxkdxpLzAHkMQD5GlCWOokwIgyQh68RV/view?usp=sharing" }
+          { id: 1, title: "Aula 01 - Hérnia Incisional", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/15lR3G4d6NVXJKcXfiC5z2nDkDtC9Pk0L/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Hérnia Incisional", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/16-GjQPnyFSqGJ3u-Sqglufpyvj6L3_q1/view?usp=sharing" }
         ],
         materials: [
-          { title: "E-Book - Cicatrização Patológica_COFEXPRESS.pdf", pdfLink: "https://drive.google.com/file/d/1pUHL4ZnlgeXq54Ch0UEJQFobfyaNXtSq/view?usp=sharing" },
-          { title: "E-Book - Enxertos_COFEXPRESS.pdf", pdfLink: "https://drive.google.com/file/d/1_VZkXJCIDtQFE-UPd7uUVcOGR3UOXUnj/view?usp=sharing" }
+          { title: "PDF de Slides - Hérnias: Hérnias Incisionais", pdfLink: "https://drive.google.com/file/d/1p6fNCNhuANQQhtCKt0ThYZmbQ6yGrX-v/view?usp=sharing" },
+          { title: "Ficha Resumo - Hérnias: Hérnias Incisionais", pdfLink: "https://drive.google.com/file/d/1JMCnu2_566Bi-dV_p5JU2mjuhk8o-oUj/view?usp=sharing" }
         ]
       },
       {
-        id: 84,
-        label: "Sub-Módulo 84",
-        title: "Cirurgia da Mama e Contorno Corporal",
-        imageUrl: "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Cirurgia Plástica Mama - Reconstrução de mama_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/12_dHZVRT6uNpssMp9-hxTTqyE94hS4G5/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Cirurgia Plástica Mama - Reconstrução de mama.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1bSUwM_R__gU1WJ7FZpzPp00gWeKwvM5A/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Cirurgia Plástica Mama - Hipertrofia mamária.pdf", pdfLink: "https://drive.google.com/file/d/1rFNEh7mR7lWKxQxn9UiyiQDl_sAbBkSf/view?usp=sharing" },
-          { title: "E-Book - Cirurgia Plástica Mama - BIA, ALCL e síndrome Asia.pdf", pdfLink: "https://drive.google.com/file/d/1-uhrYhwkokISmi-7pwEbXla6HCkkxixR/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 85,
-        label: "Sub-Módulo 85",
-        title: "Trauma de Face e Paralisia Facial",
-        imageUrl: "https://images.unsplash.com/photo-1584362917165-52e812f8dc08?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Cirurgia Plástica Fraturas de face.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ALvKRFrAdGvLrbAfZy63_rWHMeboCtuM/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Cirurgia Plástica Paralisia facial_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1vgoqFRU8wlvvOmBzRipMhZOxKkynpDj3/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Cirurgia Plástica Paralisia facial.pdf", pdfLink: "https://drive.google.com/file/d/1CUevIAEoPASbSdx40kOT1x4x2cRpfwUU/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 86,
-        label: "Sub-Módulo 86",
-        title: "Defeitos da Parede e Região Inguinal",
-        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Cirurgia Infantil Defeitos da parede abdominal.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1h73UW4_UoRS4rZCbu6UVbbfUJ3T0ljcs/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Cirurgia Infantil Região inguinal e distopias testiculares_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1uUE2l2DFd4OdnSTVw9Xh4dulDaSblozs/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Cirurgia Infantil Região inguinal e distopias testiculares.pdf", pdfLink: "https://drive.google.com/file/d/1APVi0nvCo0X_zClnAbNtWFOQqWz6meRs/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 87,
-        label: "Sub-Módulo 87",
-        title: "Vômitos no Lactente e CIPE",
-        imageUrl: "https://images.unsplash.com/photo-1550831107-1553da8c8464?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Cirurgia Infantil Vômitos no RN lactente_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1uRtEPkXyFjxILbKMlA_AaNGciQdOCeeI/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Cirurgia Infantil Vômitos no RN lactente.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1meQeagZPWcQgp6riUGqptkpoDt4CeUHA/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Cirurgia Infantil CIPE no PS.pdf", pdfLink: "https://drive.google.com/file/d/1b9YTiLSns5AwcdS08Z6CtALQs3U9Ka-j/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 88,
-        label: "Sub-Módulo 88",
-        title: "Tumores e Malformações (Esôfago, Via Biliar, Cólon)",
+        id: 19,
+        label: "Sub-Módulo 19",
+        title: "Hérnias - Outras Hérnias",
         imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
         lessons: [
-          { id: 1, title: "Aula 01 - Cirurgia Infantil Atresia de esôfago e doença da via biliar_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/19fsFByzwgTq2nnqrFwgpHYfY7AJshq5G/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Cirurgia Infantil Anomalias de Cólon e Reto.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1fMERsE2i4-vdKje7tCW2HWOhZW-pijmq/view?usp=sharing" }
+          { id: 1, title: "Aula 01 - Hérnias: Outras Hérnias", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/144R5TmJ1UKn4vWj13fd-ZZhsbdL-Z2LB/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Hérnias - Outras Hérnias", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1A4BbWNq3l1Gw4o6m_ZCiV55RoucFN_3C/view?usp=sharing" }
         ],
         materials: [
-          { title: "E-Book - Cirurgia Infantil Doenças cervicais na infância _COFEXPRESS.pdf", pdfLink: "https://drive.google.com/file/d/11eE7Ka7xdP0-d5dJf9LqsdcyWmDjYXDB/view?usp=sharing" },
-          { title: "E-Book - Cirurgia Infantil Doenças cervicais na infância.pdf", pdfLink: "https://drive.google.com/file/d/1bL9zshzTSBibdA6oANYW59QcyV74IucR/view?usp=sharing" }
+          { title: "PDF de Slides - Hérnias: Outras Hérnias", pdfLink: "https://drive.google.com/file/d/1IGXTP6BjD9Ggo9mpBBE1cAyuHkpKtalM/view?usp=sharing" },
+          { title: "Ficha Resumo - Hérnias: Outras Hérnias", pdfLink: "https://drive.google.com/file/d/1lXeriUKdQW1ImA00OACq73zQhEoOldg0/view?usp=sharing" }
         ]
       },
       {
-        id: 89,
-        label: "Sub-Módulo 89",
-        title: "Avaliação Pré-Operatória e Risco",
-        imageUrl: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=400",
+        id: 20,
+        label: "Sub-Módulo 20",
+        title: "Hérnias - Fechamento de Parede Abdominal",
+        imageUrl: "https://images.unsplash.com/photo-1559757175-0b299a9d829c?auto=format&fit=crop&q=80&w=400",
         lessons: [
-          { id: 1, title: "Aula 01 - Perioperatório Pré-operatório I.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/124P2i9z-cNT9t4MJZjlZZ8DB79VgVxuM/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Avaliação Pré-Operatória_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1F8Dk6qRHSPzp6iHAfzqe_7mbyQpFTfe0/view?usp=sharing" }
+          { id: 1, title: "Aula 01 - Hérnias: Fechamento de Parede Abdominal", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/10OuV9-zX3GJXn5-CNWdUNwcPXffezRDq/view?usp=sharing" }
         ],
         materials: [
-          { title: "E-Book - Avaliação Pré-Operatória.pdf", pdfLink: "https://drive.google.com/file/d/1H91RDzM_K-t0EYiEXtS92y9EJ300dJAM/view?usp=sharing" }
+          { title: "PDF de Slides - Hérnias: Fechamento de Parede Abdominal", pdfLink: "https://drive.google.com/file/d/1fUQThFw4x99pxR14Oyp0x5rbB5rEhHhs/view?usp=sharing" },
+          { title: "Ficha Resumo - Hérnias: Fechamento de Parede Abdominal", pdfLink: "https://drive.google.com/file/d/1kZhqIdrgYoT8sbob7M3JPmXEAX3D44aN/view?usp=sharing" }
         ]
       },
       {
-        id: 90,
-        label: "Sub-Módulo 90",
-        title: "REMIT e Complicações Pós-Operatórias",
-        imageUrl: "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Perioperatório REMIT e pós-operatório _COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/10sQRrsxjbZ1EGrledfABBIdW_bVfPbhJ/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Perioperatório REMIT e pós-operatório.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1uQNaDb92e0cgQrX4xuLmIl_ADC-wtGFd/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Perioperatório Complicações gerais.pdf", pdfLink: "https://drive.google.com/file/d/1dSB3JHCAi0JZIXS1B9WbBVsWlW7f6WLm/view?usp=sharing" },
-          { title: "E-Book - Perioperatório Complicações gerais_COFEXPRESS.pdf", pdfLink: "https://drive.google.com/file/d/1mYC2ezlvAzpR3xDP4owb6WAtm4uE5ldT/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 91,
-        label: "Sub-Módulo 91",
-        title: "Técnicas Anestésicas e Monitorização",
-        imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Técnicas Anestésicas: Parte I_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1sDM5B4XLOAnD4Q5U4NW-e9adUoIPJOC-/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Técnicas Anestésicas: Parte I.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1aamd03SmXWN6mNmVT0BEaLdrlz8Wy8Au/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Técnicas Anestésicas: Parte II_COFEXPRESS.pdf", pdfLink: "https://drive.google.com/file/d/1HWdbGQHlvZ-4adm1pdFbmc1nQnN0YtgK/view?usp=sharing" },
-          { title: "E-Book - Técnicas Anestésicas: Parte II.pdf", pdfLink: "https://drive.google.com/file/d/1tD8zeby43dBQtMn9GqVbfB9Fc1AC6r0N/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 92,
-        label: "Sub-Módulo 92",
-        title: "Nutrição Perioperatória",
+        id: 21,
+        label: "Sub-Módulo 21",
+        title: "Hérnias - Síndrome Compartimental Intra-Abdominal",
         imageUrl: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&q=80&w=400",
         lessons: [
-          { id: 1, title: "Aula 01 - Nutrição perioperatória_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/18fq3XBoyJ6TgRG-xwhZJECJNBu3aiTSj/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Nutrição perioperatória.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1jV5veHcq7RJxB4sNufljKp1i0csrqeRk/view?usp=sharing" }
-        ],
-        materials: []
-      },
-      {
-        id: 93,
-        label: "Sub-Módulo 93",
-        title: "Videolaparoscopia e Eletrocirurgia",
-        imageUrl: "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Cirurgia Geral Videolaparoscopia_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1715ufyP_L8Ax78ceTVWWJhmXPmxt9nGN/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Cirurgia Geral Eletrocirurgia_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/12Unp4IVJJA6s8JhDBl1Y6c4fRX9ifp7z/view?usp=sharing" }
+          { id: 1, title: "Aula 01 - Hérnias: Síndrome Compartimental Intra-Abdominal", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1yVZ6cQTc-JuirTD3GuW4v7PsToq5cCbZ/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Hérnias - Síndrome Compartimental Intra-Abdominal", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1zZ8BJ_dfcwwlWEveVmmkzgnOIx3eh0J6/view?usp=sharing" }
         ],
         materials: [
-          { title: "E-Book - Cirurgia Geral Eletrocirurgia.pdf", pdfLink: "https://drive.google.com/file/d/1diivn-GIfLogfb31eK-5M8XAhIiBGATl/view?usp=sharing" }
+          { title: "PDF de Slides - Hérnias: Síndrome Compartimental Intra-Abdominal", pdfLink: "https://drive.google.com/file/d/1sTwA7cHblNq9elaqMcMpyLv0uMAEVKa2/view?usp=sharing" },
+          { title: "Ficha Resumo - Hérnias: Síndrome Compartimental Intra-Abdominal", pdfLink: "https://drive.google.com/file/d/1xgwzx6n_bll3cAHTuqwx38rMBvy3O1ss/view?usp=sharing" }
         ]
       },
       {
-        id: 94,
-        label: "Sub-Módulo 94",
-        title: "Ortopedia Geral e Traumatologia",
-        imageUrl: "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&q=80&w=400",
+        id: 22,
+        label: "Sub-Módulo 22",
+        title: "Cirurgia Geral - Síndrome de Fournier",
+        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
         lessons: [
-          { id: 1, title: "Aula 01 - Ortopedia Geral.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1dhx8s-CvMT77ZrkdXQxlTyblT3uLKV9w/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Ortopedia Traumatologia.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1zKNuOR-75_5lFdtO_bX7UZJAlfTuOYrO/view?usp=sharing" }
+          { id: 1, title: "Aula 01 - Cirurgia Geral: Síndrome de Fournier", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1o3uJlxcWsYczrdT1HpSqI7IO_NWXgj6A/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Cirurgia Geral - Síndrome de Fournier", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ZHZ2PRTbve7n2HGxrXfOnO1AAQhFgzRD/view?usp=sharing" }
         ],
         materials: [
-          { title: "E-Book - Ortopedia Traumatologia_COFEXPRESS.pdf", pdfLink: "https://drive.google.com/file/d/1m7zwzIY1_v-YoJrRQcpLVxu2q_vgjeum/view?usp=sharing" }
+          { title: "PDF de Slides - Cirurgia Geral: Síndrome de Fournier", pdfLink: "https://drive.google.com/file/d/17gygYIi5hvm4mCfxcckEKyEKzuu3zB61/view?usp=sharing" },
+          { title: "Ficha Resumo - Cirurgia Geral: Síndrome de Fournier", pdfLink: "https://drive.google.com/file/d/11HQuHJ7Y3cx4YHNl18Qi7BoMqD25OwGE/view?usp=sharing" }
         ]
-      },
-      {
-        id: 95,
-        label: "Sub-Módulo 95",
-        title: "Neurocirurgia: Emergências e Geral",
-        imageUrl: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Neurocirurgia Demais assuntos_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1g6pqkfCkHzUSqvih0fb17QHUSmKuIgt-/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Neurocirurgia Emergências neurocirúrgicas.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/13AznDfS8fsb1fUMJ7t9znAUXziHVqIZ-/view?usp=sharing" }
-        ],
-        materials: []
-      },
-      {
-        id: 96,
-        label: "Sub-Módulo 96",
-        title: "Oncocirurgia Geral (Melanoma e Sarcoma)",
-        imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Oncocirurgia Melanoma_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1if7oLQrTi37RvmXiNF0aSE4a7of281O6/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Oncocirurgia Melanoma.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1t90VC7FeTmhlPATsT-1GI_157Xh7Ltht/view?usp=sharing" }
-        ],
-        materials: [
-          { title: "E-Book - Oncocirurgia Sarcoma_COFEXPRESS.pdf", pdfLink: "https://drive.google.com/file/d/1g1Bn_CmEfBMXX-kyeeWcs7NKUgQ-C2B5/view?usp=sharing" },
-          { title: "E-Book - Oncocirurgia Sarcoma.pdf", pdfLink: "https://drive.google.com/file/d/1GhIMka6nMgu3I8VhO_ZCR4xU0G7ddNnV/view?usp=sharing" }
-        ]
-      },
-      {
-        id: 97,
-        label: "Sub-Módulo 97",
-        title: "Doenças Cirúrgicas do Baço",
-        imageUrl: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=400",
-        lessons: [
-          { id: 1, title: "Aula 01 - Doenças cirúrgicas do Baço.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1aRqZa008ThvHVycVIU0t3-ryU-tVXiSB/view?usp=sharing" }
-        ],
-        materials: []
       }
     ]
   },
-  // --- MÓDULO 08: NEUROPEDIATRIA ---
+
+  // --- MÓDULO 23: APARELHO DIGESTIVO ---
   {
-    id: 8,
-    title: "Módulo 08 - Neuropediatria",
-    label: "Módulo 08",
+    id: 23,
+    title: "Módulo 23 - Aparelho Digestivo",
+    label: "Módulo 23",
     subModules: [
       {
         id: 1,
-        label: "Sub-Módulo 1",
-        title: "Síndromes Neurocutâneas na Infância",
-        imageUrl: "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&q=80&w=400",
+        label: "Sub-Módulo 01",
+        title: "Esôfago - Introdução e Fisiologia",
+        imageUrl: "https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&q=80&w=400",
         lessons: [
-          { id: 1, title: "Aula 01 - Síndromes Neurocutâneas na Infância.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Ey0t3Gdy-BUZdilIls9jxmqenV4S46oy/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Síndromes Neurocutâneas na Infância_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1mWSZXGQl59sO4zXR-yxjgSUXHrkbNAee/view?usp=sharing" }
+          { id: 1, title: "Aula 01 - Esôfago: Introdução", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1JPmL3h4y6qTsAqpEGE9NGggosm84ZCAc/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Esôfago - Introdução", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1MS1WS8Tqdhi48IYEjWS5DXjrUUYN9qLy/view?usp=sharing" }
         ],
-        materials: []
+        materials: [
+          { title: "PDF de Slides - Esôfago: Introdução", pdfLink: "https://drive.google.com/file/d/1qVdZzctkrD3JYbAxhyyCjyvZ0bwolJNc/view?usp=sharing" },
+          { title: "Ficha Resumo - Esôfago: Introdução", pdfLink: "https://drive.google.com/file/d/1uwFr4_pvVx0iyqh3QE-rDO1BZojdbsbU/view?usp=sharing" }
+        ]
       },
       {
         id: 2,
-        label: "Sub-Módulo 2",
-        title: "Neoplasias de Sistema Nervoso Central",
-        imageUrl: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=80&w=400",
+        label: "Sub-Módulo 02",
+        title: "Esôfago - DRGE e Hérnias de Hiato",
+        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
         lessons: [
-          { id: 1, title: "Aula 01 - Neoplasias de Sistema Nervoso Central.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1wSOOXygqbzg6upwuyLQQvMfbYArHAeJ5/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Neoplasias de Sistema Nervoso Central_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1zW6GycKyaHeI-wZyuKqvDUxkzpSB0ges/view?usp=sharing" }
+          { id: 1, title: "Aula 01 - Esôfago: DRGE", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1HoXUC6884ghTBn1qoAy6bwH7pJExg6dL/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - Esôfago: Hérnias de Hiato", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1s5hYXSYk6PK8h0m1ZT-pb6zKhYzdr5KK/view?usp=sharing" },
+          { id: 3, title: "Aula 03 - CofExpress: Esôfago - DRGE", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1BbAkx_nMouVSZLXvaBuxZUZuOd2lYa68/view?usp=sharing" },
+          { id: 4, title: "Aula 04 - CofExpress: Esôfago - Hérnias de Hiato", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1wlEXc3Gvbnt-EURDzbG8vmIQd780gsKO/view?usp=sharing" }
         ],
-        materials: []
+        materials: [
+          { title: "PDF de Slides - Esôfago: DRGE", pdfLink: "https://drive.google.com/file/d/1ejz6iedKhA60h2LktGOgmcb1C6YfVUHr/view?usp=sharing" },
+          { title: "PDF de Slides - Esôfago: Hérnias de Hiato", pdfLink: "https://drive.google.com/file/d/189ZZ_ye0IlFoUUwpjhwZwsWkMSuWAcAi/view?usp=sharing" },
+          { title: "Ficha Resumo - Esôfago: DRGE", pdfLink: "https://drive.google.com/file/d/1td_FphVYEqJb83gmbjMuU7wFS0GfbeOQ/view?usp=sharing" },
+          { title: "Ficha Resumo - Esôfago: Hérnias de Hiato", pdfLink: "https://drive.google.com/file/d/18xFVKD9weRK9xG6Glwe4aLZCOqAlmjt5/view?usp=sharing" }
+        ]
       },
       {
         id: 3,
-        label: "Sub-Módulo 3",
-        title: "Alterações na Forma e Volume do Crânio",
+        label: "Sub-Módulo 03",
+        title: "Esôfago - Acalasia e Disfagias",
         imageUrl: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&q=80&w=400",
         lessons: [
-          { id: 1, title: "Aula 01 - Malformações do Sistema Nervoso_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1cP6cRE9RelBkuxO0DKEM--pEXY9qOQtQ/view?usp=sharing" }
+          { id: 1, title: "Aula 01 - Esôfago: Acalasia", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/19G_lw-dOH0EW9U4AK4hbARo3u_zbn2bB/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - Esôfago: Diagnósticos e Diferenciais de Disfagia", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1CpT80Qp5GGmtYeTgnuO-jsfT9CPy2njm/view?usp=sharing" },
+          { id: 3, title: "Aula 03 - CofExpress: Esôfago - Acalasia", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1HX1aio8lIuXapX55GzN6bBOp4vymU4mO/view?usp=sharing" },
+          { id: 4, title: "Aula 04 - CofExpress: Esôfago - Diagnósticos e Diferenciais de Disfagia", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1MRgqTLwellI5Y6IjSS2j5lFxacqLY890/view?usp=sharing" }
         ],
-        materials: []
+        materials: [
+          { title: "PDF de Slides - Esôfago: Acalasia", pdfLink: "https://drive.google.com/file/d/1vRlzSKz2v-hYwIl2snGooC8jSpR4n_uC/view?usp=sharing" },
+          { title: "PDF de Slides - Esôfago: Diagnósticos e Diferenciais de Disfagia", pdfLink: "https://drive.google.com/file/d/1pVkgtnMBr0whtwqFY8F36S9DBflI2KFG/view?usp=sharing" },
+          { title: "Ficha Resumo - Esôfago: Acalasia", pdfLink: "https://drive.google.com/file/d/1UoApaloGKI8VvOQ6LaUChl0Wnj7jNF25/view?usp=sharing" },
+          { title: "Ficha Resumo - Esôfago: Diagnósticos e Diferenciais de Disfagia", pdfLink: "https://drive.google.com/file/d/1RIhNAVsfvoal5NG6ttzlMTZ98tT6EXRO/view?usp=sharing" }
+        ]
       },
       {
         id: 4,
-        label: "Sub-Módulo 4",
-        title: "Ataxias na Infância",
-        imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
+        label: "Sub-Módulo 04",
+        title: "Esôfago - Barrett",
+        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
         lessons: [
-          { id: 1, title: "Aula 01 - Ataxias na Infância.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1vceJe54WgDnqcvYM_qH9BvlEUwqkVcXc/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Ataxias na Infância_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1aWCJeTksSGe20_09HM7cwVXTLKG4tZE4/view?usp=sharing" }
+          { id: 1, title: "Aula 01 - Esôfago de Barrett", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1T_4gIF66F-a0kWiRVQZdBRo5KTM88dq8/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Esôfago de Barrett", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/10r5cUG5-DdeE_Gj8xon9ENfqOksqwuck/view?usp=sharing" }
         ],
-        materials: []
+        materials: [
+          { title: "PDF de Slides - Esôfago: Barrett", pdfLink: "https://drive.google.com/file/d/1NVypqxNmaRzo8z4C1WQFRyb_YVqJ7cGJ/view?usp=sharing" },
+          { title: "Ficha Resumo - Esôfago: Barrett", pdfLink: "https://drive.google.com/file/d/1QK4Xg2tgl1lEYv7nmw1RrDHwi7rjbthT/view?usp=sharing" }
+        ]
       },
       {
         id: 5,
-        label: "Sub-Módulo 5",
-        title: "Doenças Desmielinizantes e Encefalite Autoimune",
-        imageUrl: "https://images.unsplash.com/photo-1584362917165-52e812f8dc08?auto=format&fit=crop&q=80&w=400",
+        label: "Sub-Módulo 05",
+        title: "Esôfago - Câncer de Esôfago",
+        imageUrl: "https://images.unsplash.com/photo-1559757175-0b299a9d829c?auto=format&fit=crop&q=80&w=400",
         lessons: [
-          { id: 1, title: "Aula 01 - Doenças Desmielinizantes e Encefalite Autoimune_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1AdU8z-lKSB6kTNdJKPctDPdqwE4m27hH/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Doenças Desmielinizantes e Encefalite Autoimune.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1GI9THXsRhO_ilh7JKzXlhFbIpJZ2NmBh/view?usp=sharing" }
+          { id: 1, title: "Aula 01 - Câncer de Esôfago", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1zcTthU7gBXpRBN-IPsYNKGWRLmrlEpgy/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Câncer de Esôfago", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1MxyWZu0eLOgsMbaNpxGU3j72TJaodZ21/view?usp=sharing" }
         ],
-        materials: []
+        materials: [
+          { title: "PDF de Slides - Esôfago: Câncer de Esôfago", pdfLink: "https://drive.google.com/file/d/1CHlUfbu4pc6FlPvfboWoiPS5d58iYNjQ/view?usp=sharing" },
+          { title: "Ficha Resumo - Esôfago: Câncer de Esôfago", pdfLink: "https://drive.google.com/file/d/1gRgc13f9ARoeKyPMmZNIfYX2xD57gUfH/view?usp=sharing" }
+        ]
       },
       {
         id: 6,
-        label: "Sub-Módulo 6",
-        title: "Neurologia Fetal e Neonatal",
-        imageUrl: "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&q=80&w=400",
+        label: "Sub-Módulo 06",
+        title: "Estômago - Anatomia e Fisiologia",
+        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
         lessons: [
-          { id: 1, title: "Aula 01 - Neurologia Fetal e Neonatal_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/16OkWUUQgQm8qA9ZA3ZMTJs1f9F7tGW6c/view?usp=sharing" }
+          { id: 1, title: "Aula 01 - Estômago: Anatomia e Fisiologia", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1V4EZU9U0vK26D7l0so01fHIQwsi5YBZh/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Estômago - Anatomia e Fisiologia", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1n5FSJbuiRnnHlkf5eiD_RvIdYyLO-83P/view?usp=sharing" }
         ],
-        materials: []
+        materials: [
+          { title: "PDF de Slides - Estômago: Anatomia e Fisiologia", pdfLink: "https://drive.google.com/file/d/1Y_U9f9gT5EaVnkHlOAZr-GySBMlnC2vK/view?usp=sharing" },
+          { title: "Ficha Resumo - Estômago: Anatomia e Fisiologia", pdfLink: "https://drive.google.com/file/d/1G6PSokbVGlXJzAnQaa5D2xGJEX4195uN/view?usp=sharing" }
+        ]
       },
       {
         id: 7,
-        label: "Sub-Módulo 7",
-        title: "Bases da Neurociência",
-        imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
+        label: "Sub-Módulo 07",
+        title: "Estômago - Adenocarcinoma Gástrico",
+        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
         lessons: [
-          { id: 1, title: "Aula 01 - Bases da Neurociência_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1hu9wHaJZiHuUoGQcWFc501i-vWhwmyz1/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Bases da Neurociência.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1of0YifmEc5ncl6hE3ppU0ScMKUwRrSvf/view?usp=sharing" }
+          { id: 1, title: "Aula 01 - Adenocarcinoma Gástrico", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1KnRCxcgtUmb3J0bh18_n1mZFQ4ILlagT/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Adenocarcinoma Gástrico", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ksuEVy_0zz740WrnqE66nGp7myasbp-4/view?usp=sharing" }
         ],
-        materials: []
+        materials: [
+          { title: "PDF de Slides - Estômago: Adenocarcinoma Gástrico", pdfLink: "https://drive.google.com/file/d/1c7Ve8ixTwYuuaXC-awoOVnuzNEENWLTn/view?usp=sharing" },
+          { title: "Ficha Resumo - Estômago: Adenocarcinoma Gástrico", pdfLink: "https://drive.google.com/file/d/126Kgz0e6joJuQRCE_WR2Eac6dVcAPoZB/view?usp=sharing" }
+        ]
       },
       {
         id: 8,
-        label: "Sub-Módulo 8",
-        title: "Erros Inatos do Metabolismo e Doenças Neurodegenerativas",
-        imageUrl: "https://images.unsplash.com/photo-1584362917165-52e812f8dc08?auto=format&fit=crop&q=80&w=400",
+        label: "Sub-Módulo 08",
+        title: "Estômago - GIST e Tumores Neuroendócrinos",
+        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
         lessons: [
-          { id: 1, title: "Aula 01 - Erros Inatos do Metabolismo e Doenças Neurodegenerativas_COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/13iCDpaQ5ULKKX3kBEvcf41yaDoASZNDJ/view?usp=sharing" }
+          { id: 1, title: "Aula 01 - Estômago: GIST", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1DASbC-eo1ccAhKFf9V1aDEQaLqnZnw1_/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - Estômago: Tumores Neuroendócrinos", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1AR6najGRZbedsDZfxYbdPlhyCQMxjAcJ/view?usp=sharing" },
+          { id: 3, title: "Aula 03 - CofExpress: Estômago - GIST", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ij_RFPLh9RYekl4mPkxamZfCwOhEJOQb/view?usp=sharing" },
+          { id: 4, title: "Aula 04 - CofExpress: Estômago - Tumores Neuroendócrinos", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1NgVjkSBL8pzErDiUYC6GKCB6A9NWve9M/view?usp=sharing" }
         ],
         materials: [
-          { title: "E-Book - Doenças Neuromusculares na Infância.pdf", pdfLink: "https://drive.google.com/file/d/1ybU1_qvp-ny8nKrq2FERCBQVwVa9Gu_K/view?usp=sharing" }
+          { title: "PDF de Slides - Estômago: GIST", pdfLink: "https://drive.google.com/file/d/1RRP6fq-yCnsRmvpMLeTCOxKm9Ov1-HEi/view?usp=sharing" },
+          { title: "PDF de Slides - Estômago: Tumores Neuroendócrinos", pdfLink: "https://drive.google.com/file/d/19hU-pF8V3J9oNBu3WQ4fh8Ajp1iPxTj-/view?usp=sharing" },
+          { title: "Ficha Resumo - Estômago: GIST", pdfLink: "https://drive.google.com/file/d/1BN52-cumrkptZe4lhICfmyEwZUfs-t8-/view?usp=sharing" },
+          { title: "Ficha Resumo - Estômago: Tumores Neuroendócrinos", pdfLink: "https://drive.google.com/file/d/10tSeOcSr2Z8WTkr42cobTx3pZmVREGgj/view?usp=sharing" }
         ]
       },
       {
         id: 9,
-        label: "Sub-Módulo 9",
-        title: "Doenças Sistêmicas com Acometimento do SNC",
-        imageUrl: "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&q=80&w=400",
+        label: "Sub-Módulo 09",
+        title: "Estômago - Linfomas",
+        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
         lessons: [
-          { id: 1, title: "Aula 01 - Doenças Sistêmicas com Acometimento do Sistema Nervoso Central.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1AXDp4vwbl28Ew_KRRehPF3erqHvpjfau/view?usp=sharing" },
-          { id: 2, title: "Aula 02 - Doenças Doenças Sistêmicas com Acometimento do Sistema Nervoso Central _COFEXPRESS.ts", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1lZT6ZrCF08hF93kLHzj3wze-ppEE1YUg/view?usp=sharing" }
+          { id: 1, title: "Aula 01 - Estômago: Câncer, Introdução e Linfomas", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/14pPbmlRrGQAhl75EjenAS2ou2chXEet_/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Estômago - Câncer, Introdução e Linfomas", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1bQLfV_JFgjuF9BZ7eNm9URTV8wI1ydXK/view?usp=sharing" }
         ],
-        materials: []
+        materials: [
+          { title: "PDF de Slides - Estômago: Câncer, Introdução e Linfomas", pdfLink: "https://drive.google.com/file/d/10-RRA8mLBCv_L3TiYc2jKIJYPQSZ0F0F/view?usp=sharing" },
+          { title: "Ficha Resumo - Estômago: Câncer, Introdução e Linfomas", pdfLink: "https://drive.google.com/file/d/1QIL-NVbzqtsZvEXPRJB5hPVc2wp48nyA/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 10,
+        label: "Sub-Módulo 10",
+        title: "Estômago - Complicações Agudas Pós Gastrectomias",
+        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Estômago: Complicações Agudas Pós Gastrectomias", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1qo3Mmy8a3hUUscTalR9v9348hYrWspGU/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Estômago - Complicações Agudas Pós Gastrectomias", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ZD91cW9dmG2XcmWrYdbCTWQrXLSUMUjW/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Estômago: Complicações Agudas Pós Gastrectomias", pdfLink: "https://drive.google.com/file/d/1RI5KnPHOl8e3bw_Thj-7sOM8h6Z1bnnj/view?usp=sharing" },
+          { title: "Ficha Resumo - Estômago: Complicações Agudas Pós Gastrectomias", pdfLink: "https://drive.google.com/file/d/1zI20MpAXgsIr0nDwbOmcoE__tpD2Vgym/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 11,
+        label: "Sub-Módulo 11",
+        title: "Tumores do Intestino Delgado",
+        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Tumores do Intestino Delgado", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1O_KgyRPqjQ30R4GBXa4joDnG-Tam2keo/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Tumores do Intestino Delgado", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1J6iaKjv8Dqm9S6o33H5xh76YHeFDTAJy/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Tumores do Intestino Delgado", pdfLink: "https://drive.google.com/file/d/1pzgXoIWq5hkVEAMZgtmp9cPB369DtBlX/view?usp=sharing" },
+          { title: "Ficha Resumo - Tumores do Intestino Delgado", pdfLink: "https://drive.google.com/file/d/1RsdIScNNuOHzb4DDLf0vzBqjRS0wFaTs/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 12,
+        label: "Sub-Módulo 12",
+        title: "Doença Inflamatória Intestinal (Parte 1 e 2)",
+        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Doença Inflamatória Intestinal: Parte 1", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1gmtVUGodNIDvmgl7G4IiESwXHuQPzphY/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - Doença Inflamatória Intestinal: Parte 2", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1gRFJp-hekJyOtET6jNtcvahbVxUc4Hil/view?usp=sharing" },
+          { id: 3, title: "Aula 03 - CofExpress: Doença Inflamatória Intestinal - Parte 1", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1UTt5vRcVToRcpq5pBR9KLZ3RnCJ2aJ_H/view?usp=sharing" },
+          { id: 4, title: "Aula 04 - CofExpress: Doença Inflamatória Intestinal - Parte 2", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1RTvLAogwgT_hpjMYocFWz6seITLY1EP9/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Doença Inflamatória Intestinal: Parte 1", pdfLink: "https://drive.google.com/file/d/19UIJ7aXj4uJHHgUyWE18xg4DdKueSAt2/view?usp=sharing" },
+          { title: "PDF de Slides - Doença Inflamatória Intestinal: Parte 2", pdfLink: "https://drive.google.com/file/d/1c2DSxls5c8BM3nJrw86hjw87kn7jkOTN/view?usp=sharing" },
+          { title: "Ficha Resumo - Doença Inflamatória Intestinal: Parte 1", pdfLink: "https://drive.google.com/file/d/1MFyh4ULvewL5nShRwZuofeLyWmlKtckE/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 13,
+        label: "Sub-Módulo 13",
+        title: "Coloproctologia - CA Colorretal e Síndromes Associadas",
+        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Coloproctologia: CA Colorretal", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1dd-4Qt-nvpS9PKb6VBoGs5h7wtleT4Lf/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - Coloproctologia: Síndromes Associadas ao CCR", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1KJeA09u564HsTa6TalM9yO_eoxubEKqO/view?usp=sharing" },
+          { id: 3, title: "Aula 03 - CofExpress: Coloproctologia - CA Colorretal", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1f-whONHlxFNvA83gHnNNV_2HQJV4Jce1/view?usp=sharing" },
+          { id: 4, title: "Aula 04 - CofExpress: Coloproctologia - Síndromes Associadas ao CCR", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/11XGYDiDB3QZ1UWdoo3eGfpNTYzKMpCBy/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Coloproctologia: CA Colorretal", pdfLink: "https://drive.google.com/file/d/1Q89xBku4cpywLC-1Ia9Ppud2go5yY89_/view?usp=sharing" },
+          { title: "PDF de Slides - Coloproctologia: Síndromes Associadas ao CCR", pdfLink: "https://drive.google.com/file/d/1Jhd6kdWHvBuQXtIsL5ajk3Yjcr73LlIH/view?usp=sharing" },
+          { title: "Ficha Resumo - Coloproctologia: CA Colorretal", pdfLink: "https://drive.google.com/file/d/1ljnZ8hplf9YzhYCrnBV30pYv_ToiVBHZ/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 14,
+        label: "Sub-Módulo 14",
+        title: "Coloproctologia - CEC Canal Anal",
+        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Coloproctologia: CEC Canal Anal", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1AkUovlVW-ziR5z5RjmMf1zLsX-2syvjN/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Coloproctologia - CEC Canal Anal", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1tBZNwEqM32348qvwMnjRS3wt6Rnmdu80/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Coloproctologia: CEC Canal Anal", pdfLink: "https://drive.google.com/file/d/1MqNh0NXo1C5t3QX9mMAoERN7A9EAGprX/view?usp=sharing" },
+          { title: "Ficha Resumo - Coloproctologia: CEC Canal Anal", pdfLink: "https://drive.google.com/file/d/1RLgD2Ks5bGII3xWCi5PfJPSg2PP6lbjD/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 15,
+        label: "Sub-Módulo 15",
+        title: "Coloproctologia - Doenças Orificiais",
+        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Coloproctologia: Doenças Orificiais", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1CJSQW56bILOkI7OhFmDckR97wV4hQoYV/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Coloproctologia - Doenças Orificiais", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1tQtvDHwdKdmq0NUvU7tPxTyiQADMEf57/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Coloproctologia: Doenças Orificiais", pdfLink: "https://drive.google.com/file/d/1v2uJ99mIDrCBagO9MZm4TKr-YCk0eTuD/view?usp=sharing" },
+          { title: "Ficha Resumo - Coloproctologia: Doenças Orificiais", pdfLink: "https://drive.google.com/file/d/1JvL4OR1k1QbD4DpSy6b3evwaBsSmmDfF/view?usp=sharing" },
+          { title: "Errata - Coloproctologia: Doenças Orificiais", pdfLink: "https://drive.google.com/file/d/1tPm_MTFf9GRtjJuisxSPLo6Jwk-mTeYa/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 16,
+        label: "Sub-Módulo 16",
+        title: "Cisto Pilonidal",
+        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Cisto Pilonidal", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1q2TPtuqB1bDHAimnVNLvSd9-BPJ-73QY/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Cisto Pilonidal", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1FZL3Y-bNbg2ChkN3oCZ77XDGfAJDbOpU/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Cisto Pilonidal", pdfLink: "https://drive.google.com/file/d/13PGSN_idAYSIc023MC2V5JCTKVnphw1D/view?usp=sharing" },
+          { title: "Ficha Resumo - Cisto Pilonidal", pdfLink: "https://drive.google.com/file/d/1rbh-kXtfnzBBnKaQK_2kSd4LqjOB0i9M/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 17,
+        label: "Sub-Módulo 17",
+        title: "Distúrbios do Assoalho Pélvico",
+        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Distúrbios do Assoalho Pélvico", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Tng_ATa4I4VQMzWiatpKiq6OhHSG5pc2/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Distúrbios do Assoalho Pélvico", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1aKXFQVw56dvumbe8_avByjJYKOb2qddb/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Distúrbios do Assoalho Pélvico", pdfLink: "https://drive.google.com/file/d/1paSDnanwGSgMM_yDqRKspYLqU5ekQ-J9/view?usp=sharing" },
+          { title: "Ficha Resumo - Distúrbios do Assoalho Pélvico", pdfLink: "https://drive.google.com/file/d/1qprxoWl_KWJATumRVly8ZGB3Fq5Q7axd/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 18,
+        label: "Sub-Módulo 18",
+        title: "Urgências Endoscópicas (HDA Varicosa, Não Varicosa, HDB, Média, Corpo Estranho)",
+        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Urgências Endoscópicas: HDA Varicosa", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1S4znpmCSzBuhWvDAiUEIeH2X9Mmlvks7/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - Urgências Endoscópicas: HDA Não Varicosa", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1kKTGOa4-Aryr3pmhYeubhbtO8K0TFMB2/view?usp=sharing" },
+          { id: 3, title: "Aula 03 - Urgências Endoscópicas: HDB", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Sh7C-DGQgS0Tipvp2XMM3vR4IwCReeu1/view?usp=sharing" },
+          { id: 4, title: "Aula 04 - Urgências Endoscópicas: Hemorragia Digestiva Média", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1OaYQJYbo6-f7XVCaO-Jgaa8GU7P63rer/view?usp=sharing" },
+          { id: 5, title: "Aula 05 - Urgências Endoscópicas: Corpo Estranho", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/19s7Ke1lUxvYWQM4iZ1uxT4jW3Ka0sDre/view?usp=sharing" },
+          { id: 6, title: "Aula 06 - CofExpress: Urgências Endoscópicas - HDA Varicosa", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ULdEfEldQI-sfeasb3IcykRulQmxz5TI/view?usp=sharing" },
+          { id: 7, title: "Aula 07 - CofExpress: Urgências Endoscópicas - HDA Não Varicosa", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1BcKy4O9JK0M3TAYodpQNyrA8JEQk8ozN/view?usp=sharing" },
+          { id: 8, title: "Aula 08 - CofExpress: Urgências Endoscópicas - HDB", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1irQm10ZlFTtNbK6pferIYOR32UbvaJvZ/view?usp=sharing" },
+          { id: 9, title: "Aula 09 - CofExpress: Urgências Endoscópicas - Hemorragia Digestiva Média", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/13g0zjwIjeofIEQkMVFTXNWnVM0T77uF-/view?usp=sharing" },
+          { id: 10, title: "Aula 10 - CofExpress: Urgências Endoscópicas - Corpo Estranho", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1NGnNDKBTgeB68PcH2AZ4wyT3HW6z1pC_/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Urgências Endoscópicas: HDA Varicosa", pdfLink: "https://drive.google.com/file/d/1NWAaPrxrDZX-c856WwevGTxqlp-7wqXC/view?usp=sharing" },
+          { title: "PDF de Slides - Urgências Endoscópicas: HDA Não Varicosa", pdfLink: "https://drive.google.com/file/d/1kT0ffVAhf05jWXPrh3CA9crFW3CqymqH/view?usp=sharing" },
+          { title: "PDF de Slides - Urgências Endoscópicas: HDB", pdfLink: "https://drive.google.com/file/d/12D2GFfyNWkX5mt8GB4z5F38JUEKQq0im/view?usp=sharing" },
+          { title: "PDF de Slides - Urgências Endoscópicas: Hemorragia Digestiva Média", pdfLink: "https://drive.google.com/file/d/13GowEQUjMOgKQX19hbpUM8Y8WqihPgYg/view?usp=sharing" },
+          { title: "PDF de Slides - Urgências Endoscópicas: Corpo Estranho", pdfLink: "https://drive.google.com/file/d/1XYa7AVsZoMcIeOArny6DdbzW_wH42j26/view?usp=sharing" },
+          { title: "Ficha Resumo - Urgências Endoscópicas: HDA Varicosa", pdfLink: "https://drive.google.com/file/d/1cQ2IRdAQ_xIS_Nh_2eKhKUsoZBesShdX/view?usp=sharing" },
+          { title: "Ficha Resumo - Urgências Endoscópicas: HDA Não Varicosa", pdfLink: "https://drive.google.com/file/d/1iKONlEGL9x_qNC7dPIeWEEZGpWNFiDKn/view?usp=sharing" },
+          { title: "Ficha Resumo - Urgências Endoscópicas: HDB", pdfLink: "https://drive.google.com/file/d/1Ytubkl2cBeNL0mmtRYKyhfHFPCPTU3My/view?usp=sharing" },
+          { title: "Ficha Resumo - Urgências Endoscópicas: Hemorragia Digestiva Média", pdfLink: "https://drive.google.com/file/d/1VUJlwib4rZ1VZzC9n6CHCW0M_s9UEItO/view?usp=sharing" },
+          { title: "Ficha Resumo - Urgências Endoscópicas: Corpo Estranho", pdfLink: "https://drive.google.com/file/d/147V4WSIMM0wqNKVM-44CnAu4PIj82Lv-/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 19,
+        label: "Sub-Módulo 19",
+        title: "Endoscopia - Pólipos e Preparo de Cólon",
+        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Endoscopia: Preparo de Cólon", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1bz3QIaCPi4XxQOuJbTGHU0vfmTz20bcF/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - Endoscopia: Pólipos Colorretais", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1q2o8wz_Mam8TqMW6-AYuEnt38f_KZ7dC/view?usp=sharing" },
+          { id: 3, title: "Aula 03 - Endoscopia: CA Colorretal Precoce", duration: "00:00", type: "aula", videoLink: "https://www.google.com/search?q=https://drive.google.com/file/d/1wxSPUkBuxYny7Bjog-PPhkwA5vBzazB/view?usp=sharing" },
+          { id: 4, title: "Aula 04 - CofExpress: Endoscopia - Preparo de Cólon", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/19n1JVfdz3eMM7ZvTpCS377ruZNGIY_Cv/view?usp=sharing" },
+          { id: 5, title: "Aula 05 - CofExpress: Endoscopia - Pólipos Colorretais", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1VwKZnCM43Ua0sRpNVwXw17mIPZ5gKSCg/view?usp=sharing" },
+          { id: 6, title: "Aula 06 - CofExpress: Endoscopia - CA Colorretal Precoce", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1MeS8O2JdZJXQj-sT5D4QfZ6to6Z4SaTz/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Endoscopia: Preparo de Cólon", pdfLink: "https://drive.google.com/file/d/1OFKObOjnNCSsDFHl4If1cZlnEl3bcuk3/view?usp=sharing" },
+          { title: "PDF de Slides - Endoscopia: Pólipos Colorretais", pdfLink: "https://drive.google.com/file/d/1yDvJ9MTlnUL98iqDv8_H5ON_0ckW1Y-I/view?usp=sharing" },
+          { title: "PDF de Slides - Endoscopia: CA Colorretal Precoce", pdfLink: "https://drive.google.com/file/d/1fxgkM5zmOql00GbgF_7-ztV88m7M0DRg/view?usp=sharing" },
+          { title: "Ficha Resumo - Endoscopia: Preparo de Cólon", pdfLink: "https://drive.google.com/file/d/1nBtT54WSlKmBgAq69ABauozmrUhbUzdJ/view?usp=sharing" },
+          { title: "Ficha Resumo - Endoscopia: Pólipos Colorretais", pdfLink: "https://drive.google.com/file/d/1RzXDHyE66BCnERO4BPk2PhwMeC7B2EjV/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 20,
+        label: "Sub-Módulo 20",
+        title: "SII (Síndrome do Intestino Irritável)",
+        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - SII", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1_tlcuyUtXH1B-FZJZj8hTzxKfb-1Kfei/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: SII", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/12Us1_8A8RHzTaqVRF305AgPqXBurb81C/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - SII", pdfLink: "https://drive.google.com/file/d/152Rf8KALi3kNY8S5hfRvpnGfae4q2l3z/view?usp=sharing" },
+          { title: "Ficha Resumo - SII", pdfLink: "https://drive.google.com/file/d/1mBH824OOIg_Dmn-yE-aNQXe4XeEDdYPg/view?usp=sharing" }
+        ]
       }
     ]
   },
+
+  // --- MÓDULO 24: HEPATOBILIOPANCREÁTICA ---
+  {
+    id: 24,
+    title: "Módulo 24 - Hepatobiliopancreática",
+    label: "Módulo 24",
+    subModules: [
+      {
+        id: 1,
+        label: "Sub-Módulo 01",
+        title: "Fígado e VB - Quiz e Introdução",
+        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - CofExpress: Fígado - Fígado para Perdidos", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1I4qXaUMcDZbib2I9S3k9bLrR4SyYm1CC/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Fígado: Quiz", pdfLink: "https://drive.google.com/file/d/1vk4lCSSLiAj6Ykw9ZaQKRuFjXyfi1n9W/view?usp=sharing" },
+          { title: "PDF de Slides - Fígado: Fígado para Perdidos", pdfLink: "https://drive.google.com/file/d/1n3lYmn7p-NENYkYhESMgG60csk2GVeHK/view?usp=sharing" },
+          { title: "Ficha Resumo - Fígado: Fígado para Perdidos", pdfLink: "https://drive.google.com/file/d/1rMc0bJx1FEqKN8pC3oNe-y44D9IsvvTD/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 2,
+        label: "Sub-Módulo 02",
+        title: "Fígado - Cisto Hepático, Adenoma, Hiperplasia Nodular Focal, Hemangioma",
+        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Fígado: Cisto Hepático", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/14XWWs0RXESoktPDCOzMwmNId6ceeE014/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - Fígado: Adenoma Hepático", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1O5wGchUSx2nZ6WlLjsppLt8p9acOp51R/view?usp=sharing" },
+          { id: 3, title: "Aula 03 - Fígado: Hemangioma Hepático", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1eV_TGE3f-cEOgOxxb7b6nz5cPKG7LjYn/view?usp=sharing" },
+          { id: 4, title: "Aula 04 - Fígado: Hiperplasia Nodular Focal", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1tPg7rW_IxCJfqFaOdTXkkbESSfiU64iO/view?usp=sharing" },
+          { id: 5, title: "Aula 05 - CofExpress: Fígado - Cisto Hepático", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1drTmgaes6pAdlM7XaMo7UKK8xeAu_Do8/view?usp=sharing" },
+          { id: 6, title: "Aula 06 - CofExpress: Fígado - Adenoma Hepático", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1s62KcKXiLTJF6Sktlvwxt1oB_NtLFC4q/view?usp=sharing" },
+          { id: 7, title: "Aula 07 - CofExpress: Fígado - Hemangioma Hepático", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Huq1fFtrJ-eG5n9DUaoYWYa7lfbsw7_Y/view?usp=sharing" },
+          { id: 8, title: "Aula 08 - CofExpress: Fígado - Hiperplasia Nodular Focal", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1GnJIs2vqzeUmqqd9pa9NkaSCqLHVKN05/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Fígado: Cisto Hepático", pdfLink: "https://drive.google.com/file/d/1qDnvMKx9-Nz13_Q_7S1v8HbTG-lzc9GZ/view?usp=sharing" },
+          { title: "PDF de Slides - Fígado: Adenoma Hepático", pdfLink: "https://drive.google.com/file/d/15MgBRDPFr5WeiDPkYqbyw3BDEp82SJLZ/view?usp=sharing" },
+          { title: "PDF de Slides - Fígado: Hemangioma Hepático", pdfLink: "https://drive.google.com/file/d/1P5KrasUGHtRdJVTOBw73yQLeMZbiWtDw/view?usp=sharing" },
+          { title: "PDF de Slides - Fígado: Hiperplasia Nodular Focal", pdfLink: "https://drive.google.com/file/d/1EWiGCdgR0vSijjXST_KzFJsQ_O4AdMUw/view?usp=sharing" },
+          { title: "Ficha Resumo - Fígado: Cisto Hepático", pdfLink: "https://drive.google.com/file/d/1BcFgyOcM4MKRczA1kHI0ADJdDf50wYw3/view?usp=sharing" },
+          { title: "Ficha Resumo - Fígado: Adenoma Hepático", pdfLink: "https://drive.google.com/file/d/1_g62ISXVnda-brsFj9EBhudFlCULrWUS/view?usp=sharing" },
+          { title: "Ficha Resumo - Fígado: Hemangioma Hepático", pdfLink: "https://drive.google.com/file/d/1L6QZS8eiIa8l1gcvbE3320j2m6fFiD8X/view?usp=sharing" },
+          { title: "Ficha Resumo - Fígado: Hiperplasia Nodular Focal", pdfLink: "https://drive.google.com/file/d/1gD51lOziKtGlYdHN7TuxZqKVwOyw2k7l/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 3,
+        label: "Sub-Módulo 03",
+        title: "Fígado - Carcinoma Hepatocelular",
+        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Fígado: Carcinoma Hepatocelular", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1TGw3MNNbx8V9xEclCD5hdWkHpQ5z35Tk/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Fígado - Carcinoma Hepatocelular", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1UZ4COSb1Rbjy-mDiE0bjvdNeO9cP_G7o/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Fígado: Carcinoma Hepatocelular", pdfLink: "https://drive.google.com/file/d/12tnbLzREuwN11c2cuxtrW1XaUi59Ww_M/view?usp=sharing" },
+          { title: "Ficha Resumo - Fígado: Carcinoma Hepatocelular", pdfLink: "https://drive.google.com/file/d/1Uv8VkqPpwVhWrFJs4Lg3nTk0BRzFBZFT/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 4,
+        label: "Sub-Módulo 04",
+        title: "Fígado - Metástases Hepáticas",
+        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Fígado: Metástases Hepáticas de CA Colorretal - Parte I", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1t5dprUhVZiKmTP4tF8MYttGWyWrw3NxB/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - Fígado: Metástases Hepáticas de CA Colorretal - Parte II", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1A3vmVGyfF2Ljy5yc0suyfxO50Ww_J0Jf/view?usp=sharing" },
+          { id: 3, title: "Aula 03 - CofExpress: Fígado - Metástases Hepáticas de CA Colorretal - Parte I", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1IUgczsjnSeQ9zGTU_2ZsNLfb0br--Q2M/view?usp=sharing" },
+          { id: 4, title: "Aula 04 - CofExpress: Fígado - Metástases Hepáticas de CA Colorretal - Parte II", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/196AUlmu68NxG7q2qOa8BpMPJy7yfV4UR/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Fígado: Metástases Hepáticas de CA Colorretal - Parte 1", pdfLink: "https://drive.google.com/file/d/1T2TeW1niq3JTGYMBkGHJL4Vh4mZIpcm_/view?usp=sharing" },
+          { title: "PDF de Slides - Fígado: Metástases Hepáticas de CA Colorretal - Parte 2", pdfLink: "https://drive.google.com/file/d/1CREZqU_i3YuiwGB_qZVPSUNobU7v927V/view?usp=sharing" },
+          { title: "Ficha Resumo - Fígado: Metástases Hepáticas de CA Colorretal - Parte 1", pdfLink: "https://drive.google.com/file/d/1EHCuwnZ9c7gA8iw1obqpRLCXGJN4e1M0/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 5,
+        label: "Sub-Módulo 05",
+        title: "Pâncreas e VB - Colelitíase e Coledocolitíase",
+        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Abdome Agudo Inflamatório: Colelitíase", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1YEQcKmtDKLe08d-K6E9BSoId7oMOFdH0/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - Abdome Agudo Inflamatório: Coledocolitíase", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1pcyu1sPvxF3R9_dwLc9XtJHwDq9S-x5e/view?usp=sharing" },
+          { id: 3, title: "Aula 03 - CofExpress: Abdome Agudo Inflamatório - Colelitíase", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/16s5mldj1oeYmMLQEXAFG7qfMkBT3gPlw/view?usp=sharing" },
+          { id: 4, title: "Aula 04 - CofExpress: Abdome Agudo Inflamatório - Coledocolitíase", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1VSkfz5MfcUbjV8p7RIujH6zAa8b-i9EC/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Abdome Agudo Inflamatório: Colelitíase", pdfLink: "https://drive.google.com/file/d/1Q-BSc_AAxqC6qSqqh4jThhpRbkMWav17/view?usp=sharing" },
+          { title: "PDF de Slides - Abdome Agudo Inflamatório: Coledocolitíase", pdfLink: "https://drive.google.com/file/d/1mUN4gXbjG86gfmjRWkD7I5L77dXyUnXI/view?usp=sharing" },
+          { title: "Ficha Resumo - Abdome Agudo Inflamatório: Colelitíase", pdfLink: "https://drive.google.com/file/d/1PDTmBkBAq7uil9RYI-nl40zdjYqL41QE/view?usp=sharing" },
+          { title: "Ficha Resumo - Abdome Agudo Inflamatório: Coledocolitíase", pdfLink: "https://drive.google.com/file/d/1I9ysglIbo2DJfaLjprKRAR4YyFxj-hio/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 6,
+        label: "Sub-Módulo 06",
+        title: "Pâncreas e VB - Cistos Biliares e Lesão Iatrogênica",
+        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Pâncreas e Vias Biliares: Cistos Biliares", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1hqfMdiUEZiEdIzjToXG-p3P_mDxdoe1X/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - Pâncreas e Vias Biliares: Lesão Iatrogênica da Via Biliar", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1j15lzqt2SX5vqnqhJEv46LqIXR8CpVjC/view?usp=sharing" },
+          { id: 3, title: "Aula 03 - CofExpress: Pâncreas e Vias Biliares - Cistos Biliares", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/131dzuJW59eLn7n_zls-l-Vg1XzIKq0mq/view?usp=sharing" },
+          { id: 4, title: "Aula 04 - CofExpress: Pâncreas e Vias Biliares - Lesão Iatrogênica da Via Biliar", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Fy79wPUO2R86Ke4__T9MOyZD7SFGbKzk/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Pâncreas e Vias Biliares: Cistos Biliares", pdfLink: "https://drive.google.com/file/d/1VjybVE05Po4VXI7fipz3AUGvsPDHBrLJ/view?usp=sharing" },
+          { title: "PDF de Slides - Pâncreas e Vias Biliares: Lesão Iatrogênica da Via Biliar", pdfLink: "https://drive.google.com/file/d/16Z5CTWLfoNb782LphOOsYFklVfOogrbJ/view?usp=sharing" },
+          { title: "Ficha Resumo - Pâncreas e Vias Biliares: Cistos Biliares", pdfLink: "https://drive.google.com/file/d/1BDQ9_J9zfCjGpHWBhdwOti3CUr257VAC/view?usp=sharing" },
+          { title: "Ficha Resumo - Pâncreas e Vias Biliares: Lesão Iatrogênica da Via Biliar", pdfLink: "https://drive.google.com/file/d/1UDI0rdbSVcMzkBorRPVP00d5jHas8kHP/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 7,
+        label: "Sub-Módulo 07",
+        title: "Pâncreas e VB - Pancreatite Crônica",
+        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Pâncreas e Vias Biliares: Pancreatite Crônica", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1JrRVh0Iq1zdNlVJciXyDC29hQ0tUG1mh/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Pâncreas e Vias Biliares - Pancreatite Crônica", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1SrmhzgV3HIMtWXmVNGRnOceCps1JH3sD/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Pâncreas e Vias Biliares: Pancreatite Crônica", pdfLink: "https://drive.google.com/file/d/1a8yqsYIMb8GdGcfoDgASXX-_iLRInE0a/view?usp=sharing" },
+          { title: "Ficha Resumo - Pâncreas e Vias Biliares: Pancreatite Crônica", pdfLink: "https://drive.google.com/file/d/19D8QTGaNoySlhEFLF1JzcNDqPgF5_Q3r/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 8,
+        label: "Sub-Módulo 08",
+        title: "Pâncreas e VB - Adenocarcinoma de Pâncreas",
+        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Pâncreas e Vias Biliares: Adenocarcinoma de Pâncreas", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Tx55YYgt6Le_hEDgDmtP53PR7SmswYpK/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Pâncreas e Vias Biliares - Adenocarcinoma de Pâncreas", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1bD89u6dHmYWaKEFjj1LtOuqtaEMUmEkr/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Pâncreas e Vias Biliares: Adenocarcinoma de Pâncreas", pdfLink: "https://drive.google.com/file/d/1GWAYhDmsq5p27xSgAc5QT9aPpuqtQd0H/view?usp=sharing" },
+          { title: "Ficha Resumo - Pâncreas e Vias Biliares: Adenocarcinoma de Pâncreas", pdfLink: "https://drive.google.com/file/d/1zx5O2-kTnZOBQEHkQzH6J7U8wN22G6Lu/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 9,
+        label: "Sub-Módulo 09",
+        title: "Pâncreas e VB - Neoplasias Císticas Pancreáticas e Neuroendócrinos",
+        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Pâncreas e Vias Biliares: Neoplasias Císticas Pancreáticas", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1gBHdAd8RigWYHvax4LRZfOpan0j7f_XL/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - Pâncreas e Vias Biliares: Tumores Neuroendócrinos", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1lbBOO8SavNGSNTA6gWODfLOfqP7dZ6HO/view?usp=sharing" },
+          { id: 3, title: "Aula 03 - CofExpress: Pâncreas e Vias Biliares - Neoplasias Císticas Pancreáticas", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Cn-3sWaPfVZSakT4c-sKR4p7_ldHErb9/view?usp=sharing" },
+          { id: 4, title: "Aula 04 - CofExpress: Pâncreas e Vias Biliares - Tumores Neuroendócrinos", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1_o60tM-zFFmZzsBW4ieYGSYjbNkrpuHg/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Pâncreas e Vias Biliares: Neoplasias Císticas Pancreáticas", pdfLink: "https://drive.google.com/file/d/1KDBYxNMKJUJqYza9xOQFggp6uGq-VX68/view?usp=sharing" },
+          { title: "PDF de Slides - Pâncreas e Vias Biliares: Tumores Neuroendócrinos", pdfLink: "https://drive.google.com/file/d/1cV9E4ZJetb1ZrgUbrtK1Twegl_S1InrO/view?usp=sharing" },
+          { title: "Ficha Resumo - Pâncreas e Vias Biliares: Neoplasias Císticas Pancreáticas", pdfLink: "https://drive.google.com/file/d/1ezK92XusSXVJXr4bfreN9RNwCLo15tUM/view?usp=sharing" },
+          { title: "Ficha Resumo - Pâncreas e Vias Biliares: Tumores Neuroendócrinos", pdfLink: "https://drive.google.com/file/d/1jbzUlR6sEuOefe0dPM5kqf9QU4LbHnzC/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 10,
+        label: "Sub-Módulo 10",
+        title: "Pâncreas e VB - Câncer de Vesícula e Pólipos",
+        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Pâncreas e Vias Biliares: Câncer de Vesícula", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1UBpmA9Sy34wMP2YLtdns3ShTZuhqbF8s/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - Pâncreas e Vias Biliares: Pólipo de Vesícula Biliar", duration: "00:00", type: "aula", videoLink: "https://www.google.com/search?q=https://drive.google.com/file/d/1-y11h8R1AoWnRZr9NBRMMyKOny17qhw/view?usp=sharing" },
+          { id: 3, title: "Aula 03 - CofExpress: Pâncreas e Vias Biliares - Câncer de Vesícula", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1YHoA_BipjF1LW7839I9oUXtPJEFJgOR3/view?usp=sharing" },
+          { id: 4, title: "Aula 04 - CofExpress: Pâncreas e Vias Biliares - Pólipo de Vesícula Biliar", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/17HxEgM-mhXzKGDRSttzSsuxtGiNMQUTw/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Pâncreas e Vias Biliares: Câncer de Vesícula", pdfLink: "https://drive.google.com/file/d/1gqr5_shS0gaWTxZ9pzuqHS166z5S1sxq/view?usp=sharing" },
+          { title: "PDF de Slides - Pâncreas e Vias Biliares: Pólipo de Vesícula Biliar", pdfLink: "https://drive.google.com/file/d/1jpYadfCuIAFX3ssIt_-CixCRW8VFI7l2/view?usp=sharing" },
+          { title: "Ficha Resumo - Pâncreas e Vias Biliares: Câncer de Vesícula", pdfLink: "https://drive.google.com/file/d/1thF2UwzGAw70ML5TCDG6mlx54Xa3vsNF/view?usp=sharing" },
+          { title: "Ficha Resumo - Pâncreas e Vias Biliares: Pólipo de Vesícula Biliar", pdfLink: "https://drive.google.com/file/d/1hGb4SBX04mXv-Ct0SqvqVtTi3He6yFXI/view?usp=sharing" },
+          { title: "Errata - Pâncreas e Vias Biliares: Pólipo de Vesícula Biliar", pdfLink: "https://drive.google.com/file/d/1mYJClX6MSq5iEzypV-VDImJsm6YylgjG/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 11,
+        label: "Sub-Módulo 11",
+        title: "Pâncreas e VB - Outros Tumores Periampulares",
+        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Pâncreas e Vias Biliares: Outros Tumores Periampulares", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1hG7RzemaXMD6h9Slv8KPKY7iUXf3q1R4/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Pâncreas e Vias Biliares - Outros Tumores Periampulares", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Teb0cOn8VNMsT6WrBHBWYfovm-RjFe-n/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Pâncreas e Vias Biliares: Outros Tumores Periampulares", pdfLink: "https://drive.google.com/file/d/19Boszrnuyq2gdjEKmF9EdCHT3nr34rkG/view?usp=sharing" },
+          { title: "Ficha Resumo - Pâncreas e Vias Biliares: Outros Tumores Periampulares", pdfLink: "https://drive.google.com/file/d/1-5UzGPj5I6N8NySkhtZ-IGnifMHQ_bEi/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 12,
+        label: "Sub-Módulo 12",
+        title: "Doenças Cirúrgicas do Baço",
+        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Doenças Cirúrgicas do Baço", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1RjH9bBCBI9rNGP7Wf9FrqIx1dhzUy7K7/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Doenças Cirúrgicas do Baço", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1wNOja1Y8I_8hOg45Vhkv_3Peg9eirxc1/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Doenças Cirúrgicas do Baço", pdfLink: "https://drive.google.com/file/d/1M4F5vnVN6Hop-4nXl8wOWE-x02Yt8tPk/view?usp=sharing" },
+          { title: "Ficha Resumo - Doenças Cirúrgicas do Baço", pdfLink: "https://drive.google.com/file/d/1-m8-btVBg7wPf6eMX-h7b6MnSmHor15k/view?usp=sharing" }
+        ]
+      }
+    ]
+  },
+
+  // --- MÓDULO 25: CABEÇA E PESCOÇO ---
+  {
+    id: 25,
+    title: "Módulo 25 - Cabeça e Pescoço",
+    label: "Módulo 25",
+    subModules: [
+      {
+        id: 1,
+        label: "Sub-Módulo 01",
+        title: "Tireóide I - Anatomia, Fisiologia e Tireoidites",
+        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Cabeça e Pescoço: Tireóide I - Anatomia, Fisiologia e Tireoidites", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1MFrvk0MXh5XMIzJDdxzlAGRB1lFwbEGl/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Cabeça e Pescoço - Tireóide I - Anatomia, Fisiologia e Tireoidites", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1mvT9DxIC6kyJtCkW5rzjixciwEj-x6WF/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Cabeça e Pescoço: Tireóide I - Anatomia, Fisiologia e Tireoidites", pdfLink: "https://drive.google.com/file/d/1n1kliD0exsYZqaxXUmlgcgOPm3PZPEj5/view?usp=sharing" },
+          { title: "Ficha Resumo - Cabeça e Pescoço: Tireóide I - Anatomia, Fisiologia e Tireoidites", pdfLink: "https://drive.google.com/file/d/1T8DgN9jPg6pQoh3cp6lEiZegEUWzRU9b/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 2,
+        label: "Sub-Módulo 02",
+        title: "Tireóide II - Nódulo e Bócio",
+        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Cabeça e Pescoço: Tireóide II - Nódulo e Bócio", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1b8GUc9OyqvQSVW-K0KNPZH0q1s0oz1yD/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Cabeça e Pescoço - Tireóide II - Nódulo e Bócio", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1_HWKUq2JGNJD1otayPJGUQ6QrB6A2kYQ/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Cabeça e Pescoço: Tireóide II - Nódulo e Bócio", pdfLink: "https://drive.google.com/file/d/1Gg0o9Ssi5KFv3pGAJQsc_pN3mRY8oS7j/view?usp=sharing" },
+          { title: "Ficha Resumo - Cabeça e Pescoço: Tireóide II - Nódulo e Bócio", pdfLink: "https://drive.google.com/file/d/1NTLM5hQCTv9BWVHey37HrwchGzWOgk2a/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 3,
+        label: "Sub-Módulo 03",
+        title: "Tireóide III - Carcinoma Bem Diferenciado",
+        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Cabeça e Pescoço: Tireóide III - Carcinoma Bem Diferenciado", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1alEhfv1bl_51t63qF-CFzYIUCgu9WFy5/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Cabeça e Pescoço - Tireóide III - Carcinoma Bem Diferenciado", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1IMS57yktpOKBxq_0VqxgvHiDmoaIFepX/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Cabeça e Pescoço: Tireóide III - Carcinoma Bem Diferenciado", pdfLink: "https://drive.google.com/file/d/1uT3Br0g5avrV3wcYD1-KKpVCANeIO9S5/view?usp=sharing" },
+          { title: "Ficha Resumo - Cabeça e Pescoço: Tireóide III - Carcinoma Bem Diferenciado", pdfLink: "https://drive.google.com/file/d/1ycVRL4YoMJ7XqMAxZzO3_ts0kgmJK7ow/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 4,
+        label: "Sub-Módulo 04",
+        title: "Tireóide IV - Carcinoma Medular e Anaplásico",
+        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Cabeça e Pescoço: Tireóide IV - Carcinoma Medular e Anaplásico", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ni5zXeDyuNuquP9wjIw1UALBHG_CAQ6E/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Cabeça e Pescoço - Tireóide IV - Carcinoma Medular e Anaplásico", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/11UtZBl3FWwWEsgF2cdyhUTfEU74SFC0r/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Cabeça e Pescoço: Tireóide IV - Carcinoma Medular e Anaplásico", pdfLink: "https://drive.google.com/file/d/17D0cbqRdIapgOlo_W0UTqU7c_Gdh52A9/view?usp=sharing" },
+          { title: "Ficha Resumo - Cabeça e Pescoço: Tireóide IV - Carcinoma Medular e Anaplásico", pdfLink: "https://drive.google.com/file/d/1VTex_n0c4KXQx7s7FVcxAVH1aAlsHz74/view?usp=sharing" },
+          { title: "Errata - Carcinoma Medular", pdfLink: "https://drive.google.com/file/d/1HijgjNRxP0BsGlVt1YFKM9WKpYPFXUR2/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 5,
+        label: "Sub-Módulo 05",
+        title: "Tireóide V - Tireoidectomia",
+        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Cabeça e Pescoço: Tireóide V - Tireoidectomia", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1co44SnNUEHGY21oj6ozVvmnlyc_PxIor/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Cabeça e Pescoço - Tireóide V - Tireoidectomia", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1VawSkLDyP6KMi60I2sDESM6mV54mAQhu/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Cabeça e Pescoço: Tireóide V - Tireoidectomia", pdfLink: "https://drive.google.com/file/d/1sFLFnZOYZy8q5CitaKC4F8XVWbs74_qY/view?usp=sharing" },
+          { title: "Ficha Resumo - Cabeça e Pescoço: Tireóide V - Tireoidectomia", pdfLink: "https://drive.google.com/file/d/1mEfxWGA1boS3EsTLKDIJvhlGObV8ldec/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 6,
+        label: "Sub-Módulo 06",
+        title: "Paratireoide I, II, III e IV",
+        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - CCP: Paratireoide I - Conceitos Iniciais", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1yhBHimne_7e3LG2gav__OaG6rdQ7LdY4/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - Cabeça e Pescoço: Paratireoide II - Hiperparatireoidismo Primário", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ilpUFSdgY4lf0oGKCxqSfswf042KQmP1/view?usp=sharing" },
+          { id: 3, title: "Aula 03 - Cabeça e Pescoço: Paratireoide III - Hiperparatireoidismo Secundário e Terciário", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1NKD6K2cbs5u4acRjQTP0RWpCQgGebSnG/view?usp=sharing" },
+          { id: 4, title: "Aula 04 - Cabeça e Pescoço: Paratireoide IV - Paratireoidectomia", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1gMovtQ_p6MeY1weR89JNgjYcZNoleT4/view?usp=sharing" },
+          { id: 5, title: "Aula 05 - CofExpress: CCP - Paratireoide I - Conceitos Iniciais", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1jhHxkNrtnrcyszQxpaY8dHXA2P4qh-JV/view?usp=sharing" },
+          { id: 6, title: "Aula 06 - CofExpress: Cabeça e Pescoço - Paratireoide II - Hiperparatireoidismo Primário", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ioZ9d28dulz_ko9nZarOjwUSjbITPLcB/view?usp=sharing" },
+          { id: 7, title: "Aula 07 - CofExpress: Cabeça e Pescoço - Paratireoide III - Hiperparatireoidismo Secundário e Terciário", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1y8EIa0o516j9f4TC-fGjlCLbWyLqZhoG/view?usp=sharing" },
+          { id: 8, title: "Aula 08 - CofExpress: Cabeça e Pescoço - Paratireoide IV - Paratireoidectomia", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/17kfE3150R2XWmpEY2ChZRbP6qEPcnF-X/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Cabeça e Pescoço: Paratireoide I - Conceitos Iniciais", pdfLink: "https://drive.google.com/file/d/1rCA4pdloxs488PT9f6tm5L5QJ_Y8pi7p/view?usp=sharing" },
+          { title: "PDF de Slides - Cabeça e Pescoço: Paratireoide II - Hiperparatireoidismo Primário", pdfLink: "https://drive.google.com/file/d/1iFQOoFVNgrF5tOIt0PJu2jIJDRJJ9svO/view?usp=sharing" },
+          { title: "PDF de Slides - Cabeça e Pescoço: Paratireoide III - Hiperparatireoidismo Secundário e Terciário", pdfLink: "https://drive.google.com/file/d/14lAggkvtObuJNVJgi6tYz0hBL1M-Zz7i/view?usp=sharing" },
+          { title: "PDF de Slides - Cabeça e Pescoço: Paratireoide IV - Paratireoidectomia", pdfLink: "https://drive.google.com/file/d/1S-uoeVJAI2GZwmtdgTc6jNdkbrjhyHhJ/view?usp=sharing" },
+          { title: "Ficha Resumo - Cabeça e Pescoço: Paratireoide I - Conceitos Iniciais", pdfLink: "https://drive.google.com/file/d/1BGxtcyIgq2ZvtA16I3CHEyY3_48KVKpH/view?usp=sharing" },
+          { title: "Ficha Resumo - Cabeça e Pescoço: Paratireoide II - Hiperparatireoidismo Primário", pdfLink: "https://drive.google.com/file/d/18mOxlriIDHpPAmQnrUMW3L9yI3Ky69g5/view?usp=sharing" },
+          { title: "Ficha Resumo - Cabeça e Pescoço: Paratireoide III - Hiperparatireoidismo Secundário e Terciário", pdfLink: "https://drive.google.com/file/d/1qzFrExb8o66pywpVksSwXwdJ1ExR7nE_/view?usp=sharing" },
+          { title: "Ficha Resumo - Cabeça e Pescoço: Paratireoide IV - Paratireoidectomia", pdfLink: "https://drive.google.com/file/d/1dHzPq-O4Uh5CB14XfDhDzwZRq3v6_X9h/view?usp=sharing" },
+          { title: "Errata - Cabeça e Pescoço: Paratireoide II", pdfLink: "https://drive.google.com/file/d/1StySTYFHbmcZF0T_gZq98WunpCtbeOm-/view?usp=sharing" },
+          { title: "Errata - Cabeça e Pescoço: Paratireoide IV - Paratireoidectomia", pdfLink: "https://drive.google.com/file/d/1Tu6G23Ypg2vQW5Bqf_J5wSWjuvPmhqOY/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 7,
+        label: "Sub-Módulo 07",
+        title: "Diagnósticos Diferenciais das Massas Cervicais",
+        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Diagnósticos Diferenciais das Massas Cervicais", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Pkaw_OR1CG3lzotR4sSyKooTGSJcd47o/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Diagnósticos Diferenciais das Massas Cervicais", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1cjjvj9izW80mRDFh2fyJSyTApwtq_Krj/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Cabeça e Pescoço: Diagnósticos Diferenciais das Massas Cervicais", pdfLink: "https://drive.google.com/file/d/1ZjJ-DOUq1wfEO2VJRUaOo3jaVHXfX0fb/view?usp=sharing" },
+          { title: "Ficha Resumo - Diagnósticos Diferenciais das Massas Cervicais", pdfLink: "https://drive.google.com/file/d/1iHpv4ihE3BRajwVgVY087LGX7311OuED/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 8,
+        label: "Sub-Módulo 08",
+        title: "Esvaziamentos Cervicais",
+        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Esvaziamentos Cervicais: Anatomia", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ZFugIE-DBRtxg5fm4rFVzgGPeSSXIbi3/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Esvaziamentos Cervicais - Anatomia", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1nzWQq2cr4zShMsEQLKlVmAkjo_TqtZ5S/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Cabeça e Pescoço: Esvaziamentos Cervicais - Anatomia", pdfLink: "https://drive.google.com/file/d/1cTM4vI91KBZzGI3v0v20ZBpLoMlV0R0j/view?usp=sharing" },
+          { title: "Ficha Resumo - Esvaziamentos Cervicais", pdfLink: "https://drive.google.com/file/d/1gUROimpqLm1q2gMpDVidy-9y1adbdp71/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 9,
+        label: "Sub-Módulo 09",
+        title: "Câncer de Pele Não Melanoma (Cabeça e Pescoço)",
+        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Cabeça e Pescoço: Câncer de Pele Não Melanoma", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1D4UOkXu5BtgfAslXB27swxFQVMbNy6h5/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Cabeça e Pescoço - Câncer de Pele Não Melanoma", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1kPcELO_nbstCRRt4_skZIvTUeCcv5XBX/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Cabeça e Pescoço: Câncer de Pele Não Melanoma", pdfLink: "https://drive.google.com/file/d/1hV4UiS5Tawl3UAjDPbFxwCESYFyw_8Mx/view?usp=sharing" },
+          { title: "Ficha Resumo - Cabeça e Pescoço: Câncer de Pele Não Melanoma", pdfLink: "https://drive.google.com/file/d/17dNV5L-RHDNJiQCbZyBTxcgjVwZlOzqY/view?usp=sharing" }
+        ]
+      }
+    ]
+  },
+  // --- MÓDULO 26: CIRURGIA VASCULAR ---
+  {
+    id: 26,
+    title: "Módulo 26 - Cirurgia Vascular",
+    label: "Módulo 26",
+    subModules: [
+      {
+        id: 1,
+        label: "Sub-Módulo 01",
+        title: "Aneurismas de Aorta (I e II)",
+        imageUrl: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Aneurisma de Aorta I", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1E1UoKFzx-8bxJrvZbS1aPw5kEgYNI-d1/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - Aneurisma de Aorta II", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/11DNaWaUSJVVL2opKHsKlkP1SrV3LUDGo/view?usp=sharing" },
+          { id: 3, title: "Aula 03 - CofExpress: Aneurisma de Aorta I", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1QeXp2h6UvFRcNPVkICxFgw5adb0AVW4A/view?usp=sharing" },
+          { id: 4, title: "Aula 04 - CofExpress: Aneurisma de Aorta II", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1T00eKfYi2L59Wt_63JQeiu4HeOAU43zD/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Aneurisma de Aorta I", pdfLink: "https://drive.google.com/file/d/1ywrAFuhLVfCyWpgt_q9hmde65P9SalGM/view?usp=sharing" },
+          { title: "PDF de Slides - Aneurisma de Aorta II", pdfLink: "https://drive.google.com/file/d/1qejglY436e3C5LnVW9bmfwVkQPoZqYx2/view?usp=sharing" },
+          { title: "Ficha Resumo - Aneurisma de Aorta I", pdfLink: "https://drive.google.com/file/d/1HwQlOyk3AMIdsjocz3pLRGnP1p1_jCiK/view?usp=sharing" },
+          { title: "Ficha Resumo - Aneurisma de Aorta II", pdfLink: "https://drive.google.com/file/d/1j4_G-7diuaiehkfPr1ttCHimACB1mCoz/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 2,
+        label: "Sub-Módulo 02",
+        title: "Síndromes Aórticas Agudas",
+        imageUrl: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Síndromes Aórticas Agudas", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1jWq5GrjjFRsrmb9PZTbVhPnXZSeZXvMd/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Síndromes Aórticas Agudas", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1yDAALeyIjOxCiIRl36XSirCaPXGSPwaP/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Síndromes Aórticas Agudas", pdfLink: "https://drive.google.com/file/d/1TbDVXdf4cySYpyftQFKS1apF7lCTGZNd/view?usp=sharing" },
+          { title: "Ficha Resumo - Síndromes Aórticas Agudas", pdfLink: "https://drive.google.com/file/d/1Cxm8rwT80LkFzuTWmtw-KsBOGP-CXPUb/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 3,
+        label: "Sub-Módulo 03",
+        title: "Isquemia de Membros Inferiores (OAC e OAA)",
+        imageUrl: "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Isquemia de Membros Inferiores - OAA", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1TZ92e0WWPJxW_1Uc0_GHuA7vztLr1Qoy/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - Isquemia de Membros Inferiores - OAC", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1YOpaNY_AMwN3TuVF6sFVEG7PtAweTeh_/view?usp=sharing" },
+          { id: 3, title: "Aula 03 - CofExpress: Isquemia de Membros Inferiores - OAA", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1DeLYRpewDYCimsxzKl4W9GSpuTV4t01_/view?usp=sharing" },
+          { id: 4, title: "Aula 04 - CofExpress: Isquemia de Membros Inferiores - OAC", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1pFJ6XxwEKIETA7BOPAT7F5MseXF0yL5N/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Isquemia de Membros Inferiores - OAA", pdfLink: "https://drive.google.com/file/d/1bvIKy2dO0dEL6xy95EeuQogU_Tq2ALOj/view?usp=sharing" },
+          { title: "PDF de Slides - Isquemia de Membros Inferiores - OAC", pdfLink: "https://drive.google.com/file/d/170fiFlgTKNpHXA_hX3m77V26at4JBi8U/view?usp=sharing" },
+          { title: "Ficha Resumo - Isquemia de Membros Inferiores - OAA", pdfLink: "https://drive.google.com/file/d/1d93cKaNXvm4IkUOG1W1pDwbatpcCZEc5/view?usp=sharing" },
+          { title: "Ficha Resumo - Isquemia de Membros Inferiores - OAC", pdfLink: "https://drive.google.com/file/d/1pRCql29w80iGPg6d1LFbF55sNxZMlXVa/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 4,
+        label: "Sub-Módulo 04",
+        title: "Estenose Carotídea (Assintomática e Sintomática)",
+        imageUrl: "https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Estenose Carotídea Assintomática", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1zRvpiaTCRi3BD2ytLIbqdmAqOItsXszn/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - Estenose Carotídea Sintomática", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ctYcMabukvmcYG75O8FAri0QEcSB48t0/view?usp=sharing" },
+          { id: 3, title: "Aula 03 - CofExpress: Estenose Carotídea Assintomática", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1H_uZl-U9xmruDewas8Fs-kJmc3YWLRcf/view?usp=sharing" },
+          { id: 4, title: "Aula 04 - CofExpress: Estenose Carotídea Sintomática", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1K4C1MTQagkhWu4HMaiXyElU-gTa8JX51/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Estenose Carotídea Assintomática", pdfLink: "https://drive.google.com/file/d/1Fb6tTRVNP0rrJ4q89vfiHiHQ_GepVdVk/view?usp=sharing" },
+          { title: "PDF de Slides - Estenose Carotídea Sintomática", pdfLink: "https://drive.google.com/file/d/18DCu13goBFqDFcz1gBZIcS47yhqNcPC9/view?usp=sharing" },
+          { title: "Ficha Resumo - Estenose Carotídea Assintomática", pdfLink: "https://drive.google.com/file/d/1R1XV69PMpGOtkQbW2zZxKJHHbwzvsQYr/view?usp=sharing" },
+          { title: "Ficha Resumo - Estenose Carotídea Sintomática", pdfLink: "https://drive.google.com/file/d/1z_qC58Tr0HdRfkxVpUXI4Ir4TCGE1hCN/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 5,
+        label: "Sub-Módulo 05",
+        title: "Insuficiência Venosa Crônica",
+        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Insuficiência Venosa Crônica", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1nEp8iJbuiaxqEQM72plFMaidTGaJbWpC/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Insuficiência Venosa Crônica", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1gRHEMVjAdC7EvYqeWgH_4kLq79ANVvFw/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Insuficiência Venosa Crônica", pdfLink: "https://drive.google.com/file/d/1Ds1rKp01RG90vJUgKvTj9znUzetVHLle/view?usp=sharing" },
+          { title: "Ficha Resumo - Insuficiência Venosa Crônica", pdfLink: "https://drive.google.com/file/d/1ZLdybHHjn7shQiqd3VmXXEAOcd7kZ3sl/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 6,
+        label: "Sub-Módulo 06",
+        title: "Trombose Venosa Profunda (TVP)",
+        imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Trombose Venosa Profunda", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1KO0TEg8AdmqnA-0QtiFkVheuSzCOkFx3/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Trombose Venosa Profunda", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1s13yloFnaJoGz3InNr4OdmkybUdjji7B/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Trombose Venosa Profunda", pdfLink: "https://drive.google.com/file/d/1Fbi6m-S0_OrE0cO_1i7Kz9sckaPupWpa/view?usp=sharing" },
+          { title: "Ficha Resumo - Trombose Venosa Profunda", pdfLink: "https://drive.google.com/file/d/1gljWNx1UBR_bzKNCi9xqSC4TKEMo6RZL/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 7,
+        label: "Sub-Módulo 07",
+        title: "Síndromes Compressivas e Desfiladeiro Torácico",
+        imageUrl: "https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Síndromes Compressivas", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1n1MXQV0JtzbMnwN_sArOKfwTUACfvt6o/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - Síndrome do Desfiladeiro Torácico", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1iintZggxJkGyL2EaMJNfOYhiweiQMGcc/view?usp=sharing" },
+          { id: 3, title: "Aula 03 - CofExpress: Síndromes Compressivas", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1DXf81a_SOxqdEiUue4eTUwbuwgiViPst/view?usp=sharing" },
+          { id: 4, title: "Aula 04 - CofExpress: Síndrome do Desfiladeiro Torácico", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ihyRXcE-tHoWkXHQBUD6xbx-vY7Dt5Jg/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Síndromes Compressivas", pdfLink: "https://drive.google.com/file/d/1wWE5vTPzcrhSJ-qyDq9jRZiTDgLSCO8J/view?usp=sharing" },
+          { title: "PDF de Slides - Síndrome do Desfiladeiro Torácico", pdfLink: "https://drive.google.com/file/d/1VOq9apzwUVKRqeSc0tcaUNeLI5o5_15b/view?usp=sharing" },
+          { title: "Ficha Resumo - Síndromes Compressivas", pdfLink: "https://drive.google.com/file/d/1D4WplAP4OBLUYOu181MIU1UxkRyu9x8w/view?usp=sharing" },
+          { title: "Ficha Resumo - Síndrome do Desfiladeiro Torácico", pdfLink: "https://drive.google.com/file/d/1SFSeVzAyqhXXMcx78BbeRapU-SSb85ox/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 8,
+        label: "Sub-Módulo 08",
+        title: "Pé Diabético",
+        imageUrl: "https://images.unsplash.com/photo-1616391182219-e080b4d1043a?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Pé Diabético", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1LaNbV62_0PeNsH8sFVsP3HVVZhsCZLHn/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Pé Diabético", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1n1zAgXJ5aCFsBdAwwQYzkhpl0p250kaX/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Pé Diabético", pdfLink: "https://drive.google.com/file/d/1bQvrM3PNxZMaopVJQtvGHDFGq_qg3TeU/view?usp=sharing" },
+          { title: "Ficha Resumo - Pé Diabético", pdfLink: "https://drive.google.com/file/d/10zJUa_3jA3dDa3gj_o25rsXAerpTe3M1/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 9,
+        label: "Sub-Módulo 09",
+        title: "Vasculites",
+        imageUrl: "https://images.unsplash.com/photo-1550572017-4fcd95692026?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Vasculites", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ssszPA20QEhwP_VPlLKKnFCS1llJPCYe/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Vasculites", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1via0efTIlh0NlKTWiVXqWwgEfyhAvcY-/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Vasculites", pdfLink: "https://drive.google.com/file/d/1j78XMcBCYBQ_sXmi2n5ja8OMzDeNScMp/view?usp=sharing" },
+          { title: "Ficha Resumo - Vasculites", pdfLink: "https://drive.google.com/file/d/1sEc0_ADfZ21Jjavir_K2MJggb06XA7QY/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 10,
+        label: "Sub-Módulo 10",
+        title: "Trauma Vascular (Aorta, Extremidades, Miscelânea)",
+        imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Trauma Vascular de Aorta", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1wz0VJUsFvPvZMw2SwXiEgJd0ZY5ffMFT/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - Trauma Vascular de Extremidades", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/155Rhhu6j074P6tQ9vEw0sFDnMFtDlwa4/view?usp=sharing" },
+          { id: 3, title: "Aula 03 - Trauma Vascular - Miscelânea", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1CcMhVFprT-uuslmNXBD1h9JzyHICDjJl/view?usp=sharing" },
+          { id: 4, title: "Aula 04 - CofExpress: Trauma Vascular de Aorta", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1xcG9lduvbFs3wwczGmdp2_DaYa_6xQWY/view?usp=sharing" },
+          { id: 5, title: "Aula 05 - CofExpress: Trauma Vascular de Extremidades", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1mve4Tej0E4yOnh_SEw91FF68CcZtfPvQ/view?usp=sharing" },
+          { id: 6, title: "Aula 06 - CofExpress: Trauma Vascular - Miscelânea", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1P2Xkoe-UDlAgBZ4GgXeoyBUmK_wAknZ3/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Trauma Vascular de Aorta", pdfLink: "https://drive.google.com/file/d/1fWVSoG2mjtiM7Wu6-nZQNm0XdbVHc6PV/view?usp=sharing" },
+          { title: "PDF de Slides - Trauma Vascular de Extremidades", pdfLink: "https://drive.google.com/file/d/12eEn7Lq_TADfRwB9y3nZLGYXWkF3ioC_/view?usp=sharing" },
+          { title: "PDF de Slides - Trauma Vascular - Miscelânea", pdfLink: "https://drive.google.com/file/d/1DKe7TnX-7hWS0OYrhVCOyugGvrgGUMap/view?usp=sharing" },
+          { title: "Ficha Resumo - Trauma Vascular de Aorta", pdfLink: "https://drive.google.com/file/d/1OC_FNTkb8ileCrs-YoVQaDamzxD1Sch0/view?usp=sharing" },
+          { title: "Ficha Resumo - Trauma Vascular de Extremidades", pdfLink: "https://drive.google.com/file/d/12yE980quuPtf-WJGqMETXzjKZ_QyjF9k/view?usp=sharing" },
+          { title: "Ficha Resumo - Trauma Vascular - Miscelânea", pdfLink: "https://drive.google.com/file/d/15cq-uU30XCs_MCHfrDfSbklOj3c4navf/view?usp=sharing" }
+        ]
+      }
+    ]
+  },
+
+  // --- MÓDULO 27: UROLOGIA ---
+  {
+    id: 27,
+    title: "Módulo 27 - Urologia",
+    label: "Módulo 27",
+    subModules: [
+      {
+        id: 1,
+        label: "Sub-Módulo 01",
+        title: "Litíase (Introdução, PS, Endoscópico, LECO, Metabólica)",
+        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Litíase: Introdução", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1oky7DuiQs4ai6Hq2ibKjEXMyidLzTUym/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - Litíase no Pronto Socorro", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1pVG_4NelOAOKX9uIcYiu8okS7y8gxm3Z/view?usp=sharing" },
+          { id: 3, title: "Aula 03 - Litíase: Tratamento Endoscópico de Cálculos", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1XfUyESFnKEXWJzGCJzY0V2RrogcIQhWU/view?usp=sharing" },
+          { id: 4, title: "Aula 04 - Litíase: Litotripsia Extracorpórea LECO", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1OqKj_7frHdOukPyJeMnyCRk4ui9e6gA2/view?usp=sharing" },
+          { id: 5, title: "Aula 05 - Litíase: Avaliação Metabólica", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1K3Oj17h_GVldoSPHzLkDCv_Fben8GFcc/view?usp=sharing" },
+          { id: 6, title: "Aula 06 - CofExpress: Litíase - Introdução", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1D-17N-zFBQMLpdsWbbyiWB-Amw6hZkQF/view?usp=sharing" },
+          { id: 7, title: "Aula 07 - CofExpress: Litíase no Pronto-Socorro", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1oRmliRruO0XD_Y42pCue0SWVToOBLoyq/view?usp=sharing" },
+          { id: 8, title: "Aula 08 - CofExpress: Litíase - Tratamento Endoscópico de Cálculos", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1iXmQN2U82G8Fwjr2kM-wtgaHZwLa6coR/view?usp=sharing" },
+          { id: 9, title: "Aula 09 - CofExpress: Litíase - Litotripsia Extracorpórea LECO", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1nIEhAjvZ529VlaiccuGdbTO46h6nfsKA/view?usp=sharing" },
+          { id: 10, title: "Aula 10 - CofExpress: Litíase - Avaliação Metabólica", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1iGdoMTjFUaBklmq_uArKDZCTNc1XS8gU/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Litíase: Introdução", pdfLink: "https://drive.google.com/file/d/195m8Z_X7IRpahXzPU9gq_Ebnx4GwbsZO/view?usp=sharing" },
+          { title: "PDF de Slides - Litíase no Pronto-Socorro", pdfLink: "https://drive.google.com/file/d/1Qfazp3xof7e9eH6he2FwbQxw9BkkwPEY/view?usp=sharing" },
+          { title: "PDF de Slides - Litíase: Tratamento Endoscópico de Cálculos", pdfLink: "https://drive.google.com/file/d/1xJVO8Ky07_rLx2R_FMHhKoZiwaW8msha/view?usp=sharing" },
+          { title: "PDF de Slides - Litíase: Litotripsia Extracorpórea LECO", pdfLink: "https://drive.google.com/file/d/1owI1rvxrlGCvdduZIaI2ZuqtsCK7l_3V/view?usp=sharing" },
+          { title: "PDF de Slides - Litíase: Avaliação Metabólica", pdfLink: "https://drive.google.com/file/d/1E4h0kMRbK4gNkFgCXBKD1MUrKT3YC_wa/view?usp=sharing" },
+          { title: "Ficha Resumo - Litíase: Introdução", pdfLink: "https://drive.google.com/file/d/1bbl4HH3jZZt6aHdWgclKsfriGqwqgAI7/view?usp=sharing" },
+          { title: "Ficha Resumo - Litíase no Pronto-Socorro", pdfLink: "https://drive.google.com/file/d/1Q0A5n4XuSo9QKoL9a3zth7MAVUgvoyeN/view?usp=sharing" },
+          { title: "Ficha Resumo - Litíase: Tratamento Endoscópico de Cálculos", pdfLink: "https://drive.google.com/file/d/1PZRuAKwJaX2NDnTU1vWxaey7Qvr49rzk/view?usp=sharing" },
+          { title: "Ficha Resumo - Litíase: Litotripsia Extracorpórea LECO", pdfLink: "https://drive.google.com/file/d/169WokmGon5QfDMrcBnN3884D49wu_H5K/view?usp=sharing" },
+          { title: "Ficha Resumo - Litíase: Avaliação Metabólica", pdfLink: "https://drive.google.com/file/d/1cbEfePv4tz0V6E_9wr0A4gikoKos1y28/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 2,
+        label: "Sub-Módulo 02",
+        title: "HPB (Hiperplasia Prostática Benigna)",
+        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - HPB", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1XVV1W2rGNLJ6hctRKQceoTEiPEU-t5QO/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: HPB", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1lVX92oyjEUCiq7DoCR6moBio9gr8-bIv/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - HPB", pdfLink: "https://drive.google.com/file/d/1PD3NBZJ8ePXtHkYQisBnhP59R3tgOek6/view?usp=sharing" },
+          { title: "Ficha Resumo - HPB", pdfLink: "https://drive.google.com/file/d/1NUy_B8IRxJQ3MQqlc_RzfNiMLTMfJI4S/view?usp=sharing" },
+          { title: "Errata - HPB", pdfLink: "https://drive.google.com/file/d/1nVKrApWmVMDie3LD_8ftoEeJOONstz_V/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 3,
+        label: "Sub-Módulo 03",
+        title: "Uro-oncologia (Rim, Bexiga, Próstata, Testículo, Pênis, Adrenal)",
+        imageUrl: "https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Uro-Oncologia: Rim", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/120ybA89wW9zx-iS_kEeg7s-0oxBHoHVS/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - Uro-Oncologia: Bexiga", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1JRNUFO8a8o_CJJV-Tq_SxpPl4wD-q5M4/view?usp=sharing" },
+          { id: 3, title: "Aula 03 - Uro-Oncologia: Próstata", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1-OkK9qfxRJdQkT7sfLirQeKMu2bHNJmz/view?usp=sharing" },
+          { id: 4, title: "Aula 04 - Uro-Oncologia: Testículo", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1A2UTti-IwEuJKFnkpVoEE2KhGfg2-8qQ/view?usp=sharing" },
+          { id: 5, title: "Aula 05 - Uro-Oncologia: Pênis", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/18Tnd4JNQ3bbchbRMvCpBPxoq8C_ppnu_/view?usp=sharing" },
+          { id: 6, title: "Aula 06 - Uro-Oncologia: Adrenal", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1DK5WcOZpwgx-jjwGPEBfjdozV4ZsrElH/view?usp=sharing" },
+          { id: 7, title: "Aula 07 - CofExpress: Uro-Oncologia - Rim", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1DfwLRHQ5mPL1Y7iUSl38_D0nF9HwwiEI/view?usp=sharing" },
+          { id: 8, title: "Aula 08 - CofExpress: Uro-Oncologia - Bexiga", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1_v-ghWEv8cX2yHa0GB8HuzAjfNl-eF4X/view?usp=sharing" },
+          { id: 9, title: "Aula 09 - CofExpress: Uro-Oncologia - Próstata", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1hbTiw08Bqa9Ugxdfdk0P6tfZRNou1bpw/view?usp=sharing" },
+          { id: 10, title: "Aula 10 - CofExpress: Uro-Oncologia - Testículo", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1UkBBSFuan8tawxPq2F_i_PwKEJv1488q/view?usp=sharing" },
+          { id: 11, title: "Aula 11 - CofExpress: Uro-Oncologia - Pênis", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1bUJCKvHQIPg9zbOlhY0wGeY38zPMZCqz/view?usp=sharing" },
+          { id: 12, title: "Aula 12 - CofExpress: Uro-Oncologia - Adrenal", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1K5wuVWGpSSMrTwkRvN8DlTV19QK6wGS2/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Uro-Oncologia: Rim", pdfLink: "https://drive.google.com/file/d/1eRTVPQIh1wF_dTkvsdb8Oer29u3zrGEC/view?usp=sharing" },
+          { title: "PDF de Slides - Uro-Oncologia: Bexiga", pdfLink: "https://drive.google.com/file/d/1AARw3oolTqZFK1l5GS3Yx6y42aKO0rJS/view?usp=sharing" },
+          { title: "PDF de Slides - Uro-Oncologia: Próstata", pdfLink: "https://drive.google.com/file/d/1nzM6Fi0uFgy_2Ly9jSFt9Ut1dj50Dhjq/view?usp=sharing" },
+          { title: "PDF de Slides - Uro-Oncologia: Testículo", pdfLink: "https://drive.google.com/file/d/1Dt3J-WB_Uh9oDTWpsGoLHY7KBpHZ515o/view?usp=sharing" },
+          { title: "PDF de Slides - Uro-Oncologia: Pênis", pdfLink: "https://drive.google.com/file/d/11JSsuqteR3AeN_fRSt5VXH2g_s4W_77P/view?usp=sharing" },
+          { title: "PDF de Slides - Uro-Oncologia: Adrenal", pdfLink: "https://drive.google.com/file/d/1dWnLV65C-omcztqPZ8FoHqVoKfdbMBMP/view?usp=sharing" },
+          { title: "Ficha Resumo - Uro-Oncologia: Rim", pdfLink: "https://drive.google.com/file/d/1qmIT4lugtDJXHubGUgfOQTpAXVWLJbT5/view?usp=sharing" },
+          { title: "Ficha Resumo - Uro-Oncologia: Bexiga", pdfLink: "https://drive.google.com/file/d/1gnZMUph3GYuyR73YOVZ-DeKSFxBKAfuN/view?usp=sharing" },
+          { title: "Ficha Resumo - Uro-Oncologia: Próstata", pdfLink: "https://drive.google.com/file/d/14ctGOYxlCB6Eo0VeSyTmVVD4x2fwey98/view?usp=sharing" },
+          { title: "Ficha Resumo - Uro-Oncologia: Testículo", pdfLink: "https://drive.google.com/file/d/1unbwHrTg2JVP6Dd9tPBX1aFK7sri2I7q/view?usp=sharing" },
+          { title: "Ficha Resumo - Uro-Oncologia: Pênis", pdfLink: "https://drive.google.com/file/d/1hv50tE3vuFo8JP_A9ib_yyvPVbXwlDr5/view?usp=sharing" },
+          { title: "Ficha Resumo - Uro-Oncologia: Adrenal", pdfLink: "https://drive.google.com/file/d/1_X9rbYG_WdxZ1b9yZdRg4JquiAZIDZLW/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 4,
+        label: "Sub-Módulo 04",
+        title: "Trauma Urológico (Rim, Ureter, Bexiga, Uretra, Genital)",
+        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Trauma de Bexiga", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1JzHaykJE47RLZdQ1TN3QsERRdxe9TPyE/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - Trauma de Rim e de Ureter", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1wU_AB3YFibBzgVVIfSDg9Q71t0ofFbeP/view?usp=sharing" },
+          { id: 3, title: "Aula 03 - Trauma de Uretra e Estenose de Uretra", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Q7j20K0BmC-3FGeVYDYChC5Y0DlRsbKw/view?usp=sharing" },
+          { id: 4, title: "Aula 04 - Trauma Genital", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1aU92d2fSoHOhJDi_32jglXAz7hYXA8WT/view?usp=sharing" },
+          { id: 5, title: "Aula 05 - CofExpress: Trauma de Rim e de Ureter", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1N2T8WSS9QP_l0T8ifG4VAl987FfofSLz/view?usp=sharing" },
+          { id: 6, title: "Aula 06 - CofExpress: Trauma de Bexiga", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ny_FcJVtHFQiL5Lp1UeMeV0U_5f8MH0a/view?usp=sharing" },
+          { id: 7, title: "Aula 07 - CofExpress: Trauma de Uretra e Estenose de Uretra", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1xTyt6klkEqW6SodX35gO3FL3NTEm9MNm/view?usp=sharing" },
+          { id: 8, title: "Aula 08 - CofExpress: Trauma Genital", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1KW4Fm4V-LUuBAdhsa2uFTKPLvCi4JFON/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Trauma de Rim e de Ureter", pdfLink: "https://drive.google.com/file/d/1HO8nDUiFTvToEXMdeqwaermlSyqJHl2L/view?usp=sharing" },
+          { title: "PDF de Slides - Trauma de Bexiga", pdfLink: "https://drive.google.com/file/d/1gTSpbnN7OzfdAVnYC_Cu_rATmTBLhEl_/view?usp=sharing" },
+          { title: "PDF de Slides - Trauma de Uretra e Estenose de Uretra", pdfLink: "https://drive.google.com/file/d/1jELG4KzNFY4LIjCqK45TQ1LeqircT3e-/view?usp=sharing" },
+          { title: "PDF de Slides - Trauma Genital", pdfLink: "https://drive.google.com/file/d/1FHlentYoWmJbXT4B0wbiOvc8_tf91BDE/view?usp=sharing" },
+          { title: "Ficha Resumo - Trauma de Rim e de Ureter", pdfLink: "https://drive.google.com/file/d/1oMQ4COA4GCcAtIUInb2mClJzpoBFDms0/view?usp=sharing" },
+          { title: "Ficha Resumo - Trauma de Bexiga", pdfLink: "https://drive.google.com/file/d/1Bj3X-pEytWv4oEmmo54TH8QtcD9Owyv0/view?usp=sharing" },
+          { title: "Ficha Resumo - Trauma de Uretra e Estenose de Uretra", pdfLink: "https://drive.google.com/file/d/1eY1GFSy18zhWNrCOxTLfLSvf-Ar4OXU9/view?usp=sharing" },
+          { title: "Ficha Resumo - Trauma Genital", pdfLink: "https://drive.google.com/file/d/1dpEOv2cMZaoyQqAOKIDYFU0SikND4n7Y/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 5,
+        label: "Sub-Módulo 05",
+        title: "Escroto Agudo",
+        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Escroto Agudo", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1BQYzxUUmDm0p1gQRpmPUqaAxA-EpGbq6/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Escroto Agudo", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1AtTZzo1-idf3UXpS8hEFf37K_n7VVgHP/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Escroto Agudo", pdfLink: "https://drive.google.com/file/d/190qFJxWxdR946D8Cp5Ci439AouD29B8j/view?usp=sharing" },
+          { title: "Ficha Resumo - Escroto Agudo", pdfLink: "https://drive.google.com/file/d/1DpN8LJo3yhGYZkppANcS-CxYgd1g1qVW/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 6,
+        label: "Sub-Módulo 06",
+        title: "Infertilidade e Medicina Sexual",
+        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Infertilidade", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1qnNI2S2Gfj8tyyRVzxtB1CHaV5OxSp2R/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - Medicina Sexual", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1TVxLF9sGe_25BYRWJOgzdRectrloCTER/view?usp=sharing" },
+          { id: 3, title: "Aula 03 - Infertilidade (Extra)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1xkFgxUMMV0Wk__P5mNkbk5IQxSc-RKVj/view?usp=sharing" },
+          { id: 4, title: "Aula 04 - CofExpress: Infertilidade", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1JJPxwlTSzffdx-zoAR5pPJjISiraNcXm/view?usp=sharing" },
+          { id: 5, title: "Aula 05 - CofExpress: Urologia - Infertilidade", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ihmIwk_vbSpv1cDaDsFzkkJT9s6FXmAE/view?usp=sharing" },
+          { id: 6, title: "Aula 06 - CofExpress: Medicina Sexual", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1WxrctwRQW4OuIXiCNM_ZGDw0Jqqr5AVi/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Infertilidade", pdfLink: "https://drive.google.com/file/d/14-yJQKh5cFhbkpRkiR4lY_5-Ar-i13ll/view?usp=sharing" },
+          { title: "PDF de Slides - Urologia: Infertilidade", pdfLink: "https://drive.google.com/file/d/1JMKd2WFKvNsQWGZvFNfHKbEcZceCGZOF/view?usp=sharing" },
+          { title: "PDF de Slides - Medicina Sexual", pdfLink: "https://drive.google.com/file/d/1-tD23ei4H32mr7cKTVPg_OIFI22kAMHb/view?usp=sharing" },
+          { title: "Ficha Resumo - Infertilidade", pdfLink: "https://drive.google.com/file/d/14Y3_KYK97n_oFyncPJ9kYIisttq0mM9b/view?usp=sharing" },
+          { title: "Ficha Resumo - Infertilidade (Extra)", pdfLink: "https://drive.google.com/file/d/1wgUc0pvjsFDR5xpQJU1sraQWU5vHAPw5/view?usp=sharing" },
+          { title: "Ficha Resumo - Urologia: Infertilidade", pdfLink: "https://drive.google.com/file/d/10UqH9yBEzxuSyFv3oq8c-04xo0WMmYDl/view?usp=sharing" },
+          { title: "Ficha Resumo - Medicina Sexual", pdfLink: "https://drive.google.com/file/d/116LTOrWK2udFeUPPZ6xDsuAEPu_cFkUI/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 7,
+        label: "Sub-Módulo 07",
+        title: "Priapismo e Fratura Peniana",
+        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Priapismo", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Y9nnli4dygzplu5KoxnLRzmvSL0zoY2-/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - Fratura Peniana", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1cE01RX7mvZiuifpV4E3UXstLLZ7NnFAg/view?usp=sharing" },
+          { id: 3, title: "Aula 03 - CofExpress: Fratura Peniana", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1QaS4W0llhhX2nP-5b6W9In0p5__ZCjhM/view?usp=sharing" },
+          { id: 4, title: "Aula 04 - CofExpress: Priapismo", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1RPhWDFzx_tPsBpGlpvErlPttF59HjGpa/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Priapismo", pdfLink: "https://drive.google.com/file/d/1UXcBB8nwBtV49GmkCnKXICuWMsSVmHgN/view?usp=sharing" },
+          { title: "PDF de Slides - Fratura Peniana", pdfLink: "https://drive.google.com/file/d/1rYDjIn6sYvPv0s5e0-eOFrEw-u-3usCF/view?usp=sharing" },
+          { title: "Ficha Resumo - Priapismo", pdfLink: "https://drive.google.com/file/d/1DeKPOwSY1IAyzQMTCC4Zy35n5llv8aaD/view?usp=sharing" },
+          { title: "Ficha Resumo - Fratura Peniana", pdfLink: "https://drive.google.com/file/d/1HyAM5bIEIbUpBi6VmKKtl73APoTwDs96/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 8,
+        label: "Sub-Módulo 08",
+        title: "Incontinência e Bexiga Hiperativa/Neurogênica",
+        imageUrl: "https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Incontinência Urinária de Urgência", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1BQft3t14-rRHPEgTfLBcKnj3u91hutON/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - Incontinência Urinária de Esforço", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1wCGWg2GfZstKl4Q9M2PbBD1cR5JuWIzZ/view?usp=sharing" },
+          { id: 3, title: "Aula 03 - Bexiga Neurogênica", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1qZQYRV8SzuvYVDQnx4AYZquamBI24pEq/view?usp=sharing" },
+          { id: 4, title: "Aula 04 - Síndrome da Bexiga Hiperativa e Bexiga Dolorosa", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1XtsCTjmOpo8aNCRVU6v_odMtlcIHbrGl/view?usp=sharing" },
+          { id: 5, title: "Aula 05 - CofExpress: Bexiga Neurogênica", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/121KaWnGuFhSGBYKbuAC1F9gqU9sq4CK0/view?usp=sharing" },
+          { id: 6, title: "Aula 06 - CofExpress: Incontinência Urinária de Esforço", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1j4Sucu1cjMM0MoGrA75DJ07JOuf2Twum/view?usp=sharing" },
+          { id: 7, title: "Aula 07 - CofExpress: Incontinência Urinária de Urgência", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1L7I0n3_5cdde7slrv8aS-blQQPtHhETm/view?usp=sharing" },
+          { id: 8, title: "Aula 08 - CofExpress: Síndrome da Bexiga Hiperativa e Bexiga Dolorosa", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1yxh_ZjIpLDZeVQ0NzMzx9xp5bcbLGkpt/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Bexiga Neurogênica", pdfLink: "https://drive.google.com/file/d/1cDS60F4jGw5cf6xlvLvdBvp9yJCNX8y8/view?usp=sharing" },
+          { title: "PDF de Slides - Síndrome da Bexiga Hiperativa e Bexiga Dolorosa", pdfLink: "https://drive.google.com/file/d/1DnONBXOk3pIMEZQlFlGUZXPly5YMmjIP/view?usp=sharing" },
+          { title: "PDF de Slides - Incontinência Urinária de Esforço", pdfLink: "https://drive.google.com/file/d/1hXxrHXcDOzeMO7Zeq-2gQDvl1sT9_OKY/view?usp=sharing" },
+          { title: "PDF de Slides - Incontinência Urinária de Urgência", pdfLink: "https://drive.google.com/file/d/1DhVGCLWAHrK291cgZD-dJAgiy6c_J88n/view?usp=sharing" },
+          { title: "PDF de Slides - Incontinência Urinária de Esforço (Extra)", pdfLink: "https://drive.google.com/file/d/19G9iZKGTDe7El4Xi37v5dZOoJMklcWTB/view?usp=sharing" },
+          { title: "Ficha Resumo - Bexiga Neurogênica", pdfLink: "https://drive.google.com/file/d/1fik4UJIYhBm2rHJvtSt5XiLZOzVZy7kt/view?usp=sharing" },
+          { title: "Ficha Resumo - Síndrome da Bexiga Hiperativa e Bexiga Dolorosa", pdfLink: "https://drive.google.com/file/d/1FhjzV5Aw7dwSLlVzwueMbJSbSSguNXoe/view?usp=sharing" },
+          { title: "Ficha Resumo - Incontinência Urinária de Esforço", pdfLink: "https://drive.google.com/file/d/1xyPq7jt9e1EZu3HU3r1giyD_T0O5G7NE/view?usp=sharing" },
+          { title: "Ficha Resumo - Incontinência Urinária de Esforço (Extra)", pdfLink: "https://drive.google.com/file/d/15wZI3l9Z_v-ErO7gXl79Z0el7_fQOnAv/view?usp=sharing" },
+          { title: "Ficha Resumo - Incontinência Urinária de Urgência", pdfLink: "https://drive.google.com/file/d/1s0-g9Fc4cyvUZJMdJre4Qkp4-hbQNqSl/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 9,
+        label: "Sub-Módulo 09",
+        title: "DSTs",
+        imageUrl: "https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - DSTs", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/17y5ajQnklpdkd-UgOI9Y_ysYLq3sKbW5/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: DSTs", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1pFJ0CctPKEDQ7fU43YM5KSM-RQDoGvks/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - DSTs", pdfLink: "https://drive.google.com/file/d/1SZKQOxYEACxcLrFkUzCwM7a9K1t9iJ81/view?usp=sharing" },
+          { title: "Ficha Resumo - DSTs", pdfLink: "https://drive.google.com/file/d/1U8rJYbDYzHN-4vzxlzE7YFuoeXEAZpc8/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 10,
+        label: "Sub-Módulo 10",
+        title: "UND e Disfunções Miccionais",
+        imageUrl: "https://images.unsplash.com/photo-1516574187841-693018954312?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - UND e Disfunções Miccionais", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1CSjmOstIIEmhPYn49o13mrnKHw5sBQwP/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: UND e Disfunções Miccionais", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1bW9rYqYtQffSkAyjH2xcT155rkz-QqWg/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - UND e Disfunções Miccionais", pdfLink: "https://drive.google.com/file/d/1twwAFlXBzLQDed10oEs3HiU1YMhe-Fck/view?usp=sharing" },
+          { title: "Ficha Resumo - UND e Disfunções Miccionais", pdfLink: "https://drive.google.com/file/d/174DNyi10NV59vfV4eM5rWruNfexjR7wM/view?usp=sharing" }
+        ]
+      }
+    ]
+  },
+
+  // --- MÓDULO 28: CIRURGIA PEDIÁTRICA ---
+  {
+    id: 28,
+    title: "Módulo 28 - Cirurgia Pediátrica",
+    label: "Módulo 28",
+    subModules: [
+      {
+        id: 1,
+        label: "Sub-Módulo 01",
+        title: "Vômitos no RN e Lactente",
+        imageUrl: "https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Vômitos no RN e Lactente", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Pqh980JiVqt329d6Quaw67oEsIXWbmM7/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Vômitos no RN e Lactente", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/19vm31l2CxrofBFvMWDRO5THQevLTuJoa/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Vômitos no RN e Lactente", pdfLink: "https://drive.google.com/file/d/1fv5m_v-jJAfGLo3A2XfQudxsrzmZUpHC/view?usp=sharing" },
+          { title: "Ficha Resumo - Vômitos no RN e Lactente", pdfLink: "https://drive.google.com/file/d/1GFQUPGyrJVc6F6_WA1DVaNGek75VE-4T/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 2,
+        label: "Sub-Módulo 02",
+        title: "Tórax Pediátrico",
+        imageUrl: "https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Tórax Pediátrico", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/13uWLFkiy-Zawv3i0_PXJyug5jtLzptSH/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Tórax Pediátrico", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Vo9vOK6kn2tBb0rFxeeKtsHPGPDEOPap/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Tórax Pediátrico", pdfLink: "https://drive.google.com/file/d/151RjMf0g1EQVIgo3UepAaOLBq5pFh_DE/view?usp=sharing" },
+          { title: "Ficha Resumo - Tórax Pediátrico", pdfLink: "https://drive.google.com/file/d/1kC2odFFSCRPLKhwtX3CZ-_-g1N2lUBIF/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 3,
+        label: "Sub-Módulo 03",
+        title: "Defeitos da Parede Abdominal",
+        imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Defeitos da Parede Abdominal", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1BsfUNmhSmIlbtRsZSgMhN-1mye0TGnzv/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Defeitos da Parede Abdominal", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Tzv7kcv93KUCDlqKhr5vY03KzcsLuEAP/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Defeitos da Parede Abdominal", pdfLink: "https://drive.google.com/file/d/1-cMh8erxztKhI49SwBLpI5kVXe1P8uvt/view?usp=sharing" },
+          { title: "Ficha Resumo - Defeitos da Parede Abdominal", pdfLink: "https://drive.google.com/file/d/1IMGk6zcXBsZyS_etf0bjAPXNJUVtwMh1/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 4,
+        label: "Sub-Módulo 04",
+        title: "Anomalias de Cólon e Reto",
+        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Anomalias de Cólon e Reto", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1R2fQygJVapRUaBIIbcaGyxjDZbn53k_L/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Anomalias de Cólon e Reto", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1L6T6dsAdnN2C0OO_1-36ahm53NIGyjk5/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Anomalias de Cólon e Reto", pdfLink: "https://drive.google.com/file/d/1M3DH-qpr5LWD9CKeygCfDISTl23WAPcq/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 5,
+        label: "Sub-Módulo 05",
+        title: "Atresia de Esôfago e Doença da Via Biliar",
+        imageUrl: "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Atresia de Esôfago e Doença da Via Biliar", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/15S1Hyjv0dFsSML-R0AiwqxzGO6lw6O33/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Atresia de Esôfago e Doença da Via Biliar", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/18JAbnwF5d13XWfCf1ZV1qu0wYPoEFDK3/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Atresia de Esôfago e Doença da Via Biliar", pdfLink: "https://drive.google.com/file/d/1Izw9tQeylIhQfmgZe4nw3xar-ttm5mO6/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 6,
+        label: "Sub-Módulo 06",
+        title: "Doenças Cervicais na Infância",
+        imageUrl: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Doenças Cervicais na Infância", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1WiADZ5kNmOEJI7tvYJmKfbteKaZ0-xpK/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Doenças Cervicais na Infância", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/12kcuyDL8pY7K6J0g8GT-lmSZhtW48awb/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Doenças Cervicais na Infância", pdfLink: "https://drive.google.com/file/d/1cy9yQE-b4yCnKAGX2Zo-gcDc-WRVWC4M/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 7,
+        label: "Sub-Módulo 07",
+        title: "Região Inguinal e Distopias Testiculares",
+        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Região Inguinal e Distopias Testiculares", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ahAA_Ib1ytz3n5YldOIr6TmQRUHKYHtE/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Região Inguinal e Distopias Testiculares", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1LbGPtJJvR3Hz_iWbfg-PGHNSRthc4svJ/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Região Inguinal e Distopias Testiculares", pdfLink: "https://drive.google.com/file/d/1sX4hjR38FLolIjt1g2oEE7IEB90F3nfN/view?usp=sharing" },
+          { title: "Ficha Resumo - Região Inguinal e Distopias Testiculares", pdfLink: "https://drive.google.com/file/d/14XQ3cmkC6cpq4msS0jJhShFgW7SmEi8G/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 8,
+        label: "Sub-Módulo 08",
+        title: "Tumores da Infância",
+        imageUrl: "https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Tumores da Infância", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1x1CVQCRbNUDRAq09c3Y-PR60uUCObuc1/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Tumores da Infância", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1WdDL-DqS9BBedacp-Act3r7-w1KOY6hY/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Tumores da Infância", pdfLink: "https://drive.google.com/file/d/1-xbJv_7k6UZhnbyMLx20xuu6oys_JDfC/view?usp=sharing" },
+          { title: "Ficha Resumo - Tumores da Infância", pdfLink: "https://drive.google.com/file/d/1V39jFDKegcrD9KjIPGCTJYl-HsAuTzRE/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 9,
+        label: "Sub-Módulo 09",
+        title: "CIPE no PS",
+        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - CIPE no PS", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ncvPUkH7XEQpIjWaG2O86fwsyABwYaiv/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: CIPE no PS", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1JYHOeRV2U27uYUp2FAmfGwKtV2DqDoOp/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - CIPE no PS", pdfLink: "https://drive.google.com/file/d/1k7Me-QTDh5CPBjc1Hf8Y5OYPQpgUo2WB/view?usp=sharing" },
+          { title: "Ficha Resumo - CIPE no PS", pdfLink: "https://drive.google.com/file/d/1pXuoIzghjqu0VL6O3sKhmdFwpMf5pbtd/view?usp=sharing" }
+        ]
+      }
+    ]
+  },
+
+  // --- MÓDULO 29: CIRURGIA PLÁSTICA E PELE ---
+  {
+    id: 29,
+    title: "Módulo 29 - Cirurgia Plástica e Pele",
+    label: "Módulo 29",
+    subModules: [
+      {
+        id: 1,
+        label: "Sub-Módulo 01",
+        title: "Cicatrização (Fisiológica e Patológica)",
+        imageUrl: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Cicatrização Fisiológica", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1tJrDFwJ28Ca2lfBEOdIE8iMqj9vPcPnO/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - Cicatrização Patológica", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/14pJAShFO4tK3eKmBNsAQftEH1F5b7CvN/view?usp=sharing" },
+          { id: 3, title: "Aula 03 - CofExpress: Cicatrização Fisiológica", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Q3-f4aYgtqdoJ3O8KvlyL8m3910dJROw/view?usp=sharing" },
+          { id: 4, title: "Aula 04 - CofExpress: Cicatrização Patológica", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Fd1Np-v7I93gs9sY3Tqh4Kp-c9Lkg5b8/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Cicatrização Fisiológica", pdfLink: "https://drive.google.com/file/d/12vj8y8BnAZMKhAx-h97P47Hg5CnY3pV2/view?usp=sharing" },
+          { title: "PDF de Slides - Cicatrização Patológica", pdfLink: "https://drive.google.com/file/d/1V5x-dSNDJIZsI9fed2dns-IDzt_HjdYN/view?usp=sharing" },
+          { title: "Ficha Resumo - Cicatrização Fisiológica", pdfLink: "https://drive.google.com/file/d/1z00y_m3YHSXgSOKmEe7IPo5nBJuq29VW/view?usp=sharing" },
+          { title: "Ficha Resumo - Cicatrização Patológica", pdfLink: "https://drive.google.com/file/d/11Jkx9ETKDg08vlmODmUYVLQMZuhMaqpZ/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 2,
+        label: "Sub-Módulo 02",
+        title: "Enxertos e Retalhos",
+        imageUrl: "https://images.unsplash.com/photo-1582719471384-3870695d9871?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Retalhos", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1q5VZOxSNO8s73xVYSNA3fOMcJ-DQuuDQ/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - Enxertos", duration: "00:00", type: "aula", videoLink: "https://www.google.com/search?q=https://drive.google.com/file/d/1cORlg2egwXd-92awE-jC1obKXZ6dCXo/view?usp=sharing" },
+          { id: 3, title: "Aula 03 - Principais Retalhos", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/17Ujo91zDtRNN9wOquIQeuYgT_y_b3B_8/view?usp=sharing" },
+          { id: 4, title: "Aula 04 - CofExpress: Retalhos", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1BK0geJ54PcO06pyQYmz8DHR8I5ERaid2/view?usp=sharing" },
+          { id: 5, title: "Aula 05 - CofExpress: Enxertos", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1dlBgWrz8B6otD2zUWROB_ksyjJ7lQkPv/view?usp=sharing" },
+          { id: 6, title: "Aula 06 - CofExpress: Principais Retalhos", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1YO7qMmJXK_U3B4Tcq-smgOPflqr8vpQc/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Enxertos", pdfLink: "https://drive.google.com/file/d/1FCWuJIp0Z8p1wS1SZNrNTdjfOaCbDkEK/view?usp=sharing" },
+          { title: "PDF de Slides - Principais Retalhos", pdfLink: "https://drive.google.com/file/d/1h7tB_K_7tC17rMHC6aolmGxqXpHWI5qE/view?usp=sharing" },
+          { title: "PDF de Slides - Retalhos", pdfLink: "https://drive.google.com/file/d/1zjUuDqS4r2mCuXiKBrN1ELZuy9XdfIME/view?usp=sharing" },
+          { title: "Ficha Resumo - Enxertos", pdfLink: "https://drive.google.com/file/d/1EWgPCW1UVFZihGOyx6scCq7RZwjcl2Uu/view?usp=sharing" },
+          { title: "Ficha Resumo - Principais Retalhos", pdfLink: "https://drive.google.com/file/d/1PMHmaUCdxmobcdVRLmbCbYhn95Jyl5RJ/view?usp=sharing" },
+          { title: "Ficha Resumo - Retalhos", pdfLink: "https://drive.google.com/file/d/1pw2JDdmyqtdlsdi0l11AWhbDsF0L2Umi/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 3,
+        label: "Sub-Módulo 03",
+        title: "Queimados - Tratamento Específico e Sequelas",
+        imageUrl: "https://images.unsplash.com/photo-1628771065518-0d82f1938462?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Queimados: Tratamento Específico", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/17V9rJx9jy2PKwzaQaTZFcUVazgPsfNa9/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - Queimados: Sequelas de Queimadura", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1E_hlarEFSeLOCFzEe35c61Kds1v22Iyp/view?usp=sharing" },
+          { id: 3, title: "Aula 03 - CofExpress: Queimados - Sequelas de Queimadura", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1JypcS8CV5XFAzcZOm83u2B4YOi167Sge/view?usp=sharing" },
+          { id: 4, title: "Aula 04 - CofExpress: Queimados - Tratamento Específico", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1zsaFJTm83kTujCV1jSRBRU5yV_6-j_EA/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Sequelas de Queimadura", pdfLink: "https://drive.google.com/file/d/1mCe82ik-ZLMnorXgeFTcvJ10eyar2Sk0/view?usp=sharing" },
+          { title: "PDF de Slides - Queimados: Tratamento Específico", pdfLink: "https://drive.google.com/file/d/1qi-9r3bSQm3g-Y6noBXZgWs5E9LcuD_N/view?usp=sharing" },
+          { title: "Ficha Resumo - Queimados: Tratamento Específico", pdfLink: "https://drive.google.com/file/d/1APmXhL-MPzknxFUz5kKfjN_MCE1KgZHc/view?usp=sharing" },
+          { title: "Ficha Resumo - Sequelas de Queimadura", pdfLink: "https://drive.google.com/file/d/17EBiNu9H0uyEnlDFKWs1RUT-G_cLU86l/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 4,
+        label: "Sub-Módulo 04",
+        title: "Lesões por Pressão",
+        imageUrl: "https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Lesões por Pressão", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1AYMKgD8db8T4Di1OAv_Lbw8R9XAhXKgf/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Lesões por Pressão", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1eNL9fdOgrAyqDi31VeGqn2-VgokwJCjD/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Lesões por Pressão", pdfLink: "https://drive.google.com/file/d/1d3Crtm4MsBNbprG-ia0ezdX0mHhVPtpA/view?usp=sharing" },
+          { title: "Ficha Resumo - Lesões por Pressão", pdfLink: "https://drive.google.com/file/d/1VFSltk4mjAadea-SOBGNcpDMuIQxkRB7/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 5,
+        label: "Sub-Módulo 05",
+        title: "Fios de Sutura e Anestésicos Locais",
+        imageUrl: "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Anestésicos Locais", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1dTnVfqjMtQMB8-k6k7wxkx0DcZkxzmGv/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - Fios de Sutura", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1yIRdd9UMS6wGcSLKQn_PLKM3iQ9n9Oei/view?usp=sharing" },
+          { id: 3, title: "Aula 03 - CofExpress: Fios de Sutura", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1_HWGsqvS-6AWAMt0tDeUTifztfZRKS2F/view?usp=sharing" },
+          { id: 4, title: "Aula 04 - CofExpress: Anestésicos Locais", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1TjAGSs1K8XExmPPDXgmuP8BvEcoe0uYW/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Fios de Sutura", pdfLink: "https://drive.google.com/file/d/1c0DNS3YtD7PUxEyp_rj7V9ztvC-9fA26/view?usp=sharing" },
+          { title: "PDF de Slides - Anestésicos Locais", pdfLink: "https://drive.google.com/file/d/1WbOs-G8vHpAs2voLs6_EqbR2hRla6g1N/view?usp=sharing" },
+          { title: "Ficha Resumo - Fios de Sutura", pdfLink: "https://drive.google.com/file/d/1t063L7bc0lb4N6br_j1n9X7E_l3VVl42/view?usp=sharing" },
+          { title: "Ficha Resumo - Anestésicos Locais", pdfLink: "https://drive.google.com/file/d/10VX-nhUzh_xaVmBvdQsipSP6uIgRKavd/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 6,
+        label: "Sub-Módulo 06",
+        title: "Fraturas de Face e Anomalias Congênitas CP",
+        imageUrl: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Fraturas de Face", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ClvYr1d9wMTKIiiZyGleJA75559FO9fc/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Fraturas de Face", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1PRsuWrkgu2B2vCnsI1mJ5yNWqTDzN_Dj/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Fraturas de Face", pdfLink: "https://drive.google.com/file/d/1L6_Y0RYwWcbiesQG7D2ZeLCBwWQwwWQT/view?usp=sharing" },
+          { title: "Ficha Resumo - Fraturas de Face", pdfLink: "https://drive.google.com/file/d/1pWzpLBvx8B4m6d03z0s28VUYnqyxVRpy/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 7,
+        label: "Sub-Módulo 07",
+        title: "Mama (Hipertrofia, Ginecomastia, Reconstrução, Próteses)",
+        imageUrl: "https://images.unsplash.com/photo-1576091160550-21733e99dbb9?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Mama: Ginecomastia", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1J_-gc-HYAqK73G4NitxAfRrIJVlCZTqT/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - Mama: Hipertrofia Mamária", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1RC5njCDcnemoRjAtL8sDraGyzAFck9oE/view?usp=sharing" },
+          { id: 3, title: "Aula 03 - Mama: BIA ALCL e Síndrome Asia", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1S2s-tcZ3hPxY2tiBaqxxkReaFEjpVDQd/view?usp=sharing" },
+          { id: 4, title: "Aula 04 - Mama: Reconstrução de Mama", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1w_ao10FQMDsAvpKABhrRiFAUJ6rI5eET/view?usp=sharing" },
+          { id: 5, title: "Aula 05 - CofExpress: Mama - Ginecomastia", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1DTyh_uiCy3wXUPQmr9stya-wcJ0quUq9/view?usp=sharing" },
+          { id: 6, title: "Aula 06 - CofExpress: Mama - Hipertrofia Mamária", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1bG7SBne76sQGNK1UMwK5rxOOTvl5BWYl/view?usp=sharing" },
+          { id: 7, title: "Aula 07 - CofExpress: Mama - Reconstrução de Mama", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1q3CuZkQI4c03HWZyKQ1Vy3pFPgsafgij/view?usp=sharing" },
+          { id: 8, title: "Aula 08 - CofExpress: Mama - BIA ALCL e Síndrome Asia", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1uti2BpuQWpWMAgcgaA2mlQEfoGu0gDfh/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Mama: Hipertrofia Mamária", pdfLink: "https://drive.google.com/file/d/15hj796o6oeIm9fsE587km-8T_whDnT3-/view?usp=sharing" },
+          { title: "PDF de Slides - Mama: Ginecomastia", pdfLink: "https://drive.google.com/file/d/1MtNm85CBdxqk16OFiqvAo4-uKj7OOMdS/view?usp=sharing" },
+          { title: "PDF de Slides - Mama: BIA ALCL e Síndrome Asia", pdfLink: "https://drive.google.com/file/d/1VVs8zNSsXvUtDQ52cl4IjlyqcmHxyOF-/view?usp=sharing" },
+          { title: "PDF de Slides - Mama: Reconstrução de Mama", pdfLink: "https://drive.google.com/file/d/1sClBUNRUQzKNELQ3TNX001NIk_tb_MN-/view?usp=sharing" },
+          { title: "Ficha Resumo - Mama: Hipertrofia Mamária", pdfLink: "https://drive.google.com/file/d/1m2CVGvlM5MwzT48K4CMix7FjS37Pv7Fw/view?usp=sharing" },
+          { title: "Ficha Resumo - Mama: Ginecomastia", pdfLink: "https://drive.google.com/file/d/1OcUnlglNk1cDqK2XxqzWwa2MGpFqvsTw/view?usp=sharing" },
+          { title: "Ficha Resumo - Mama: Reconstrução de Mama", pdfLink: "https://drive.google.com/file/d/1-nV4CwpJDDPZgvX6UvrdfPoi7MRzIoyJ/view?usp=sharing" },
+          { title: "Ficha Resumo - Mama: BIA ALCL e Síndrome Asia", pdfLink: "https://drive.google.com/file/d/1AJE6ronC7t7oNERyv-fgT2f2T_yjYQmR/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 8,
+        label: "Sub-Módulo 08",
+        title: "Cirurgia de Contorno e Paralisia Facial",
+        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Contorno", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1rZaEFFprB7RQmc8kDjvdJ7HFLOcBz_rw/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - Paralisia Facial", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1wVjXgWoRpz_oaGUDmaCZ8Lg2bT8wjeRv/view?usp=sharing" },
+          { id: 3, title: "Aula 03 - CofExpress: Contorno", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1OXL991UhpHI3A1oRV9Jt4c4n77eaHs7E/view?usp=sharing" },
+          { id: 4, title: "Aula 04 - CofExpress: Paralisia Facial", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1saJIvANipXZ-oNMGFjmzzx_gGsEOEkF7/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Contorno", pdfLink: "https://drive.google.com/file/d/1S6xKklrQvH1Vy5ktBZ-ddjsc62ZbCnSv/view?usp=sharing" },
+          { title: "PDF de Slides - Paralisia Facial", pdfLink: "https://drive.google.com/file/d/1wM0J-_zl707Hs45JCxmoEbr1WQF_3IMJ/view?usp=sharing" },
+          { title: "Ficha Resumo - Contorno", pdfLink: "https://drive.google.com/file/d/1BCdShM0obphLdtRC_0IbCtRcg8P31DsV/view?usp=sharing" },
+          { title: "Ficha Resumo - Paralisia Facial", pdfLink: "https://drive.google.com/file/d/1nhk0z57vWZDNA857YvL56-cEycT5b9MQ/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 9,
+        label: "Sub-Módulo 09",
+        title: "Ferimento Descolante",
+        imageUrl: "https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Ferimento Descolante", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1_3O7qbsYJN_1WtP58kVnMrS_jxBaVqTh/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - CofExpress: Ferimento Descolante", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/16JYf0EC7qGEOb0kOvjb8GXCbHItBCS0R/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Ferimento Descolante", pdfLink: "https://drive.google.com/file/d/1H67ppW73BI6wt3ESZvdBb4Gfq0i49nWG/view?usp=sharing" },
+          { title: "Ficha Resumo - Ferimento Descolante", pdfLink: "https://drive.google.com/file/d/1A1TlXZ7iTxWmh-Y2PVfqgOaXg7EpuMcn/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 10,
+        label: "Sub-Módulo 10",
+        title: "Oncocirurgia (Melanoma e Sarcoma)",
+        imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Oncocirurgia: Sarcoma", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1DDa53eQuuqshsoPOpQphJeFBcn_kn891/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - Oncocirurgia: Melanoma", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1hPUrT9Gu8bsMTHfoJTmLFnMaw39J4sGE/view?usp=sharing" },
+          { id: 3, title: "Aula 03 - CofExpress: Oncocirurgia - Sarcoma", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1A1g5d5LaPaBuOXAz44JZ02Zy_uke-pgN/view?usp=sharing" },
+          { id: 4, title: "Aula 04 - CofExpress: Oncocirurgia - Melanoma", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1WjWcCQMLwz99j9eW0Xsx_DIxntw5ARxg/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Oncocirurgia: Melanoma", pdfLink: "https://drive.google.com/file/d/19Ki6Ccje6jihTsz3ylsuenmfDws_ICaT/view?usp=sharing" },
+          { title: "PDF de Slides - Oncocirurgia: Sarcoma", pdfLink: "https://drive.google.com/file/d/1eNW5Rq0PPEuxO8roK4kg4AwIdZwx01zG/view?usp=sharing" },
+          { title: "Ficha Resumo - Oncocirurgia: Melanoma", pdfLink: "https://drive.google.com/file/d/1Vu7s9f7vWKF3zwHIjYMG_EdbFTUDqRsi/view?usp=sharing" },
+          { title: "Ficha Resumo - Oncocirurgia: Sarcoma", pdfLink: "https://drive.google.com/file/d/19k7159IJYfbxNd_b3LlFECYUEEhUugzL/view?usp=sharing" },
+          { title: "Errata - Oncocirurgia: Sarcoma", pdfLink: "https://drive.google.com/file/d/1HX7JClL2gG7rTuKjfeSfqKucCAS5s_nt/view?usp=sharing" }
+        ]
+      }
+    ]
+  },
+
+  // --- MÓDULO 30: CIRURGIA TORÁCICA E CARDÍACA ---
+  {
+    id: 30,
+    title: "Módulo 30 - Cirurgia Torácica e Cardíaca",
+    label: "Módulo 30",
+    subModules: [
+      {
+        id: 1,
+        label: "Sub-Módulo 01",
+        title: "Câncer de Pulmão (Parte 1, 2, 3 e Quiz)",
+        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Câncer de Pulmão: Parte 1", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1jlEhFig1yRzvdebHTJ8xjfZbtSOvoHJd/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - Câncer de Pulmão: Parte 2", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/150qPWASzfRqJOxg2k-fZRieTyPVZTydb/view?usp=sharing" },
+          { id: 3, title: "Aula 03 - Câncer de Pulmão: Parte 3", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1bDBcW0IU7y0mlZSPYNkwjGUf4mrd4Ofr/view?usp=sharing" },
+          { id: 4, title: "Aula 04 - Câncer de Pulmão: Quiz", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1gd4EqGyM8W_ceq1lyQ4ZclFN3CzP19oK/view?usp=sharing" },
+          { id: 5, title: "Aula 05 - CofExpress: Câncer de Pulmão - Parte 1", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1cikHDSMmAdjyddGAmcyBfjOBDkgewO8f/view?usp=sharing" },
+          { id: 6, title: "Aula 06 - CofExpress: Câncer de Pulmão - Parte 2", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1iuU6VSlZaobcHk88schqxenr9CCYuOzs/view?usp=sharing" },
+          { id: 7, title: "Aula 07 - CofExpress: Câncer de Pulmão - Parte 3", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1K8piQdV3SMIUvYvrqT0Oa3iPq3g5SmP7/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Câncer de Pulmão: Parte 1", pdfLink: "https://drive.google.com/file/d/1XmNMnCZs2C_awBqLH9BCy8DrsfGmDOKl/view?usp=sharing" },
+          { title: "PDF de Slides - Câncer de Pulmão: Parte 2", pdfLink: "https://drive.google.com/file/d/1tVRg2IY8iJVTIN7fj4mZ5qGzJ5SvWiA4/view?usp=sharing" },
+          { title: "PDF de Slides - Câncer de Pulmão: Parte 3", pdfLink: "https://drive.google.com/file/d/11Mux1hyjnY0BbxEGIV5uL8QEMLN15tMF/view?usp=sharing" },
+          { title: "PDF de Slides - Câncer de Pulmão: Quiz", pdfLink: "https://drive.google.com/file/d/1Xl_ZHcQbx8Roi-L-e4cPoTFASdReOPfe/view?usp=sharing" },
+          { title: "Ficha Resumo - Câncer de Pulmão: Parte 1", pdfLink: "https://drive.google.com/file/d/1Whb4Z_5lKsPsabAFemVchZhb-ftWoRac/view?usp=sharing" },
+          { title: "Ficha Resumo - Câncer de Pulmão: Parte 2", pdfLink: "https://drive.google.com/file/d/1cGS-zmdQmRxfT01kZ7xI4-jG8iwKDPJh/view?usp=sharing" },
+          { title: "Ficha Resumo - Câncer de Pulmão: Parte 3", pdfLink: "https://drive.google.com/file/d/1KSMs5AF9NyuwFmibva-HWfyINWCe-5GL/view?usp=sharing" },
+          { title: "Ficha Resumo - Câncer de Pulmão: Quiz", pdfLink: "https://drive.google.com/file/d/1oq2BJmFfTOajYBTMQDY1gxHE-mZdZtJk/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 2,
+        label: "Sub-Módulo 02",
+        title: "Derrame Pleural e Exsudatos",
+        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Derrame Pleural", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1GXIiSqgkcXyuhGzMJq3jimf6ImD3YbbY/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - Exsudato Neutrofílico", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1tFQaVYab6X0R1QDnGGmfkM00EUySFTYv/view?usp=sharing" },
+          { id: 3, title: "Aula 03 - Exsudato Linfocítico", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/18x5OhAcZ35sxfgaQTelfKCZRnFDfQaz3/view?usp=sharing" },
+          { id: 4, title: "Aula 04 - CofExpress: Derrame Pleural", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1LoRS8tT8DmwaD4nNvc3oKzM5uJo0KGHB/view?usp=sharing" },
+          { id: 5, title: "Aula 05 - CofExpress: Exsudato Linfocítico", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1P5_N6vN3xj8KSPGzPftA48LuPpnB-X_c/view?usp=sharing" },
+          { id: 6, title: "Aula 06 - CofExpress: Exsudato Neutrofílico", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1xeYHhBsiwsEFY6i9WE2M1rtOqtkdKcel/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Derrame Pleural", pdfLink: "https://drive.google.com/file/d/1uBAo6WaKo8c698cPmQY-vhtzl-9BCUCM/view?usp=sharing" },
+          { title: "PDF de Slides - Exsudato Linfocítico", pdfLink: "https://drive.google.com/file/d/1p_HxYhQqf3KVyykFPAk1KAWKb0D0R85k/view?usp=sharing" },
+          { title: "PDF de Slides - Exsudato Neutrofílico", pdfLink: "https://drive.google.com/file/d/1CF5DceHBPPQRcIs1W4YaNNG4TpHbn1zA/view?usp=sharing" },
+          { title: "Ficha Resumo - Derrame Pleural", pdfLink: "https://drive.google.com/file/d/1fbTJIetV9B9r2kc23R2-d30pJT05i9BH/view?usp=sharing" },
+          { title: "Ficha Resumo - Exsudato Linfocítico", pdfLink: "https://drive.google.com/file/d/1t1rMYZt-T_CfGahOrZInpDi3zsSDjthP/view?usp=sharing" },
+          { title: "Ficha Resumo - Exsudato Neutrofílico", pdfLink: "https://drive.google.com/file/d/1vVNY4LED8J58PtPdjxojLiWRg8O4MMlV/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 3,
+        label: "Sub-Módulo 03",
+        title: "Pneumotórax e Quilotórax",
+        imageUrl: "https://images.unsplash.com/photo-1530210124550-912dc1381cb8?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Pneumotórax", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1io5Xnsiz-OzT5n-7EaUCEmYYBHCItCrZ/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - Quilotórax", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1hq2aiCejWqI9u9goQDEvX1YyazaXOY-g/view?usp=sharing" },
+          { id: 3, title: "Aula 03 - CofExpress: Quilotórax", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/14kYtzl7ez46CBywkqbfcpebz8a3MQjmG/view?usp=sharing" },
+          { id: 4, title: "Aula 04 - CofExpress: Pneumotórax", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1nnsPh1iC1hW0lq5LQVrbCpf_viocUgHw/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Pneumotórax", pdfLink: "https://drive.google.com/file/d/1yMZwSdUmJlXgU0vvRiI3kU79ndCh3GaG/view?usp=sharing" },
+          { title: "PDF de Slides - Quilotórax", pdfLink: "https://drive.google.com/file/d/1F3KF1pBWF0jXd-8WoaPOS1oWAamg_2aa/view?usp=sharing" },
+          { title: "Ficha Resumo - Pneumotórax", pdfLink: "https://drive.google.com/file/d/1u8Tvmqw-A8yqWikyfh54MC6C9fHV8cWF/view?usp=sharing" },
+          { title: "Ficha Resumo - Quilotórax", pdfLink: "https://drive.google.com/file/d/10yIBGb3zDtavmGZcjYxMy1Go_DmWbet3/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 4,
+        label: "Sub-Módulo 04",
+        title: "Mediastino e Complicações",
+        imageUrl: "https://images.unsplash.com/photo-1516574187841-693018954312?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Mediastino", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1JriOyIS2B5NFiFckFxleSl07b0nNqsdJ/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - Complicações Mediastinais", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Mz9Br9upvxDgbLAAOjF1Rvrum4BREicJ/view?usp=sharing" },
+          { id: 3, title: "Aula 03 - CofExpress: Mediastino", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1t4QSKTcSi1XlhbvymxgquwUtZzJjb7mB/view?usp=sharing" },
+          { id: 4, title: "Aula 04 - CofExpress: Complicações Mediastinais", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/10cYLOrN_Ui1Vm2RmkjJ-Yhe8Ln0WzvAm/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Mediastino", pdfLink: "https://drive.google.com/file/d/1F1Q1B9PVDHUI1OUEJqEmt2EDcrU1ihuD/view?usp=sharing" },
+          { title: "PDF de Slides - Complicações Mediastinais", pdfLink: "https://drive.google.com/file/d/14uhinLeoUoep-YKLjDqomU8aPWxENrEo/view?usp=sharing" },
+          { title: "Ficha Resumo - Mediastino", pdfLink: "https://drive.google.com/file/d/1OL_REPmegRmuFryMd3GvyTZkZpnF19f5/view?usp=sharing" },
+          { title: "Ficha Resumo - Complicações Mediastinais", pdfLink: "https://drive.google.com/file/d/1g8PAy2pd7ObErCV7y-QrAY6dTwZrZ8SS/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 5,
+        label: "Sub-Módulo 05",
+        title: "Doenças Traqueais e da Parede Torácica",
+        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Doenças Traqueais", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1iW7Z13aAqkqOxtOjuAeciGmiGZL0H6HZ/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - Quiz: Doenças de Parede Torácica", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1zDTwOjloFxiZZT7HsX-KSa7ms3TrixU8/view?usp=sharing" },
+          { id: 3, title: "Aula 03 - Bônus: Doenças da Parede Torácica", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1qpGHKSK4N0H1MCfDzlY5HOTCwZXuiSdh/view?usp=sharing" },
+          { id: 4, title: "Aula 04 - CofExpress: Doenças Traqueais", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Gq31zxYIac81_8xccLvrWsxGfcoJslvN/view?usp=sharing" },
+          { id: 5, title: "Aula 05 - CofExpress: Bônus - Doenças da Parede Torácica", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1WYR1qlcFE0zm7gzrCl7CUYu_gq2n0ck4/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Doenças Traqueais", pdfLink: "https://drive.google.com/file/d/1igSXr_sFj53WXfCYzezPWxNy0DxJfRgt/view?usp=sharing" },
+          { title: "PDF de Slides - Quiz: Doenças Traqueais", pdfLink: "https://drive.google.com/file/d/1hFFLcOZoK3tPK-NgL4PscZ7_eWtTs0Rr/view?usp=sharing" },
+          { title: "PDF de Slides - Bônus: Doenças da Parede Torácica", pdfLink: "https://drive.google.com/file/d/1o7Rds0V7UxNK6Zh4cpvJX6OjbN6F9mWv/view?usp=sharing" },
+          { title: "PDF de Slides - Quiz: Doenças de Parede Torácica", pdfLink: "https://drive.google.com/file/d/1ldrRcJ6_QvVrFbWvMgtB-WwzK6RFOmdM/view?usp=sharing" },
+          { title: "Ficha Resumo - Doenças Traqueais", pdfLink: "https://drive.google.com/file/d/10Vg6gQmLkWtFYgCWgASIyZHTiuP65frJ/view?usp=sharing" },
+          { title: "Ficha Resumo - Quiz: Doenças Traqueais", pdfLink: "https://drive.google.com/file/d/1YQScksjXBAkQNfsA0pPyOcdBbhnd8Hgc/view?usp=sharing" },
+          { title: "Ficha Resumo - Bônus: Doenças da Parede Torácica", pdfLink: "https://drive.google.com/file/d/1dtYHI53uupvJ3pqTGgwgbhenSbWew6SN/view?usp=sharing" },
+          { title: "Ficha Resumo - Quiz: Doenças de Parede Torácica", pdfLink: "https://drive.google.com/file/d/1Y16jl_b7NE8j0huwg74SIXBp6a6ExRoj/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 6,
+        label: "Sub-Módulo 06",
+        title: "Bronquiectasias e Hemoptise",
+        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Bronquiectasias e Hemoptise", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/10UytmAEZNTe1JK5jwt7hN5kx4XZ5sa4D/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - Quiz: Bronquiectasia e Hemoptise", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1xwieCzBjF4wQLIDOTzW3lBfuS6RxykqH/view?usp=sharing" },
+          { id: 3, title: "Aula 03 - CofExpress: Bronquiectasias e Hemoptise", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/12sjSpiRLJYElgIGIlxx76YFzMLMl9Bic/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Bronquiectasias e Hemoptise", pdfLink: "https://drive.google.com/file/d/1IpyHMHslzzgBccpX8omlYXN0-dL2JtCg/view?usp=sharing" },
+          { title: "PDF de Slides - Quiz: Bronquiectasia e Hemoptise", pdfLink: "https://drive.google.com/file/d/1UDN1JxpAvcH8V-G7I5LrA4L6gJ_WK05v/view?usp=sharing" },
+          { title: "Ficha Resumo - Bronquiectasias e Hemoptise", pdfLink: "https://drive.google.com/file/d/1b8_CmJ36NMbJ85-1jf0eUHNu2Dip98EC/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 7,
+        label: "Sub-Módulo 07",
+        title: "Cardíaca - Doença Coronariana e Aorta",
+        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Doença Coronariana", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1T7NSrnkDGPT62KZ9aHxc2_NmbzUQkLRv/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - Doença da Aorta", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1fsIHOLLJgLxwos97vshKNbJN5FIkimG-/view?usp=sharing" },
+          { id: 3, title: "Aula 03 - CofExpress: Doença Coronariana", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1PjJrW4i8Hs8gzm19EcORLFB7Wilqj0DJ/view?usp=sharing" },
+          { id: 4, title: "Aula 04 - CofExpress: Doença da Aorta", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1dCsLPbH38JIs_TIiYfVf93hLtNSxYG0c/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Doença Coronariana", pdfLink: "https://drive.google.com/file/d/1aEWCJjr2HnP58qXTB1hPrJYatirK_mF9/view?usp=sharing" },
+          { title: "PDF de Slides - Doença da Aorta", pdfLink: "https://drive.google.com/file/d/1Itaww8O7TdAT8UeTcvpjTZ7MVdTf5whu/view?usp=sharing" },
+          { title: "Ficha Resumo - Doença Coronariana", pdfLink: "https://drive.google.com/file/d/1_BArsIKqc8lp-tcekRYk4gcdgxqC6z3I/view?usp=sharing" },
+          { title: "Ficha Resumo - Doença da Aorta", pdfLink: "https://drive.google.com/file/d/1YTEb2mJ_sOIHueci-78uuKbJqelk_FKJ/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 8,
+        label: "Sub-Módulo 08",
+        title: "Cardíaca - Doenças Valvares e Congênitas",
+        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Doenças Valvares", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1I8aT2Gg9Z5ZKMEfADyWcqJwEG0wvhAdV/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - Doenças Congênitas", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1vuXFk93LCcz5vsl1lppTqrLSFu-KKKBO/view?usp=sharing" },
+          { id: 3, title: "Aula 03 - CofExpress: Doenças Valvares", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1av0woOxtokSjKItubTYwiU_cDHKQJJ11/view?usp=sharing" },
+          { id: 4, title: "Aula 04 - CofExpress: Doenças Congênitas", duration: "00:00", type: "aula", videoLink: "https://www.google.com/search?q=https://drive.google.com/file/d/1iTJaSb18y19OWnALzqq5m1ak5P6Lm9y/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Doenças Valvares", pdfLink: "https://drive.google.com/file/d/1wcTS0VnQjdIrKiorcB41JZv0qQKQkCPN/view?usp=sharing" },
+          { title: "PDF de Slides - Doenças Congênitas", pdfLink: "https://drive.google.com/file/d/1cn3wjE0CxSfpWZLnR-w9MO29BAIcTZmx/view?usp=sharing" },
+          { title: "Ficha Resumo - Doenças Valvares", pdfLink: "https://drive.google.com/file/d/185po8b_E3vivX-vp_wQqJzbBec6hB47J/view?usp=sharing" },
+          { title: "Ficha Resumo - Doenças Congênitas (Parte 1)", pdfLink: "https://drive.google.com/file/d/1H96ccVrXDLiZ_FehvChElKaq83V1DHec/view?usp=sharing" },
+          { title: "Ficha Resumo - Doenças Congênitas (Parte 2)", pdfLink: "https://drive.google.com/file/d/1ORj4ujjQvhxZbD6KdW0NNaQeenGLN7Ar/view?usp=sharing" }
+        ]
+      },
+      {
+        id: 9,
+        label: "Sub-Módulo 09",
+        title: "Cardíaca - Transplante e Pós-Op",
+        imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+        lessons: [
+          { id: 1, title: "Aula 01 - Pós-Operatório", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/13pWZ2p8pdMVObkXhsr17y7JnksU_77LZ/view?usp=sharing" },
+          { id: 2, title: "Aula 02 - Transplante Cardíaco", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/18NkH2of8qUnbtgLUAwvLgDepTqQy7guB/view?usp=sharing" },
+          { id: 3, title: "Aula 03 - CofExpress: Transplante Cardíaco", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1G2m33tuLKx-2-un5uITciBqezAoA_Efx/view?usp=sharing" },
+          { id: 4, title: "Aula 04 - CofExpress: Pós-Operatório", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1QlsuKLKkZ-ixtDyKTDwVvPAn_UWLyHl0/view?usp=sharing" }
+        ],
+        materials: [
+          { title: "PDF de Slides - Transplante Cardíaco", pdfLink: "https://drive.google.com/file/d/1EZlVgp8v_vsLwpRMQ_zykwT_9U9M3nIs/view?usp=sharing" },
+          { title: "PDF de Slides - Pós-Operatório", pdfLink: "https://drive.google.com/file/d/1IzA3Ne5AeoTUAev5dbNhzed9cyqAHOsw/view?usp=sharing" },
+          { title: "Ficha Resumo - Transplante Cardíaco", pdfLink: "https://drive.google.com/file/d/1AMYqrxUjLCsLjPW6dVcrzeW5CtGjGpwf/view?usp=sharing" },
+          { title: "Ficha Resumo - Pós-Operatório", pdfLink: "https://drive.google.com/file/d/15kbmOCfmQA4tYoS9TzNZ0gbQMJJ7SlXK/view?usp=sharing" }
+        ]
+      }
+    ]
+  },
+  // --- MÓDULO 31: PERIOPERATÓRIO E ANESTESIA ---
+{
+  id: 31,
+  title: "Módulo 31 - Perioperatório e Anestesia",
+  label: "Módulo 31",
+  subModules: [
+    {
+      id: 1,
+      label: "Sub-Módulo 01",
+      title: "Avaliação Pré-anestésica e Pré-operatório (I e II)",
+      imageUrl: "https://images.unsplash.com/photo-1580281658626-ee379f3cce93?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Avaliação pré-anestésica (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/18v0biWmaYyelVn9Q2f5VoR0KjPaCoVbO/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Perioperatório: Pré-operatório I (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1vz2bWcXqYFwsQavHrkE92_t8Y315qIDo/view?usp=sharing" },
+        { id: 3, title: "Aula 03 - Perioperatório: Pré-operatório II (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1VhLdTdfpnJqGqdCpNZQrX2858i-iRGJc/view?usp=sharing" },
+        { id: 4, title: "Aula 04 - Avaliação pré-anestésica (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1eShkF9E_mmtkz1ulFLvBjM4Gz4iVvXEK/view?usp=sharing" },
+        { id: 5, title: "Aula 05 - Perioperatório: Pré-operatório I (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1aEcr-I4th3NIu8Nzzbo1-tsMt8MwwmaY/view?usp=sharing" },
+        { id: 6, title: "Aula 06 - Perioperatório: Pré-operatório II (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1O3bHc-3b_uGhE6uewvOO0tukMFC67Z4r/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Avaliação pré-anestésica", pdfLink: "https://drive.google.com/file/d/1Hn11lOSDA7c1Fkiz-VXOz5WYb26v3lH6/view?usp=sharing" },
+        { title: "PDF de Slides - Perioperatório: Pré-operatório I", pdfLink: "https://drive.google.com/file/d/1uhiFUCXcpnr_BBCxZkoQMPpRDR_pG7HR/view?usp=sharing" },
+        { title: "PDF de Slides - Perioperatório: Pré-operatório II", pdfLink: "https://drive.google.com/file/d/1WR-d-WPxz8w-4NXpq8fJ9RHJwevy6sAh/view?usp=sharing" },
+        { title: "Ficha Resumo - Avaliação pré-anestésica", pdfLink: "https://drive.google.com/file/d/1jcjPANyZyLhs9ZRgXPsGtungWFSIT945/view?usp=sharing" },
+        { title: "Ficha Resumo - Perioperatório: Pré-operatório I", pdfLink: "https://drive.google.com/file/d/1m15vlgn8VPZqyKw-rJ7APGXtOuUODS_4/view?usp=sharing" },
+        { title: "Ficha Resumo - Perioperatório: Pré-operatório II", pdfLink: "https://drive.google.com/file/d/1XQQLVjSbJwtl3XPnCiBKTqM_euwj855s/view?usp=sharing" },
+        { title: "Errata - Perioperatório: Pré-operatório", pdfLink: "https://drive.google.com/file/d/1gv4rjNCH25zbYkgZVG76LWw3fVVeAQz0/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 2,
+      label: "Sub-Módulo 02",
+      title: "Técnicas Anestésicas (Geral, Regional, Bloqueios)",
+      imageUrl: "https://images.unsplash.com/photo-1551190822-a9333d879b1f?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Técnicas anestésicas 1: Anestesia geral (agentes/opióides/indutores/BNM) (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1-wcx_ChqNpZyTXoAnOpT0AU8Y2pVesuh/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Técnicas anestésicas 2: Anestésicos locais e anestesia regional (bloqueios de nervo periférico) (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1DpdE3l_3slITJIkLEAjS3yHDAdOPj8lP/view?usp=sharing" },
+        { id: 3, title: "Aula 03 - Técnicas anestésicas 1: Anestesia geral (agentes/opióides/indutores/BNM) (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1FcoODeQuuW36KqzgJ6Q6TsSjvaeuq4t-/view?usp=sharing" },
+        { id: 4, title: "Aula 04 - Técnicas anestésicas 2: Anestésicos locais e anestesia regional (bloqueios de nervo periférico) (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1hWQQBrJJgpmLDoki7p_O5cCAqrJXBqNl/view?usp=sharing" },
+        { id: 5, title: "Aula 05 - Técnicas anestésicas 3: Bloqueio de neuroeixo (Raquianestesia e Peridural) (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1gz4Dwkw2tO216JFk-J6yWjhDajGmKmAg/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Técnicas anestésicas 1: Anestesia geral (agentes/opióides/indutores/BNM)", pdfLink: "https://drive.google.com/file/d/1aE_no78khZq5QcIR2V6hOQEInlW-SjU4/view?usp=sharing" },
+        { title: "PDF de Slides - Técnicas anestésicas 2: Anestésicos locais e anestesia regional (bloqueios de nervo periférico)", pdfLink: "https://drive.google.com/file/d/17zOsFxSPGtlGO_OXk6k17w4cqaxqZAuW/view?usp=sharing" },
+        { title: "PDF de Slides - Técnicas anestésicas 3: Bloqueio de neuroeixo (Raquianestesia e Peridural)", pdfLink: "https://drive.google.com/file/d/168Y_DESKprgPgu450MI5MscKH1E5xq_N/view?usp=sharing" },
+        { title: "Ficha Resumo - Técnicas anestésicas 1: Anestesia geral (agentes/opióides/indutores/BNM)", pdfLink: "https://drive.google.com/file/d/1nzYRh8gShwvLlvgZMNn4HSYe1hmoSgyk/view?usp=sharing" },
+        { title: "Ficha Resumo - Técnicas anestésicas 2: Anestésicos locais e anestesia regional (bloqueios de nervo periférico)", pdfLink: "https://drive.google.com/file/d/1WT2yBfrWWeRDBy68ko9ofUqjIEr9yYtI/view?usp=sharing" },
+        { title: "Ficha Resumo - Técnicas anestésicas 3: Bloqueio de neuroeixo (Raquianestesia e Peridural)", pdfLink: "https://drive.google.com/file/d/1lHtQR5lba_eExVve1Qs1RwoWlGwB5kqB/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 3,
+      label: "Sub-Módulo 03",
+      title: "Monitorização em Anestesia",
+      imageUrl: "https://images.unsplash.com/photo-1581595219315-a187dd40c322?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Monitorização em anestesia (Profundidade anestésica, junção neuromuscular, capnografia e oximetria) (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1OUk-bgW2JBCeuKiSDUUJij8SKn36Sd69/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Monitorização em anestesia (Profundidade anestésica, junção neuromuscular, capnografia e oximetria) (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/13dpM_xWq7McEHnZrIY0y70Vke-KXB5Cl/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Monitorização em anestesia (Profundidade anestésica, junção neuromuscular, capnografia)", pdfLink: "https://drive.google.com/file/d/1dfloMTZSHIdQUmrrPF_0wy3wyYW2QhQm/view?usp=sharing" },
+        { title: "Ficha Resumo - Monitorização em anestesia (Profundidade anestésica, junção neuromuscular, capnografia e oximetria)", pdfLink: "https://drive.google.com/file/d/1dXw9LcWwHOx5uvLZBwM_r6LBLAyXSFj3/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 4,
+      label: "Sub-Módulo 04",
+      title: "REMIT e Nutrição Perioperatória",
+      imageUrl: "https://images.unsplash.com/photo-1582719478185-2bb8d2e9f0b3?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Perioperatório: REMIT e pós-operatório (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1i2M3v46uxGWU2GIdGc4Wzb3cv5rA4H3G/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Nutrição perioperatória (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Y94i9e2Vexb6fsJLBEk8S-y53LoWLHrf/view?usp=sharing" },
+        { id: 3, title: "Aula 03 - Perioperatório: REMIT e pós-operatório (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Y8twPiq2O64G8s29FzX3ezjAIWJiIr18/view?usp=sharing" },
+        { id: 4, title: "Aula 04 - Nutrição perioperatória (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1qHqXzK8AxwIy93wD8222g2v8HbG6Nno8/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Perioperatório: REMIT e pós-operatório", pdfLink: "https://drive.google.com/file/d/1Opq3hS5GZmK0gMm4xbbPYRnRbrOjBgr_/view?usp=sharing" },
+        { title: "PDF de Slides - Nutrição perioperatória", pdfLink: "https://drive.google.com/file/d/1Ghws1M1_fyzNa9CCrlNHGz_0KiBk3lSx/view?usp=sharing" },
+        { title: "Ficha Resumo - Perioperatório: REMIT e pós-operatório", pdfLink: "https://drive.google.com/file/d/1ii3m_bFXT1Dhu-ix0Kh0lpO9W3J16s3Q/view?usp=sharing" },
+        { title: "Ficha Resumo - Nutrição perioperatória", pdfLink: "https://drive.google.com/file/d/11s1CKrJ60PwWou_1-_BeM8661pL_WsRp/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 5,
+      label: "Sub-Módulo 05",
+      title: "Complicações Gerais",
+      imageUrl: "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Perioperatório: Complicações gerais (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1YGUMN9gpr3e1aM3ZPdk-s_HIg94SQdOK/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Perioperatório: Complicações gerais (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1iJZyElE-idoKWYEg00GKooO4oWOKLmU0/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Perioperatório: Complicações gerais", pdfLink: "https://drive.google.com/file/d/1LsVZj5oJ7chNwwPSW8xTnygqQLq-2kmB/view?usp=sharing" },
+        { title: "Ficha Resumo - Perioperatório: Complicações gerais", pdfLink: "https://drive.google.com/file/d/1g30DEuzyYk5vNt2hq0XU12kq-l43m-v1/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 6,
+      label: "Sub-Módulo 06",
+      title: "Cirurgia Geral - Eletrocirurgia e Videolaparoscopia",
+      imageUrl: "https://images.unsplash.com/photo-1551190822-a9333d879b1f?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Cirurgia Geral: Eletrocirurgia (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Ltkv7yVxQP5e8bHFaTrCnp6UqN-r0m3b/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Cirurgia Geral: Videolaparoscopia (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1pGpdo9e_hyBUSSclEMCesxwVp699aBSs/view?usp=sharing" },
+        { id: 3, title: "Aula 03 - Cirurgia Geral: Eletrocirurgia (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/15SRkxf4gzsXbE3x0yYiqvEGuN41AlszY/view?usp=sharing" },
+        { id: 4, title: "Aula 04 - Cirurgia Geral: Videolaparoscopia (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1nOzZvjqDU3CD2FyUouHb8Vrai9xS3IgB/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Cirurgia Geral: Eletrocirurgia", pdfLink: "https://drive.google.com/file/d/16DZBPQgccpJlETNJUoh2MyYZ6tOVlOL2/view?usp=sharing" },
+        { title: "PDF de Slides - Cirurgia Geral: Videolaparoscopia", pdfLink: "https://drive.google.com/file/d/1uXAUC-3r-XTMJj-DskwK_KzVHbef5ZP-/view?usp=sharing" },
+        { title: "Ficha Resumo - Cirurgia Geral: Videolaparoscopia", pdfLink: "https://drive.google.com/file/d/1jfTunu8WyAdjdNbepOGKTz7Xp084AAm3/view?usp=sharing" }
+      ]
+    }
+  ]
+},
+
+// --- MÓDULO 32: OUTROS E ESPECIALIDADES ---
+{
+  id: 32,
+  title: "Módulo 32 - Outros e Especialidades",
+  label: "Módulo 32",
+  subModules: [
+    {
+      id: 1,
+      label: "Sub-Módulo 01",
+      title: "Obesidade (Bariátrica, Técnicas, Complicações, Reganho)",
+      imageUrl: "https://images.unsplash.com/photo-1514996937319-344454492b37?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Obesidade: Princípios gerais e cirurgia bariátrica (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1BsVvwBmq9LKylBoJbIls-t6MSzUVOple/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Obesidade: Procedimentos cirúrgicos (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ZxGTjYUfluOmxMlEKcwT-ZuCq2iXu201/view?usp=sharing" },
+        { id: 3, title: "Aula 03 - Obesidade: Complicações pós-bariátrica (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1eSqQ_fxQHK6Op9qJUlcf95qFFWVkunEC/view?usp=sharing" },
+        { id: 4, title: "Aula 04 - Obesidade: Reganho de peso (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1zrD3GuWng2Kn4ei66OyAiNd2yNxYUJoq/view?usp=sharing" },
+        { id: 5, title: "Aula 05 - Obesidade: Procedimentos cirúrgicos (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1-i-FrrC_CYtJx_vdiJZnxES0v2vGuJZe/view?usp=sharing" },
+        { id: 6, title: "Aula 06 - Obesidade: Princípios gerais e cirurgia bariátrica (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1jK_0iNQv8fiQg2lhCAIscjqnoQTsetGC/view?usp=sharing" },
+        { id: 7, title: "Aula 07 - Obesidade: Complicações pós-bariátrica (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1FFMBaK1yfj8EYcMif_wV1UkYGPgGFEfD/view?usp=sharing" },
+        { id: 8, title: "Aula 08 - Obesidade: Reganho de peso (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/19wOcm95QS46w0p-3jZi1erjTTJPtBlUL/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Obesidade: Princípios gerais e cirurgia bariátrica", pdfLink: "https://drive.google.com/file/d/12iFyOLSDAPnduVJ0cDrz1unEEOb6FzQc/view?usp=sharing" },
+        { title: "PDF de Slides - Obesidade: Procedimentos cirúrgicos (Versão 1)", pdfLink: "https://drive.google.com/file/d/1b88eEKHz0csALJRxtIjlBi6VVXnokjpq/view?usp=sharing" },
+        { title: "PDF de Slides - Obesidade: Procedimentos cirúrgicos (Versão 2)", pdfLink: "https://drive.google.com/file/d/1UfuNcRPDJ2MmlPXvRvOj-Dn4zWtwA2H6/view?usp=sharing" },
+        { title: "PDF de Slides - Obesidade: Complicações pós-bariátrica", pdfLink: "https://drive.google.com/file/d/18CCrozZlR7TIGDFGeeyJow1JZUoCiNop/view?usp=sharing" },
+        { title: "Ficha Resumo - Obesidade: Princípios gerais e cirurgia bariátrica", pdfLink: "https://drive.google.com/file/d/1-JOCoeYsvbq44jEBver0FQ1fcxa7Z3tl/view?usp=sharing" },
+        { title: "Ficha Resumo - Obesidade: Procedimentos cirúrgicos", pdfLink: "https://drive.google.com/file/d/1DQ5Qx1NlIekP8hMLkd71eraaqOmek9cR/view?usp=sharing" },
+        { title: "Ficha Resumo - Obesidade: Complicações pós-bariátrica", pdfLink: "https://drive.google.com/file/d/1i_Zdo0_-18-sSpUaEBhGuNXh0ZRH5b1n/view?usp=sharing" },
+        { title: "Ficha Resumo - Obesidade: Reganho de peso", pdfLink: "https://drive.google.com/file/d/1UTBc166ebieAk9v7OQ3qetBZdFs4Rt-J/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 2,
+      label: "Sub-Módulo 02",
+      title: "Ortopedia (Geral e Traumatologia)",
+      imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Ortopedia: Traumatologia (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1-E27TpVbILqCWvrAhsjVzzCVsglRtaAF/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Ortopedia: Geral (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1YslT8y9P7Y9nSzmQx_JYHbXuwNT9oiGd/view?usp=sharing" },
+        { id: 3, title: "Aula 03 - Ortopedia: Pediátrica (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1h38Urb8I1mn1cUuctEkPTYq86GeZOUmt/view?usp=sharing" },
+        { id: 4, title: "Aula 04 - Ortopedia: Geral (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1884e5yKQKDcIs0GLJaI_upfxD71sF9_N/view?usp=sharing" },
+        { id: 5, title: "Aula 05 - Ortopedia: Traumatologia (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1oaLfN-1UD7S1Mz-PY8za1jBLBUB-98n3/view?usp=sharing" },
+        { id: 6, title: "Aula 06 - Ortopedia: Pediátrica (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1sqO1EIRh0tBQpRPHMXGYZBBP9VDecX3z/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Ortopedia: Geral", pdfLink: "https://drive.google.com/file/d/1QL6DkpssHsZAj4oUlV9CTwrjry5OPi33/view?usp=sharing" },
+        { title: "PDF de Slides - Ortopedia: Traumatologia", pdfLink: "https://drive.google.com/file/d/1R4CDT12DSwI2DjiLJpdSkEGKzqoec0wu/view?usp=sharing" },
+        { title: "PDF de Slides - Ortopedia: Pediátrica", pdfLink: "https://drive.google.com/file/d/1HhKKlWcb3qb5uDmGfz94byZAPXSxmpzx/view?usp=sharing" },
+        { title: "Ficha Resumo - Ortopedia: Geral", pdfLink: "https://drive.google.com/file/d/1E2FdQElL9Untd6Ghq1ApfoBt3cPm8suC/view?usp=sharing" },
+        { title: "Ficha Resumo - Ortopedia: Traumatologia", pdfLink: "https://drive.google.com/file/d/10c8t-Jyk6sym8M3WbdTvq-idanv9T9M1/view?usp=sharing" },
+        { title: "Ficha Resumo - Ortopedia: Pediátrica", pdfLink: "https://drive.google.com/file/d/1KYBXpRF1Z2i0F5l8cSO4xaDZohqBEY2k/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 3,
+      label: "Sub-Módulo 03",
+      title: "Neurocirurgia (Emergências e Geral)",
+      imageUrl: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Neurocirurgia: Emergências neurocirúrgicas (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1HrH8QwNS_koVoOETU4Q2c5v__Chquf--/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Neurocirurgia: Demais assuntos (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1NCDTqBrM36YkAnVZDopAIeyIELSOJBe0/view?usp=sharing" },
+        { id: 3, title: "Aula 03 - Hipertensão intracraniana e hidrocefalia (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1OGZqXCGxIVfxcs11CYf2XmlWaOcH5AiC/view?usp=sharing" },
+        { id: 4, title: "Aula 04 - Hipertensão intracraniana e hidrocefalia (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1MRFeUrHtiQxqyMSjRSMnezGaNersnzr6/view?usp=sharing" },
+        { id: 5, title: "Aula 05 - Neurocirurgia: Emergências neurocirúrgicas (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1N1V4pGuThWnlAFza8Iw15RLfLZg8MykE/view?usp=sharing" },
+        { id: 6, title: "Aula 06 - Neurocirurgia: Demais assuntos (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1wfMRrHDbEXzo5h9DcwqHKYnm1nyW5oAa/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Neurocirurgia: Demais assuntos", pdfLink: "https://drive.google.com/file/d/129gXOLsRejy0gmDJnPs0IDw7LxCItH9Q/view?usp=sharing" },
+        { title: "PDF de Slides - Hipertensão intracraniana e hidrocefalia", pdfLink: "https://drive.google.com/file/d/1b7QDsCqZE8sILQUVGwFWCdSLBiIKUKr3/view?usp=sharing" },
+        { title: "PDF de Slides - Neurocirurgia: Emergências neurocirúrgicas", pdfLink: "https://drive.google.com/file/d/1tp-5vIJV-Z0HB9JFlguHyOFCvf8F-Jb-/view?usp=sharing" },
+        { title: "Ficha Resumo - Hipertensão intracraniana e hidrocefalia", pdfLink: "https://drive.google.com/file/d/1X9UO6uORA5oC0gzCB-PlsZmUugnZIode/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 4,
+      label: "Sub-Módulo 04",
+      title: "Encerramento e Resumos",
+      imageUrl: "https://images.unsplash.com/photo-1526256262350-7da7584cf5eb?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Cirurgia Geral: Respiro e próximos passos (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1qCFUw7r3F5H9h4sSM2BlMAcHWK-uVK8/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Cirurgia Geral: Respiro e próximos passos", pdfLink: "https://drive.google.com/file/d/1dTnR6_FhCsa_qpSNBglH1FJN_JFi_vXZ/view?usp=sharing" },
+        { title: "PDF de Slides - Cirurgia: Resumão (Encerramento)", pdfLink: "https://drive.google.com/file/d/1qQOypqyhO1aJ_U6F5CpHqd3_O0F5rxd5/view?usp=sharing" },
+        { title: "Ficha Resumo - Cirurgia: Resumão (Encerramento)", pdfLink: "https://drive.google.com/file/d/1jZckWDj6xn1elKx56NUMiN4NJ1sD0sag/view?usp=sharing" }
+      ]
+    }
+  ]
+},
+
+// --- MÓDULO 33: SISTEMA ÚNICO DE SAÚDE (SUS) E POLÍTICAS ---
+{
+  id: 33,
+  title: "Módulo 33 - Sistema Único de Saúde (SUS) e Políticas",
+  label: "Módulo 33",
+  subModules: [
+    {
+      id: 1,
+      label: "Sub-Módulo 01",
+      title: "História da Saúde no Brasil e Modelos de Proteção",
+      imageUrl: "https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Pré-SUS: Modelos de proteção social e história da saúde no Brasil (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1AYIvTN6Em7LpM1HoIvg1MI6i9xP8pKFF/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Pré-SUS: Modelos de proteção social e história da saúde no Brasil", pdfLink: "https://drive.google.com/file/d/1LDsJUtYvOwtQnkShnrRaVcMpmQ3JGbB8/view?usp=sharing" },
+        { title: "Ficha Resumo - Pré-SUS: Modelos de proteção social e história da saúde no Brasil", pdfLink: "https://drive.google.com/file/d/11PSEKnflkEI4p2-dBXsTID1yq7-NN5-M/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 2,
+      label: "Sub-Módulo 02",
+      title: "Princípios do SUS e Concepções Saúde-Doença",
+      imageUrl: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Princípios do SUS (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1BM2X-geAgOt5mjRmGT16NOWYNW0icilZ/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Concepções sobre Saúde e Doença (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1pR24ioP2p4-WP7V7MP15EqLDPYe2oMFr/view?usp=sharing" },
+        { id: 3, title: "Aula 03 - Princípios do SUS (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Jlcvkx-tGKsu1qPJkPUz_7PCXM15FApm/view?usp=sharing" },
+        { id: 4, title: "Aula 04 - Concepções sobre Saúde e Doença (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1p4DHoVRLtSYxu2KOxyvxen6gwntSFnDj/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF da Aula - Concepções sobre Saúde e Doença", pdfLink: "https://drive.google.com/file/d/14HVGtli1YLK4KsOYHPI-8fsx0SMMtW1t/view?usp=sharing" },
+        { title: "Ficha Resumo - Concepções sobre Saúde e Doença", pdfLink: "https://drive.google.com/file/d/1-zFbKuHhq_oo0pxhZ4-b_vEB1UzZLJT-/view?usp=sharing" },
+        { title: "PDF de Slides - Princípios do SUS", pdfLink: "https://drive.google.com/file/d/1SRHq6qeAfLfGyIH9OKQKcNGUTMmG746K/view?usp=sharing" },
+        { title: "Ficha Resumo - Princípios do SUS", pdfLink: "https://drive.google.com/file/d/1awzz9JMTzwJcRrJ-f-sB0I7ewOAg9otk/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 3,
+      label: "Sub-Módulo 03",
+      title: "Legislação: Lei 8080/90, Lei 8142/90, Decreto 7508/11",
+      imageUrl: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Decreto 7508/11 (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/134mYjVgm4OBj1xJVm1u1rOMR4Fnkyp9G/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Lei Orgânica da Saúde 8142/90 (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1PCRkT4jWeLaxkIPAz2KO0lOLQF31z7j7/view?usp=sharing" },
+        { id: 3, title: "Aula 03 - Lei Orgânica da Saúde 8080/90 (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1RxLaoeR6lUFC8ijlzB0KTdjme_5Ex4G_/view?usp=sharing" },
+        { id: 4, title: "Aula 04 - Lei Orgânica da Saúde 8080/90 (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1PC9o0h1uSvFEYMolS17UlryBFca91aor/view?usp=sharing" },
+        { id: 5, title: "Aula 05 - Decreto 7508/11 (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1k_p-UNqQjiYNsrfxJfHaYN9AM901t12-/view?usp=sharing" },
+        { id: 6, title: "Aula 06 - Lei Orgânica da Saúde 8142/90 (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1tFUPX5HLujc_mdLytk4pyJ34uJqHzj5q/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Lei Orgânica da Saúde 8080/90", pdfLink: "https://drive.google.com/file/d/153uAGcPj_eRECRiYG0WFgc9RpqKrN83f/view?usp=sharing" },
+        { title: "PDF de Slides - Decreto 7508/11", pdfLink: "https://drive.google.com/file/d/16kgnH0FuH-DhinZXlGJdcrwZAPVss5wi/view?usp=sharing" },
+        { title: "PDF de Slides - Lei Orgânica da Saúde 8142/90", pdfLink: "https://drive.google.com/file/d/1mwNBqUnmfS3vGqq0zfbPmZcYx1EFDj_A/view?usp=sharing" },
+        { title: "Ficha Resumo - Lei Orgânica da Saúde 8080/90", pdfLink: "https://drive.google.com/file/d/13ezQ4rn84EP20S67HDSDMbG2zVWLd0um/view?usp=sharing" },
+        { title: "Ficha Resumo - Lei Orgânica da Saúde 8142/90", pdfLink: "https://drive.google.com/file/d/1a2U7s5uXmUXq5iE1f--sRkA1YiY-nYqp/view?usp=sharing" },
+        { title: "Ficha Resumo - Decreto 7508/11", pdfLink: "https://drive.google.com/file/d/1urwVVIBQY6Jtvo34_7WHSPXp630P7jhO/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 4,
+      label: "Sub-Módulo 04",
+      title: "Financiamento do SUS e NOBs/NOAS",
+      imageUrl: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - NOBs e NOAS (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/17Z0nCO4YldAyIGD7sB1GNQa0u6DLjaDk/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Financiamento do SUS (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1XzMS62gZrLm8nqQPtUJFFStDWCX5fYUm/view?usp=sharing" },
+        { id: 3, title: "Aula 03 - NOBs e NOAS (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/12yNmbXjb0D_Wwj3YYDuV1DP6YsTIJ43C/view?usp=sharing" },
+        { id: 4, title: "Aula 04 - Financiamento do SUS (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1jS5O8nO7FF74oKsnewJJM5E4xAS9aeuA/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - NOBs e NOAS", pdfLink: "https://drive.google.com/file/d/1pq3BWiNrUzAgHrB8dBAL1nlZVnJ8O6BU/view?usp=sharing" },
+        { title: "PDF de Slides - Financiamento do SUS", pdfLink: "https://drive.google.com/file/d/1cAgrx4Ol6qd3z3P1pQcRhNGTjJY1_Bdq/view?usp=sharing" },
+        { title: "Ficha Resumo - Saúde Suplementar", pdfLink: "https://drive.google.com/file/d/11J0YFrwI07O5fqsetLSzBUCbdcsAKKw6/view?usp=sharing" },
+        { title: "Ficha Resumo - Financiamento do SUS", pdfLink: "https://drive.google.com/file/d/1TdxTlZeyoMCz41cY79DdHSdCilZKjPfu/view?usp=sharing" },
+        { title: "Ficha Resumo - NOBs e NOAS", pdfLink: "https://drive.google.com/file/d/1Wsm0-O9c5DLYKbU_RIPb1uHkk7LBCazo/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 5,
+      label: "Sub-Módulo 05",
+      title: "Pacto Pela Saúde",
+      imageUrl: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Pacto pela Saúde (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1xUWG_4yKPTImGyU0RsPSJqtdgsmntkYw/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Pacto pela Saúde (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1G-DHSG_ToJ14-3BrCbmV1ziq5vDkDsQV/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Pacto pela Saúde", pdfLink: "https://drive.google.com/file/d/1NBURts-Loj09kIac9XldTzSQ_pHMzg4v/view?usp=sharing" },
+        { title: "Ficha Resumo - Pacto pela Saúde", pdfLink: "https://drive.google.com/file/d/1HN2s5qCswzZnfLiexy8dNlNGmYGO09hM/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 6,
+      label: "Sub-Módulo 06",
+      title: "Redes de Atenção à Saúde e Níveis de Atenção",
+      imageUrl: "https://images.unsplash.com/photo-1576765975870-7c7b8f1f4b4a?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Redes de Atenção à Saúde e Níveis de Atenção (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Ey_jViuHzMv0Fka3yxq0s4S6xxqo_y_u/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Níveis de Prevenção (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1uEFC9wVSTLUJ667EVK4ouvCImoC2tXJv/view?usp=sharing" },
+        { id: 3, title: "Aula 03 - Redes de Atenção à Saúde e Níveis de Atenção (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1E-JmbhyNEwInfugWXtODPhYyFyoxUlTO/view?usp=sharing" },
+        { id: 4, title: "Aula 04 - Níveis de Prevenção (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1EbutPLHRC6hhCmeXcbJd9UlkNFXmuh9z/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF da Aula - Níveis de Prevenção", pdfLink: "https://drive.google.com/file/d/1Qc2J86c0X1IBxy_KIkPvXog2iHo9642J/view?usp=sharing" },
+        { title: "PDF de Slides - Redes de Atenção à Saúde e Níveis de Atenção", pdfLink: "https://drive.google.com/file/d/1MHXfS-gU3-oD_qhMlD9i400Q2bhxjLkc/view?usp=sharing" },
+        { title: "Ficha Resumo - Redes de Atenção à Saúde e Níveis de Atenção", pdfLink: "https://drive.google.com/file/d/1XZ2rlYJuVt0urDMQcmzI0tGMkNUVuBYu/view?usp=sharing" },
+        { title: "Ficha Resumo - Níveis de Prevenção", pdfLink: "https://drive.google.com/file/d/1TFGHa0oDxlDMeecJDHx5CVXwx9e49MgT/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 7,
+      label: "Sub-Módulo 07",
+      title: "Planejamento e Avaliação em Saúde",
+      imageUrl: "https://images.unsplash.com/photo-1554774853-b415b4b2f8b2?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Planejamento em Saúde (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ikRfJAyXT_N5KNbgc1o54L1ldoyzPrXj/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Planejamento em Saúde (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1C_yU9HtYhO8Umg7d_7NjVmHvFfo-At5H/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Planejamento em Saúde", pdfLink: "https://drive.google.com/file/d/1bBvUQidyKQ4uJXNzVXLUduVPXGuIjEfC/view?usp=sharing" },
+        { title: "PDF de Slides - Outros tópicos: Avaliação em Saúde, Tecnologia em Saúde e Segurança", pdfLink: "https://drive.google.com/file/d/1CMtgQcek7b8Cqd-xKgBvwH0ZlfLwwwbL/view?usp=sharing" },
+        { title: "Ficha Resumo - Planejamento em Saúde", pdfLink: "https://drive.google.com/file/d/1B9BI10aYVErzkLk97uMF7VR4lZ_xewqY/view?usp=sharing" },
+        { title: "Ficha Resumo - Outros tópicos: Avaliação em Saúde, Tecnologia em Saúde e Segurança", pdfLink: "https://drive.google.com/file/d/1l1qcIf1emxfX6TAt8D8I-5n2Xyi8-Eqf/view?usp=sharing" },
+        { title: "Aula (Normal) - Outros tópicos: Avaliação em Saúde, Tecnologia em Saúde e Segurança do Paciente", pdfLink: "https://drive.google.com/file/d/1lShMWF4sZWtpA_cuQOXyEkDNbWbSh95Q/view?usp=sharing" },
+        { title: "HIITCARDS - Outros tópicos: Avaliação em Saúde, Tecnologia em Saúde e Segurança do Paciente", pdfLink: "https://drive.google.com/file/d/10z1M-PFox-ct8awC3Bv8Hjb_fqwGwtbX/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 8,
+      label: "Sub-Módulo 08",
+      title: "Políticas Públicas I (Populações Especiais: Indígena, Negra, LGBTQIA+)",
+      imageUrl: "https://images.unsplash.com/photo-1526256262350-7da7584cf5eb?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Cuidado à comunidade LGBTQIAPN (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1tnSc44PmsT3cpbnVP3C31EyA5xbOKbR3/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Políticas Públicas I: Populações especiais (Saúde indígena, população negra e população LGBTQI) (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1BsT-Yvq4CLlkf-WUioevhHnNig5-rpCP/view?usp=sharing" },
+        { id: 3, title: "Aula 03 - Cuidado à comunidade LGBTQIAPN (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1y-EGhWdBjNEZFtQ7KcagDkrxefAcoucX/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Cuidado à Saúde LGBTQIAPN", pdfLink: "https://drive.google.com/file/d/1teYIbmJxyAGhNSf1wDMh1PjzhXf0d00z/view?usp=sharing" },
+        { title: "PDF de Slides - Políticas Públicas I: Populações especiais (Saúde indígena, população negra e ...)", pdfLink: "https://drive.google.com/file/d/1tyFBO810-nokgOBilY3Gcq-G6OzXF2iW/view?usp=sharing" },
+        { title: "Ficha Resumo - Cuidado à Saúde LGBTQIAPN", pdfLink: "https://drive.google.com/file/d/1Q1N6N5KqUua02kBxjc7I9-_3xnETM6u9/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 9,
+      label: "Sub-Módulo 09",
+      title: "Políticas Públicas II (Urgência, etc.)",
+      imageUrl: "https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Problemas, Políticas e Sistemas de Saúde (Parte I) (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1vVugbaZVBsgnGG4adYuyME_uc0zs-v5Z/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Problemas, Políticas e Sistemas de Saúde (Parte II) (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1C324hNhYQkQzezeT9KAfqRol2JX7byyg/view?usp=sharing" },
+        { id: 3, title: "Aula 03 - Políticas Públicas II: Políticas setoriais e Política Nacional de Atendimento à Urgência e Emergência (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/140yy3JcsnL-zdxNosHblxwz12utSOBDu/view?usp=sharing" },
+        { id: 4, title: "Aula 04 - Problemas, Políticas e Sistemas de Saúde (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1FfwUyWj2RBk_kZqj_6E87svq84Hb5mT/view?usp=sharing" },
+        { id: 5, title: "Aula 05 - Políticas Públicas II: Políticas setoriais e Política Nacional de Atendimento à Urgência e Emergência (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/17vm1TDP7zqJ1nZTJlmWP2aRsA3YvKVhH/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Problemas, Políticas e Sistemas de Saúde", pdfLink: "https://drive.google.com/file/d/1oyHTmqdEBWLNZmQwnvy_OQ5EkThVT2dv/view?usp=sharing" },
+        { title: "PDF de Slides - Políticas Públicas II: Políticas setoriais e Política Nacional de Atendimento à Urgência e Emergência", pdfLink: "https://drive.google.com/file/d/14_lmOT11xkKQIq0ILu4pqpEXqc9Y17lB/view?usp=sharing" },
+        { title: "Ficha Resumo - Problemas, Políticas e Sistemas de Saúde", pdfLink: "https://drive.google.com/file/d/1QfGY3rIghstsWXsog4sLPbAEsxl4y5O7/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 10,
+      label: "Sub-Módulo 10",
+      title: "Reforma Psiquiátrica e RAPS",
+      imageUrl: "https://images.unsplash.com/photo-1526256262350-7da7584cf5eb?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Políticas específicas: Reforma Psiquiátrica e RAPS (Rede de Atenção Psicossocial) (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1BEc8hUBqsxmwe50hIgugXxqUxQ2eBFbc/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Reforma Psiquiátrica e RAPS (RAPS)", pdfLink: "https://drive.google.com/file/d/11T5iIuPePMBIbYHuVSukuPc6bQtOumD5/view?usp=sharing" },
+        { title: "Ficha Resumo - Reforma Psiquiátrica e RAPS (RAPS)", pdfLink: "https://drive.google.com/file/d/1Jpo2c4salOeMI79yntv7tqKspwPDA-kz/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 11,
+      label: "Sub-Módulo 11",
+      title: "Saúde Suplementar",
+      imageUrl: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Saúde Suplementar (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1m9JdsRKRcRm3pwt9Pg07yxaIGQaNDLT7/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Saúde Suplementar (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1fuKVwvb_sMEiHTkAEh6SLJANmHe4DpUj/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Saúde Suplementar", pdfLink: "https://drive.google.com/file/d/12Qc3Gc3ltUSmz76N9TASUii7Shqjhxyk/view?usp=sharing" },
+        { title: "Ficha Resumo - Saúde Suplementar", pdfLink: "https://drive.google.com/file/d/11J0YFrwI07O5fqsetLSzBUCbdcsAKKw6/view?usp=sharing" }
+      ]
+    }
+  ]
+},
+
+// --- MÓDULO 34: ATENÇÃO PRIMÁRIA À SAÚDE (APS) E MFC ---
+{
+  id: 34,
+  title: "Módulo 34 - Atenção Primária à Saúde (APS) e MFC",
+  label: "Módulo 34",
+  subModules: [
+    {
+      id: 1,
+      label: "Sub-Módulo 01",
+      title: "Princípios da MFC e Atributos da APS",
+      imageUrl: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Princípios da Medicina de Família e Comunidade (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1yeuwRaglqL9lE2e98wojSo6PatJrt8H5/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Princípios da Medicina de Família e Comunidade (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Z6Ls5N3yvv9T6uEtswKVDH9AAaS_ZeZR/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Princípios da Medicina de Família e Comunidade", pdfLink: "https://drive.google.com/file/d/1MqleKORfkIunjUdeynJJP_vvjtM1OvQ5/view?usp=sharing" },
+        { title: "PDF de Slides - Atenção Primária à Saúde (Parte 2)", pdfLink: "https://drive.google.com/file/d/1aE4NJn5ShMl5zNX6Q4nIzsnWNIEZkumJ/view?usp=sharing" },
+        { title: "Ficha Resumo - Princípios da Medicina de Família e Comunidade", pdfLink: "https://drive.google.com/file/d/1x1aaBRYM5HC8PFWM6ACJ6NYRD92_LhiP/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 2,
+      label: "Sub-Módulo 02",
+      title: "Estratégia Saúde da Família (Organização, Financiamento, Equipes)",
+      imageUrl: "https://images.unsplash.com/photo-1582719478185-2bb8d2e9f0b3?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - ESF I: Organização e funcionamento (Parte 1) (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1-4wizZeaTU9hKfVtboT7YW4bhPppGRx1/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - ESF I: Organização e funcionamento (Parte 2) (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1yyvx42wpj_u3zRXbIF_fMUaMQ8PHPyfI/view?usp=sharing" },
+        { id: 3, title: "Aula 03 - ESF II: Financiamento e programas especiais (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1hgRIY8j7xL_oDt9nQU2B5PBUlpFni_RC/view?usp=sharing" },
+        { id: 4, title: "Aula 04 - ESF I: Organização e funcionamento (Parte 2) (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/155Ah6-8szvT9iSoxqGoQ4XNvNJxwBRRY/view?usp=sharing" },
+        { id: 5, title: "Aula 05 - ESF II: Financiamento e programas especiais (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1pyBLlRojo87NMjbITOW9uEaX5dlZwjY_/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - ESF I: Organização e funcionamento (Parte 1)", pdfLink: "https://drive.google.com/file/d/1NNtNSKmQlbQz2S8LsDadtuqgsCdBwtJT/view?usp=sharing" },
+        { title: "PDF de Slides - ESF I: Organização e funcionamento (Parte 2)", pdfLink: "https://drive.google.com/file/d/1QdwRWpBVSENhuZXmKTNdhahrvxv9gmt0/view?usp=sharing" },
+        { title: "PDF de Slides - ESF II: Financiamento e programas especiais", pdfLink: "https://drive.google.com/file/d/1HzdrgnWhRTV7YffcVswf5hf6_S__E3CE/view?usp=sharing" },
+        { title: "Ficha Resumo - ESF I: Organização e funcionamento (Parte 1)", pdfLink: "https://drive.google.com/file/d/1LrstCYhuLpugVsZavW8BTYX1j2YJ0b8I/view?usp=sharing" },
+        { title: "Ficha Resumo - ESF II: Financiamento e programas especiais", pdfLink: "https://drive.google.com/file/d/1IUqyW7a0yfr8CnOs-zyDT-vGpleos4jH/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 3,
+      label: "Sub-Módulo 03",
+      title: "Ferramentas da APS (Visita, Genograma, Ecomapa, etc.)",
+      imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Ferramentas da APS/ESF I (Parte 1) (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1V_ukKcA5t_2vUz2w1dnf1HFyAtCwQnl9/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Ferramentas da APS/ESF II (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1rIp3H1WHNM4R6BCha8sTg42BFmlq4ktk/view?usp=sharing" },
+        { id: 3, title: "Aula 03 - Ferramentas da APS/ESF I (Parte 1) (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1qSVS6y53lo1Nu9bTd-EV0qtmHXhxfD3T/view?usp=sharing" },
+        { id: 4, title: "Aula 04 - Ferramentas da APS/ESF I (Parte 2: Equipes e-MULTI) (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/162swIFJJqjMq6gQ2D7zIjPpmxvWgVJYu/view?usp=sharing" },
+        { id: 5, title: "Aula 05 - Ferramentas da APS/ESF II (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1nuTNdqfVAGKLIbFgf2LpvCfn2baKvgXB/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Ferramentas da APS/ESF I (Parte 1)", pdfLink: "https://drive.google.com/file/d/1sVcYH2ce0uehPmZIq09IORrtpxBUf3wW/view?usp=sharing" },
+        { title: "PDF de Slides - Ferramentas da APS/ESF I (Parte 2: Equipes e-MULTI)", pdfLink: "https://drive.google.com/file/d/10BnZozB_uWgLaDlbebFMOK6IlDkhMu-A/view?usp=sharing" },
+        { title: "PDF de Slides - Ferramentas da APS/ESF II", pdfLink: "https://drive.google.com/file/d/1Heq160Mzbygr8Ve7DBWnG-F1h_XeSbDF/view?usp=sharing" },
+        { title: "Ficha Resumo - Ferramentas da APS/ESF I (Parte 1)", pdfLink: "https://drive.google.com/file/d/1Du--UrxfnVduWyBoW2ykfeedXD_1uzGZ/view?usp=sharing" },
+        { title: "Ficha Resumo - Ferramentas da APS/ESF II", pdfLink: "https://drive.google.com/file/d/1rZ_E5bIRO6nznsMikHqmGLGxzl6Z7I1w/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 4,
+      label: "Sub-Módulo 04",
+      title: "Método Clínico Centrado na Pessoa (MCCP)",
+      imageUrl: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - MCCP: Método Clínico Centrado na Pessoa (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Hpt9-b6ObO8MQj-k5JQ-p2MntFbvr-95/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - MCCP: Método Clínico Centrado na Pessoa (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1CAWptwD998Bg1PxRxZybgyalSL1MDMUz/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - MCCP: Método Clínico Centrado na Pessoa", pdfLink: "https://drive.google.com/file/d/1Ukj4O8RC7MerWWc6RyCFv1F-ZUz-sPcS/view?usp=sharing" },
+        { title: "Ficha Resumo - MCCP: Método Clínico Centrado na Pessoa", pdfLink: "https://drive.google.com/file/d/1co4kI_UeeNlF0w7LRez6t_zJIdA4EZZ4/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 5,
+      label: "Sub-Módulo 05",
+      title: "Abordagem Familiar e Comunitária",
+      imageUrl: "https://images.unsplash.com/photo-1582719478185-2bb8d2e9f0b3?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Abordagem Familiar (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1vHbbdK9D7nRzZXN67HAO4J7PqXjtu1HS/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Abordagem Familiar (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/10enUtX-64xF51PKDl1RjomiXEJEFFQpL/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Abordagem Familiar", pdfLink: "https://drive.google.com/file/d/1fTgB1XXzofBTKAzT8hHC_Bw2ifzd5LEj/view?usp=sharing" },
+        { title: "Ficha Resumo - Abordagem Familiar", pdfLink: "https://drive.google.com/file/d/10iVjP85bNzQ9VAsoaRTFWXpztDBMA0Gm/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 6,
+      label: "Sub-Módulo 06",
+      title: "Prevenção Quaternária e P5",
+      imageUrl: "https://images.unsplash.com/photo-1554774853-b415b4b2f8b2?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Prevenção Quaternária e P5 (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1JVdCBFpz8bEaARU7gVXkIDWc3O-eIRM4/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Prevenção Quaternária e P5 (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/14hnIhKwx5ZXvgf7k7hxYGG_bGZ9UAg-w/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Prevenção Quaternária e P5", pdfLink: "https://drive.google.com/file/d/1VZ62hPxcEosrkc_3nDRzoT5-XueutoQA/view?usp=sharing" },
+        { title: "Ficha Resumo - Prevenção Quaternária e P5 (Parte 1)", pdfLink: "https://drive.google.com/file/d/1fjYrep-B66t-FoZhOnGyG1CJAQlgOsys/view?usp=sharing" },
+        { title: "Ficha Resumo - Prevenção Quaternária e P5 (Parte 2)", pdfLink: "https://drive.google.com/file/d/1zZWqQXpX3DnRzaRWpqN2_7uMd2GNg5dM/view?usp=sharing" },
+        { title: "Errata - Prevenção Quaternária e P5", pdfLink: "https://drive.google.com/file/d/1Y-hGfFyOngEQE8JhJ92DhSUaSS6VcLY9/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 7,
+      label: "Sub-Módulo 07",
+      title: "Foca na APS (Séries Clínicas: Pediatria, GO, Crônicas, Psiquiatria, Infecto)",
+      imageUrl: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Foca na APS: Pediatria (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/19Yqd7D72b1Unjr82LKRheo4PaBjG1Nej/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Foca na APS: Rastreamento em ginecologia e climatério (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1BodVggarKWbfLTg-jzjoaHtENjwZdtN9/view?usp=sharing" },
+        { id: 3, title: "Aula 03 - Foca na APS: Cardiologia (Risco CV e HAS) (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1olg_5aglC4qL_C1adimPwfVY7murCAFl/view?usp=sharing" },
+        { id: 4, title: "Aula 04 - Foca na APS: Endócrino (DM, síndrome metabólica e dislipidemia) (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1iNVztB4XQdgqBiOr3v12itDf5aois_mb/view?usp=sharing" },
+        { id: 5, title: "Aula 05 - Foca na APS: Psiquiatria (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1hrWlRC_A9GRZufZUUrKsuaPTxpZfJmfA/view?usp=sharing" },
+        { id: 6, title: "Aula 06 - Foca na APS: Infectologia (Tuberculose e hanseníase) (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1zT8qsKGMdvmomHFDNFcZMGHAAmWfiOAe/view?usp=sharing" },
+        { id: 7, title: "Aula 07 - Foca na APS: GO (Anticoncepção e sigilo médico) (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Ci5FIYHy46FDVepRxHVXH5334_hofCsU/view?usp=sharing" },
+        { id: 8, title: "Aula 08 - Foca na APS: Sífilis na gestação (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1HFBLqxoyW1QhYeEEu7u53jt1Zy1ddrAa/view?usp=sharing" },
+        { id: 9, title: "Aula 09 - Foca na APS: Imunizações na gestação e assistência ao pré-natal (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1g3EbzoyJSGK51I-aMFSeoqawwZh5h-ym/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Foca na APS: Pediatria", pdfLink: "https://drive.google.com/file/d/1Y6a0nHtJIUYYKUKrFPmpsXMvC0piaXBc/view?usp=sharing" },
+        { title: "PDF de Slides - Foca na APS: Rastreamento em ginecologia e climatério", pdfLink: "https://drive.google.com/file/d/1kVanPDJRdLNVR9kkY2Z983v0Zk7YPBuU/view?usp=sharing" },
+        { title: "PDF de Slides - Foca na APS: Endócrino (Versão 1)", pdfLink: "https://drive.google.com/file/d/16JXiw4156c7C8wRxUGbbNKA-4Hq4gSHW/view?usp=sharing" },
+        { title: "PDF de Slides - Foca na APS: Endócrino (Versão 2)", pdfLink: "https://drive.google.com/file/d/1SLaal2CArhbBeEpHoqN_lvLFRK7cbMFC/view?usp=sharing" },
+        { title: "PDF de Slides - Foca na APS: Psiquiatria", pdfLink: "https://drive.google.com/file/d/1DM0iWTbDg8VvzVAY5OrisHPm92otBjJx/view?usp=sharing" },
+        { title: "PDF de Slides - Foca na APS: Infectologia (Tuberculose e hanseníase)", pdfLink: "https://drive.google.com/file/d/1GPsUAgcj4CK3F00SrGwncuDKuai_xUDA/view?usp=sharing" },
+        { title: "PDF de Slides - Foca na APS: GO (Anticoncepção e sigilo médico)", pdfLink: "https://drive.google.com/file/d/1OEfOjzw3HH1gWaUEMLYaYmrm3fK7J9pV/view?usp=sharing" },
+        { title: "PDF de Slides - Foca na APS: Sífilis na gestação", pdfLink: "https://drive.google.com/file/d/1n9CGtlfJhF5kz7-b1U_joLE8W_89Qpd-/view?usp=sharing" },
+        { title: "PDF de Slides - Foca na APS: Imunizações na gestação e assistência ao pré-natal", pdfLink: "https://drive.google.com/file/d/1sDT4VtP8Q7zIK8fSKYXhdImGoJhgMlbY/view?usp=sharing" },
+        { title: "PDF de Slides - Foca na APS: Clínica Médica Geral", pdfLink: "https://drive.google.com/file/d/1TrMxyqZ_71jnWhBbHgxSK7EzdNkn81TP/view?usp=sharing" }
+      ]
+    }
+  ]
+},
+
+// --- MÓDULO 35: EPIDEMIOLOGIA E BIOESTATÍSTICA ---
+{
+  id: 35,
+  title: "Módulo 35 - Epidemiologia e Bioestatística",
+  label: "Módulo 35",
+  subModules: [
+    {
+      id: 1,
+      label: "Sub-Módulo 01",
+      title: "Indicadores de Saúde",
+      imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Indicadores de saúde (Parte 1) (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ColSvYZHavevRgJ9h1jTSYPzle2oCXCA/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Indicadores de saúde (Parte 2) (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1G1DkyNtusZETkx-KihEyR8GfW_VMEdUS/view?usp=sharing" },
+        { id: 3, title: "Aula 03 - Indicadores de saúde (Parte 1) (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1mGX_5JleE-y5mgvYKO1721_P-QvuqlXT/view?usp=sharing" },
+        { id: 4, title: "Aula 04 - Indicadores de saúde (Parte 2) (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1PVtZ_iTNi2rSdWW63ruKffvhL1rb0X6R/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF da Aula - Indicadores de saúde (Parte 1)", pdfLink: "https://drive.google.com/file/d/1E7dIX_H_zNc0pXkNBFaVyQX1aVP-zrY0/view?usp=sharing" },
+        { title: "PDF de Slides - Indicadores de saúde (Parte 2)", pdfLink: "https://drive.google.com/file/d/1AijADshiAp6flumu8oQkSSKnzfWEGjte/view?usp=sharing" },
+        { title: "Ficha Resumo - Indicadores de saúde (Parte 1)", pdfLink: "https://drive.google.com/file/d/1R3Uzq_i0o6H7zbt7JGSgolG0Fk1-SSOa/view?usp=sharing" },
+        { title: "Ficha Resumo - Indicadores de saúde (Parte 2)", pdfLink: "https://drive.google.com/file/d/1Tx-tSzpN1Kqn4aJBuxmgPoSe6_Szrbig/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 2,
+      label: "Sub-Módulo 02",
+      title: "Vigilância em Saúde e Processo Epidêmico",
+      imageUrl: "https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Vigilância em Saúde (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1JjFfSpIjbco1J4RkuzEG7VtJ2DsQU4LV/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Processo epidêmico (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/10rXcsHdx8BUOjMkqpUiVTxnNHFSZGU47/view?usp=sharing" },
+        { id: 3, title: "Aula 03 - Processo epidêmico (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1rzwmxqcm7MVLie1SZXaQqb83QNvt9fnF/view?usp=sharing" },
+        { id: 4, title: "Aula 04 - Vigilância em Saúde (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1wiZ7IY8qSeIguw7_8sFrAGsyIcpJNfPK/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Vigilância em Saúde", pdfLink: "https://drive.google.com/file/d/1caz46BKuwnc7HE_LpFHYwFfwLPezrnlL/view?usp=sharing" },
+        { title: "PDF de Slides - Processo epidêmico", pdfLink: "https://drive.google.com/file/d/1RlxXmKUB5pyc1d8Pn0tnhJC8RCIZzp2F/view?usp=sharing" },
+        { title: "Ficha Resumo - Vigilância em Saúde", pdfLink: "https://drive.google.com/file/d/1ZtF3_J1P3pkvlOfxE1-jIOhb6TmSsJ1t/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 3,
+      label: "Sub-Módulo 03",
+      title: "Estudos Epidemiológicos (Classificação, Transversal, Ecológico, Coorte, Caso-Controle, Ensaio Clínico)",
+      imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Ensaio clínico 1 (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1J3BvFPY_-zIXXNT138Yc71f2MZxLkm7H/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Ensaio clínico 2 (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1yp2QlXOE3N8eucU_PTyVToadE1M6f9wa/view?usp=sharing" },
+        { id: 3, title: "Aula 03 - Estudos transversais (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1TyJMJCjYYcvEQrg8BwbF0LNrZm5M4EUz/view?usp=sharing" },
+        { id: 4, title: "Aula 04 - Estudos longitudinais (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1igp85HPXWcu3UZjARxxoe71rJnQoldon/view?usp=sharing" },
+        { id: 5, title: "Aula 05 - Classificação dos estudos epidemiológicos (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ZoGLAJdGrBVQlZ4vv2zFaAGDUXBml2UP/view?usp=sharing" },
+        { id: 6, title: "Aula 06 - Classificação dos estudos epidemiológicos (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/18f02ZdYriooUVCtLeqMmHg_YirYYxvrz/view?usp=sharing" },
+        { id: 7, title: "Aula 07 - Ensaio clínico 1 (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1tLIWPc30TyNu-_oaadTihOx8x1Y82uKj/view?usp=sharing" },
+        { id: 8, title: "Aula 08 - Ensaio clínico 2 (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1PbTnnTIvtLPwmizCGWLaICYnWc7SHARM/view?usp=sharing" },
+        { id: 9, title: "Aula 09 - Estudos transversais (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1mqEZRnbqVaIZPncVzYaakkszKHiJUT0W/view?usp=sharing" },
+        { id: 10, title: "Aula 10 - Estudos longitudinais (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ZCHJ_HLl72iARB5X_G0sIgbCEFhsnAvM/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Ensaio clínico 1", pdfLink: "https://drive.google.com/file/d/1Gwafiu-Vw8MOs_cpX7AeW4AWer38ylin/view?usp=sharing" },
+        { title: "PDF de Slides - Ensaio clínico 2", pdfLink: "https://drive.google.com/file/d/1UuyUA9FtgPCJaBVGPPb8YG4gquuWKypV/view?usp=sharing" },
+        { title: "PDF de Slides - Estudos transversais", pdfLink: "https://drive.google.com/file/d/1-STQA8VkEwDwvXAcQsTDwBfLTp67Lxtc/view?usp=sharing" },
+        { title: "PDF de Slides - Classificação dos estudos epidemiológicos", pdfLink: "https://drive.google.com/file/d/152FAJtO7l7Ec1xFgWY7SIzMx5-4pJySP/view?usp=sharing" },
+        { title: "PDF de Slides - Estudos longitudinais (Coorte e Caso-Controle)", pdfLink: "https://drive.google.com/file/d/1tKD7_O9j1BfazDfIroQXZRILX5WXyVXA/view?usp=sharing" },
+        { title: "Ficha Resumo - Ensaio clínico 1", pdfLink: "https://drive.google.com/file/d/1q-Odc2S_ycwjD7RJ2Rtlwt64ntZ7RfAs/view?usp=sharing" },
+        { title: "Ficha Resumo - Ensaio clínico 2", pdfLink: "https://drive.google.com/file/d/1_p2XsTxUwkIytymEjftZleOan6XdVt1f/view?usp=sharing" },
+        { title: "Ficha Resumo - Estudos transversais", pdfLink: "https://drive.google.com/file/d/1vcoF7_X3N5dRCDi31u45VDx9HbOi2fVK/view?usp=sharing" },
+        { title: "Ficha Resumo - Classificação dos estudos epidemiológicos", pdfLink: "https://drive.google.com/file/d/1Vqm98SBX4jPMu9BYSYmVC55_t_VsRlI6/view?usp=sharing" },
+        { title: "Ficha Resumo - Estudos longitudinais (Coorte e Caso-Controle)", pdfLink: "https://drive.google.com/file/d/1G0a6rpFRN2w_KhhjxVKe4HhUWvrNdLhj/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 4,
+      label: "Sub-Módulo 04",
+      title: "Revisão Sistemática e Metanálise",
+      imageUrl: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Metanálise (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1LWuY_r7GfEPnZJygRH9egZe8pFiWXSL6/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Revisão Sistemática (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1XnL-46u3ZbV3-XjEv6UcrmFVbCpxMbYi/view?usp=sharing" },
+        { id: 3, title: "Aula 03 - Revisão Sistemática (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1MQeMsmlofZqZt7aUcDNZzQaUbg5ofc1I/view?usp=sharing" },
+        { id: 4, title: "Aula 04 - Metanálise (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1myvzDE-hARFavr9WZpGAqOLUkaWrF_Op/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Metanálise", pdfLink: "https://drive.google.com/file/d/11Qa4F5yx1zXhFTDgxXHgXD2R8Jkhh2GJ/view?usp=sharing" },
+        { title: "PDF de Slides - Revisão Sistemática", pdfLink: "https://drive.google.com/file/d/11Hc7CWfcfQy8iUap2acHBlmU1TGc4nV1/view?usp=sharing" },
+        { title: "Ficha Resumo - Metanálise", pdfLink: "https://drive.google.com/file/d/19iLRMICEOiH1nocOQpGTP7FwKkJfzMr-/view?usp=sharing" },
+        { title: "Ficha Resumo - Revisão Sistemática", pdfLink: "https://drive.google.com/file/d/136SrvZatsDlbIjVsf4c3qAUKWSfhZuI8/view?usp=sharing" },
+        { title: "Errata - Revisão Sistemática", pdfLink: "https://drive.google.com/file/d/1BMDQzN_b1ONJGkkZD7rokWfY7WI1ot4S/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 5,
+      label: "Sub-Módulo 05",
+      title: "Medidas de Associação e Risco",
+      imageUrl: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Revisando medidas de associação (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1_ARZMox97t3hj2yDuH3xkbtKJE0iCC1e/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Revisando medidas de associação", pdfLink: "https://drive.google.com/file/d/1d3uPn5-EegAv0_Oe3g9o_FW97jowX-Rz/view?usp=sharing" },
+        { title: "Ficha Resumo - Revisando medidas de associação (Parte 1)", pdfLink: "https://drive.google.com/file/d/1RvFQBpKfrlcZ61uWJHyOumRtgX2uO_Pd/view?usp=sharing" },
+        { title: "Ficha Resumo - Revisando medidas de associação (Parte 2)", pdfLink: "https://drive.google.com/file/d/1huAWyz0sQlFogTaRCylsnhLRmnaKOJ07/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 6,
+      label: "Sub-Módulo 06",
+      title: "Testes Diagnósticos (Sensibilidade, Especificidade, Preditivos, ROC)",
+      imageUrl: "https://images.unsplash.com/photo-1581595219315-a187dd40c322?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Testes diagnósticos: exercícios (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1dykGQjW7kc5fK0Kifsot0Wo02o8GiZYF/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Testes diagnósticos: características básicas (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1rPUzpTKx7xr880_S2kiEgWjpYtosGIP2/view?usp=sharing" },
+        { id: 3, title: "Aula 03 - Testes diagnósticos: aplicabilidade clínica (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1lOnYDQWkP-GrXLXXMml5nmxj8-6m1Fdz/view?usp=sharing" },
+        { id: 4, title: "Aula 04 - Testes diagnósticos: aplicabilidade clínica (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1LYCIygIspDP483aJQi9c2ffgQXrabhlE/view?usp=sharing" },
+        { id: 5, title: "Aula 05 - Testes diagnósticos: características básicas (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1vlK_AdN-oTnmfBuktY9qkAxOiL4MoggH/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Testes diagnósticos: exercícios", pdfLink: "https://drive.google.com/file/d/1UdzIv1rqhE1HvEaJbqnldBJrxG3AluAG/view?usp=sharing" },
+        { title: "PDF de Slides - Testes diagnósticos: características básicas", pdfLink: "https://drive.google.com/file/d/1nLgSZdFvWsHem-GW2nnwefhocIcLXSHq/view?usp=sharing" },
+        { title: "PDF de Slides - Testes diagnósticos: aplicabilidade clínica", pdfLink: "https://drive.google.com/file/d/1aAzweKHsjDbKnW1qhU3_l2Ckh2HU9x1-/view?usp=sharing" },
+        { title: "Ficha Resumo - Testes diagnósticos: exercícios", pdfLink: "https://drive.google.com/file/d/1eX5MoKDtlubhgzYXdi_ZLwKcL28mUc-X/view?usp=sharing" },
+        { title: "Ficha Resumo - Testes diagnósticos: características básicas", pdfLink: "https://drive.google.com/file/d/1npmkL_N_iEDVRbs3zpf9KV5lGJmpZqrX/view?usp=sharing" },
+        { title: "Ficha Resumo - Testes diagnósticos: aplicabilidade clínica", pdfLink: "https://drive.google.com/file/d/1o6AZIDKyFAGYNHzGxD-B5cxyp7cvLjOh/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 7,
+      label: "Sub-Módulo 07",
+      title: "Medicina Baseada em Evidências (MBE)",
+      imageUrl: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Conceitos de MBE (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1CFP_7tM079dgPKg3OvGzThqXtlXbUFX8/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Conceitos de MBE (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/14QpZT0qiKwP7J8VPCIBXNfzSRyvOKWsW/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Conceitos de MBE", pdfLink: "https://drive.google.com/file/d/1Zbb_yDQMkM_cYOXkQUOQfCKTdOoLIyds/view?usp=sharing" },
+        { title: "Ficha Resumo - Conceitos de MBE", pdfLink: "https://drive.google.com/file/d/1TQOdZUJPFZb063UlpGA6VMJCYi4qJWhP/view?usp=sharing" }
+      ]
+    }
+  ]
+},
+// --- MÓDULO 36: SAÚDE DO TRABALHADOR E MEDICINA LEGAL ---
+{
+  id: 36,
+  title: "Módulo 36 - Saúde do Trabalhador e Medicina Legal",
+  label: "Módulo 36",
+  subModules: [
+    {
+      id: 1,
+      label: "Sub-Módulo 01",
+      title: "Doenças Ocupacionais (Dermatoses, Pneumoconioses, LER/DORT, Mentais/Burnout)",
+      imageUrl: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Saúde do trabalhador Pneumoconioses (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1MN_sirJ8FIhU3O-rN9dPtXak_UmWbr5-/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Saúde do Trabalhador - Dermatoses (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1uJqPHr-YfAjU3jY5LX2PnQLYP2Rxc234/view?usp=sharing" },
+        { id: 3, title: "Aula 03 - Saúde do Trabalhador Intoxicações PAIRO e Burnout (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1D1eSFl18014-jOA5OUhkWfRxNVZVofoK/view?usp=sharing" },
+        { id: 4, title: "Aula 04 - Saúde do trabalhador lesões musculoesqueléticas (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1n1p4ecnxXDRHnhKDSeEWxir2vt_0hG9N/view?usp=sharing" },
+        { id: 5, title: "Aula 05 - Saúde do trabalhador - dermatose (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1PVGU3SL44JwXun0UPKhD9H4wQNjs04P8/view?usp=sharing" },
+        { id: 6, title: "Aula 06 - Saúde do trabalhador lesões musculoesqueléticas (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/16ShD_ijqQ3OcMOb1aF_6bfmMoFPm4He0/view?usp=sharing" },
+        { id: 7, title: "Aula 07 - Saúde do Trabalhador Intoxicações PAIRO e Burnout (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/17caXMxciiOCZACb43MIdiOHW2SGGSaYu/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Saúde do trabalhador:  Pneumoconioses", pdfLink: "https://drive.google.com/file/d/1w63mlT9OUdMUPcwJtXPMDYBQQ5vhJ2Fv/view?usp=sharing" },
+        { title: "PDF de Slides - Saúde do trabalhador:  dermatoses", pdfLink: "https://drive.google.com/file/d/1AjxFSiRR-_JokpNL2UW-WXgWGIk1z0ux/view?usp=sharing" },
+        { title: "PDF de Slides - Saúde do trabalhador:  intoxicações pairo e burnout", pdfLink: "https://drive.google.com/file/d/11Ah_lzanj3OCxdY1ukAq-repM7MzV2hv/view?usp=sharing" },
+        { title: "PDF de Slides - Saúde do trabalhador:  lesões musculoesqueléticas", pdfLink: "https://drive.google.com/file/d/1e89FhfU96u76OOBSxs5mwO5040l1v92H/view?usp=sharing" },
+        { title: "Ficha Resumo - Saúde do trabalhador:  Pneumoconioses", pdfLink: "https://drive.google.com/file/d/1ntOaJdZkYDNUIGSy_2c1vo0whcuf4sge/view?usp=sharing" },
+        { title: "Ficha Resumo - Saúde do trabalhador:  dermatoses", pdfLink: "https://drive.google.com/file/d/1pNVmflpLoNHMJ2OErJEhzxGIwDDO8FRk/view?usp=sharing" },
+        { title: "Ficha Resumo - Saúde do trabalhador:  intoxicações pairo e burnout", pdfLink: "https://drive.google.com/file/d/1_TPB_5z4pbQRyqn5zan0UxNvoUj6XEG9/view?usp=sharing" },
+        { title: "Ficha Resumo - Saúde do trabalhador:  lesões musculoesqueléticas", pdfLink: "https://drive.google.com/file/d/1yQokMInFx8Nc95Ih3N1Jxz3TVXFQwDRl/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 2,
+      label: "Sub-Módulo 02",
+      title: "Acidente de Trabalho e CAT",
+      imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Medicina do trabalho - acidente de trabalho (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1NvWvwMkl9VXzAIRaYlAkMMHB6coSEFPr/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Medicina do trabalho - acidente de trabalho (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ehHGIJm_EZ8i9tfyg78__ioeOFZCJnV0/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Medicina do trabalho:  acidente de trabalho", pdfLink: "https://drive.google.com/file/d/1Hm_5i44dszc9a3DiwmxsLHoSxdHzySxo/view?usp=sharing" },
+        { title: "Ficha Resumo - Medicina do trabalho:  acidente de trabalho", pdfLink: "https://drive.google.com/file/d/1842WzwDJEaVniOGfoxyquWDIusvgNJr8/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 3,
+      label: "Sub-Módulo 03",
+      title: "Ética Médica e Código de Ética",
+      imageUrl: "https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Etica Medica (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1EJrKTL_flAdJwsEYpfDtyTsIHedY-xYc/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Etica Medica (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1X_XaAcJsDKwXerittD74b4AA9jPO7pyH/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Ética médica", pdfLink: "https://drive.google.com/file/d/1u1HdEDyiKFyXc9eBds_PsrCUsG_3-Cz6/view?usp=sharing" },
+        { title: "Ficha Resumo - Ética médica", pdfLink: "https://drive.google.com/file/d/10e7bL-QSAPQvWAsve1Uut_ZzZPqX5Oey/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 4,
+      label: "Sub-Módulo 04",
+      title: "Ética em Pesquisa Clínica",
+      imageUrl: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Ética em pesquisa clínica (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1mX6EEOrObEv_5I6HvNsjgrM9jRMJ_fBE/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Ética em pesquisa clínica (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Xl7D2yb9kFDzSxd8Ja5ZgchIac7ej8N-/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Ética em pesquisa clínica", pdfLink: "https://drive.google.com/file/d/1FLL50PeBRv7qnj_r3rJyCdWPeBoQbD9U/view?usp=sharing" },
+        { title: "Ficha Resumo - Ética em pesquisa clínica", pdfLink: "https://drive.google.com/file/d/18AVOuZ37Fw4m39ohXtZ3qYhWynTqjlL5/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 5,
+      label: "Sub-Módulo 05",
+      title: "Documentos Médicos (Atestados e Declaração de Óbito)",
+      imageUrl: "https://images.unsplash.com/photo-1581595219315-a187dd40c322?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Medicina legal Declaração de óbito atestados e laudos (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1SrJLsvxnj5JQyMoBR7gaxK5ts0V9sh1J/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Medicina legal:  Declaração de óbito atestados e laudos", pdfLink: "https://drive.google.com/file/d/12VUxjRyi9Fgqxr_M48st_tYFKpez8_pk/view?usp=sharing" },
+        { title: "Ficha Resumo - Medicina legal:  Declaração de óbito atestados e laudos", pdfLink: "https://drive.google.com/file/d/1NZ-n-y1ZiV0qUG_9S47VHtjYAJ4HUrTP/view?usp=sharing" }
+      ]
+    }
+  ]
+},
+
+// --- MÓDULO 37: NEONATOLOGIA ---
+{
+  id: 37,
+  title: "Módulo 37 - Neonatologia",
+  label: "Módulo 37",
+  subModules: [
+    {
+      id: 1,
+      label: "Sub-Módulo 01",
+      title: "Reanimação Neonatal",
+      imageUrl: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Reanimação Neonatal (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1LC5a8hPB4khfiS65PCzvAjgTm2J0imU8/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Reanimação Neonatal (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1JTnLV5V6HdL8qYoMZOQPBAVz2EAxV2aU/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Reanimação Neonatal", pdfLink: "https://drive.google.com/file/d/1LCHgE_bA-ukjf0yhFl_5Bx9ZwrIvfX8P/view?usp=sharing" },
+        { title: "Ficha Resumo - Reanimação Neonatal", pdfLink: "https://drive.google.com/file/d/1a43blTVhasuesXltuc9tL8g-dO8kO6GP/view?usp=sharing" },
+        { title: "Errata - NEONATOLOGIA:  REANIMAÇÃO", pdfLink: "https://drive.google.com/file/d/193St8wZad01VnlXzSbKv8aGrpk5PW2Uy/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 2,
+      label: "Sub-Módulo 02",
+      title: "Icterícia e Colestase Neonatal",
+      imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Icterícia e Colestase Neonatal (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1v4MtTew7VPDh4Waiy_aEirkg2BCYRHvq/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Icterícia e Colestase Neonatal (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ozKnINNqooGI36ySYk3L6rnJ_bxxVU7p/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Icterícia e Colestase Neonatal", pdfLink: "https://drive.google.com/file/d/1s2Pv6rFVSV0w9hJhrTRg2WY1YJxzPbP3/view?usp=sharing" },
+        { title: "Ficha Resumo - Icterícia e Colestase Neonatal", pdfLink: "https://drive.google.com/file/d/1RbFfOCOen6TCXKCNr-nRqianIbq6DRJG/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 3,
+      label: "Sub-Módulo 03",
+      title: "Sepse Neonatal",
+      imageUrl: "https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Sepse Neonatal (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1behf2hnLknaXD8tJ1wpvqlQ9-FcmycKL/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Sepse Neonatal (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1mpZtxMzG1eDrtvoGyY9eOXwW5EJCGwGi/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Sepse Neonatal", pdfLink: "https://drive.google.com/file/d/1n51gkUNAk58seZ0EaUf3P49RMZDcnIFf/view?usp=sharing" },
+        { title: "Ficha Resumo - Sepse Neonatal", pdfLink: "https://drive.google.com/file/d/1BAnRBG7Zel7_LRTsgpUmb01KKYODqzs8/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 4,
+      label: "Sub-Módulo 04",
+      title: "Distúrbios Respiratórios (Desconforto, etc.)",
+      imageUrl: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Desconforto Respiratório Neonatal (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Z7sitIxXBWTLH6c_vz0VkppOAFoGlpuD/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Desconforto Respiratório Neonatal (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1PIWGXrXg0AwDSKtWX_bt4U13qd-M3y8f/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Desconforto Respiratório Neonatal", pdfLink: "https://drive.google.com/file/d/1yRYiyKkNL8x_EzBwC56iy3Y5SMAmpi4z/view?usp=sharing" },
+        { title: "Ficha Resumo - Desconforto Respiratório Neonatal", pdfLink: "https://drive.google.com/file/d/1Fa3-8NxW3zohSTgIo2RIBvHByFoCQ5LC/view?usp=sharing" },
+        { title: "Errata - DESCONFORTO RESPIRATÓRIO NEONATAL", pdfLink: "https://drive.google.com/file/d/12RBW9dBt1F6zzcrl3abe-_9CjyD7WdlW/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 5,
+      label: "Sub-Módulo 05",
+      title: "Distúrbios Metabólicos",
+      imageUrl: "https://images.unsplash.com/photo-1581595219315-a187dd40c322?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Distúrbios Metabólicos Neonatais (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/114KeQnXcIuz0SSyiN_vPUnvJeNAVvhnZ/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Distúrbios Metabólicos Neonatais (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1kddtal2xYuvkiPvVGTOPUMB1tSYMMDx8/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF da Aula - Distúrbios Metabólicos Neonatais", pdfLink: "https://drive.google.com/file/d/1l3g8pHW8dxxNrVkbeHur1-nku19qshW2/view?usp=sharing" },
+        { title: "Ficha Resumo - Distúrbios Metabólicos Neonatais", pdfLink: "https://drive.google.com/file/d/1Q6Utk8FV537tY9w1B9Z9jvzvSB4rWs83/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 6,
+      label: "Sub-Módulo 06",
+      title: "Triagens Neonatais",
+      imageUrl: "https://images.unsplash.com/photo-1582719478185-2bb8d2e9f0b3?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Triagens Neonatais (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/17ccL4jHhPoF5rVG_MKAcAy_6uHGJGNzH/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Triagens Neonatais (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1iuNNanjCPzkAvPLdUgXfK6KndLtYTqtq/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Triagens Neonatais", pdfLink: "https://drive.google.com/file/d/1Ea3yghZdBoVC-GmIKGKGm5_0ijGpc3Qv/view?usp=sharing" },
+        { title: "Ficha Resumo - Triagens Neonatais", pdfLink: "https://drive.google.com/file/d/1X5Nihdhz_iGN1ciqXFF7IdyK86Rt4Wuv/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 7,
+      label: "Sub-Módulo 07",
+      title: "Infecções Congênitas (TORCH) e Outras Doenças Neonatais",
+      imageUrl: "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Outras Doenças Neonatais (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/14bCKz2ynaOn8u_o4WdV8oKSD3yXLF9eS/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Infecções Congênitas (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1fcr1onU0qqxniYVudo0OI1e6KEVET4VR/view?usp=sharing" },
+        { id: 3, title: "Aula 03 - Outras Doenças Neonatais (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Euyyse4Qo_T_3ckGwPD6WQ8JIOqUNoBe/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "Material - Slide:  Infecções congenitas", pdfLink: "https://drive.google.com/file/d/1DViAfdt3EEFitMDhqQlIGX2mBntPlf5I/view?usp=sharing" },
+        { title: "PDF de Slides - Outras Doenças Neonatais", pdfLink: "https://drive.google.com/file/d/13ogUaAo0JAJeAy7pgDlzN-J2aFq33hLJ/view?usp=sharing" },
+        { title: "Ficha Resumo - Infecções Congênitas", pdfLink: "https://drive.google.com/file/d/1x_dJP-SGb--239QX2jlPW4ieXGDRQutj/view?usp=sharing" },
+        { title: "Ficha Resumo - Outras Doenças Neonatais", pdfLink: "https://drive.google.com/file/d/1fwV0bQgWoVYq09grOGInlPXaqozHqgge/view?usp=sharing" },
+        { title: "Errata - INFECÇÕES CONGÊNITAS", pdfLink: "https://drive.google.com/file/d/1k6yrnj6zwsQWRUQw1fBru6UqqbkF7Ui6/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 8,
+      label: "Sub-Módulo 08",
+      title: "Nutrição do Pré-Termo",
+      imageUrl: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Nutrição do Pré-Termo (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1kRz0jBiwp1GyB-6Sx3Jr8DuUQt5cR9E9/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Nutrição do Pré-Termo (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Pjl5hea-DYR4_PH6pA-DHQFWAbTHmI8o/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Nutrição do Pré-Termo", pdfLink: "https://drive.google.com/file/d/1ztzSIbXAtQk4R5F_5oOXl5s2yp5EwhOn/view?usp=sharing" },
+        { title: "Ficha Resumo - Nutrição do Pré-Termo", pdfLink: "https://drive.google.com/file/d/18ezoo_sxC6vn6t2H9hvLxiqH3OAxL4TM/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 9,
+      label: "Sub-Módulo 09",
+      title: "Aleitamento Materno",
+      imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Aleitamento materno (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1E72mAy0F_BDl05Kp2gKOQfNVwZ9Q-UF5/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Aleitamento Materno (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/19ano_RY_BAvMZso6SQULH7nFTTlHJiyx/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF da Aula - Aleitamento materno", pdfLink: "https://drive.google.com/file/d/1VYD8rM7i1euVhfiqQeAmZa_LOeWzyToW/view?usp=sharing" },
+        { title: "Ficha Resumo - Aleitamento materno", pdfLink: "https://drive.google.com/file/d/1svl9h6FU-9Jqskm-4XZeMdLEDBtwUDRF/view?usp=sharing" }
+      ]
+    }
+  ]
+},
+
+// --- MÓDULO 38: CRESCIMENTO, DESENVOLVIMENTO E COMPORTAMENTO ---
+{
+  id: 38,
+  title: "Módulo 38 - Crescimento, Desenvolvimento e Comportamento",
+  label: "Módulo 38",
+  subModules: [
+    {
+      id: 1,
+      label: "Sub-Módulo 01",
+      title: "Puericultura e Alimentação Infantil",
+      imageUrl: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Alimentação infantil (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1HFoblBs5jsGUFvrwrbUMG8nF_hmYVik-/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Puericultura - Desnutrição e Vitaminas (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1PwALk_IQbFHPSN2ns_sA9asMSvSIjxpG/view?usp=sharing" },
+        { id: 3, title: "Aula 03 - alimentação infantil (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/14s5AG_nS4POIHRUWTYKRjf3ap2ucQ3wb/view?usp=sharing" },
+        { id: 4, title: "Aula 04 - Puericultura - Desnutrição e Vitaminas (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1LiXrceMMSrTL3rlgcgye_Xh7CbVP4VqN/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF da Aula - Alimentação Infantil", pdfLink: "https://drive.google.com/file/d/1FucHVB1kcHnu5kH5jBGcnVRwRYpDhrCz/view?usp=sharing" },
+        { title: "PDF de Slides - Desnutrição e Vitaminas", pdfLink: "https://drive.google.com/file/d/15kRIkkfc4hVoKDxEQGtXcuqiwl-dD3Cx/view?usp=sharing" },
+        { title: "Ficha Resumo - Alimentação Infantil", pdfLink: "https://drive.google.com/file/d/15B4aS-mSj4pBc4Wuj8d49FZfuWJLNdHi/view?usp=sharing" },
+        { title: "Ficha Resumo - Desnutrição e Vitaminas", pdfLink: "https://drive.google.com/file/d/1ty78pEWE1frM0QbQMc4Qzgec-x-R-AC8/view?usp=sharing" },
+        { title: "Errata - PUERICULTURA:  ALIMENTAÇÃO INFANTIL", pdfLink: "https://drive.google.com/file/d/1fHyHojdfQL3Cfjpzfc3bHp9m24ihXd1u/view?usp=sharing" },
+        { title: "Errata - DESNUTRIÇÃO E VITAMINAS", pdfLink: "https://drive.google.com/file/d/1ovtVfdjBQx1U5-CpCqcX26_xKSahzdGK/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 2,
+      label: "Sub-Módulo 02",
+      title: "Crescimento e Baixa Estatura",
+      imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Crescimento e Baixa Estatura (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1xgQY7IyzaggxYIqHGm3pRaycFb3hA1nA/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Crescimento e Baixa Estatura (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/140T-tuY-rI-Mq8_ePLe9BFVK-D_PpPzy/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF da Aula - Crescimento e Baixa Estatura", pdfLink: "https://drive.google.com/file/d/1QhGToehRg5hY7JqLoNo80RWi2Qn_c4uR/view?usp=sharing" },
+        { title: "Ficha Resumo - Crescimento e Baixa Estatura", pdfLink: "https://drive.google.com/file/d/1UPYOyS6GF_VmSlWSlJuq7alrYcrERnrg/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 3,
+      label: "Sub-Módulo 03",
+      title: "Desenvolvimento Infantil e Transtornos (Autismo, TDAH)",
+      imageUrl: "https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Desenvolvimento Infantil (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1GMpWtJ6HKYLsZVv2YxcixqjYg9LnndoO/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Transtornos do Desenvolvimento (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1pFPIw64WfocesnJO8mR8EQWZsKngEaQ-/view?usp=sharing" },
+        { id: 3, title: "Aula 03 - Desenvolvimento Infantil (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/18Ue-CPUoI5DNf3HWJhdhazKf6xZLKdaF/view?usp=sharing" },
+        { id: 4, title: "Aula 04 - Transtornos do Desenvolvimento (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1r6zX6_uPmRJl6GLUbqGnARFVYGQKjcsA/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF da Aula - Desenvolvimento infantil", pdfLink: "https://drive.google.com/file/d/1NdcxqVjSO4LuCYLBIOOxj92zDV86fixX/view?usp=sharing" },
+        { title: "PDF da Aula - Transtornos do Desenvolvimento", pdfLink: "https://drive.google.com/file/d/1LJuFTldPeClYKNZOCXr_rTphUatvTihh/view?usp=sharing" },
+        { title: "Ficha Resumo - Desenvolvimento Infantil", pdfLink: "https://drive.google.com/file/d/15tnwSvI8XPcBEaInEwtLJ_cZoUs-ZDmY/view?usp=sharing" },
+        { title: "Ficha Resumo - Transtornos do Desenvolvimento", pdfLink: "https://drive.google.com/file/d/1Du4IhE42vlOoIayQp4qLTVGB3Wt9KIT8/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 4,
+      label: "Sub-Módulo 04",
+      title: "Puberdade e Medicina do Adolescente",
+      imageUrl: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Medicina do Adolescente (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1YQownh597kTNdzWEABPNTvQqnQzly3e4/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Puberdade (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1C69LFrL9lsW6kOsBScJNqtmRjIk5NwGR/view?usp=sharing" },
+        { id: 3, title: "Aula 03 - Puberdade Precoce e Tardia (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1wBquIoRxSpQsAYgOIwOK9Z_V9hq6wcln/view?usp=sharing" },
+        { id: 4, title: "Aula 04 - Medicina do Adolescente (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1qk1qS_taqvKDY0PL6NpVtZBEKcUtruab/view?usp=sharing" },
+        { id: 5, title: "Aula 05 - Puberdade (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1JC7zucT10y3afIz3wfTz1rx5Fqfab5K3/view?usp=sharing" },
+        { id: 6, title: "Aula 06 - Puberdade Precoce e Tardia (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1iEKQBJWq27j51v8-F5keEftCpHL_Xpll/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF da Aula - Puberdade", pdfLink: "https://drive.google.com/file/d/16BELwhvk0col4Qu7pF3Bb9DhwwZBWNJ2/view?usp=sharing" },
+        { title: "PDF de Slides - Medicina do Adolescente", pdfLink: "https://drive.google.com/file/d/1Cc8NhCL-QRqK8fLPmQ_tAlWBa0bhcTHp/view?usp=sharing" },
+        { title: "PDF de Slides - Puberdade Precoce e Tardia", pdfLink: "https://drive.google.com/file/d/1nvXV_WrPMHdQd4QCFWKGDptqeHTZ-7eR/view?usp=sharing" },
+        { title: "Ficha Resumo - Medicina do Adolescente", pdfLink: "https://drive.google.com/file/d/1IOu1kGUiC1lnsJAbLMHMusjg16lCeeqO/view?usp=sharing" },
+        { title: "Ficha Resumo - Puberdade", pdfLink: "https://drive.google.com/file/d/1-WCNYsyfrhXCJw0ypqxtvuKwsPsW1YSv/view?usp=sharing" },
+        { title: "Ficha Resumo - Puberdade Precoce e Tardia", pdfLink: "https://drive.google.com/file/d/1uA7jLq0CJT26o80FIeO0H9yImQtGedOv/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 5,
+      label: "Sub-Módulo 05",
+      title: "Psiquiatria da Infância e Adolescência",
+      imageUrl: "https://images.unsplash.com/photo-1581595219315-a187dd40c322?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Psiquiatria da Infância e Adolescência (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1fWYW_2JeXr5TPbQTeGwJPGVl0AkCwZXe/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Psiquiatria da Infância e Adolescência (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/16zD8EC01VjTtM7VbDShbV-NdY8RGlKL5/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Psiquiatria da Infância e Adolescência", pdfLink: "https://drive.google.com/file/d/1s9DId9pPcDIvkCLKHk27KyLWiQFVKihq/view?usp=sharing" },
+        { title: "Ficha Resumo - Psiquiatria da Infância e Adolescência", pdfLink: "https://drive.google.com/file/d/1gjeLKSmCQiPj2NJVoLPhr0tB-O6UqfEC/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 6,
+      label: "Sub-Módulo 06",
+      title: "Obesidade e Síndrome Metabólica",
+      imageUrl: "https://images.unsplash.com/photo-1582719478185-2bb8d2e9f0b3?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Obesidade e Síndrome Metabólica (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1wy3H1iJz0TOEzVfkTZXeNGrCnT_GcFmU/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Obesidade e Síndrome Metabólica (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1TLurpzH8TPUwxThXOAkwZe_JLoKf7pTq/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF slide da aula - Obesidade e Síndrome Metabólica", pdfLink: "https://drive.google.com/file/d/1d0zvzgj6rtlcKn1FEzRgbfGMavcr5ZMf/view?usp=sharing" },
+        { title: "Ficha Resumo - Obesidade e Síndrome Metabólica", pdfLink: "https://drive.google.com/file/d/11wA8pAbQIWHljrETUY6x9uNBihiII9bY/view?usp=sharing" }
+      ]
+    }
+  ]
+},
+
+// --- MÓDULO 39: INFECTOLOGIA PEDIÁTRICA ---
+{
+  id: 39,
+  title: "Módulo 39 - Infectologia Pediátrica",
+  label: "Módulo 39",
+  subModules: [
+    {
+      id: 1,
+      label: "Sub-Módulo 01",
+      title: "Calendário Vacinal (1 e 2)",
+      imageUrl: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Vacinação 1 - Pediatria (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1mLdKTeRj-goedUguIPBk6dMuyvz79kY_/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Vacinação 2 (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/19BrsIXY71uATU11EbiVHCIM33OzOMubK/view?usp=sharing" },
+        { id: 3, title: "Aula 03 - Vacinação 1 - Pediatria (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1mzpfCcIDJpEZfI6aAyRyKBbcu5HI1Wom/view?usp=sharing" },
+        { id: 4, title: "Aula 04 - Vacinação 2 (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1GGuGiZJ8V-fXRjkaNaR2dkR9NJUP1laI/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Vacinação 1 - Pediatria", pdfLink: "https://drive.google.com/file/d/184dpCeMCa3mZTN2r7w0LMAXHFPjEspKE/view?usp=sharing" },
+        { title: "PDF de Slides - Vacinação 2", pdfLink: "https://drive.google.com/file/d/15FFgzPQeFClawdlOpOjnKXqydS8EWlVh/view?usp=sharing" },
+        { title: "Ficha Resumo - Vacinação 1 - Pediatria", pdfLink: "https://drive.google.com/file/d/1pDRZnzyntFXOQ9wodMzPugzlMzNyRlkl/view?usp=sharing" },
+        { title: "Ficha Resumo - Vacinação 2", pdfLink: "https://drive.google.com/file/d/1cxc57dZyb2-LZ0Z5gqq7d1SgoVveKod9/view?usp=sharing" },
+        { title: "Errata - Vacinação 1 - Pediatria", pdfLink: "https://drive.google.com/file/d/1hOMszz_wPtE3qPRBqW4VBfTzha1TLIch/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 2,
+      label: "Sub-Módulo 02",
+      title: "Doenças Exantemáticas",
+      imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Doença Exantemática (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1a8mAbJbDBMSGdI54xyvevkHocWtRD5bl/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Doença Exantemática (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1atiuEqLtHtcTRIPCXQ1tAIOuCAWvlhUQ/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Doenças Exantemáticas", pdfLink: "https://drive.google.com/file/d/1hgidzJ0eYDgCla34BbrsIyWoNxU6BgHr/view?usp=sharing" },
+        { title: "Ficha Resumo - Doenças Exantemáticas", pdfLink: "https://drive.google.com/file/d/1zimRr5ou7EleH_0wC6vB9MeWY922u2_Z/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 3,
+      label: "Sub-Módulo 03",
+      title: "IVAS (Otite, Faringite, Sinusite)",
+      imageUrl: "https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Infecções de Vias Aéreas Superiores IVAS (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1_L33WuQ0LsTqKgEZb1aZp0IvR5nsIy5f/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Infecções de Vias Aéreas Superiores IVAS (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ApcfONrXaSd1aQZaKzpPxfQ8GvmClVtJ/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Infecções de Vias Aéreas Superiores IVAS", pdfLink: "https://drive.google.com/file/d/1Hr2Eb2KKdRMjqb3_FCAc3jGzvR_6rJGG/view?usp=sharing" },
+        { title: "Ficha Resumo - Infecções de Vias Aéreas Superiores IVAS", pdfLink: "https://drive.google.com/file/d/1ahYz-AbKYmVmh3FaGqwnIDiRsiMpFmI5/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 4,
+      label: "Sub-Módulo 04",
+      title: "Pneumonias e Complicações",
+      imageUrl: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Pneumonias (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1gyZFn7dc0UihzBM2CUTtpxKGS091Ae1E/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Pneumonias (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/15CZvW5dwwbRm-xDq4ADOal4F5_UgTDLY/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Pneumonias", pdfLink: "https://drive.google.com/file/d/1wRZ4Pzu0sN40T5rjrSroOFMuzfPrfXBx/view?usp=sharing" },
+        { title: "Ficha Resumo - Pneumonias", pdfLink: "https://drive.google.com/file/d/1P41UxOQZmoa7GDhjrmG6cm61ESCqdeOm/view?usp=sharing" },
+        { title: "Errata - PNEUMONIAS", pdfLink: "https://drive.google.com/file/d/1MGSV33coW-czSIa79tH9WivO7gXDsVgP/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 5,
+      label: "Sub-Módulo 05",
+      title: "Bronquiolite e Coqueluche",
+      imageUrl: "https://images.unsplash.com/photo-1581595219315-a187dd40c322?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Bronquiolite e Coqueluche (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1L3o3aJy3oA8IqRgA3IuOO3sINJtEjx2v/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Bronquiolite e Coqueluche (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1-VgP46CTS37yvYPi7pCVFC6MYpGv_uMu/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Bronquiolite e Coqueluche", pdfLink: "https://drive.google.com/file/d/16l7Wf-NNZpYCORxg6bymS1H39zYXotGb/view?usp=sharing" },
+        { title: "Ficha Resumo - Bronquiolite e Coqueluche", pdfLink: "https://drive.google.com/file/d/19vROdfNNOyILuAFw1UotzsRR1AN67Aek/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 6,
+      label: "Sub-Módulo 06",
+      title: "Meningite e Encefalite",
+      imageUrl: "https://images.unsplash.com/photo-1582719478185-2bb8d2e9f0b3?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Meningite e Encefalite (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1MeOS7xs43pq_KjKQIuGhg36z9VFe-kaT/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Meningite e Encefalite (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1kjcUBdGQYGq-jQbKjYOQm2Nhx1mVVIGo/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Meningite e Encefalite", pdfLink: "https://drive.google.com/file/d/1GLbvMxtx95XvZO3F9lObukOqUyl-x2ba/view?usp=sharing" },
+        { title: "Ficha Resumo - Meningite e Encefalite", pdfLink: "https://drive.google.com/file/d/1wioq0l5L742vWXDMh8ma3LkV0xxGTLSA/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 7,
+      label: "Sub-Módulo 07",
+      title: "Tuberculose e Hepatites Virais",
+      imageUrl: "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Tuberculose (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ykLSMYxFdSGizzTYIroNT3XWs9fSLsjy/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Tuberculose (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/17Emqua_e70ruonAnjPtz59aJ43uEEfmd/view?usp=sharing" },
+        { id: 3, title: "Aula 03 - Hepatites Virais - Pediatria (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1P6Twt9KAlvCqqMRrKtiRrWXizl55i_xE/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Hepatites Virais", pdfLink: "https://drive.google.com/file/d/10GDccBGwhNNuZHagwjOPGwzTVNrRkh2z/view?usp=sharing" },
+        { title: "PDF de Slides - Tuberculose", pdfLink: "https://drive.google.com/file/d/1PXGnGH8vMHMheFRkbw-jt5nB2NW_1bc/view?usp=sharing" },
+        { title: "Ficha Resumo - Tuberculose", pdfLink: "https://drive.google.com/file/d/1d-qQQ427lxo3rQgpNxjCBAyE0PFO_INZ/view?usp=sharing" },
+        { title: "Ficha Resumo - Hepatites Virais", pdfLink: "https://drive.google.com/file/d/1BvH7gUnHUo7C3D-HS36Iq5hNq4mVFHQ6/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 8,
+      label: "Sub-Módulo 08",
+      title: "Parasitoses Intestinais",
+      imageUrl: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Parasitoses Intestinais - Pediatria (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1sz2h-u7JzUJOjwnNVOGsWNwf3XcxKypQ/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Parasitoses Intestinais - Pediatria (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1RCfhlOjbNumDC745I2zW2EK6JveUV4U2/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Parasitoses Intestinais", pdfLink: "https://drive.google.com/file/d/1WgGKbSU5Pms3_iRKugMpMgxLPyFE1kbc/view?usp=sharing" },
+        { title: "Ficha Resumo - Parasitoses Intestinais", pdfLink: "https://drive.google.com/file/d/1CiqFSmXu1xDAIq4lDV41Sq6oMmEFwkB1/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 9,
+      label: "Sub-Módulo 09",
+      title: "HIV em Pediatria",
+      imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - HIV - Pediatria (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1HKgpQRTuREMzSfUVtubKJOIYBofgXIvE/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - HIV - Pediatria (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1E8T93P5G0Omeu0eNYkcwQ-1YNqO9Rqle/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - HIV - Pediatria", pdfLink: "https://drive.google.com/file/d/1zD-2FelxiF3J8kw-o_ZBM3lbIgzx0aCS/view?usp=sharing" },
+        { title: "Ficha Resumo - HIV - Pediatria", pdfLink: "https://drive.google.com/file/d/1YxaCBPfYPQOrlN4_y4nx3dVI9Xt9GOOr/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 10,
+      label: "Sub-Módulo 10",
+      title: "Arboviroses",
+      imageUrl: "https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Arboviroses - Pediatria (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1G0xCbZHNPJNouA_WaAYkfC0yW1uCPAAd/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Arboviroses - Pediatria (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1DoRb5K_n9Q5XFsvU--z6yZZ0Y0FI5mZP/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Arboviroses", pdfLink: "https://drive.google.com/file/d/1-VS4aqP8UVs-8e-l-6eHr8QxiRpdPOKD/view?usp=sharing" },
+        { title: "Ficha Resumo - Arboviroses", pdfLink: "https://drive.google.com/file/d/10qIbI1Vrvh_QkQOkHO_WsrDpAY6TUYwM/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 11,
+      label: "Sub-Módulo 11",
+      title: "Infecções Fúngicas e de Pele",
+      imageUrl: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Infecções Fúngicas (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ST9xxPc_KVqf8IoiY4-yfd7GxUgKaY2v/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Infecções Fúngicas (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ISRnKNKTX6-qh9ITq8m7pc2hFeeKfEpZ/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Infecções Fúngicas", pdfLink: "https://drive.google.com/file/d/1ryphhdgFoEq5C0CsHVoNQppNM4cOtHfr/view?usp=sharing" },
+        { title: "Ficha Resumo - Infecções Fúngicas", pdfLink: "https://drive.google.com/file/d/1kkxWXySkAySC4GUyMMVWy0HnaJyUK2RV/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 12,
+      label: "Sub-Módulo 12",
+      title: "Sepse Pediátrica",
+      imageUrl: "https://images.unsplash.com/photo-1581595219315-a187dd40c322?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - VISÃO DO ESPECIALISTA Sepse Pediátrica (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1QQn1-5pqFC86U2e3vsC7h2LmtGOrEMQs/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Sepse Pediátrica (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Ho6WB6bc9-t8oUCd0lywWbDClFf90ICa/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF da Aula - Sepse Pediátrica", pdfLink: "https://drive.google.com/file/d/1ju-M8Qzm-g1xn6dLWVzPmGa02tU5rjhm/view?usp=sharing" },
+        { title: "Ficha Resumo - Sepse Pediátrica", pdfLink: "https://drive.google.com/file/d/1ubu-5b6QDWsy7h4QqpqrMPTz26klkxnT/view?usp=sharing" }
+      ]
+    }
+  ]
+},
+
+// --- MÓDULO 40: EMERGÊNCIAS E TERAPIA INTENSIVA ---
+{
+  id: 40,
+  title: "Módulo 40 - Emergências e Terapia Intensiva",
+  label: "Módulo 40",
+  subModules: [
+    {
+      id: 1,
+      label: "Sub-Módulo 01",
+      title: "Suporte Avançado (PALS) e Choque",
+      imageUrl: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Suporte Avançado de Vida em Pediatrias PALS (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1-d6wl2kJW9c2G9fLsYCWHXR4upWPNGSU/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Choque e Drogas Vasoativas (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1CpNpXed_3zyNkhO3SZtHpCWGYGRbDQ1a/view?usp=sharing" },
+        { id: 3, title: "Aula 03 - Suporte Avançado de Vida em Pediatria PALS (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1YxtcRwDN_NMtA99EBrn6eR9nMW-CHSbu/view?usp=sharing" },
+        { id: 4, title: "Aula 04 - Choque e Drogas Vasoativas (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/18Js2h-ML_5yqVbiqDpEZoxD723FLrzXt/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF da Aula - Choque e Drogas Vasoativas", pdfLink: "https://drive.google.com/file/d/1khE5aIVsLM2FI6_Oyc-nKUNa86GnmTQH/view?usp=sharing" },
+        { title: "PDF de Slides - Suporte Avançado de Vida em Pediatria PALS", pdfLink: "https://drive.google.com/file/d/19oASfKkYlin0I38z8IgPWSDcH1ixnigk/view?usp=sharing" },
+        { title: "Ficha Resumo - Suporte Avançado de Vida em Pediatria PALS", pdfLink: "https://drive.google.com/file/d/1GqjasnMysb8wZHio1L0UH9ZMMu4lnI4b/view?usp=sharing" },
+        { title: "Ficha Resumo - Choque e Drogas Vasoativas", pdfLink: "https://drive.google.com/file/d/1KsjfBH28B1oWfD8fsIZAy6wb3-lPkUeN/view?usp=sharing" },
+        { title: "Errata - Suporte Avançado de Vida em Pediatria PALS", pdfLink: "https://drive.google.com/file/d/17KK7-0Wh9qp9j8WSuRzoleTq6VoC9CMx/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 2,
+      label: "Sub-Módulo 02",
+      title: "Insuficiência Respiratória e Ventilação Mecânica",
+      imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Insuficiência Respiratória e Síndrome do Desconforto Respiratório Agudo Pediátrico PARDS (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1fY87KxINNmH13kRdk9moYjMjNRNV9Mi1/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Ventilação Mecânica (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1DE0BT1EuyAFaI-JBffo8YjAXHiStx2f9/view?usp=sharing" },
+        { id: 3, title: "Aula 03 - Insuficiência Respiratória e Síndrome do Desconforto Respiratório Agudo Pediátrico PARDS (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1tPEG_OmJzNDnAqcCWFHpOVlWjbKkFOHN/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Insuficiência Respiratória e Síndrome do Desconforto Respiratório Agudo Pediátrico P", pdfLink: "https://drive.google.com/file/d/1DV4somYDy3BI4S0WdjiPsdXW9pqNZNB1/view?usp=sharing" },
+        { title: "Ficha Resumo - Insuficiência Respiratória e Síndrome do Desconforto Respiratório Agudo Pediátrico PA", pdfLink: "https://drive.google.com/file/d/1LIhIaPmfRBfsGsta1hY736CzeGbg8A93/view?usp=sharing" },
+        { title: "Ficha Resumo - Ventilação Mecânica", pdfLink: "https://drive.google.com/file/d/1Rfx32a7B4HN2afWv8o4j7zur0wlUJqOq/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 3,
+      label: "Sub-Módulo 03",
+      title: "Trauma Pediátrico, TCE e Afogamento",
+      imageUrl: "https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Politrauma Afogamento e Queimadura (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1w1FpKgq8n4Z23epD1GH4w9aXoIhSyb1X/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Politrauma Afogamento e Queimadura (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1-yOF36sGQYzlZfun-9Q14dKWLt6-bpBr/view?usp=sharing" },
+        { id: 3, title: "Aula 03 - TCE Grave e Morte encefálica (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1evvQ1_eS_nfhR5lZId5adWs5WHUo1z2G/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Politrauma Afogamento e Queimadura", pdfLink: "https://drive.google.com/file/d/16EPQeAGGh-qfcJtoO1Qrg1t22xT3gNOf/view?usp=sharing" },
+        { title: "PDF de Slides - TCE Grave e Morte encefálica", pdfLink: "https://drive.google.com/file/d/1PWHCyGZyCyWXa3Oqsv1yTs6w0snYuiSe/view?usp=sharing" },
+        { title: "Ficha Resumo - TCE Grave e Morte encefálica", pdfLink: "https://drive.google.com/file/d/1Oy_AgR-d9Rph6MwFkrjdcICeGinsNgeu/view?usp=sharing" },
+        { title: "Ficha Resumo - Politrauma Afogamento e Queimadura", pdfLink: "https://drive.google.com/file/d/1SWAMJGpd3bSScmGcNeDMH8o4wf9-fXVu/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 4,
+      label: "Sub-Módulo 04",
+      title: "Queimaduras e Intoxicações (Acidentes)",
+      imageUrl: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Intoxicações e Peçonhentos (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1G6WBJgZukYEhQLqn3DrXsRSlnNQ1-gWU/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Intoxicações e Peçonhentos (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1EiincqWnHEMnPrbMRPPjJyz4y3-3QAdB/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Intoxicações e Peçonhentos", pdfLink: "https://drive.google.com/file/d/1ZBK3fEtNaTn1WGClDWI4u8zp_PatdUAD/view?usp=sharing" },
+        { title: "Ficha Resumo - Intoxicações e Peçonhentos", pdfLink: "https://drive.google.com/file/d/1JqqR2RlRXh_fYehZfH8Wc1Nj4qB4wX85/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 5,
+      label: "Sub-Módulo 05",
+      title: "Corpo Estranho (Ingestão e Aspiração)",
+      imageUrl: "https://images.unsplash.com/photo-1581595219315-a187dd40c322?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Ingestão e Aspiração de Corpo Estranho e BRUE (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Aur3TDZQQgWG9atRsKq-PsAJmam9Y1of/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Ingestão e Aspiração de Corpo Estranho e BRUE (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1BAkYhM-XN-ETzWz-QMr2kkCwpFyKVVZ7/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Ingestão e Aspiração de Corpo Estranho e BRUE", pdfLink: "https://drive.google.com/file/d/1gwDtF2vU2e_X4IOBoGNN1IZeYh35-_73/view?usp=sharing" },
+        { title: "Ficha Resumo - Ingestão e Aspiração de Corpo Estranho e BRUE", pdfLink: "https://drive.google.com/file/d/1klkTuWUn-w8uJR09Q77gFwkpFC4fj0oO/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 6,
+      label: "Sub-Módulo 06",
+      title: "Cetoacidose Diabética",
+      imageUrl: "https://images.unsplash.com/photo-1582719478185-2bb8d2e9f0b3?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Cetoacidose Diabética (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1CqzmR2v-DV13cMR2P3h7NlLhwbvn0wT1/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Cetoacidose Diabética (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ggKMsSG7cd2bFDfPX8Y2dU7nJE5qRdiN/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Cetoacidose Diabética CAD", pdfLink: "https://drive.google.com/file/d/16kZzEtpk_tiM0WN3M2HPxe9_yOzkaduT/view?usp=sharing" },
+        { title: "Ficha Resumo - Cetoacidose Diabética CAD", pdfLink: "https://drive.google.com/file/d/16Yry_BHHKU76YhvMawat1SY2hot4pmJg/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 7,
+      label: "Sub-Módulo 07",
+      title: "Sedoanalgesia e Sequência Rápida",
+      imageUrl: "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Sedoanalgesia e Sequência Rápida de Intubação (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1pRuN-BcPdOkviDUXCIdruP2N2McSZuVC/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Sedoanalgesia e Sequência Rápida de Intubação", pdfLink: "https://drive.google.com/file/d/1nBEycrNcakaiVuZoeenZz4GS75cvcZqw/view?usp=sharing" },
+        { title: "Ficha Resumo - Sedoanalgesia e Sequência Rápida de Intubação", pdfLink: "https://drive.google.com/file/d/1YEaxC6zV8X1CwIY9A1N65B32eolqxVkY/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 8,
+      label: "Sub-Módulo 08",
+      title: "Distúrbios Hidroeletrolíticos e Ácido-Básicos",
+      imageUrl: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Distúrbio Ácido Básico (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1TrAo6yxUTXzAeaCF4bvXK2s5wYVQQqW5/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Distúrbio Hidroeletrolítico (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Cshn0q4GhYxXNuXv1BgRtFtBHoMgyNzc/view?usp=sharing" },
+        { id: 3, title: "Aula 03 - Distúrbio Ácido Básico (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1l1uhumowU9U0YErE6Gj2yo19ssUUHyVe/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Distúrbio Ácido Básico", pdfLink: "https://drive.google.com/file/d/1hR7_t-7ljSkxhpoFPRQo8TcxGOoh2OOA/view?usp=sharing" },
+        { title: "PDF de Slides - Distúrbio Hidroeletrolítico", pdfLink: "https://drive.google.com/file/d/1hT1mc1D29QCVrVRvsWWr1vmEEtqcP_1o/view?usp=sharing" },
+        { title: "Ficha Resumo - Distúrbio Ácido Básico", pdfLink: "https://drive.google.com/file/d/1QykCSuLlOfScAbMr6aRY-z8zv95ln1EI/view?usp=sharing" },
+        { title: "Ficha Resumo - Distúrbio Hidroeletrolítico", pdfLink: "https://drive.google.com/file/d/1jQ0FZ0IJhQ3pkl3n5TZZmUnMb9EKIDyN/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 9,
+      label: "Sub-Módulo 09",
+      title: "BRUE e Morte Encefálica",
+      imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+      ],
+      materials: [
+      ]
+    }
+  ]
+},
+
+// --- MÓDULO 41: ESPECIALIDADES PEDIÁTRICAS ---
+{
+  id: 41,
+  title: "Módulo 41 - Especialidades Pediátricas",
+  label: "Módulo 41",
+  subModules: [
+    {
+      id: 1,
+      label: "Sub-Módulo 01",
+      title: "Gastro: Diarreia, Constipação, RGE, Alergia Alimentar, Hepato.",
+      imageUrl: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Diarreia Aguda (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1W7Onp7SUsbUAorZPAVomgSJa_gXfoSNb/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Gastro 3 Hepato na Emergência (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1mpKe96fInD6XY7iTHA-k1sz5BHLePYvt/view?usp=sharing" },
+        { id: 3, title: "Aula 03 - Gastro 2 Diarreia Crônica e Doenças Funcionais (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1FlRRrMs-2B3bQmDNgcLNJmVKYeqFyZSs/view?usp=sharing" },
+        { id: 4, title: "Aula 04 - Gastro 1 Alergia Alimentar Refluxo e Constipação (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1EH7DrE3WL1cX3MPCIFAO0RwrNzuhicrn/view?usp=sharing" },
+        { id: 5, title: "Aula 05 - Diarreia Aguda (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1eZTSCxwROBxcS6TIWlVE5ZqtleJ314LC/view?usp=sharing" },
+        { id: 6, title: "Aula 06 - Gastro 2 Diarreia Crônica e Doenças Funcionais (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1tf0vXhHmrEa_I4Zak34GyVg252NRyVoX/view?usp=sharing" },
+        { id: 7, title: "Aula 07 - Gastro 3 Hepato na Emergênc (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1gfqGOOgxC7GmVtLY8fPP1gFi17boxMqr/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Diarreia Aguda", pdfLink: "https://drive.google.com/file/d/1DVjtji_HISoc5UJeYUUFQNv8AOpZRJQN/view?usp=sharing" },
+        { title: "PDF de Slides - Gastro 1:  Alergia Alimentar Refluxo e Constipação", pdfLink: "https://drive.google.com/file/d/1XCZYkz52o7Fnm1zjq1xB8TXuHH2xnJbQ/view?usp=sharing" },
+        { title: "PDF de Slides - Gastro 2:  Diarreia Crônica e Doenças Funcionais", pdfLink: "https://drive.google.com/file/d/1yxV8xFsbB5CTcWIWSlN9DT8xHJh58Grc/view?usp=sharing" },
+        { title: "Material - Slide:  Gastro 3 :  Hepato na Emergência", pdfLink: "https://drive.google.com/file/d/106MzW3tzOQbFSNLnCNt1E7BV1oe3iSQg/view?usp=sharing" },
+        { title: "Ficha Resumo - Gastro 1:  Alergia Alimentar Refluxo e Constipação", pdfLink: "https://drive.google.com/file/d/1UvJJwIfWdBR9QYTmjcxxp9lJqpjun-YV/view?usp=sharing" },
+        { title: "Ficha Resumo - Diarreia Crônica e Doenças Funcionais", pdfLink: "https://drive.google.com/file/d/1fTeIbu_9dOD_0X-nH4nY3dBoB4oh20u6/view?usp=sharing" },
+        { title: "Ficha Resumo - Diarreia Aguda", pdfLink: "https://drive.google.com/file/d/1E6H1mjoOvnxSwlDTdHbXGeSj6G92Bu0F/view?usp=sharing" },
+        { title: "Ficha Resumo - Gastro 3 :  Hepato na Emergência", pdfLink: "https://drive.google.com/file/d/19CK7xSAge-k4Vv5m-OrwzMEj6d3XlrXd/view?usp=sharing" },
+        { title: "Errata - Gastro 2:  Diarreia Crônica e Doenças Funcionais", pdfLink: "https://drive.google.com/file/d/1RTUIJwuZEEJfmnle8ez1j7pvedH-gm-0/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 2,
+      label: "Sub-Módulo 02",
+      title: "Pneumo: Asma, Fibrose Cística.",
+      imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Pneumo 1 Asma (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/19zp5HsrbonEf4gC6gzvOOKpfsoNX5Vfm/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Pneumo 2 Fibrose Cística e Diferenciais (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/14QQOqoWrgxbnw5sn2tS_i0mSUxIh6Ajs/view?usp=sharing" },
+        { id: 3, title: "Aula 03 - Pneumo 1 Asma (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1XFA40aDblVPpN93qpctUZVn2zqNApohN/view?usp=sharing" },
+        { id: 4, title: "Aula 04 - Pneumo 2 Fibrose Cística e Diferenciais (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1NV3myKswYnJAXcDAOBqb_NqBZ75vCXFu/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Pneumo 1:  Asma", pdfLink: "https://drive.google.com/file/d/1ucIktQ6WsDD50NEEG2evdD9Bzf1yEsj2/view?usp=sharing" },
+        { title: "PDF de Slides - Pneumo 2:  Fibrose Cística e Diferenciais", pdfLink: "https://drive.google.com/file/d/1eJX_Jr30ixePPSjhTennDGqyBWXdvWhE/view?usp=sharing" },
+        { title: "Ficha Resumo - Pneumo 1:  Asma", pdfLink: "https://drive.google.com/file/d/1xS-V7fH38ZUTnQkUbR10-adLXMWdZphq/view?usp=sharing" },
+        { title: "Ficha Resumo - Pneumo 2:  Fibrose Cística e Diferenciais", pdfLink: "https://drive.google.com/file/d/1QU_7xLzFZmA2PmXDXupiNUWHMs_Wla3m/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 3,
+      label: "Sub-Módulo 03",
+      title: "Nefro: Síndromes (Nefrítica/Nefrótica), IRA/DRC, ITU.",
+      imageUrl: "https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Nefro 1 Síndrome Nefrítica Nefrótica Síndrome Hemolítico Urêmica (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1IOA1wmVm6YE6OaAPdUoBdnf9eEAZCnHy/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Nefro 2 Doença renal Crônica e Lesão Renal Aguda (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Tvo9tGVtUqfJsIHSS047NISF7Q6H6NhJ/view?usp=sharing" },
+        { id: 3, title: "Aula 03 - Nefro 3 Miscelânea (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1eoU3gIPc_iHlvzj2Nx4pEONsKaafvJa8/view?usp=sharing" },
+        { id: 4, title: "Aula 04 - Infecção de Trato Urinário ITU (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/13TTfffoaACA0Wf12N-dVt7pKqVEUWxkB/view?usp=sharing" },
+        { id: 5, title: "Aula 05 - Nefro 1 Síndrome Nefrítica Nefrótica Síndrome Hemolítico Urêmica (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/150lCIETFgT3IR91Z5KuLGXt-mRIRn4Pm/view?usp=sharing" },
+        { id: 6, title: "Aula 06 - Nefro 2 Doença renal Crônica e Lesão Renal Aguda (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1RAKwvbbYPifpqRRd8vBX2rm2UGqvFPU0/view?usp=sharing" },
+        { id: 7, title: "Aula 07 - Nefro 3 Miscelânea- (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1YjF2MFKzOt36UrVTthtWlVW51s40UTib/view?usp=sharing" },
+        { id: 8, title: "Aula 08 - Infecção de Trato Urinário ITU (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1DRr0BoZZ3A5FZBlx5HLjdnNpxIQT3qmi/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Nefro 1:  Síndrome Nefrítica Nefrótica Síndrome Hemolítico Urêmica", pdfLink: "https://drive.google.com/file/d/1ngQRB7aHW2ljX8X0rdxYDl1Ra2_OiLfY/view?usp=sharing" },
+        { title: "PDF de Slides - Nefro 2:  Doença renal Crônica e Lesão Renal Aguda", pdfLink: "https://drive.google.com/file/d/1YFowf5WmbwklH1vf3OkV31s_J-TSzz9I/view?usp=sharing" },
+        { title: "PDF de Slides - Nefro 3:  Miscelânea", pdfLink: "https://drive.google.com/file/d/1RIPsCdciNfPfbyHLFWa6GYFbj05lu7tn/view?usp=sharing" },
+        { title: "PDF de Slides - Infecção de Trato Urinário ITU", pdfLink: "https://drive.google.com/file/d/14rVD6OvgykMokXTBy-TcvtNVEf9zqk66/view?usp=sharing" },
+        { title: "Ficha Resumo - Nefro 1:  Síndrome Nefrítica Nefrótica Síndrome Hemolítico Urêmica", pdfLink: "https://drive.google.com/file/d/1Gjmapw427uKSfLMezhO7o6-7A1K4B5pA/view?usp=sharing" },
+        { title: "Ficha Resumo - Nefro 2:  Doença renal Crônica e Lesão Renal Aguda", pdfLink: "https://drive.google.com/file/d/1bbzoQuXMjkkQ8GGAlpeCPCXwEllmIcO6/view?usp=sharing" },
+        { title: "Ficha Resumo - Nefro 3:  Miscelânea", pdfLink: "https://drive.google.com/file/d/1i7Vf-9a9v0sBADiOJiohsxKT3tUUEvmy/view?usp=sharing" },
+        { title: "Ficha Resumo - Infecção de Trato Urinário ITU", pdfLink: "https://drive.google.com/file/d/12zm8Q4Rnj35rGO54d-H1dPOI4Ht_fHvo/view?usp=sharing" },
+        { title: "Errata - INFECÇÃO DE TRATO URINÁRIO", pdfLink: "https://drive.google.com/file/d/13dCfPl6LXoWeXZBIn69ca3rrhAYMErK8/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 4,
+      label: "Sub-Módulo 04",
+      title: "Neuro: Convulsões, Epilepsias, Hipertensão IC, Doenças Neuromusculares, Cefaleias.",
+      imageUrl: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Epilepsia na Infância - Parte 1 (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1HiPlNuJWqz7clyozaeUVLrlkpHU63rHi/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Epilepsia na Infância - Parte 2 (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1zjlSZ5fB6eRGyp-3DmthP9Cjdy2yhMc1/view?usp=sharing" },
+        { id: 3, title: "Aula 03 - Epilepsia na Infância - Parte 3 (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1AsVchjQn42My0pn1S2ivLwBu6Mdb-1RN/view?usp=sharing" },
+        { id: 4, title: "Aula 04 - Cefaleias na Infância (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/12VU-i540APLagfSwWzOSQVtBt-jW_tfd/view?usp=sharing" },
+        { id: 5, title: "Aula 05 - Convulsões na Emergência e Traumatismo Cranioencefálico Leve (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1SN4J4DXGA1QyJuQ65A79f95Zmgn2uBV4/view?usp=sharing" },
+        { id: 6, title: "Aula 06 - Doenças Neuromusculares na Infância (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1MR855WlZLkNCOdCt-dZYkbKhlIwQ1sIe/view?usp=sharing" },
+        { id: 7, title: "Aula 07 - Epilepsia na Infância - Parte 1 (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1dpZK25v-6QhUWV8VPnGjg8MkIAqnEnbv/view?usp=sharing" },
+        { id: 8, title: "Aula 08 - Epilepsias na Infância - Parte 2 (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1v8ARlR-9sC-X_NaCGTrakebTmECdOhJO/view?usp=sharing" },
+        { id: 9, title: "Aula 09 - Epilepsia na Infância - Parte 3 (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1FaSgFkmj-tBWMhilIqPp6NG7P8G2xFc7/view?usp=sharing" },
+        { id: 10, title: "Aula 10 - Cefaleias na Infância (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1aKrGO-wmJ-Re5XMWthsaAJ24ZyrCvbgA/view?usp=sharing" },
+        { id: 11, title: "Aula 11 - Convulsões na Emergência e Traumatismo Cranioencefálico Leve (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1JzZ1P8PjBLMX4g0pFD-SOSy6_y5z34Ny/view?usp=sharing" },
+        { id: 12, title: "Aula 12 - Doenças Neuromusculares na Infância (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1QmxBhvTtTYP8BvcJ8U5456YuZjzPSw4h/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Epilepsias na Infância - Parte 1", pdfLink: "https://drive.google.com/file/d/1WPqBM18tg-W4NkFfR2AnX8WI5ZtppdYm/view?usp=sharing" },
+        { title: "PDF de Slides - Epilepsias na Infância - Parte 2", pdfLink: "https://drive.google.com/file/d/1wCjLqgX_ZImja0ELyW0pKH33DmLRq18q/view?usp=sharing" },
+        { title: "PDF de Slides - Epilepsias na Infância - Parte 3", pdfLink: "https://drive.google.com/file/d/1T6NQ4wfPUrUzRfJYaHCKKtHzNDXhvQWx/view?usp=sharing" },
+        { title: "PDF de Slides - Cefaleias na Infância", pdfLink: "https://drive.google.com/file/d/1DpUSZFvFxJSV2sqeLW7uESq7oVY5YHA-/view?usp=sharing" },
+        { title: "PDF de Slides - Convulsões na Emergência e Traumatismo Cranioencefálico Leve", pdfLink: "https://drive.google.com/file/d/1LDX36F-iAj3k8CE8slhh5y174oVkTJju/view?usp=sharing" },
+        { title: "PDF de Slides - Doenças Neuromusculares na Infância", pdfLink: "https://drive.google.com/file/d/1leP2GN8vdDb1QBdpAhXXD5TaRXKICIum/view?usp=sharing" },
+        { title: "Ficha Resumo - Epilepsias na Infância", pdfLink: "https://drive.google.com/file/d/1-lIg9ZkSN3qrilnlbu1kMaQJIU0Ek7L1/view?usp=sharing" },
+        { title: "Ficha Resumo - Epilepsias na Infância - Parte 2", pdfLink: "https://drive.google.com/file/d/1jMlyQ3t8SdO9dc4OciIqVIw3eoIkZ0zD/view?usp=sharing" },
+        { title: "Ficha Resumo - Epilepsias na Infância - Parte 3", pdfLink: "https://drive.google.com/file/d/1Db2dxBg82OwFADGawtg08xHEcAYow4YE/view?usp=sharing" },
+        { title: "Ficha Resumo - Cefaleias na Infância", pdfLink: "https://drive.google.com/file/d/16TeM4rOoiOgK6Rvb0JbCvtuCOBo06hMy/view?usp=sharing" },
+        { title: "Ficha Resumo - Convulsões na Emergência e Traumatismo Cranioencefálico Leve", pdfLink: "https://drive.google.com/file/d/1Teow1s57iFpwStl7_ef_MBBI5M8Ed3Wa/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 5,
+      label: "Sub-Módulo 05",
+      title: "Hemato: Anemias (Ferropriva, Falciforme), Hemostasia, Leucemias.",
+      imageUrl: "https://images.unsplash.com/photo-1581595219315-a187dd40c322?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Hemato 1 Introdução às Anemias e Hemocomponentes (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1qGk5-4fGKQscu14Og5qClfXriOzop-uB/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Hemato 2 Anemia Falciforme (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1xYZXEWiXs6t0dIZfEEjDr8aQId-yLGwm/view?usp=sharing" },
+        { id: 3, title: "Aula 03 - Hemato 3_ Anemia Ferropriva e Talassemia (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1KjyvGlP8rPaw06dVcBld9a8phPFeajKu/view?usp=sharing" },
+        { id: 4, title: "Aula 04 - Hemato 4 Hemostasia e Distúrbios Hemorrágicos (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1VlWGDEDJ_z0vBWjiTIj3LHOQhXidsxiu/view?usp=sharing" },
+        { id: 5, title: "Aula 05 - Onco 1 - Tumores e Leucemias (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1pfwkrsv-LW5G51aRs0d1mBWNsBo-JBvF/view?usp=sharing" },
+        { id: 6, title: "Aula 06 - Introdução às Anemias e Hemocomponentes (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1amd5olZ1Z6iyDGisMF39jInJL8gm0Vwk/view?usp=sharing" },
+        { id: 7, title: "Aula 07 - Hemato 2 Anemia Falciforme (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1N9ogii3pcjJIkmr62bTmTCMd1xoWsX7a/view?usp=sharing" },
+        { id: 8, title: "Aula 08 - Hemato 3 Anemia Ferropriva e Talassemia (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/19veUUjO_mZf50GgVEjin0ojBjksoeSl2/view?usp=sharing" },
+        { id: 9, title: "Aula 09 - Hemato 4 Hemostasia e Distúrbios Hemorrágicos (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1t6jEfLDS2sZDZYionAgcspfj2dfsIa-A/view?usp=sharing" },
+        { id: 10, title: "Aula 10 - Onco 1 - Tumores e Leucemias (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/154JvUhXnRUqOOnd1gDWKosZf1EPKD5wP/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF da Aula - Hemato 1:  Introdução às Anemias e Hemocomponentes", pdfLink: "https://drive.google.com/file/d/1rwGXnuuohWZ1CfMG0tb_xiEvaIhThLic/view?usp=sharing" },
+        { title: "PDF de Slides - Hemato 2:  Anemia Falciforme", pdfLink: "https://drive.google.com/file/d/1V6ZuELDMx8WuRu20E5SDPHL7RtIMa4Yu/view?usp=sharing" },
+        { title: "PDF de Slides - Hemato 3:  Anemia Ferropriva e Talassemia", pdfLink: "https://drive.google.com/file/d/1nZZIffVN_I1F6N_Ck2DPfYhuEeO9-HAz/view?usp=sharing" },
+        { title: "PDF de Slides - Hemato 4:  Hemostasia e Distúrbios Hemorrágicos", pdfLink: "https://drive.google.com/file/d/12zkMZL7P0mfXE6wFfwnLI_whxdb9MttZ/view?usp=sharing" },
+        { title: "PDF de Slides - Tumores e Leucemias", pdfLink: "https://drive.google.com/file/d/1Oc3OsUi05nyzJjgSf8IgMlK2yGH7q3QL/view?usp=sharing" },
+        { title: "Ficha Resumo - Hemato 1:  Introdução às Anemias e Hemocomponentes", pdfLink: "https://drive.google.com/file/d/1fghJD1BxGPgPk4oBmLH4Nvx_1-2ldJKV/view?usp=sharing" },
+        { title: "Ficha Resumo - Hemato 2:  Anemia Falciforme", pdfLink: "https://drive.google.com/file/d/1yq4ticQDqXOFsjx6KQqDATcoFN8xRoup/view?usp=sharing" },
+        { title: "Ficha Resumo - Hemato 3:  Anemia Ferropriva e Talassemia", pdfLink: "https://drive.google.com/file/d/1C2fdlJGZtm0P4rQP-jhr2ubwoJdXHumB/view?usp=sharing" },
+        { title: "Ficha Resumo - Hemato 4:  Hemostasia e Distúrbios Hemorrágicos", pdfLink: "https://drive.google.com/file/d/1xNRcGb8eFNjnrzPFRi2vs1FgW2dV7zrH/view?usp=sharing" },
+        { title: "Ficha Resumo - Tumores e Leucemias", pdfLink: "https://drive.google.com/file/d/1Xod5NQ6A5bKy0PZGLij2qvvn5CL-3My2/view?usp=sharing" },
+        { title: "Errata - HEMATO:  ANEMIA FALCIFORME", pdfLink: "https://drive.google.com/file/d/10BK-T_nx0vmOgGn1a89wC_uL68svOHdF/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 6,
+      label: "Sub-Módulo 06",
+      title: "Reumato: Artrite Idiopática, Kawasaki, Febre Reumática, Púrpura Henoch-Schönlein.",
+      imageUrl: "https://images.unsplash.com/photo-1582719478185-2bb8d2e9f0b3?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Artrite Idiopática Juvenil (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/11LWvmzwpaLkuZkBwFW8QVqAcDSHeWdt-/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Reumato Kawasaki Vasculite por Iga e Febre Reumática (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1XiXvZr4BewcNCC1Qo3xegRREyODMlJiA/view?usp=sharing" },
+        { id: 3, title: "Aula 03 - Artrite Idiopática Juvenil (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1noUEs2UI7Li6SURy4TQO16VC6KWz1F-H/view?usp=sharing" },
+        { id: 4, title: "Aula 04 - Reumato Kawasaki Vasculite por Iga e Febre Reumática (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1l9jXgqhz3TJPXX7qZq8Apk06SB5vWove/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Artrite Idiopática Juvenil", pdfLink: "https://drive.google.com/file/d/1O1x-tEYZijo5bpHUAvy_AqGfzRgm1QrD/view?usp=sharing" },
+        { title: "PDF de Slides - Reumato:  Kawasaki Vasculite por Iga e Febre Reumática", pdfLink: "https://drive.google.com/file/d/1v42b5FLQinc0_xCMxB4YFx1Y_AO2s4aB/view?usp=sharing" },
+        { title: "Ficha Resumo - Artrite Idiopática Juvenil", pdfLink: "https://drive.google.com/file/d/1SlBIK47RYbnjWSax70WjS0bZXkMlhYYc/view?usp=sharing" },
+        { title: "Ficha Resumo - Reumato:  Kawasaki Vasculite por Iga e Febre Reumática", pdfLink: "https://drive.google.com/file/d/1AZwwYTkvY3q6cErX7EnsxIDew_ZowmZS/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 7,
+      label: "Sub-Módulo 07",
+      title: "Cardio: Cardiopatias Congênitas, Miocardites, HAS, Síncope.",
+      imageUrl: "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Cardio 1 Cardiopatias Congênitas (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1eap7Q4C58iEM39SEQ_X0O_z0Kt6bEjs2/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Cardio 3 Miocardite Síncope Insuficiência Cardíacar (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1x-PZ20vX7-w8jna2Eb_nStQo1Z58O2k8/view?usp=sharing" },
+        { id: 3, title: "Aula 03 - Hipertensão Arterial Sistêmica HAS (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/13bBHFQzRUBa7kB0ZM8wNYuInxYEC2V0x/view?usp=sharing" },
+        { id: 4, title: "Aula 04 - Cardio 1 Cardiopatias Congênitas (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Mv_IuJ5qSFLJU4dllqB-4aTyaFuKQfCG/view?usp=sharing" },
+        { id: 5, title: "Aula 05 - Cardio 3 Miocardite Síncope Insuficiência Cardíacar (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1UiZ2sSWnAsLxp71nf6wBaaq61lktbHzG/view?usp=sharing" },
+        { id: 6, title: "Aula 06 - Hipertensão Arterial Sistêmica HAS (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1jpEm7bDEM0VzShLW1R-RRt_vuvT-Lm1S/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Cardio 1:  Cardiopatias Congênitas", pdfLink: "https://drive.google.com/file/d/1Wl7BeDKHnvxkf0sQOzbuiId-z94pnExx/view?usp=sharing" },
+        { title: "PDF de Slides - Cardio 3:  Miocardite Síncope Insuficiência Cardíaca", pdfLink: "https://drive.google.com/file/d/1EvLb7FIDaRDxdMU-e30-p3Roj9aI7M21/view?usp=sharing" },
+        { title: "PDF de Slides - Hipertensão Arterial Sistêmica HAS", pdfLink: "https://drive.google.com/file/d/1yk97LJYaM4SXWdLr8wdQuFcmCbkjczB1/view?usp=sharing" },
+        { title: "Ficha Resumo - Cardio 1:  Cardiopatias Congênitas", pdfLink: "https://drive.google.com/file/d/1EAUmbAOfmuFdn8pNKj50WPMK-Rh8z0M6/view?usp=sharing" },
+        { title: "Ficha Resumo - Cardio 3:  Miocardite Síncope Insuficiência Cardíaca", pdfLink: "https://drive.google.com/file/d/1F1W8sIHQtQnsEA_Rx6JsWYJ68zkbVUVM/view?usp=sharing" },
+        { title: "Ficha Resumo - Hipertensão Arterial Sistêmica HAS", pdfLink: "https://drive.google.com/file/d/17LYZDeHDOJiz0NgBPVbrKUQwmSeFgdE4/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 8,
+      label: "Sub-Módulo 08",
+      title: "Endocrino: Hipotireoidismo, HAC, Diabetes.",
+      imageUrl: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Hipotireoidismo - Pediatria (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/16zbI8hzCUtqvoMz6zcRLW-BzjYo5H6S8/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Hiperplasia Adrenal Congênita HAC (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1JeV_DEPeQc9KmQ2ecdDVYSs1b3PE-Jds/view?usp=sharing" },
+        { id: 3, title: "Aula 03 - Hipotireoidismo - Pediatria (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1T5Tv_TMsfSc1JFgXQ5Z-n9bBsosptew0/view?usp=sharing" },
+        { id: 4, title: "Aula 04 - Hiperplasia Adrenal Congênita HAC (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1NiwlTsUsFXdyhNc4KHwe7SdxM-sgwbR6/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Hipotireoidismo", pdfLink: "https://drive.google.com/file/d/1cLz0n-SvZFSW8vBwHZDJufIVSY_pHNoB/view?usp=sharing" },
+        { title: "PDF de Slides - Hiperplasia Adrenal Congênita HAC", pdfLink: "https://drive.google.com/file/d/1kfQCqLArbKA1IeDaetfJ5FhFFc9NP8EG/view?usp=sharing" },
+        { title: "Ficha Resumo - Hipotireoidismo", pdfLink: "https://drive.google.com/file/d/1wOjdSEd3FAdJ68cYgXKBANkFnnFfnz7l/view?usp=sharing" },
+        { title: "Ficha Resumo - Hiperplasia Adrenal Congênita HAC", pdfLink: "https://drive.google.com/file/d/1Fb1A139tY2wQrNsEXbNRuyEhpKPK3MLu/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 9,
+      label: "Sub-Módulo 09",
+      title: "Outros: Dermato, Oftalmo, Otorrino, Ortopedia, Genética, Imuno.",
+      imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Dermatite Atópica e Lesões Benignas do Recém-Nascido (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1FYXrR_fa8hOc-CdfAt5bcZgJfX_7HtWi/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Dermato 2 Dermatoses e Infecções de Partes Moles (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Nwvp-lfyDqWGgs2KRRV8qoakk0ju2ZcS/view?usp=sharing" },
+        { id: 3, title: "Aula 03 - Dermato 3 Farmacodermias (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1dEkKFTtMKtc_Wujt4Lbv2miVCbbtYqKB/view?usp=sharing" },
+        { id: 4, title: "Aula 04 - Oftalmo Pediatria 1 (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1gd9uS87e_6wYfdiaUA8hxDGxXFnnxqPQ/view?usp=sharing" },
+        { id: 5, title: "Aula 05 - Oftalmo Pediatria 2 Doenças Pediátricas (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Jp4kelQLvySJFP73B4E2fRVt7xAPCvxY/view?usp=sharing" },
+        { id: 6, title: "Aula 06 - Otorrino Pediatria 1 (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1r735W-TrFpA5dO7sRZWFCpxrS18tFf0I/view?usp=sharing" },
+        { id: 7, title: "Aula 07 - Otorrino Pediatria 2 (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1xyNtETpyeEEdqzH-h98YTyqKUmqEDcg7/view?usp=sharing" },
+        { id: 8, title: "Aula 08 - Genética (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1XdxLel8qSqh4XlR4JH3Cvb_IS8kk2m1q/view?usp=sharing" },
+        { id: 9, title: "Aula 09 - Malformações Congênitas (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1wy2BUXBu-dGUuyy90azF5UVon3PEhRQR/view?usp=sharing" },
+        { id: 10, title: "Aula 10 - Imunodeficiências para o Pediatra (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ZbOegs66SGZA6cu2uvPrS8pX--csCn83/view?usp=sharing" },
+        { id: 11, title: "Aula 11 - Pediatria Geral (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1hnek3jAfNonBWgxK1X3ePAsvDqMPBI9n/view?usp=sharing" },
+        { id: 12, title: "Aula 12 - Dermatite Atópica e Lesões Benignas do Recém-Nascido (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/17IIxMymQCkmCiOybMV3E_yBy7Z7buDIx/view?usp=sharing" },
+        { id: 13, title: "Aula 13 - Dermato 2 Dermatoses e Infecções de Partes Moles (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/11-Z8Gx5vAPfXlvc1VUFcA1yZDXZ5sy9H/view?usp=sharing" },
+        { id: 14, title: "Aula 14 - Dermato 3 Farmacodermias (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1yJPfnLFZ-xfE6cL04gKkeW4C6TAoZS25/view?usp=sharing" },
+        { id: 15, title: "Aula 15 - Oftalmo Pediatria 1 (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ziFz_YrP45Y3mbv6PKcks6kBT0zdD3Mm/view?usp=sharing" },
+        { id: 16, title: "Aula 16 - Oftalmo Pediatria 2 Doenças Pediátricas (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/19ZPVIwOLJaqsEnPlGCs8JUKx2JX3yL5_/view?usp=sharing" },
+        { id: 17, title: "Aula 17 - Otorrino Pediatria 1 (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1RUl7fWO4rRiPGhaaFwANiQJkOL_RAgKc/view?usp=sharing" },
+        { id: 18, title: "Aula 18 - Otorrino Pediatria 2 (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1-tv3JMB0Zm1H9Q_C9GIwxIZi2KUeP1X5/view?usp=sharing" },
+        { id: 19, title: "Aula 19 - Genética (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1vwimzEsBfeJuJuvNBLS7XUdkHenvVnOJ/view?usp=sharing" },
+        { id: 20, title: "Aula 20 - Malformações Congênitas (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ZZJK5NR3evYsJ2_kv9VBSkycpj1v812J/view?usp=sharing" },
+        { id: 21, title: "Aula 21 - Imunodeficiências para o Pediatra (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Htf3cNSupqyz_ZONPiZ1GY6k6tMARIYL/view?usp=sharing" },
+        { id: 22, title: "Aula 22 - Pediatria Geral (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/17GZDItRthxr-X4fkKIB9whYEtb10cT5K/view?usp=sharing" },
+        { id: 23, title: "Aula 23 - Cuidados Paliativos na Pediatria (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1yN8kV-lYwLP0uekkIxnP-vSxNcJWew1o/view?usp=sharing" },
+        { id: 24, title: "Aula 24 - COVID (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1_-RAC_K-VmAd1hBy_lciGg8my3v8cs3H/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Dermato 1:  Dermatite Atópica e Lesões Benignas do Recém-Nascido", pdfLink: "https://drive.google.com/file/d/1yUgsrqZv4awbUZLYPCFZSOkQhfO0ARkT/view?usp=sharing" },
+        { title: "PDF de Slides - Dermato 2:  Dermatoses e Infecções de Partes Moles", pdfLink: "https://drive.google.com/file/d/1g49BAIoHAqvehLmCf5d7ez6VlriILqjw/view?usp=sharing" },
+        { title: "PDF de Slides - Dermato 3:  Farmacodermias", pdfLink: "https://drive.google.com/file/d/1eqP0nSE7bEY7UtEOIzl2Y_gL0KAbGOAZ/view?usp=sharing" },
+        { title: "PDF de Slides - Oftalmo Pediatria 1", pdfLink: "https://drive.google.com/file/d/1YzAJNfdl10F4LgvZJz-iXNoZHqdEfqRc/view?usp=sharing" },
+        { title: "PDF de Slides - Oftalmo Pediatria 2:  Doenças Pediátricas", pdfLink: "https://drive.google.com/file/d/1hq_sgUTHPZsy3G_voYPSoRUhxGyDTk0z/view?usp=sharing" },
+        { title: "PDF de Slides - Otorrino Pediatria 1", pdfLink: "https://drive.google.com/file/d/1qYuQjRUQSpTHlp3UIyiB3TsVR97cHOCt/view?usp=sharing" },
+        { title: "PDF de Slides - Otorrino Pediatria 2", pdfLink: "https://drive.google.com/file/d/1U_JAnrrCiiK9-qecHhwSp_HFTYq0qaXg/view?usp=sharing" },
+        { title: "PDF de Slides - Genética", pdfLink: "https://drive.google.com/file/d/1dY1nJD1TeJ1sZRuZMiJEU2qc16ap7azp/view?usp=sharing" },
+        { title: "PDF de Slides - Malformações Congênitas", pdfLink: "https://drive.google.com/file/d/18X_yRxN7gvfqSBqu1DpPh5C0gxCC8BcP/view?usp=sharing" },
+        { title: "PDF de Slides - Imunodeficiências para o Pediatra", pdfLink: "https://drive.google.com/file/d/10fIn4b8uY3zpk02_Mrfj3xW7pd4oS8si/view?usp=sharing" },
+        { title: "PDF de Slides - Pediatria Geral", pdfLink: "https://drive.google.com/file/d/1F5O1_PsCEE7iftwZEmJGThCqYz19OEhw/view?usp=sharing" },
+        { title: "PDF de Slides - Cuidados Paliativos em Pediatria", pdfLink: "https://drive.google.com/file/d/1WACux_dzMDyA73RV9msa_P1Tz65Heen_/view?usp=sharing" },
+        { title: "Ficha Resumo - Dermato 1:  Dermatite Atópica e Lesões Benignas do Recém-Nascido", pdfLink: "https://drive.google.com/file/d/1JpQabReNvC1LojVOkoFzIaFThFliSO6T/view?usp=sharing" },
+        { title: "Ficha Resumo - Dermato 2:  Dermatoses e Infecções de Partes Moles", pdfLink: "https://drive.google.com/file/d/1MJo7xnIfv_TcWxZNm8vy-HSAzf49El8H/view?usp=sharing" },
+        { title: "Ficha Resumo - Dermato 3:  Farmacodermias", pdfLink: "https://drive.google.com/file/d/1xEr6QGhGMKVfOQiUZAsVSHtQwqFUPZ4h/view?usp=sharing" },
+        { title: "Ficha Resumo - Oftalmo Pediatria 1", pdfLink: "https://drive.google.com/file/d/1H5qD-hLp_-4mywLJ7cZnEkjmMTcrG9xL/view?usp=sharing" },
+        { title: "Ficha Resumo - Oftalmo Pediatria 2:  Doenças Pediátricas", pdfLink: "https://drive.google.com/file/d/16dO6vDOjaJ3jFlmWmrmESxmKFV1TKpMS/view?usp=sharing" },
+        { title: "Ficha Resumo - Otorrino Pediatria 1", pdfLink: "https://drive.google.com/file/d/1dCkeRGRaFn-i8s0eg6cwGIuykX3ChuwD/view?usp=sharing" },
+        { title: "Ficha Resumo - Otorrino Pediatria 2", pdfLink: "https://drive.google.com/file/d/1NTWeV0skRZvjAuWBXpTeoqj4-L83GjbD/view?usp=sharing" },
+        { title: "Ficha Resumo - Genética", pdfLink: "https://drive.google.com/file/d/1kn0_SRudqNsbM5MtcUkW6XdukyF_PUc8/view?usp=sharing" },
+        { title: "Ficha Resumo - Malformações Congênitas", pdfLink: "https://drive.google.com/file/d/1nqqGRdnI02zmJAspfJKYKymYGfNVeVXm/view?usp=sharing" },
+        { title: "Ficha Resumo - Malformações Congênitas", pdfLink: "https://drive.google.com/file/d/1z-rEx-dmj2u0NRVMCSLVUYmrLws8p52s/view?usp=sharing" },
+        { title: "Ficha Resumo - Imunodeficiências para o Pediatra", pdfLink: "https://drive.google.com/file/d/10qMQ_T0w_YRFaPw0IUz2kGzjhPTTmCFm/view?usp=sharing" },
+        { title: "Ficha Resumo - Pediatria geral", pdfLink: "https://drive.google.com/file/d/1jpQtORv2kwmysortmj0sPBrYt4pBU3sA/view?usp=sharing" },
+        { title: "Ficha Resumo - Cuidados Paliativos em Pediatria", pdfLink: "https://drive.google.com/file/d/1BjS1OglwZ4pFhHAgmgr6ncFDvjzBHdep/view?usp=sharing" },
+        { title: "PDF da Aula - COVID", pdfLink: "https://drive.google.com/file/d/1weXwXRV_IqokCCMeEnwDTraWE3HeX-cg/view?usp=sharing" },
+        { title: "Ficha Resumo - COVID.pdf", pdfLink: "https://drive.google.com/file/d/1j1rXPcr3vxaLV9euU_gd-KdOcLrBJuLD/view?usp=sharing" },
+        { title: "Errata - Ficha resumo - Pediatria Geral", pdfLink: "https://drive.google.com/file/d/1UdjCmQqTu3Q0MrMza6-mXvS10eGj3CuI/view?usp=sharing" }
+      ]
+    }
+  ]
+},
+
+// --- MÓDULO 42: FISIOLOGIA E ASSISTÊNCIA ---
+{
+  id: 42,
+  title: "Módulo 42 - Fisiologia e Assistência",
+  label: "Módulo 42",
+  subModules: [
+    {
+      id: 1,
+      label: "Sub-Módulo 01",
+      title: "Diagnóstico e Modificações Maternas",
+      imageUrl: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Modificações do Organismo Materno (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Vgc1l-2dktIan0eBmId8UFMxB3aWAFyt/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Modificações do Organismo Materno (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1lWWc49QGYgs8XL9O7BaG28ncNRj5ckES/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Modificações do Organismo Materno", pdfLink: "https://drive.google.com/file/d/16moOiseIHE_oFLMRgVEN6FX0nfaVAgem/view?usp=sharing" },
+        { title: "Ficha Resumo - Modificações do Organismo Materno", pdfLink: "https://drive.google.com/file/d/1s6RRxcKBm7rBQDeKQq-BZjJL8nORYDyS/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 2,
+      label: "Sub-Módulo 02",
+      title: "Pré-Natal e Assistência ao Parto",
+      imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Assistência ao Pré-Natal (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1mLPvip11dwOd5cFmwxD3Y8XYw1jt3igb/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - VISÃO DO ESPECIALISTA Assistência ao Parto (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1byZVS0I-M1co8_7qOgo7McQXbtyw-Ebt/view?usp=sharing" },
+        { id: 3, title: "Aula 03 - Assistência ao pré-natal (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1G0FI85yDjFgxz5X_gjvQWrpJLGKFO3m5/view?usp=sharing" },
+        { id: 4, title: "Aula 04 - Assistência ao Parto (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1dmV1uhTonAF3bhz8hy-2GVWa-jJ_mTrm/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF da Aula - Assistência ao Pré-Natal", pdfLink: "https://drive.google.com/file/d/19QwhYqibUja5ESUklpvVNjEAmBxbhpp5/view?usp=sharing" },
+        { title: "PDF de Slides - Assistência ao Parto", pdfLink: "https://drive.google.com/file/d/18mlf6YOVGWL23KRzszlOcfwCssq_F-He/view?usp=sharing" },
+        { title: "Ficha Resumo - Assistência ao Pré-Natal", pdfLink: "https://drive.google.com/file/d/18n1_0VEzaRbydxs1k7Dbc48qvh19y8dB/view?usp=sharing" },
+        { title: "Ficha Resumo - Assistência ao Parto", pdfLink: "https://drive.google.com/file/d/1XWWj3fUrSYwPby9jE9t2k3GoSBjgONQk/view?usp=sharing" },
+        { title: "Errata - Assistência ao Parto", pdfLink: "https://drive.google.com/file/d/1768EhBFg25JU7Z5fEG1Yi9dQarnHhFtG/view?usp=sharing" },
+        { title: "Errata - ASSISTÊNCIA AO PRÉ-NATAL", pdfLink: "https://drive.google.com/file/d/1pILBzm3oXdmRrsYjiYK7IfiUGK1ur0KS/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 3,
+      label: "Sub-Módulo 03",
+      title: "Mecanismo de Parto e Estática Fetal",
+      imageUrl: "https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Mecanismo de Parto (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Slsd043rAXWzQhL81wu6Q-g1zhOOGg6M/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - VISÃO DO ESPECIALISTA Estática Fetal (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1FJtZxz-7krT_c0GR4edkpS74b2ge1Hba/view?usp=sharing" },
+        { id: 3, title: "Aula 03 - Mecanismo de Parto (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1N52FQWkhu71gERcgn2kRMD--UyUUMXPs/view?usp=sharing" },
+        { id: 4, title: "Aula 04 - Estática Fetal (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/14aDJUBEtjnfaEwBlLBnlOFQBrCWJOnVa/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Mecanismo de Parto", pdfLink: "https://drive.google.com/file/d/1oOOKKj8wlGDcUdvXtTxBsQoFoeJbg-iv/view?usp=sharing" },
+        { title: "PDF de Slides - Estática Fetal", pdfLink: "https://drive.google.com/file/d/17WTugxeWXhYfdkJUpUyRBZgTsCEMvz9p/view?usp=sharing" },
+        { title: "Ficha Resumo - Mecanismo de Parto", pdfLink: "https://drive.google.com/file/d/1WROu-UDVveXnglUy-VIvLSrQ1cqvqOEI/view?usp=sharing" },
+        { title: "Ficha Resumo - Estática Fetal", pdfLink: "https://drive.google.com/file/d/1-p30vAdYBa4CshFpridhOXhj2lZZuAmj/view?usp=sharing" },
+        { title: "Errata - Mecanismo de Parto", pdfLink: "https://drive.google.com/file/d/1G_Pff5M0IZGz3Lyi_i2cIPMFD-H6vbaR/view?usp=sharing" },
+        { title: "Errata - Mecanismo de Parto", pdfLink: "https://drive.google.com/file/d/17bcH4FnkyKqAYrwWHiD5W6XrQV_rP4aA/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 4,
+      label: "Sub-Módulo 04",
+      title: "Puerpério Fisiológico e Aleitamento",
+      imageUrl: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Puerpério Fisiológico (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1aAE5KrvtKYrE-etnZVyITomtshSFGr11/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Puerpério Fisiológico (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1kjrBjF4MWrlWneK0wxVM-Z3HX4fg8s0/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Puerpério Fisiológico", pdfLink: "https://drive.google.com/file/d/1gipoSeuFKJbxjT_vt6CW8uBH-E3K_Rom/view?usp=sharing" },
+        { title: "Ficha Resumo - Puerpério Fisiológico", pdfLink: "https://drive.google.com/file/d/1A9ZPwLq92FNd8ptEDJOVYDZJsbFxkpXZ/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 5,
+      label: "Sub-Módulo 05",
+      title: "Avaliação da Vitalidade Fetal",
+      imageUrl: "https://images.unsplash.com/photo-1581595219315-a187dd40c322?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Avaliação de Vitalidade Fetal (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1A5dzuwyUg0Lc2wNrvC_7Goe36Z07jvSW/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Avaliação de Vitalidade Fetal (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1qU9e8jxURLUP7TGC_fEn8GeFOA8YRXMi/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Avaliação de Vitalidade Fetal", pdfLink: "https://drive.google.com/file/d/1fCmWkUdVo4Eh_BEg1IiEW4UmXKN5RoHb/view?usp=sharing" },
+        { title: "Ficha Resumo - Avaliação de Vitalidade Fetal", pdfLink: "https://drive.google.com/file/d/1K7dqMXU_Ms875dG7nwMXVRKYm_tg8Wqf/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 6,
+      label: "Sub-Módulo 06",
+      title: "Ultrassonografia em Obstetrícia",
+      imageUrl: "https://images.unsplash.com/photo-1582719478185-2bb8d2e9f0b3?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Ultrassonografia em Obstetrícia (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1NDApBalcFGBkSw-8BkrbGvR74gRTm1PO/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Ultrassonografia em Obstetrícia (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1i0PBk7oOp_X569vvbnlvS_HAH7OeN8yh/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Ultrassonografia em Obstetrícia", pdfLink: "https://drive.google.com/file/d/1ZmFTFP3J9RQx6DHerd94qQhHV5C1-HtO/view?usp=sharing" },
+        { title: "Ficha Resumo - Ultrassonografia em Obstetrícia", pdfLink: "https://drive.google.com/file/d/1CH1ozxYknr25BXQMFP0TPm_0Obb5ECrA/view?usp=sharing" }
+      ]
+    }
+  ]
+},
+
+// --- MÓDULO 43: PATOLOGIA DA 1ª METADE ---
+{
+  id: 43,
+  title: "Módulo 43 - Patologia da 1ª Metade",
+  label: "Módulo 43",
+  subModules: [
+    {
+      id: 1,
+      label: "Sub-Módulo 01",
+      title: "Abortamento (Legal e Espontâneo)",
+      imageUrl: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Abortamento (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1DRuLj3z05uIo3NtgAaow1TUQLxHN_Dfy/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Aborto Legal (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Fk1AzfaSWqnZopdC1fubZCsoC0bc6rx3/view?usp=sharing" },
+        { id: 3, title: "Aula 03 - Abortamento (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1XNyzOEefXPfkySNcpGISlK_anGvAZRIw/view?usp=sharing" },
+        { id: 4, title: "Aula 04 - Aborto Legal (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Jh5LuYPi7iYN2-6rcACTUJv8Ngv8ID1R/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Abortamento", pdfLink: "https://drive.google.com/file/d/14ZIZI8uwymmSdFpOdkzPrOtAPNOqjOQB/view?usp=sharing" },
+        { title: "PDF de Slides - Aborto Legal", pdfLink: "https://drive.google.com/file/d/1CGGlwjETkRvXyM2LhyoNb0TB-o3_3bnn/view?usp=sharing" },
+        { title: "Ficha Resumo - Abortamento", pdfLink: "https://drive.google.com/file/d/1rFdZoPCpcd1m61u3_JDlWsfB7yFB_InC/view?usp=sharing" },
+        { title: "Ficha Resumo - Aborto Legal", pdfLink: "https://drive.google.com/file/d/1zakog0KRAlgYk6VeG0gwgSQBBc0lIpIi/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 2,
+      label: "Sub-Módulo 02",
+      title: "Gravidez Ectópica",
+      imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Gestação Ectópica (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1waLARNNZFIbvCcULW3VQD8y_74Hqpw10/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Gestação Ectópica (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1bfoSSEfbep8lyXtXn0-7baz5rjPa6h5l/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Gestação Ectópica", pdfLink: "https://drive.google.com/file/d/1BVTmc9uDstNLdmm7ZfCH0hOOTPcJ2Xt8/view?usp=sharing" },
+        { title: "Ficha Resumo - Gestação Ectópica", pdfLink: "https://drive.google.com/file/d/1Rc7Rl7PrVRuayEApVUCC0kl_kT4aHsIL/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 3,
+      label: "Sub-Módulo 03",
+      title: "Doença Trofoblástica Gestacional",
+      imageUrl: "https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Doença Trofoblástica Gestacional (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1GzaqBC2shIP3l6__30fkKnFjz887_ixh/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Doença Trofoblástica Gestacional (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1JjpMqAg-BE7g3-NOVlOuWpozi2kvt80T/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Doença Trofoblástica Gestacional", pdfLink: "https://drive.google.com/file/d/111gySeC9u5ZvS2lPPGy21udnFHPHxgDU/view?usp=sharing" },
+        { title: "Ficha Resumo - Doença Trofoblástica Gestacional", pdfLink: "https://drive.google.com/file/d/1H-A-n9Co3OQgm4JKEbxxjaLb6-RET2xe/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 4,
+      label: "Sub-Módulo 04",
+      title: "Hiperêmese (se Houver)",
+      imageUrl: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+      ],
+      materials: [
+      ]
+    }
+  ]
+},
+
+// --- MÓDULO 44: PATOLOGIA DA 2ª METADE E PUERPÉRIO ---
+{
+  id: 44,
+  title: "Módulo 44 - Patologia da 2ª Metade e Puerpério",
+  label: "Módulo 44",
+  subModules: [
+    {
+      id: 1,
+      label: "Sub-Módulo 01",
+      title: "Sangramentos (Placenta Prévia, DPP, Rotura)",
+      imageUrl: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Placenta Prévia (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1QoZtQHlZycb0LZfzQ7EXqEDsidorb3z9/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Descolamento Prematuro de Placenta (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1pZVWMFTvaDJjxtXxsHGEQ1mdR3ClTwkS/view?usp=sharing" },
+        { id: 3, title: "Aula 03 - Outros Sangramentos de Segunda Metade da Gestação (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ffOqZphujaR8Dwo3Y23R_G3WobX1dg92/view?usp=sharing" },
+        { id: 4, title: "Aula 04 - Placenta Prévia (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1JNt02pWPMR5B6ISi-6TimKtPrIeejWbf/view?usp=sharing" },
+        { id: 5, title: "Aula 05 - Descolamento Prematuro de Placenta (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1srUlydaIRMUj8qLyAZ9dxJhbVTgdkzIF/view?usp=sharing" },
+        { id: 6, title: "Aula 06 - Outros Sangramentos de Segunda Metade da Gestação (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1TCxycJ3Mk4A-ZdoE-3WPehOy4HeqhD_8/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Placenta Prévia", pdfLink: "https://drive.google.com/file/d/1C3D5qC0Ia3_EQh5fELF6o_FOCz4gADqS/view?usp=sharing" },
+        { title: "PDF de Slides - Descolamento Prematuro de Placenta", pdfLink: "https://drive.google.com/file/d/1SqBDL1TqzmOa-6M_1YJaN5EhnAxir3bP/view?usp=sharing" },
+        { title: "PDF de Slides - Outros Sangramentos de Segunda Metade da Gestação", pdfLink: "https://drive.google.com/file/d/16fJyVXaQkoYIkHJe0rea9C-F8gu4jn1w/view?usp=sharing" },
+        { title: "Ficha Resumo - Placenta Prévia", pdfLink: "https://drive.google.com/file/d/1j4p4pv6N5voS2iMN7u2gIW4JAjYI45Bq/view?usp=sharing" },
+        { title: "Ficha Resumo - Descolamento Prematuro de Placenta", pdfLink: "https://drive.google.com/file/d/1qHor4FA-JmWUjVXSieD7s6C_63QWSSo8/view?usp=sharing" },
+        { title: "Ficha Resumo - Outros Sangramentos de Segunda Metade da Gestação", pdfLink: "https://drive.google.com/file/d/1RotSjC7qHIqzVgVbTwEfPz9oLb_mn51L/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 2,
+      label: "Sub-Módulo 02",
+      title: "Síndromes Hipertensivas (DHEG, Eclâmpsia)",
+      imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Síndromes Hipertensivas na Gestação - parte 1 (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1mOkx6AOVxuH_TAInF3w8h2UTUzbbQ2Pg/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Síndromes Hipertensivas na Gestação - parte 2 (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1R3x9bSArg8AZVg5cUV5hN2lrX5-xRbJ4/view?usp=sharing" },
+        { id: 3, title: "Aula 03 - Síndromes Hipertensivas na Gestação - parte 1 (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1j7-EAVjEg6w08o--AqeCP0DLqGynH2W3/view?usp=sharing" },
+        { id: 4, title: "Aula 04 - Síndromes Hipertensivas na Gestação - parte 2 (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1gjKhrenQX_nV89ISAWPyQtC3zYgiYHbI/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Síndromes Hipertensivas na Gestação - parte 1", pdfLink: "https://drive.google.com/file/d/1EvNxYiXoM-CfjaRddl6LcD5h5x9NAGPD/view?usp=sharing" },
+        { title: "PDF de Slides - Síndromes Hipertensivas na Gestação - parte 2", pdfLink: "https://drive.google.com/file/d/1PXg4wMjsBDjY5xozANgkkCs1QkkAhuxU/view?usp=sharing" },
+        { title: "Ficha Resumo - Síndromes Hipertensivas na Gestação - parte 1", pdfLink: "https://drive.google.com/file/d/1u1Etbhn0kqk9nAHVWUTf0ub_4tLxluP6/view?usp=sharing" },
+        { title: "Ficha Resumo - Síndromes Hipertensivas na Gestação - parte 2", pdfLink: "https://drive.google.com/file/d/1W-i2-dx9faoihNYVUIf-bZDNjjS2dxD_/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 3,
+      label: "Sub-Módulo 03",
+      title: "Trabalho de Parto Prematuro e RPMO",
+      imageUrl: "https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Trabalho de Parto Prematuro (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1d_Tnuf0sBc5LPNx9npsHjSpW2x_tLevE/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Rotura Prematura de Membranas Ovulares (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ocgx2KmxKudu2ZxcQtAKulErsMhLW8qV/view?usp=sharing" },
+        { id: 3, title: "Aula 03 - Colo Curto e Incompetência Istmocervical (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1pA0K7rwsr5OinPwUFN4EhZtF4WbH3MaV/view?usp=sharing" },
+        { id: 4, title: "Aula 04 - Trabalho de Parto Prematuro (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1hR2oI9I5glHylwbQyIiNMO_p3UmATaWb/view?usp=sharing" },
+        { id: 5, title: "Aula 05 - Rotura Prematura de Membranas Ovulares (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1zNzVmioy8Ry0KO05okFcIoVXYWYTXvut/view?usp=sharing" },
+        { id: 6, title: "Aula 06 - Colo Curto e Incompetencia Istmocervical (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1VDcFcncrC3vogRSP4XDQvoQYxuLGu0D4/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Trabalho de Parto Prematuro", pdfLink: "https://drive.google.com/file/d/18ih4-LvvBPxAUzPJCLpAbP8ng3PWM0br/view?usp=sharing" },
+        { title: "PDF de Slides - Rotura Prematura de Membranas Ovulares", pdfLink: "https://drive.google.com/file/d/1bysTRsJVMnnn3sFPolDTq7JRhWnl_IHJ/view?usp=sharing" },
+        { title: "PDF de Slides - Colo Curto e Incompetência Istmocervical", pdfLink: "https://drive.google.com/file/d/1SKA97NrJ2ocuewKHPL6b2tzS1tkcgghh/view?usp=sharing" },
+        { title: "Ficha Resumo - Trabalho de Parto Prematuro", pdfLink: "https://drive.google.com/file/d/17xk8hbs7-NcvlVcIFGKnA0VoWxe_bSab/view?usp=sharing" },
+        { title: "Ficha Resumo - Rotura Prematura de Membranas Ovulares", pdfLink: "https://drive.google.com/file/d/1i4aMc4Eun_wS-F024hE6cWlO94kL0bmg/view?usp=sharing" },
+        { title: "Ficha Resumo - Colo Curto e Incompetência Istmocervical", pdfLink: "https://drive.google.com/file/d/13nmNo_PuAfJUZD8a4wGE4zE1btgTMdAq/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 4,
+      label: "Sub-Módulo 04",
+      title: "Restrição de Crescimento (RCIU) e Sofrimento Fetal",
+      imageUrl: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Restrição de Crescimento Intrauterino (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/14EvfdRkF8fRVTpINL80Ayb3eijcZl86L/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Sofrimento Fetal Agudo (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1sqn80Kky4p2M83ztQyXsUKZ6GanMGsmQ/view?usp=sharing" },
+        { id: 3, title: "Aula 03 - Sofrimento Fetal Crônico (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1yeVRUUB-Kx-4yNfmIDGt91L8B53zNRM8/view?usp=sharing" },
+        { id: 4, title: "Aula 04 - Restrição de Crescimento Intrauterino (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1cIbORnZ5jMGPLnwCreoT_tV2l2LrxYz_/view?usp=sharing" },
+        { id: 5, title: "Aula 05 - Sofrimento Fetal Agudo (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/19KWoJLoccUG8arteuG9UiSQByzz7eedx/view?usp=sharing" },
+        { id: 6, title: "Aula 06 - Sofrimento Fetal Crônico (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1XHa0vkZDF1dTmziLsLM3lC9cmZVo765H/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Restrição de Crescimento Intrauterino", pdfLink: "https://drive.google.com/file/d/17a47SlAKXHOM9dmd_7kzVDg8cGE0EDLJ/view?usp=sharing" },
+        { title: "PDF de Slides - Sofrimento Fetal Agudo", pdfLink: "https://drive.google.com/file/d/1iz8KBuMxMPe5ft04EZEszwSi0muKcrtT/view?usp=sharing" },
+        { title: "Material - Slide -Sofrimento Fetal Crônico", pdfLink: "https://drive.google.com/file/d/1jf-fZI1uViJXCE0BQilwL3SE331Gr9bV/view?usp=sharing" },
+        { title: "Ficha Resumo - Restrição de Crescimento Intrauterino", pdfLink: "https://drive.google.com/file/d/13huIV0R-S6NBQ5fY0vNczpqCS6Nr7Xn9/view?usp=sharing" },
+        { title: "Ficha Resumo - Sofrimento Fetal Agudo", pdfLink: "https://drive.google.com/file/d/1hOSvkBkG1_KwQrFyIKKU84cMk3B8V_4j/view?usp=sharing" },
+        { title: "Ficha Resumo - Sofrimento Fetal Crônico", pdfLink: "https://drive.google.com/file/d/1YkTWbYnYFopQXLUXJcOGuOYDY9RRIzuJ/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 5,
+      label: "Sub-Módulo 05",
+      title: "Gemelaridade",
+      imageUrl: "https://images.unsplash.com/photo-1581595219315-a187dd40c322?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Gemelaridade (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1oQox_nd2hImAGzosmz78CJqyHiAsCz8C/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Gemelaridade (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/12Xw7Y8bsDIvaHIvEX_GUS67JsY7WnINa/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Gemelaridade", pdfLink: "https://drive.google.com/file/d/1AhqnV2kNtMMEWaae3iXDapIeVEd0wqUd/view?usp=sharing" },
+        { title: "Ficha Resumo - Gemelaridade", pdfLink: "https://drive.google.com/file/d/1--S-4pNFt9S1MBBLblj_OZIB28JWtxVK/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 6,
+      label: "Sub-Módulo 06",
+      title: "Diabetes Gestacional",
+      imageUrl: "https://images.unsplash.com/photo-1582719478185-2bb8d2e9f0b3?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Diabetes na Gestação (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1TKyGaHHsA6PJ9G5Fkwzex0Vq_Aq_GpXu/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Diabetes na Gestação (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1rCpXhJaXPBkwywHUTaAO-hc76lj-PQv0/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Diabetes na Gestação", pdfLink: "https://drive.google.com/file/d/1RUQgjyMIUIphNWz884tTiAGRF2tjgIcm/view?usp=sharing" },
+        { title: "Ficha Resumo - Diabetes na Gestação", pdfLink: "https://drive.google.com/file/d/1UfWsJ_5XMbQFppHmH3nB1Vs4wGkiUYy3/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 7,
+      label: "Sub-Módulo 07",
+      title: "Infecções na Gestação (TORCH, HIV, Sífilis, ITU)",
+      imageUrl: "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Infecções e Gravidez (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1-Jfd_NJSinuWJC0rwXYa8hUt5fh5DOel/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Infecções e Gravidez (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1utPdMY-mGZ_20qw7ZLiDVYvZw-hLT7gK/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF da Aula - Infecções e Gravidez", pdfLink: "https://drive.google.com/file/d/1WidWPOQEi2j01ocQJeTXEI_-aJ84tcsv/view?usp=sharing" },
+        { title: "Ficha Resumo - Infecções e Gravidez", pdfLink: "https://drive.google.com/file/d/1ky04voQ-m7quPQsIckI4zA9-WiL31mq6/view?usp=sharing" },
+        { title: "Ficha Resumo - Infecções e Gravidez", pdfLink: "https://drive.google.com/file/d/1rjQ7g5MyIc_9UgnR4Y7Ni37QLg7boNlf/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 8,
+      label: "Sub-Módulo 08",
+      title: "Hemorragia Pós-Parto e Puerpério Patológico",
+      imageUrl: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Puerpério Patológico (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Fl7nkuU77uOZHlrmY3j4qkinml_5HEWa/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Hemorragia pós parto (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1rzvccvJ5nf8v0cM_3pAHdIy-IYjK-j-O/view?usp=sharing" },
+        { id: 3, title: "Aula 03 - Puerpério Patológico (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1HbjgpZzB46qukuQhru19EjeCW5PUQmVT/view?usp=sharing" },
+        { id: 4, title: "Aula 04 - Hemorragia pós parto (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1X6tq_4GMJQy_v01OKPqkeeF4iTandIlV/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Puerpério Patológico", pdfLink: "https://drive.google.com/file/d/1aY2Kh1IJ6sga_wAuG3wHP18QZAuEuHJR/view?usp=sharing" },
+        { title: "PDF de Slides - Hemorragia pós parto", pdfLink: "https://drive.google.com/file/d/1nhTPVPfE9YyKzOMk32R6bwWz68eXcMsk/view?usp=sharing" },
+        { title: "Ficha Resumo - Puerpério Patológico", pdfLink: "https://drive.google.com/file/d/1KTr8Uy00MK1HRam2hYldy8m3FdlEgoGY/view?usp=sharing" },
+        { title: "Ficha Resumo - Hemorragia pós parto", pdfLink: "https://drive.google.com/file/d/1VcWXvPdeg_QbCcHVuu0P7Zr7bE2ttnqp/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 9,
+      label: "Sub-Módulo 09",
+      title: "Isoimunização (Doença Hemolítica)",
+      imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Doença Hemolítica Perinatal (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/15dBpJyMfbf_1z2WqtFhVDsDJrc9V0WuE/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Doença Hemolítica Perinatal (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1tUgG7_9L9X_JpYORzAmnK7w3iMeKk1-K/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Doença Hemolítica Perinatal", pdfLink: "https://drive.google.com/file/d/1g9u541kE0Z_iHUZ5qnieARvYwhtzMo4J/view?usp=sharing" },
+        { title: "Ficha Resumo - Doença Hemolítica Perinatal", pdfLink: "https://drive.google.com/file/d/1zGjq4suVRU-QG5UEIL61oF-D1I7y4a03/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 10,
+      label: "Sub-Módulo 10",
+      title: "Trombofilias e Distúrbios Psiquiátricos",
+      imageUrl: "https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Trombofilias na Gestação e Puerpério (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Vrwk-sor8KZ2GftN-otoV5PGADdH308N/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Distúrbios Psiquiátricos na Gestação e Pós parto (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1gI1uxjAGCcJCjkvvoVYDhCkND4HQgINu/view?usp=sharing" },
+        { id: 3, title: "Aula 03 - Trombofilias na Gestação e Puerpério (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1cEx1nbsEMMOE3fpd1I6N03M1hySVkh0K/view?usp=sharing" },
+        { id: 4, title: "Aula 04 - Distúrbios Psiquiátricos na Gestação e Pós parto (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1X9FN2DMoqPPO2-w1Lz6hjOaagHcbsJ2D/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Trombofilias na Gestação e Puerpério", pdfLink: "https://drive.google.com/file/d/16RAc3W18m5FXg6fLtKg8Q3j37w7exPtd/view?usp=sharing" },
+        { title: "PDF de Slides - Distúrbios Psiquiátricos na Gestação e Pós parto", pdfLink: "https://drive.google.com/file/d/1Qqu7pwUnHAv7Km3Xwtl29ZaidH2DY22f/view?usp=sharing" },
+        { title: "Ficha Resumo - Trombofilias na Gestação e Puerpério", pdfLink: "https://drive.google.com/file/d/1BDZELK4UJA18GD56gyyS9XDi_g_maBi4/view?usp=sharing" },
+        { title: "Ficha Resumo - Distúrbios Psiquiátricos", pdfLink: "https://drive.google.com/file/d/1WjpLeovQMKgfGVjF_6MkHRzkmLttrclG/view?usp=sharing" }
+      ]
+    }
+  ]
+},
+
+// --- MÓDULO 45: ENDOCRINOLOGIA E REPRODUÇÃO ---
+{
+  id: 45,
+  title: "Módulo 45 - Endocrinologia e Reprodução",
+  label: "Módulo 45",
+  subModules: [
+    {
+      id: 1,
+      label: "Sub-Módulo 01",
+      title: "Embriologia e Diferenciação Sexual",
+      imageUrl: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Embriologia do Sistema Genital Feminino (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/11S7Agi3PQXZH83fMBHeY2edNjxeqBVJB/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Diferenças no Desenvolvimento Sexual (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1PVqBni7Quwx34jVKH-rQ1BHsGvKxqiBT/view?usp=sharing" },
+        { id: 3, title: "Aula 03 - Malformações Mullerianas (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1TzSeT4e4qN2Xi-vZFPuIMxOcmtTPrKGH/view?usp=sharing" },
+        { id: 4, title: "Aula 04 - Embriologia do Sistema Genital Feminino (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/13K9yiD3rY92CuDtMz2FXtW0GhkK2uc_h/view?usp=sharing" },
+        { id: 5, title: "Aula 05 - Diferenças no Desenvolvimento Sexual (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Owu4A3KBRg4g3UqPQqyY-4wOzfnbUrZf/view?usp=sharing" },
+        { id: 6, title: "Aula 06 - Malformações Mullerianas (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/13tSodq4OfkW6utBqfLCWeFR-KtL2vEN2/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Embriologia do Sistema Genital Feminino", pdfLink: "https://drive.google.com/file/d/18FITQeOpV32sYUCQOyXbHG4kny_D7HAM/view?usp=sharing" },
+        { title: "PDF de Slides - Diferenças no Desenvolvimento Sexual", pdfLink: "https://drive.google.com/file/d/1pWkIh3qIo4LZKOor5sNAN8e9VhkzFdBm/view?usp=sharing" },
+        { title: "PDF de Slides - Malformações Mullerianas", pdfLink: "https://drive.google.com/file/d/1P76FqoY-Tzp8Wp9s1vgyU3asWBT5keHu/view?usp=sharing" },
+        { title: "Ficha Resumo - Embriologia do Sistema Genital Feminino", pdfLink: "https://drive.google.com/file/d/16RwEh59rJjwc6fV_aphOEHeAKi6bpuIN/view?usp=sharing" },
+        { title: "Ficha Resumo - Diferenças no Desenvolvimento Sexual", pdfLink: "https://drive.google.com/file/d/16g5JrGlumbZ5DBsmZHPgru5U0Fzr72PJ/view?usp=sharing" },
+        { title: "Ficha Resumo - Malformações Mullerianas", pdfLink: "https://drive.google.com/file/d/1KaDU8YE3P9xBBnVmce-hXUX5k2PdAFdf/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 2,
+      label: "Sub-Módulo 02",
+      title: "Fisiologia Menstrual e Esteroidogênese",
+      imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Esteroidogenese (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1fF2YNoPvt5qhKxZLjCennZCe554pHprN/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Fisiologia Menstrual (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1sl-IGGjm-qV4RgVwakYLp6Ov5PHoIxqQ/view?usp=sharing" },
+        { id: 3, title: "Aula 03 - Esteroidogenese (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1hj37HxbxvXb3Ueo36d-K2Imr7dWlOJZV/view?usp=sharing" },
+        { id: 4, title: "Aula 04 - Fisiologia Menstrual (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1i8gdcJs4dLyENHT-LsUHP9d86CEzWqOt/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Esteroidogênese", pdfLink: "https://drive.google.com/file/d/1s_grF8j0tYRr92iutasw3MRMo1Ol_S2i/view?usp=sharing" },
+        { title: "PDF de Slides - Fisiologia Menstrual", pdfLink: "https://drive.google.com/file/d/1rxmKLeJMCWbaXvqABac3tO-kkBIyje_I/view?usp=sharing" },
+        { title: "Ficha Resumo - Esteroidogênese", pdfLink: "https://drive.google.com/file/d/1GVmiPy6uKMQju9JTLTNNowWCsu0OwXD0/view?usp=sharing" },
+        { title: "Ficha Resumo - Fisiologia Menstrual", pdfLink: "https://drive.google.com/file/d/1uaMlMwJtM31VAbTvwJoLDdUwJxktKevh/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 3,
+      label: "Sub-Módulo 03",
+      title: "Amenorreias (Primária e Secundária)",
+      imageUrl: "https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Amenorreia Primária (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1yhgk8tnO2hiX7mndA7u3U68bQXiVTBsM/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Amenorreia Secundária (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/14c97vn3ms20n1ccG3G76gCETIEzO8jMD/view?usp=sharing" },
+        { id: 3, title: "Aula 03 - Amenorreia Primária (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1kGVRgG0Hhu0CYmRcMCuahus8Tf77J6lo/view?usp=sharing" },
+        { id: 4, title: "Aula 04 - Amenorreia Secundária (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1m5kMN1xADJ3tONmMFeYLgD6KN3ZHQlQv/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Amenorreia Primária", pdfLink: "https://drive.google.com/file/d/1wX6Rym-ELmopH8WwjBihX8ErJn1z4VGW/view?usp=sharing" },
+        { title: "PDF de Slides - Amenorreia Secundária", pdfLink: "https://drive.google.com/file/d/1cHJC2DEKfwhJ8HbhubQOSV3wHKNGcSe1/view?usp=sharing" },
+        { title: "Ficha Resumo - Amenorreia Primária", pdfLink: "https://drive.google.com/file/d/1FC0hhb5OJEIYHO7RHsiV9ssFWPdJnyj9/view?usp=sharing" },
+        { title: "Ficha Resumo - Amenorreia Secundária", pdfLink: "https://drive.google.com/file/d/17A5YQ7JowmqEixaioKVgWwJEtn5Ep6jO/view?usp=sharing" },
+        { title: "Errata - AMENORREIA PRIMÁRIA", pdfLink: "https://drive.google.com/file/d/1eCSg-SPwWVzhwmzgkKHMKoarFZhiSld9/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 4,
+      label: "Sub-Módulo 04",
+      title: "Síndrome dos Ovários Policísticos (SOP)",
+      imageUrl: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Síndrome dos Ovários Policísticos (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ryjk1iLxTYAD0U_asR5H8bLHFieqAP4Y/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Síndrome dos Ovários Policísticos (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1lmsfhvTNS0SGxzj_hC1u-ySSqq8cs51Y/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Síndrome dos Ovários Policísticos", pdfLink: "https://drive.google.com/file/d/1rw2hED84qasjTMympQqZWvbYhkzSR7ov/view?usp=sharing" },
+        { title: "Ficha Resumo - Síndrome dos Ovários Policísticos", pdfLink: "https://drive.google.com/file/d/1c81bcw8XamTOI7LbnhUE2Zk3QBMUGRB8/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 5,
+      label: "Sub-Módulo 05",
+      title: "Hiperprolactinemia e Sangramento Uterino Anormal (SUA)",
+      imageUrl: "https://images.unsplash.com/photo-1581595219315-a187dd40c322?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Hiperprolactinemia (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Mum0xEKsNYLvstuyCCw3KhCCg3JeR3Ld/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Sangramento Uterino Anormal - Adenomiose (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/19zoopRHqRAbuW4BaLmzkMQVecB0eujQY/view?usp=sharing" },
+        { id: 3, title: "Aula 03 - Sangramento Uterino Anormal - Leiomioma (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1A9CTso6fLopFAFvy6tJbrCa8Vl4SzOdb/view?usp=sharing" },
+        { id: 4, title: "Aula 04 - Sangramento Uterino Anormal - Fundamentos (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1JBFsq7IH8H1HMAy6L4l3GnltJFw-rPuW/view?usp=sharing" },
+        { id: 5, title: "Aula 05 - Hiperprolactinemia (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/11fqvl5-R_RXuKAwolZ2iApIsg8qKzC9u/view?usp=sharing" },
+        { id: 6, title: "Aula 06 - Sangramento Uterino Anormal - Adenomiose (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/15bCHQeXzrh5B-6Kj9C-scMO1CulDRAwk/view?usp=sharing" },
+        { id: 7, title: "Aula 07 - Sangramento Uterino Anormal - Leiomioma (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1aqQ7ZTTJD_uoDTHsYlFuuZHGTOSe3bMv/view?usp=sharing" },
+        { id: 8, title: "Aula 08 - Sangramento Uterino Anormal - Fundamentos (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/12pV0B82hbeimKoHNHUt0c3kIbD6xj45o/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Hiperprolactinemia", pdfLink: "https://drive.google.com/file/d/1zwxhGMA1-wHBd0tlZm0NCV4jzIXbcK-7/view?usp=sharing" },
+        { title: "PDF de Slides - Sangramento Uterino Anormal - Adenomiose", pdfLink: "https://drive.google.com/file/d/1-O3ZHHtOaSfL6iiBU1j6HmQ90c50265R/view?usp=sharing" },
+        { title: "PDF de Slides - Sangramento Uterino Anormal - Leiomioma", pdfLink: "https://drive.google.com/file/d/1a6U_WrVOLGQC9Cnwd75NJ4ToDIeTs5zo/view?usp=sharing" },
+        { title: "PDF de Slides - Sangramento Uterino Anormal - Fundamentos", pdfLink: "https://drive.google.com/file/d/1xtOspiloRBJFLTaKXj0HRieEKs-uErFH/view?usp=sharing" },
+        { title: "Ficha Resumo - Hiperprolactinemia", pdfLink: "https://drive.google.com/file/d/1HTgNTVVF4HQEXoe0eCsKb4WyXFPy4i9U/view?usp=sharing" },
+        { title: "Ficha Resumo - Sangramento Uterino Anormal - Adenomiose", pdfLink: "https://drive.google.com/file/d/1MDVOX5CayHreWRx3Bg4SCQfNnsJPMLmg/view?usp=sharing" },
+        { title: "Ficha Resumo - Sangramento Uterino Anormal - Leiomioma", pdfLink: "https://drive.google.com/file/d/1OROkZTR_0BiYsrKjQo2Y43FWp690nCDB/view?usp=sharing" },
+        { title: "Ficha Resumo - Sangramento Uterino Anormal - Fundamentos", pdfLink: "https://drive.google.com/file/d/1qjxbbRDLwcTGBvCuPJmTZ3XwfOy8cIpl/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 6,
+      label: "Sub-Módulo 06",
+      title: "Climatério e Terapia de Reposição Hormonal (TRH)",
+      imageUrl: "https://images.unsplash.com/photo-1582719478185-2bb8d2e9f0b3?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Síndrome Climatérica (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1cIeGNK17gxB_v3MT0-CACmsCgkm6UB3F/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Terapia de Reposição Hormonal (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/19sZy1C_pNMjuQAOKyn_xeezJlsdSbmE5/view?usp=sharing" },
+        { id: 3, title: "Aula 03 - Síndrome Climatérica (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1L8ChvFrQqSTO_dBFqkIQwU0pib_eP156/view?usp=sharing" },
+        { id: 4, title: "Aula 04 - Terapia de Reposição Hormonal (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1kAB2om7sbgqucnS-lzD6W_zcW05GrGtd/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Síndrome Climatérica", pdfLink: "https://drive.google.com/file/d/1v6UP4AyZnt25g9If5CFTfpUeKR6f95pV/view?usp=sharing" },
+        { title: "PDF de Slides - Terapia de Reposição Hormonal", pdfLink: "https://drive.google.com/file/d/1qmvaN-kT91TGapjYdQ0LKJWoGCKMw70E/view?usp=sharing" },
+        { title: "Ficha Resumo - Síndrome Climatérica", pdfLink: "https://drive.google.com/file/d/13uzcGo-BBOXN7ff9DIP9FX1p3vY_O8yC/view?usp=sharing" },
+        { title: "Ficha Resumo - Terapia de Reposição Hormonal", pdfLink: "https://drive.google.com/file/d/1NIXIawv0-kMful6YEiJbj2qfzltFxu7R/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 7,
+      label: "Sub-Módulo 07",
+      title: "Anticoncepção (Métodos, Situações Especiais, Definitivos)",
+      imageUrl: "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Anticoncepção - Métodos Disponíveis (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1bd5x6nTmjXexBCmETrqs5ySK9FTaCCD3/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Anticoncepção - Fundamentos (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1vbPyJvyLXlsuLPi5LdFovAqT05prKTs0/view?usp=sharing" },
+        { id: 3, title: "Aula 03 - Anticoncepção em Situações Especiais (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1XKH7QY0nwiWLj_vss6kpkjPuu-7ewUQl/view?usp=sharing" },
+        { id: 4, title: "Aula 04 - Anticoncepção - Métodos Disponíveis (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/10HRyPNBXduk5kRNwPrQFwwjbgrqcfcih/view?usp=sharing" },
+        { id: 5, title: "Aula 05 - Anticoncepção - Fundamentos (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1wvjC_85AlyL0LtTRdo0_JzQNJ2x9xtEl/view?usp=sharing" },
+        { id: 6, title: "Aula 06 - Anticoncepção em Situações Especiais (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1nZhUfarNB9wWrSeIidhUQQSqx6w2wB_q/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Anticoncepção - Métodos Disponíveis", pdfLink: "https://drive.google.com/file/d/11VtKVHtezEJjPfV9HdGGsy5bl3X0JsgP/view?usp=sharing" },
+        { title: "PDF de Slides - Anticoncepção - Fundamentos", pdfLink: "https://drive.google.com/file/d/1MSVkfPGUR2KrPlGdSgfLPX7SpWrFu-pT/view?usp=sharing" },
+        { title: "PDF de Slides - Anticoncepção em Situações Especiais", pdfLink: "https://drive.google.com/file/d/1opS0-GELqj5G39vKKCknpg9aRM8Q_RMe/view?usp=sharing" },
+        { title: "Ficha Resumo - Anticoncepção - Métodos Disponíveis", pdfLink: "https://drive.google.com/file/d/17yz2RWRFzbOoNHc2ndt2eaDv4ZP1f1J7/view?usp=sharing" },
+        { title: "Ficha Resumo - Anticoncepção - Fundamentos", pdfLink: "https://drive.google.com/file/d/15qPCE-SsMd8KHtzTXFLjGR4sV6bDzymo/view?usp=sharing" },
+        { title: "Ficha Resumo - Anticoncepção em Situações Especiais", pdfLink: "https://drive.google.com/file/d/1yYi6qLatTG_1-A2UV3QsxgD5W4l-eb1A/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 8,
+      label: "Sub-Módulo 08",
+      title: "Infertilidade e Reprodução Assistida",
+      imageUrl: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Infertilidade (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1qnNI2S2Gfj8tyyRVzxtB1CHaV5OxSp2R/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Técnicas de Reprodução Assistida (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1DuZ4eZuJ4P65Ow5k3o7q8h0ql3AEvaW5/view?usp=sharing" },
+        { id: 3, title: "Aula 03 - Infertilidade (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1JJPxwlTSzffdx-zoAR5pPJjISiraNcXm/view?usp=sharing" },
+        { id: 4, title: "Aula 04 - Técnicas de Reprodução Assistida (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1klbSNcdGVjTFn1j6SkSTrGiSBoI1LfSJ/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Infertilidade", pdfLink: "https://drive.google.com/file/d/14-yJQKh5cFhbkpRkiR4lY_5-Ar-i13ll/view?usp=sharing" },
+        { title: "PDF de Slides - Técnicas de Reprodução Assistida", pdfLink: "https://drive.google.com/file/d/11WNxpdCL6-JzAj76_tmEOE1jxapZlaoq/view?usp=sharing" },
+        { title: "Ficha Resumo - Infertilidade", pdfLink: "https://drive.google.com/file/d/14Y3_KYK97n_oFyncPJ9kYIisttq0mM9b/view?usp=sharing" },
+        { title: "Ficha Resumo - Infertilidade", pdfLink: "https://drive.google.com/file/d/1wgUc0pvjsFDR5xpQJU1sraQWU5vHAPw5/view?usp=sharing" },
+        { title: "Ficha Resumo - Técnicas de Reprodução Assistida", pdfLink: "https://drive.google.com/file/d/16G4Lk_yc6xW4k3j98Au1kBOl6Wo73cFq/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 9,
+      label: "Sub-Módulo 09",
+      title: "Puberdade (Precoce/Tardia)",
+      imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Puberdade Precoce e Tardia (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1wBquIoRxSpQsAYgOIwOK9Z_V9hq6wcln/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Puberdade Precoce e Tardia (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1iEKQBJWq27j51v8-F5keEftCpHL_Xpll/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Puberdade Precoce e Tardia", pdfLink: "https://drive.google.com/file/d/1nvXV_WrPMHdQd4QCFWKGDptqeHTZ-7eR/view?usp=sharing" },
+        { title: "Ficha Resumo - Puberdade Precoce e Tardia", pdfLink: "https://drive.google.com/file/d/1uA7jLq0CJT26o80FIeO0H9yImQtGedOv/view?usp=sharing" }
+      ]
+    }
+  ]
+},
+
+// --- MÓDULO 46: PATOLOGIA BENIGNA E INFECÇÕES ---
+{
+  id: 46,
+  title: "Módulo 46 - Patologia Benigna e Infecções",
+  label: "Módulo 46",
+  subModules: [
+    {
+      id: 1,
+      label: "Sub-Módulo 01",
+      title: "Infecções Genitais (Corrimentos, Úlceras, DSTs)",
+      imageUrl: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Corrimentos Vaginais (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1fErMV-1kv6B5uN-J4erjU6GMio9RoqC/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Corrimentos Vaginais (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1AVEJg-WQj0sOlK2BptD9wYA8BWmkQamp/view?usp=sharing" },
+        { id: 3, title: "Aula 03 - Úlceras Genitais (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1jBPH2sTlImPcYoKGaYszdM87lE4yjEyL/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Corrimentos Vaginais", pdfLink: "https://drive.google.com/file/d/1tINez7p1J4Zw5ZYQioGpUmcq86YmV1zV/view?usp=sharing" },
+        { title: "PDF de Slides - Úlceras Genitais", pdfLink: "https://drive.google.com/file/d/1o_AV28VDlHIGOxhVYUpdld9rNSU1zAWp/view?usp=sharing" },
+        { title: "Ficha Resumo - Corrimentos Vaginais", pdfLink: "https://drive.google.com/file/d/1WHEjPOblXwLdfUVRvyNH9tISb3llMEO0/view?usp=sharing" },
+        { title: "Ficha Resumo - Úlceras Genitais", pdfLink: "https://drive.google.com/file/d/13IO5nauLq-nBCxsTWp0kOJd2RlPD2K_f/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 2,
+      label: "Sub-Módulo 02",
+      title: "Doença Inflamatória Pélvica (DIP)",
+      imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Doença inflamatória pélvica aguda (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1nYuSegWt55yIc892w4cFUMQfSlUHHk6W/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Doença inflamatória pélvica aguda (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Gt8ENcnZTUKLSGSZ2HhdvSOROhGanubF/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Doença Inflamatória Pélvica Aguda", pdfLink: "https://drive.google.com/file/d/1vpsOahQO_lBN910xr-XG60B_nAh6znjO/view?usp=sharing" },
+        { title: "Ficha Resumo - Doença Inflamatória Pélvica Aguda", pdfLink: "https://drive.google.com/file/d/15e5TzphM7OyNQ-urC7suGIt-rxDFuh6z/view?usp=sharing" },
+        { title: "Errata - DOENÇA INFLAMATÓRIA PÉLVICA AGUDA", pdfLink: "https://drive.google.com/file/d/1DnY10x7_0akm7R70xGbLWUNkzUPcnxiw/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 3,
+      label: "Sub-Módulo 03",
+      title: "Endometriose e Adenomiose",
+      imageUrl: "https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Endometriose (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1XXQUQ6zam6XYewtFQJqwWRKrz47wsx42/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Endometriose - Cirurgia (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/14-75ecnc470XlaBMqvUoz1v4xkXVoX2F/view?usp=sharing" },
+        { id: 3, title: "Aula 03 - Endometriose (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1K25P-gWAo_gWoFvfel_3rLQkZcprzELB/view?usp=sharing" },
+        { id: 4, title: "Aula 04 - Endometriose - Cirurgia (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1yfJBmZZklCp-b06B3Yig5HPJR8CcmTXg/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Endometriose", pdfLink: "https://drive.google.com/file/d/1qHyTi8fKdquyocK0fW0U1AK-acfXQZ2-/view?usp=sharing" },
+        { title: "PDF de Slides - Endometriose - Cirurgia", pdfLink: "https://drive.google.com/file/d/1LI78xvgSbAnEePuUxS_Mq3KbBPdsiWht/view?usp=sharing" },
+        { title: "Ficha Resumo - Endometriose", pdfLink: "https://drive.google.com/file/d/1NBmtkjOdrY7dqCVqztmdKVvRETBcIw7g/view?usp=sharing" },
+        { title: "Ficha Resumo - Endometriose - Cirurgia", pdfLink: "https://drive.google.com/file/d/1-RC6tyM0OAaPkO4UbKQ_TSRhEe507l7w/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 4,
+      label: "Sub-Módulo 04",
+      title: "Miomatose Uterina e Pólipos",
+      imageUrl: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+      ],
+      materials: [
+      ]
+    },
+    {
+      id: 5,
+      label: "Sub-Módulo 05",
+      title: "Doenças da Vulva e Vagina",
+      imageUrl: "https://images.unsplash.com/photo-1581595219315-a187dd40c322?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Doenças da Vulva e da Vagina (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/16aPl2AifWAtBl77yOCloL7xbGUEL5Nk0/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Doenças da Vulva e da Vagina (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1rAi-PWTXXGqQGHV6rFhffuU2eO9jem3Z/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Doenças da Vulva e da Vagina", pdfLink: "https://drive.google.com/file/d/1rb2dOJaPIvbaoNjo6y52E5ASJEBS5fwM/view?usp=sharing" },
+        { title: "Ficha Resumo - Doenças da Vulva e da Vagina", pdfLink: "https://drive.google.com/file/d/1O70VYubhBPqBNiNYc6nGrfWx9WRtlh-4/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 6,
+      label: "Sub-Módulo 06",
+      title: "Dor Pélvica e Violência Sexual",
+      imageUrl: "https://images.unsplash.com/photo-1582719478185-2bb8d2e9f0b3?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Violência Sexual (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ZafR_POlkuS2-5WI9dVWmsLvoS1cczXk/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Violência Sexual (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1mm2aS70_n0f8ltoxfogQ14Kb2VfUFpcK/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Violência Sexual", pdfLink: "https://drive.google.com/file/d/1AXhHVmxgCO1w4esZA_5PkYkGDtyJpOS9/view?usp=sharing" },
+        { title: "Ficha Resumo - Violência Sexual", pdfLink: "https://drive.google.com/file/d/116b_px82G6Ei7gkWz-MlKNiSKw9AFfzV/view?usp=sharing" }
+      ]
+    }
+  ]
+},
+
+// --- MÓDULO 47: UROGINECOLOGIA ---
+{
+  id: 47,
+  title: "Módulo 47 - Uroginecologia",
+  label: "Módulo 47",
+  subModules: [
+    {
+      id: 1,
+      label: "Sub-Módulo 01",
+      title: "Anatomia e Propedêutica (Estudo Urodinâmico)",
+      imageUrl: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Anatomia Pélvica Feminina (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1L4do9RFNa7Tltej4VRAS_6azejfnIEgP/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Propedêutica em Uroginecologia (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1TzlZln1tIyiVSSasz-iqfr7eW6IDqUeD/view?usp=sharing" },
+        { id: 3, title: "Aula 03 - Estudo Urodinâmico (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1xL-4zmEipN21IRRwNUbGcKvGGJtIcRGD/view?usp=sharing" },
+        { id: 4, title: "Aula 04 - Anatomia Pélvica Feminina (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1gJk7NP51E35NOTM5DWGCzdMag6SoJ0_i/view?usp=sharing" },
+        { id: 5, title: "Aula 05 - Propedêutica em Uroginecologia (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1QfzRpB4weRC3of9rI1r3nZHRNdndONXo/view?usp=sharing" },
+        { id: 6, title: "Aula 06 - Estudo Urodinâmico (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1cxGsKmhNwaJv-hMbvQKM3NH0_0wfwdbj/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Anatomia Pélvica Feminina", pdfLink: "https://drive.google.com/file/d/1qe3CAGBlkmIZqpyhAAHB9dwNTHHXoxu5/view?usp=sharing" },
+        { title: "PDF de Slides - Propedêutica em Uroginecologia", pdfLink: "https://drive.google.com/file/d/1oL2s-A-djaFMtvFTT85uuWokyecjpUJN/view?usp=sharing" },
+        { title: "PDF de Slides - Estudo Urodinâmico", pdfLink: "https://drive.google.com/file/d/14Rk65YRTCJr-x4IOEafxCzkX_aR-tcB4/view?usp=sharing" },
+        { title: "Ficha Resumo - Anatomia Pélvica Feminina", pdfLink: "https://drive.google.com/file/d/1UaIzEmmYFjfSsMIxo79UhpxlgsSbYfyg/view?usp=sharing" },
+        { title: "Ficha Resumo - Propedêutica em Uroginecologia", pdfLink: "https://drive.google.com/file/d/1_uDmEUuyEtNIO3xPuuXPgkmQM9opzW6c/view?usp=sharing" },
+        { title: "Ficha Resumo - Estudo Urodinâmico", pdfLink: "https://drive.google.com/file/d/1EPa_zx7GR-rnl5n0tCCx3FSY31iGy1e1/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 2,
+      label: "Sub-Módulo 02",
+      title: "Incontinência Urinária (Esforço, Urgência)",
+      imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+      ],
+      materials: [
+      ]
+    },
+    {
+      id: 3,
+      label: "Sub-Módulo 03",
+      title: "Prolapsos Genitais",
+      imageUrl: "https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Prolapso Genital (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1OeA8qUVEMBWkle1YSt89_KfWSUCH5IOM/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Prolapso Genital (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1MInQFA5jPQGS3FrE4c9qNR64qZxs6gCq/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Prolapso Genital", pdfLink: "https://drive.google.com/file/d/1FpGEwCJY9t7wJR-JyAthpC8RJDEfGtrg/view?usp=sharing" },
+        { title: "Ficha Resumo - Prolapso Genital", pdfLink: "https://drive.google.com/file/d/1kN2Qex4ezPjHfrHNOFveUxyGEW-SrsuF/view?usp=sharing" }
+      ]
+    }
+  ]
+},
+
+// --- MÓDULO 48: ONCOLOGIA E MASTOLOGIA ---
+{
+  id: 48,
+  title: "Módulo 48 - Oncologia e Mastologia",
+  label: "Módulo 48",
+  subModules: [
+    {
+      id: 1,
+      label: "Sub-Módulo 01",
+      title: "Rastreamento (Colo e Mama)",
+      imageUrl: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Câncer de Mama - Rastreamento (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/154D1IrmhV8S1NzmaYMfc6jNY3NlzQS3S/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Rastreamentos - Preventiva (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1dH1hDEdcfkz5vVWiRpzlP8qCuZxrTZOY/view?usp=sharing" },
+        { id: 3, title: "Aula 03 - Novas Diretrizes de Rastreamento extensivo 2025 (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1UWPCD0-aYe8nVVSgXrhYhnjd85Ft1f8W/view?usp=sharing" },
+        { id: 4, title: "Aula 04 - Câncer de Mama - Rastreamento (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1HXArw7XdD-7B8AF2tN-Ht_-Sewb5rvmf/view?usp=sharing" },
+        { id: 5, title: "Aula 05 - Rastreamentos - Preventiva (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1HNSpxnf7ubLkyvsZcI_GyWhoV_qsI_R3/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Câncer de Mama - Rastreamento", pdfLink: "https://drive.google.com/file/d/1fPvdIjgjBkvHPQ_Mdn3JXkGtpJFX3LUO/view?usp=sharing" },
+        { title: "PDF de Slides - Rastreamentos - Preventiva", pdfLink: "https://drive.google.com/file/d/1jv59w7RrGc4G2Ux6O2PvzwRk3sAY2O55/view?usp=sharing" },
+        { title: "Ficha Resumo - Câncer de Mama - Rastreamento", pdfLink: "https://drive.google.com/file/d/1v3_ur2G5-C6p1Ags7ga_hR8DmqyAD1B3/view?usp=sharing" },
+        { title: "Ficha Resumo - Rastreamentos - Preventiva", pdfLink: "https://drive.google.com/file/d/1xUDq7gqehoZrsebU3zh_04o57OuH2l_I/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 2,
+      label: "Sub-Módulo 02",
+      title: "Câncer de Colo de Útero e Lesões Precursoras (HPV)",
+      imageUrl: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Câncer de Colo de Útero (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1IwklimB5RZDOg0cQq-ocdBFBxn3WzBUA/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Alterações Colpocitológicas e Condutas (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/14iN-AGkq2HAD3xqzWHTC1RdmplndUnxC/view?usp=sharing" },
+        { id: 3, title: "Aula 03 - Câncer de Colo de Útero (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1NSpnKwVSVQ67EtHRwsIyVQ4spddsLIck/view?usp=sharing" },
+        { id: 4, title: "Aula 04 - Alterações Colpocitológicas e Condutas (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1Jdq6vsC1a2ZfIBfrZbKQCoxYrqUZQIVl/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Câncer de Colo de Útero", pdfLink: "https://drive.google.com/file/d/1gBUUWrheX7tuVwU3Nrqfq9BWCswl0kPx/view?usp=sharing" },
+        { title: "PDF de Slides - Alterações Colpocitológicas e Condutas", pdfLink: "https://drive.google.com/file/d/1pasEymZHBgE8CXJHSwLFE1PeTWuFVl7O/view?usp=sharing" },
+        { title: "Ficha Resumo - Câncer de Colo de Útero", pdfLink: "https://drive.google.com/file/d/1EGLPi0XQy1_8rftxujxFB_JtWKutemqL/view?usp=sharing" },
+        { title: "Ficha Resumo - Alterações Colpocitológicas e Condutas", pdfLink: "https://drive.google.com/file/d/1JZejDOe5RfecoVIAyPXUs0JZX6iAxczs/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 3,
+      label: "Sub-Módulo 03",
+      title: "Câncer de Endométrio e Hiperplasia",
+      imageUrl: "https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Câncer de Endométrio (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1n6qbMehgVaK1GKmEOFH2i2BkNQNReLZ8/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Câncer de Endométrio (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/16_REbpzitwqJmQqcy1UpjSy3suwMrSBD/view?usp=sharing" },
+        { id: 3, title: "Aula 03 - Hiperplasia Endometrial (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1ZJjuCgGt7syyJBxPWnpHlQOKfxBMmOWZ/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Câncer de Endométrio", pdfLink: "https://drive.google.com/file/d/1EK6y1T_WoXc8YoKHlpHlgnw3lwlUqT0n/view?usp=sharing" },
+        { title: "PDF de Slides - Hiperplasia Endometrial", pdfLink: "https://drive.google.com/file/d/1NMXTdKvsVzWi2MebVIU2Kst2SM0-0AIB/view?usp=sharing" },
+        { title: "PDF de Slides - Hiperplasia Endometrial", pdfLink: "https://drive.google.com/file/d/19tnHww6P_4-K2BDvD76yEwZD7IJaTISF/view?usp=sharing" },
+        { title: "Ficha Resumo - Câncer de Endométrio", pdfLink: "https://drive.google.com/file/d/17m1oRamZP0T1pX9gbMh6urq_o22cNkcq/view?usp=sharing" },
+        { title: "Ficha Resumo - Hiperplasia Endometrial", pdfLink: "https://drive.google.com/file/d/177eWfm-R7RAqdxamvYMI9MXJtd8LmwtV/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 4,
+      label: "Sub-Módulo 04",
+      title: "Câncer de Ovário e Tumores Anexiais",
+      imageUrl: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Câncer de Ovário (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/130SKpdj0sCmnmjBwsli7BWOLJEvs8tFF/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Tumores Anexiais (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1KpqjwtNscFWCD_gp3d1ChTx6qWNJnpNV/view?usp=sharing" },
+        { id: 3, title: "Aula 03 - Câncer de Ovário (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1M-IojaexT6kPzc3zELM-JKwp5VFUzytH/view?usp=sharing" },
+        { id: 4, title: "Aula 04 - Tumores Anexiais (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/11I0tSJSRfRv1CMykfNdaVhVebwnK0QU/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Câncer de Ovário", pdfLink: "https://drive.google.com/file/d/1can8x9yPW2b8p9fKq0-vae6JGvJa6qkl/view?usp=sharing" },
+        { title: "PDF de Slides - Tumores Anexiais", pdfLink: "https://drive.google.com/file/d/1U7amyofVP571j7rGoyfLSzJFi27lGA0W/view?usp=sharing" },
+        { title: "Ficha Resumo - Câncer de Ovário", pdfLink: "https://drive.google.com/file/d/1otSFPCfCA7Pw2R9ABOBJo87DcEvxKqc0/view?usp=sharing" },
+        { title: "Ficha Resumo - Tumores Anexiais", pdfLink: "https://drive.google.com/file/d/1ITJRab_EumGsrc0oznTmpsa-P9F4rz0l/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 5,
+      label: "Sub-Módulo 05",
+      title: "Câncer de Vulva/Vagina",
+      imageUrl: "https://images.unsplash.com/photo-1581595219315-a187dd40c322?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+      ],
+      materials: [
+      ]
+    },
+    {
+      id: 6,
+      label: "Sub-Módulo 06",
+      title: "Patologia Benigna da Mama",
+      imageUrl: "https://images.unsplash.com/photo-1582719478185-2bb8d2e9f0b3?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Classificação das Lesões Benignas (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1_BZrLlpfvScfXkGTG8b7tvMZlOB9yP5m/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Principais Sintomas em Mastologia (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1zDHRxDZVDlshFsI1NZ7eDcdR01Gz4hXX/view?usp=sharing" },
+        { id: 3, title: "Aula 03 - Propedêutica Mamária (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1jteW2yG_VnZLjY9BlH1TLBuWm_fgDu2H/view?usp=sharing" },
+        { id: 4, title: "Aula 04 - Propedêutica Mamária (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/11GolwpcVP8RTjZ4SVqi5TWoqi3ygZlJp/view?usp=sharing" },
+        { id: 5, title: "Aula 05 - Principais Sintomas em Mastologia (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1V0-OcGum7rzxlJdQesHOaINALLAPqo7z/view?usp=sharing" },
+        { id: 6, title: "Aula 06 - Classificação das Lesões Benignas (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1oSyPSQSkMfPXd5ntO7mdfZi1oJkiLwIB/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Classificação das Lesões Benignas", pdfLink: "https://drive.google.com/file/d/1X3SdikKi-8Pdx5jimVIvzThZNd6cI-aW/view?usp=sharing" },
+        { title: "PDF de Slides - Principais Sintomas em Mastologia", pdfLink: "https://drive.google.com/file/d/14OuWvv_V4zpzUkcSYnJJidRG4NY0cbIE/view?usp=sharing" },
+        { title: "PDF de Slides - Propedêutica Mamária", pdfLink: "https://drive.google.com/file/d/1YnCpo6sYsgCiNs0b92uW8L_m459lqn_I/view?usp=sharing" },
+        { title: "Ficha Resumo - Classificação das Lesões Benignas", pdfLink: "https://drive.google.com/file/d/1TNmLxACVmuDcZ1RdX_q88CnzCTe1lT5z/view?usp=sharing" },
+        { title: "Ficha Resumo - Principais Sintomas em Mastologia", pdfLink: "https://drive.google.com/file/d/1AFfC4giX_qCTpfMUbWtFY3Q14OfEkOss/view?usp=sharing" },
+        { title: "Ficha Resumo - Propedêutica Mamária", pdfLink: "https://drive.google.com/file/d/1LhOe38rugzxPsn5YpGle-i4ZdafpFWgs/view?usp=sharing" }
+      ]
+    },
+    {
+      id: 7,
+      label: "Sub-Módulo 07",
+      title: "Câncer de Mama (Tipos, Tratamento)",
+      imageUrl: "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { id: 1, title: "Aula 01 - Câncer de Mama - Fatores de Risco e CDIS (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1AQjbceZALW79609YkHvguNXg_iWAKhcz/view?usp=sharing" },
+        { id: 2, title: "Aula 02 - Câncer de Mama - Doença invasiva (Normal)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1YQ_wUqLNPEueNXHxfdiuDJfe-RL-E7BU/view?usp=sharing" },
+        { id: 3, title: "Aula 03 - Câncer de Mama - Fatores de Risco e CDIS (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1T23bFzK71p7uN81LBArrrecOMyg8N09C/view?usp=sharing" },
+        { id: 4, title: "Aula 04 - Câncer de Mama - Doença invasiva (CofExpress)", duration: "00:00", type: "aula", videoLink: "https://drive.google.com/file/d/1VkhMxlP9Tb5Myi9wsoHxkQWEYJ9VGf-k/view?usp=sharing" }
+      ],
+      materials: [
+        { title: "PDF de Slides - Câncer de Mama - Fatores de Risco e CDIS", pdfLink: "https://drive.google.com/file/d/1mmhl0_cdTah5yNfvNSrZAjRGG7NsDO8y/view?usp=sharing" },
+        { title: "PDF de Slides - Câncer de Mama - Doença invasiva", pdfLink: "https://drive.google.com/file/d/1yCdC-qCwjhuQZpwh3KsRGoIBNXNS8pDr/view?usp=sharing" },
+        { title: "Ficha Resumo - Câncer de Mama - Fatores de Risco e CDIS", pdfLink: "https://drive.google.com/file/d/1Ogvx5G94zEmbNn5zCnTzxbkvNHbeDAJ7/view?usp=sharing" },
+        { title: "Ficha Resumo - Câncer de Mama - Doença invasiva", pdfLink: "https://drive.google.com/file/d/1qEtH65__ZmN-6a5RcjJpiY8ETZa3ARth/view?usp=sharing" }
+      ]
+    }
+  ]
+},
+// --- Módulo 08 - Neuropediatria ---
+{
+  id: 49,
+  title: "Módulo 49 - Neuropediatria",
+  label: "Módulo 49",
+  subModules: [
+    {
+      id: 1,
+      label: "Sub-Módulo 1",
+      title: "Alterações no Neurodesenvolvimento",
+      imageUrl: "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { 
+          id: 1,
+          title: "Aula 01 - CofExpress: Alterações no Neurodesenvolvimento",
+          duration: "14:31",
+          type: "aula",
+          videoLink: "https://drive.google.com/file/d/1SCr-GQyWqX4ObqqiTxN12si61SVIrdtE/view?usp=sharing"
+        },
+        { 
+          id: 2,
+          title: "Aula 02 - Alterações no Neurodesenvolvimento",
+          duration: "01:44:26",
+          type: "aula",
+          videoLink: "https://drive.google.com/file/d/1fyw-rrXu9JAued8VPPRiBaWhgNUQ0Et0/view?usp=sharing"
+        }
+      ],
+      materials: [
+        { 
+          title: "PDF de Slides - Alterações no Neurodesenvolvimento",
+          pdfLink: "https://drive.google.com/file/d/1KOC2k_tfbHcM5lIHgDVLaF82nFZCkLp5/view?usp=drive_link"
+        }
+      ]
+    },
+    {
+      id: 2,
+      label: "Sub-Módulo 2",
+      title: "Paralisia Cerebral e Outros Distúrbios do Movimento",
+      imageUrl: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { 
+          id: 1,
+          title: "Aula 01 - CofExpress: Paralisia Cerebral e Outros Distúrbios do Movimento",
+          duration: "09:06",
+          type: "aula",
+          videoLink: "https://drive.google.com/file/d/10T9LmqkthjTfZgJWllbbVaoLNpP1MjYI/view?usp=sharing"
+        },
+        { 
+          id: 2,
+          title: "Aula 02 - Paralisia Cerebral e Outros Distúrbios do Movimento",
+          duration: "01:03:07",
+          type: "aula",
+          videoLink: "https://drive.google.com/file/d/1pUHL4ZnlgeXq54Ch0UEJQFobfyaNXtSq/view?usp=sharing"
+        }
+      ],
+      materials: [
+        { 
+          title: "Ficha Resumo - Paralisia Cerebral e Outros Distúrbios do Movimento",
+          pdfLink: "https://drive.google.com/file/d/1Y_wYK7O8BfTtn2g_MDcLuzu2YwCEMnbo/view?usp=sharing"
+        },
+        { 
+          title: "PDF de Slides - Paralisia Cerebral e Outros Distúrbios do Movimento",
+          pdfLink: "https://drive.google.com/file/d/1oMYkmfOcszxNCxsEFsCbvSGOs7ExUGbn/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      id: 3,
+      label: "Sub-Módulo 3",
+      title: "Síndromes Neurocutâneas na Infância",
+      imageUrl: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { 
+          id: 1,
+          title: "Aula 01 - CofExpress: Síndromes Neurocutâneas na Infância",
+          duration: "07:24",
+          type: "aula",
+          videoLink: "https://drive.google.com/file/d/1Mka35jcBUW_IhaGuMaU24CoouBtyjGhR/view?usp=sharing"
+        },
+        { 
+          id: 2,
+          title: "Aula 02 - Síndromes Neurocutâneas na Infância",
+          duration: "31:56",
+          type: "aula",
+          videoLink: "https://drive.google.com/file/d/1Ey0t3Gdy-BUZdilIls9jxmqenV4S46oy/view?usp=sharing"
+        }
+      ],
+      materials: [
+        { 
+          title: "Ficha Resumo - Síndromes Neurocutâneas na Infância",
+          pdfLink: "https://drive.google.com/file/d/1KV_H4xStebiR9qthc2UIDxcei0BGD6R4/view?usp=sharing"
+        },
+        { 
+          title: "PDF de Slides - Síndromes Neurocutâneas na Infância",
+          pdfLink: "https://drive.google.com/file/d/1Y_aSk1Q0QTyECNm9MQD2Qu1Ew6H0faOq/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      id: 4,
+      label: "Sub-Módulo 4",
+      title: "Neoplasias de Sistema Nervoso Central",
+      imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { 
+          id: 1,
+          title: "Aula 01 - CofExpress: Neoplasias de Sistema Nervoso Central",
+          duration: "10:12",
+          type: "aula",
+          videoLink: "https://drive.google.com/file/d/1b95hH9XsLJgkzXP-cHBNRI2UtS09nFE4/view?usp=sharing"
+        },
+        { 
+          id: 2,
+          title: "Aula 02 - Neoplasias de Sistema Nervoso Central",
+          duration: "43:13",
+          type: "aula",
+          videoLink: "https://drive.google.com/file/d/1YmxSXhhKm55HOUGoWAPdOBlBTM4WD9w1/view?usp=sharing"
+        }
+      ],
+      materials: [
+        { 
+          title: "Ficha Resumo - Neoplasias de Sistema Nervoso Central",
+          pdfLink: "https://drive.google.com/file/d/15kbVp7TLga0cuYBTnl6GCPOvGu61O33o/view?usp=sharing"
+        },
+        { 
+          title: "PDF de Slides - Neoplasias de Sistema Nervoso Central",
+          pdfLink: "https://drive.google.com/file/d/1PFOkxIlhbFkUpn6bbhHK6EP5jLPl9olz/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      id: 5,
+      label: "Sub-Módulo 5",
+      title: "Alterações na Forma e Volume do Crânio",
+      imageUrl: "https://images.unsplash.com/photo-1584362917165-52e812f8dc08?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { 
+          id: 1,
+          title: "Aula 01 - CofExpress: Alterações na Forma e Volume do Crânio",
+          duration: "12:45",
+          type: "aula",
+          videoLink: "https://drive.google.com/file/d/1zb4mB7opL5QUPMzWW31pzEqWbOBCkJ3U/view?usp=sharing"
+        },
+        { 
+          id: 2,
+          title: "Aula 02 - Alterações na Forma e Volume do Crânio",
+          duration: "49:40",
+          type: "aula",
+          videoLink: "https://drive.google.com/file/d/1ovOI2BDuIc-TLBxkl3zDudGp7LoV2Y-S/view?usp=sharing"
+        }
+      ],
+      materials: [
+        { 
+          title: "Ficha Resumo - Alterações na Forma e Volume do Crânio",
+          pdfLink: "https://drive.google.com/file/d/15L7aQ0jSd0ArTQNHbSdGG_w1YZDKnWa5/view?usp=sharing"
+        },
+        { 
+          title: "PDF de Slides - Alterações na Forma e Volume do Crânio",
+          pdfLink: "https://drive.google.com/file/d/1_pn2wGXG3Qep4qMuOTg_s_-Oswh947TL/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      id: 6,
+      label: "Sub-Módulo 6",
+      title: "Ataxias na Infância",
+      imageUrl: "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { 
+          id: 1,
+          title: "Aula 01 - CofExpress: Ataxias na Infância",
+          duration: "14:05",
+          type: "aula",
+          videoLink: "https://drive.google.com/file/d/1cZ7BnuNd_yFzV1IPX65iU6I6WxrPPdur/view?usp=sharing"
+        },
+        { 
+          id: 2,
+          title: "Aula 02 - Ataxias na Infância",
+          duration: "45:03",
+          type: "aula",
+          videoLink: "https://drive.google.com/file/d/1XfPSgJWMO0Hx4R7C7v1mTG18TKhX5y9E/view?usp=sharing"
+        }
+      ],
+      materials: [
+        { 
+          title: "Ficha Resumo - Ataxias na Infância",
+          pdfLink: "https://drive.google.com/file/d/1S0wsA6MfuazeZknPsn65xe-9mpo3Q49x/view?usp=sharing"
+        },
+        { 
+          title: "PDF de Slides - Ataxias na Infância",
+          pdfLink: "https://drive.google.com/file/d/1BRMFVMg2wNl9Qe_ztZhQ5kSpCJ-JT192/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      id: 7,
+      label: "Sub-Módulo 7",
+      title: "Doenças Desmielinizantes e Encefalite Autoimune",
+      imageUrl: "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { 
+          id: 1,
+          title: "Aula 01 - CofExpress: Doenças Desmielinizantes e Encefalite Autoimune",
+          duration: "10:40",
+          type: "aula",
+          videoLink: "https://drive.google.com/file/d/1AdU8z-lKSB6kTNdJKPctDPdqwE4m27hH/view?usp=sharing"
+        },
+        { 
+          id: 2,
+          title: "Aula 02 - Doenças Desmielinizantes e Encefalite Autoimune",
+          duration: "51:05",
+          type: "aula",
+          videoLink: "https://drive.google.com/file/d/1GI9THXsRhO_ilh7JKzXlhFbIpJZ2NmBh/view?usp=sharing"
+        }
+      ],
+      materials: [
+        { 
+          title: "Ficha Resumo - Doenças Desmielinizantes e Encefalite Autoimune",
+          pdfLink: "https://drive.google.com/file/d/1iGXXpVba8pzIgA262nqJv9qDF3EfjbZg/view?usp=sharing"
+        },
+        { 
+          title: "PDF de Slides - Doenças Desmielinizantes e Encefalite Autoimune",
+          pdfLink: "https://drive.google.com/file/d/1T1yiaUVS7iA1xWh5ZM2IxZfCNMN_tUHh/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      id: 8,
+      label: "Sub-Módulo 8",
+      title: "Neurologia Fetal e Neonatal",
+      imageUrl: "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { 
+          id: 1,
+          title: "Aula 01 - CofExpress: Neurologia Fetal e Neonatal",
+          duration: "12:41",
+          type: "aula",
+          videoLink: "https://drive.google.com/file/d/16OkWUUQgQm8qA9ZA3ZMTJs1f9F7tGW6c/view?usp=sharing"
+        },
+        { 
+          id: 2,
+          title: "Aula 02 - Neurologia Fetal e Neonatal",
+          duration: "44:08",
+          type: "aula",
+          videoLink: "https://drive.google.com/file/d/1kvZwGGoos5bxnJMhCYbywppWSRgOLg6A/view?usp=sharing"
+        }
+      ],
+      materials: [
+        { 
+          title: "Ficha Resumo - Neurologia Fetal e Neonatal",
+          pdfLink: "https://drive.google.com/file/d/1j8vWPWS-owFJjNRO1Jmo3PgobKI71lic/view?usp=sharing"
+        },
+        { 
+          title: "PDF de Slides - Neurologia Fetal e Neonatal",
+          pdfLink: "https://drive.google.com/file/d/1hTaJBUgGLGBhXMZd_O8uFWeJBGMpSIWD/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      id: 9,
+      label: "Sub-Módulo 9",
+      title: "Neurovascular Infantil",
+      imageUrl: "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { 
+          id: 1,
+          title: "Aula 01 - CofExpress: Neurovascular Infantil",
+          duration: "07:34",
+          type: "aula",
+          videoLink: "https://drive.google.com/file/d/1ruWDQ-QTnZBpVfi8O3Bla5o6rpXuixcD/view?usp=sharing"
+        },
+        { 
+          id: 2,
+          title: "Aula 02 - Neurovascular Infantil",
+          duration: "31:36",
+          type: "aula",
+          videoLink: "https://drive.google.com/file/d/1dbXtIS9J0DpbUNmE0N284VdEGlKuLwv7/view?usp=sharing"
+        }
+      ],
+      materials: [
+        { 
+          title: "PDF de Slides - Neurovascular Infantil",
+          pdfLink: "https://drive.google.com/file/d/1rEWPstSCZoO2uQt8kCFj2nDxslJp5ymj/view?usp=drive_link"
+        }
+      ]
+    },
+    {
+      id: 10,
+      label: "Sub-Módulo 10",
+      title: "Bases da Neurociência",
+      imageUrl: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { 
+          id: 1,
+          title: "Aula 01 - CofExpress: Bases da Neurociência",
+          duration: "12:28",
+          type: "aula",
+          videoLink: "https://drive.google.com/file/d/1l2hAiGtAU8hrgKp7jzYGknRnIpEKcKqS/view?usp=sharing"
+        },
+        { 
+          id: 2,
+          title: "Aula 02 - Bases da Neurociência",
+          duration: "01:17:57",
+          type: "aula",
+          videoLink: "https://drive.google.com/file/d/1PrIS5MkG9Wrj3fumHPCeumy1Y68r2iwF/view?usp=sharing"
+        }
+      ],
+      materials: [
+        { 
+          title: "Ficha Resumo - Bases da Neurociência",
+          pdfLink: "https://drive.google.com/file/d/1osAzR1i8kU9_M4JhOYTHewZrz_OcUNu-/view?usp=sharing"
+        },
+        { 
+          title: "PDF de Slides - Bases da Neurociência",
+          pdfLink: "https://drive.google.com/file/d/1Pjv6XX_a3IQ8osCO6QvYUavCpEufGBKK/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      id: 11,
+      label: "Sub-Módulo 11",
+      title: "Erros Inatos do Metabolismo e Doenças Neurodegenerativas",
+      imageUrl: "https://images.unsplash.com/photo-1584362917165-52e812f8dc08?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { 
+          id: 1,
+          title: "Aula 01 - CofExpress: Erros Inatos do Metabolismo e Doenças Neurodegenerativas",
+          duration: "13:52",
+          type: "aula",
+          videoLink: "https://drive.google.com/file/d/13iCDpaQ5ULKKX3kBEvcf41yaDoASZNDJ/view?usp=sharing"
+        },
+        { 
+          id: 2,
+          title: "Aula 02 - Doenças Sistêmicas com Acometimento do Sistema Nervoso Central",
+          duration: "59:27",
+          type: "aula",
+          videoLink: "https://drive.google.com/file/d/1Kx4w0atui6Iiico7PJozpaP91VxGZJCJ/view?usp=sharing"
+        }
+      ],
+      materials: [
+        { 
+          title: "Ficha Resumo - Erros Inatos do Metabolismo e Doenças Neurodegenerativas",
+          pdfLink: "https://drive.google.com/file/d/1atB44jUC2o_8JbCb0CGBVJmX0_neAXHR/view?usp=sharing"
+        },
+        { 
+          title: "PDF de Slides - Erros Inatos do Metabolismo e Doenças Neurodegenerativas",
+          pdfLink: "https://drive.google.com/file/d/1rp0F6WWAVPB-gPA2Sdz-u0dN30qYgHXm/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      id: 12,
+      label: "Sub-Módulo 12",
+      title: "Doenças Sistêmicas com Acometimento do Sistema Nervoso Central",
+      imageUrl: "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&q=80&w=400",
+      lessons: [
+        { 
+          id: 1,
+          title: "Aula 01 - CofExpress: Doenças Sistêmicas com Acometimento do Sistema Nervoso Central",
+          duration: "07:24",
+          type: "aula",
+          videoLink: "https://drive.google.com/file/d/1Lj_46reBvgxOE44Z2Z8ojYMYq7uFc_g2/view?usp=sharing"
+        },
+        { 
+          id: 2,
+          title: "Aula 02 - Doenças Sistêmicas com Acometimento do Sistema Nervoso Central",
+          duration: "32:41",
+          type: "aula",
+          videoLink: "https://drive.google.com/file/d/1AXDp4vwbl28Ew_KRRehPF3erqHvpjfau/view?usp=sharing"
+        }
+      ],
+      materials: [
+        { 
+          title: "PDF de Slides - Doenças Sistêmicas com Acometimento do Sistema Nervoso Central",
+          pdfLink: "https://drive.google.com/file/d/1lPRB1oIxnfj_h2m_1FnR5ozM150qX0MM/view?usp=drive_link"
+        }
+      ]
+    }
+  ]
+},
   // --- Módulo 09 - Atualizações: Pediatria ---
   {
-    id: 9,
-    title: "Módulo 09 - Atualizações: Pediatria",
-    label: "Módulo 09",
+    id: 50,
+    title: "Módulo 50 - Atualizações: Pediatria",
+    label: "Módulo 50",
     subModules: [
       {
         id: 1,
