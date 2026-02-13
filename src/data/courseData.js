@@ -154,7 +154,7 @@ export const courseData = [
           {
             id: 2,
             title: "Aula 02 - Cof Xpress: Meningites e Encefalites",
-            duration: "00:00",
+            duration: "35:00",
             type: "aula",
             videoLink: "https://drive.google.com/file/d/1U6YsMwDedAag881G2F3KkvNfHFT_FlfK/view?usp=sharing"
           }
